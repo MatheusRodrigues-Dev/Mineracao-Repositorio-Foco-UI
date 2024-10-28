@@ -1,19 +1,19 @@
-# Mineração de Repositórios - Foco em UX
+# Mineração de Repositórios - Foco em UI
 
-Este projeto aplica técnicas de mineração de repositórios de software para investigar práticas de Experiência do Usuário (UX) em projetos de software. O objetivo é identificar e analisar padrões de UX, contribuindo para que equipes de desenvolvimento criem produtos mais eficientes, acessíveis e com usabilidade aprimorada.
+Este projeto aplica técnicas de mineração de repositórios de software para investigar práticas de Experiência do Usuário (UI) em projetos de software. O objetivo é identificar e analisar padrões de UI, contribuindo para que equipes de desenvolvimento criem produtos mais eficientes, acessíveis e com usabilidade aprimorada.
 
 Este trabalho faz parte da disciplina **Tópicos em Engenharia de Sistemas de Software 1**.
 
 ## Objetivo
 
-A mineração de repositórios possibilita a análise de grandes volumes de dados de projetos de software, permitindo a extração de informações valiosas. Neste projeto, buscamos compreender como as práticas de UX são integradas aos projetos de software e identificar insights que ajudem no desenvolvimento de produtos mais eficazes.
+A mineração de repositórios possibilita a análise de grandes volumes de dados de projetos de software, permitindo a extração de informações valiosas. Neste projeto, buscamos compreender como as práticas de UI são integradas aos projetos de software e identificar insights que ajudem no desenvolvimento de produtos mais eficazes.
 
 ## Funcionalidades
 
 - **Coleta de Dados**: Extração de dados de repositórios hospedados no GitHub.
-- **Análise de UX**: Identificação de práticas relacionadas à UX em commits, arquivos de protótipos, documentação de interfaces, entre outros.
-- **Insights e Relatórios**: Geração de visualizações e relatórios sobre o impacto de práticas de UX.
-- **Classificação e Organização**: Agrupamento dos repositórios conforme categorias de UX, facilitando análises específicas.
+- **Análise de UI**: Identificação de práticas relacionadas à UI em commits, arquivos de protótipos, documentação de interfaces, entre outros.
+- **Insights e Relatórios**: Geração de visualizações e relatórios sobre o impacto de práticas de UI.
+- **Classificação e Organização**: Agrupamento dos repositórios conforme categorias de UI, facilitando análises específicas.
 
 ## Estrutura do Projeto
 
@@ -24,7 +24,7 @@ O projeto está organizado em três diretórios principais:
 
 ## Ordem de Execução
 
-Para realizar a mineração e análise de repositórios com foco em UX, siga a ordem de execução dos scripts abaixo:
+Para realizar a mineração e análise de repositórios com foco em UI, siga a ordem de execução dos scripts abaixo:
 
 1. **`01-pesquisa.ipynb`**  
    Executa a busca inicial de repositórios no GitHub usando palavras-chave relacionadas à UI/UX.
