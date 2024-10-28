@@ -1,0 +1,3295 @@
+repository,file,content
+NG-ZORRO/ng-zorro-antd,angular.json,"{
+  ""$schema"": ""./node_modules/@angular/cli/lib/config/schema.json"",
+  ""version"": 1,
+  ""newProjectRoot"": ""projects"",
+  ""projects"": {
+    ""ng-zorro-antd-doc"": {
+      ""root"": """",
+      ""sourceRoot"": ""site/doc"",
+      ""projectType"": ""application"",
+      ""architect"": {
+        ""build"": {
+          ""builder"": ""@angular-devkit/build-angular:application"",
+          ""options"": {
+            ""outputPath"": ""dist"",
+            ""index"": ""site/doc/index.html"",
+            ""browser"": ""site/doc/main.ts"",
+            ""server"": ""site/doc/main.server.ts"",
+            ""tsConfig"": ""site/doc/tsconfig.app.json"",
+            ""serviceWorker"": ""ngsw-config.json"",
+            ""prerender"": {
+              ""routesFile"": ""scripts/prerender/route-paths.txt""
+            },
+            ""ssr"": {
+              ""entry"": ""site/doc/server.ts""
+            },
+            ""polyfills"": [
+              ""site/doc/polyfills.ts""
+            ],
+            ""assets"": [
+              ""site/doc/assets"",
+              ""site/doc/manifest.json"",
+              ""site/doc/favicon.ico"",
+              ""site/doc/404.html"",
+              ""site/doc/google854eb8b183564acb.html"",
+              ""site/doc/robots.txt"",
+              {
+                ""glob"": ""**/*"",
+                ""input"": ""node_modules/@ant-design/icons-angular/src/inline-svg/"",
+                ""output"": ""/assets/""
+              },
+              {
+                ""glob"": ""**/*"",
+                ""input"": ""node_modules/monaco-editor/min/vs"",
+                ""output"": ""/assets/vs/""
+              }
+            ],
+            ""styles"": [
+              ""site/doc/styles.less""
+            ],
+            ""allowedCommonJsDependencies"": [
+              ""@ant-design/colors"",
+              ""cron-parser""
+            ]
+          },
+          ""configurations"": {
+            ""production"": {
+              ""fileReplacements"": [
+                {
+                  ""replace"": ""site/doc/environments/environment.ts"",
+                  ""with"": ""site/doc/environments/environment.prod.ts""
+                }
+              ],
+              ""outputHashing"": ""all""
+            },
+            ""pre-production"": {
+              ""fileReplacements"": [
+                {
+                  ""replace"": ""site/doc/environments/environment.ts"",
+                  ""with"": ""site/doc/environments/environment.pre-prod.ts""
+                }
+              ],
+              ""outputHashing"": ""all""
+            },
+            ""preview"": {
+              ""outputHashing"": ""all""
+            },
+            ""development"": {
+              ""optimization"": false,
+              ""extractLicenses"": false,
+              ""sourceMap"": true,
+              ""namedChunks"": true
+            }
+          },
+          ""defaultConfiguration"": ""production""
+        },
+        ""serve"": {
+          ""builder"": ""@angular-devkit/build-angular:dev-server"",
+          ""options"": {
+            ""buildTarget"": ""ng-zorro-antd-doc:build""
+          },
+          ""configurations"": {
+            ""production"": {
+              ""buildTarget"": ""ng-zorro-antd-doc:build:production""
+            },
+            ""development"": {
+              ""buildTarget"": ""ng-zorro-antd-doc:build:development""
+            }
+          },
+          ""defaultConfiguration"": ""development""
+        }
+      }
+    },
+    ""ng-zorro-antd-iframe"": {
+      ""root"": """",
+      ""sourceRoot"": ""site/iframe"",
+      ""projectType"": ""application"",
+      ""architect"": {
+        ""build"": {
+          ""builder"": ""@angular-devkit/build-angular:application"",
+          ""options"": {
+            ""outputPath"": {
+              ""base"": ""dist/browser/iframe"",
+              ""browser"": """"
+            },
+            ""index"": ""site/iframe/index.html"",
+            ""browser"": ""site/iframe/main.ts"",
+            ""tsConfig"": ""site/iframe/tsconfig.app.json"",
+            ""polyfills"": [
+              ""site/iframe/polyfills.ts""
+            ],
+            ""assets"": [
+              {
+                ""glob"": ""**/*"",
+                ""input"": ""node_modules/@ant-design/icons-angular/src/inline-svg/"",
+                ""output"": ""/assets/""
+              }
+            ],
+            ""styles"": [
+              ""components/ng-zorro-antd.less""
+            ],
+            ""extractLicenses"": false,
+            ""sourceMap"": true,
+            ""optimization"": false,
+            ""namedChunks"": true
+          },
+          ""configurations"": {
+            ""production"": {
+              ""fileReplacements"": [
+                {
+                  ""replace"": ""site/iframe/environments/environment.ts"",
+                  ""with"": ""site/iframe/environments/environment.prod.ts""
+                }
+              ],
+              ""outputHashing"": ""all""
+            },
+            ""development"": {
+              ""optimization"": false,
+              ""extractLicenses"": false,
+              ""sourceMap"": true,
+              ""namedChunks"": true
+            }
+          },
+          ""defaultConfiguration"": ""production""
+        },
+        ""serve"": {
+          ""builder"": ""@angular-devkit/build-angular:dev-server"",
+          ""options"": {
+            ""buildTarget"": ""ng-zorro-antd-iframe:build""
+          },
+          ""configurations"": {
+            ""production"": {
+              ""buildTarget"": ""ng-zorro-antd-iframe:build:production""
+            }
+          }
+        }
+      }
+    },
+    ""ng-zorro-antd-lib"": {
+      ""root"": ""components"",
+      ""sourceRoot"": ""components"",
+      ""projectType"": ""library"",
+      ""prefix"": ""nz"",
+      ""architect"": {
+        ""build"": {
+          ""builder"": ""@angular-devkit/build-angular:ng-packagr"",
+          ""options"": {
+            ""project"": ""components/ng-package.json""
+          },
+          ""configurations"": {
+            ""production"": {
+              ""tsConfig"": ""components/tsconfig.lib.prod.json""
+            },
+            ""development"": {
+              ""tsConfig"": ""components/tsconfig.lib.json""
+            }
+          },
+          ""defaultConfiguration"": ""production""
+        },
+        ""test"": {
+          ""builder"": ""@angular-devkit/build-angular:karma"",
+          ""options"": {
+            ""inlineStyleLanguage"": ""less"",
+            ""fileReplacements"": [
+              {
+                ""replace"": ""components/core/environments/environment.ts"",
+                ""with"": ""components/core/environments/environment.test.ts""
+              }
+            ],
+            ""assets"": [
+              {
+                ""glob"": ""**/*"",
+                ""input"": ""node_modules/monaco-editor/min/vs"",
+                ""output"": ""/assets/vs/""
+              }
+            ],
+            ""main"": ""components/test.ts"",
+            ""karmaConfig"": ""components/karma.conf.js"",
+            ""polyfills"": ""components/polyfills.ts"",
+            ""tsConfig"": ""components/tsconfig.spec.json"",
+            ""scripts"": []
+          }
+        },
+        ""lint"": {
+          ""builder"": ""@angular-eslint/builder:lint"",
+          ""options"": {
+            ""fix"": true,
+            ""lintFilePatterns"": [
+              ""components/**/*.ts"",
+              ""components/**/*.html""
+            ]
+          }
+        }
+      }
+    }
+  },
+  ""schematics"": {
+    ""@schematics/angular:component"": {
+      ""prefix"": ""app"",
+      ""style"": ""less""
+    },
+    ""@schematics/angular:directive"": {
+      ""prefix"": ""app""
+    },
+    ""@angular-eslint/schematics:application"": {
+      ""setParserOptionsProject"": true
+    },
+    ""@angular-eslint/schematics:library"": {
+      ""setParserOptionsProject"": true
+    }
+  },
+  ""cli"": {
+    ""analytics"": false
+  }
+}
+"
+akveo/nebular,angular.json,"{
+  ""$schema"": ""./node_modules/@angular/cli/lib/config/schema.json"",
+  ""version"": 1,
+  ""newProjectRoot"": ""projects"",
+  ""projects"": {
+    ""playground"": {
+      ""projectType"": ""application"",
+      ""schematics"": {
+        ""@schematics/angular:component"": {
+          ""style"": ""scss"",
+          ""changeDetection"": ""OnPush"",
+          ""selector"": ""npg""
+        },
+        ""@schematics/angular:application"": {
+          ""strict"": true
+        }
+      },
+      ""root"": """",
+      ""sourceRoot"": ""src"",
+      ""prefix"": ""npg"",
+      ""architect"": {
+        ""build"": {
+          ""builder"": ""@angular-devkit/build-angular:browser"",
+          ""options"": {
+            ""outputPath"": ""dist/playground"",
+            ""index"": ""src/index.html"",
+            ""main"": ""src/main.ts"",
+            ""polyfills"": ""src/polyfills.ts"",
+            ""tsConfig"": ""src/tsconfig.app.json"",
+            ""inlineStyleLanguage"": ""scss"",
+            ""assets"": [
+              ""src/favicon.ico"",
+              ""src/assets""
+            ],
+            ""styles"": [],
+            ""scripts"": []
+          },
+          ""configurations"": {
+            ""production"": {
+              ""budgets"": [
+                {
+                  ""type"": ""initial"",
+                  ""maximumWarning"": ""500kb""
+                },
+                {
+                  ""type"": ""anyComponentStyle"",
+                  ""maximumWarning"": ""2kb""
+                }
+              ],
+              ""fileReplacements"": [
+                {
+                  ""replace"": ""src/environments/environment.ts"",
+                  ""with"": ""src/environments/environment.prod.ts""
+                }
+              ],
+              ""outputHashing"": ""all""
+            },
+            ""production-wp"": {
+              ""budgets"": [
+                {
+                  ""type"": ""initial"",
+                  ""maximumWarning"": ""500kb""
+                },
+                {
+                  ""type"": ""anyComponentStyle"",
+                  ""maximumWarning"": ""2kb""
+                }
+              ],
+              ""fileReplacements"": [
+                {
+                  ""replace"": ""src/environments/environment.ts"",
+                  ""with"": ""src/environments/environment.prod.ts""
+                }
+              ],
+              ""tsConfig"": ""src/tsconfig.wp.json"",
+              ""outputHashing"": ""all""
+            },
+            ""development"": {
+              ""buildOptimizer"": false,
+              ""optimization"": false,
+              ""vendorChunk"": true,
+              ""extractLicenses"": false,
+              ""sourceMap"": true,
+              ""namedChunks"": true
+            }
+          },
+          ""defaultConfiguration"": ""production""
+        },
+        ""serve"": {
+          ""builder"": ""@angular-devkit/build-angular:dev-server"",
+          ""configurations"": {
+            ""production"": {
+              ""browserTarget"": ""playground:build:production""
+            },
+            ""production-wp"": {
+              ""browserTarget"": ""playground:build:production-wp""
+            },
+            ""development"": {
+              ""browserTarget"": ""playground:build:development""
+            }
+          },
+          ""defaultConfiguration"": ""development""
+        },
+        ""extract-i18n"": {
+          ""builder"": ""@angular-devkit/build-angular:extract-i18n"",
+          ""options"": {
+            ""browserTarget"": ""playground:build""
+          }
+        },
+        ""test"": {
+          ""builder"": ""@angular-devkit/build-angular:karma"",
+          ""options"": {
+            ""main"": ""src/test.ts"",
+            ""polyfills"": ""src/polyfills.ts"",
+            ""tsConfig"": ""src/tsconfig.spec.json"",
+            ""karmaConfig"": ""./karma.conf.js"",
+            ""inlineStyleLanguage"": ""scss"",
+            ""assets"": [
+              ""src/favicon.ico"",
+              ""src/assets""
+            ],
+            ""styles"": [],
+            ""scripts"": []
+          },
+          ""configurations"": {
+            ""production-wp"": {
+              ""tsConfig"": ""src/tsconfig.spec-wp.json""
+            }
+          }
+        },
+        ""lint"": {
+          ""builder"": ""@angular-eslint/builder:lint"",
+          ""options"": {
+            ""lintFilePatterns"": [
+              ""src/**/*.ts"",
+              ""src/**/*.html""
+            ]
+          }
+        }
+      }
+    },
+    ""playground-e2e"": {
+      ""root"": ""e2e"",
+      ""sourceRoot"": ""e2e"",
+      ""projectType"": ""application"",
+      ""architect"": {
+        ""e2e"": {
+          ""builder"": ""@angular-devkit/build-angular:protractor"",
+          ""options"": {
+            ""protractorConfig"": ""./protractor.conf.js"",
+            ""devServerTarget"": ""playground:serve""
+          },
+          ""configurations"": {
+            ""production-wp"": {
+              ""devServerTarget"": ""playground:serve:production-wp""
+            }
+          }
+        },
+        ""lint"": {
+          ""builder"": ""@angular-eslint/builder:lint"",
+          ""options"": {
+            ""lintFilePatterns"": [
+              ""e2e/**/*.ts"",
+              ""e2e/**/*.html""
+            ]
+          }
+        }
+      }
+    },
+    ""docs"": {
+      ""projectType"": ""application"",
+      ""schematics"": {
+        ""@schematics/angular:component"": {
+          ""style"": ""scss"",
+          ""changeDetection"": ""OnPush"",
+          ""selector"": ""ngd""
+        },
+        ""@schematics/angular:application"": {
+          ""strict"": true
+        }
+      },
+      ""root"": ""docs"",
+      ""sourceRoot"": ""docs"",
+      ""prefix"": ""ngd"",
+      ""architect"": {
+        ""build"": {
+          ""builder"": ""@angular-devkit/build-angular:browser"",
+          ""options"": {
+            ""outputPath"": ""dist/docs"",
+            ""index"": ""docs/index.html"",
+            ""main"": ""docs/main.ts"",
+            ""polyfills"": ""docs/polyfills.ts"",
+            ""tsConfig"": ""docs/tsconfig.app.json"",
+            ""inlineStyleLanguage"": ""scss"",
+            ""assets"": [
+              ""docs/favicon.ico"",
+              ""docs/assets"",
+              ""docs/articles"",
+              ""docs/404.html"",
+              ""docs/favicon.png"",
+              ""docs/google46533d2e7a851062.html"",
+              ""docs/robots.txt"",
+              {
+                ""glob"": ""versions.json"",
+                ""input"": ""docs/"",
+                ""output"": ""/""
+              }
+            ],
+            ""styles"": [
+              ""node_modules/pace-js/templates/pace-theme-flash.tmpl.css"",
+              {
+                ""inject"": true,
+                ""bundleName"": ""algolia"",
+                ""input"": ""node_modules/docsearch.js/dist/cdn/docsearch.min.css""
+              },
+              ""node_modules/highlight.js/styles/dracula.css"",
+              ""docs/app/@theme/styles/styles.scss""
+            ],
+            ""scripts"": [
+              ""node_modules/pace-js/pace.min.js"",
+              ""node_modules/docsearch.js/dist/cdn/docsearch.min.js""
+            ],
+            ""allowedCommonJsDependencies"": [
+              ""highlight.js""
+            ]
+          },
+          ""configurations"": {
+            ""production"": {
+              ""budgets"": [
+                {
+                  ""type"": ""initial"",
+                  ""maximumWarning"": ""500kb""
+                },
+                {
+                  ""type"": ""anyComponentStyle"",
+                  ""maximumWarning"": ""2kb""
+                }
+              ],
+              ""fileReplacements"": [
+                {
+                  ""replace"": ""docs/environments/environment.ts"",
+                  ""with"": ""docs/environments/environment.prod.ts""
+                }
+              ],
+              ""outputHashing"": ""all""
+            },
+            ""development"": {
+              ""buildOptimizer"": false,
+              ""optimization"": false,
+              ""vendorChunk"": true,
+              ""extractLicenses"": false,
+              ""sourceMap"": true,
+              ""namedChunks"": true
+            },
+            ""production-wp"": {
+              ""budgets"": [
+                {
+                  ""type"": ""initial"",
+                  ""maximumWarning"": ""500kb""
+                },
+                {
+                  ""type"": ""anyComponentStyle"",
+                  ""maximumWarning"": ""2kb""
+                }
+              ],
+              ""fileReplacements"": [
+                {
+                  ""replace"": ""docs/environments/environment.ts"",
+                  ""with"": ""docs/environments/environment.prod.ts""
+                }
+              ],
+              ""outputHashing"": ""all"",
+              ""tsConfig"": ""docs/tsconfig.wp.json""
+            }
+          },
+          ""defaultConfiguration"": ""production""
+        },
+        ""serve"": {
+          ""builder"": ""@angular-devkit/build-angular:dev-server"",
+          ""configurations"": {
+            ""production"": {
+              ""browserTarget"": ""docs:build:production""
+            },
+            ""development"": {
+              ""browserTarget"": ""docs:build:development""
+            }
+          },
+          ""defaultConfiguration"": ""development""
+        },
+        ""extract-i18n"": {
+          ""builder"": ""@angular-devkit/build-angular:extract-i18n"",
+          ""options"": {
+            ""browserTarget"": ""docs:build""
+          }
+        },
+        ""test"": {
+          ""builder"": ""@angular-devkit/build-angular:karma"",
+          ""options"": {
+            ""main"": ""docs/test.ts"",
+            ""polyfills"": ""docs/polyfills.ts"",
+            ""tsConfig"": ""docs/tsconfig.spec.json"",
+            ""karmaConfig"": ""./karma.conf.js"",
+            ""inlineStyleLanguage"": ""scss"",
+            ""assets"": [
+              ""docs/assets"",
+              ""docs/favicon.ico"",
+              ""docs/favicon.png"",
+              ""docs/google46533d2e7a851062.html""
+            ],
+            ""styles"": [
+              ""node_modules/highlight.js/styles/dracula.css"",
+              ""docs/app/@theme/styles/styles.scss""
+            ],
+            ""scripts"": []
+          }
+        },
+        ""lint"": {
+          ""builder"": ""@angular-eslint/builder:lint"",
+          ""options"": {
+            ""lintFilePatterns"": [
+              ""docs/**/*.ts"",
+              ""docs/**/*.html""
+            ]
+          }
+        }
+      }
+    },
+    ""theme"": {
+      ""projectType"": ""library"",
+      ""root"": ""src/framework/theme"",
+      ""sourceRoot"": ""src/framework/theme"",
+      ""prefix"": ""nb"",
+      ""architect"": {
+        ""build"": {
+          ""builder"": ""@angular-devkit/build-angular:ng-packagr"",
+          ""options"": {
+            ""project"": ""src/framework/theme/ng-package.json""
+          },
+          ""configurations"": {
+            ""production"": {
+              ""tsConfig"": ""src/framework/theme/tsconfig.lib.prod.json""
+            },
+            ""development"": {
+              ""tsConfig"": ""src/framework/theme/tsconfig.lib.json""
+            }
+          },
+          ""defaultConfiguration"": ""production""
+        },
+        ""test"": {
+          ""builder"": ""@angular-devkit/build-angular:karma"",
+          ""options"": {
+            ""main"": ""src/framework/theme/test.ts"",
+            ""tsConfig"": ""src/framework/theme/tsconfig.spec.json"",
+            ""karmaConfig"": ""karma.conf.js""
+          }
+        },
+        ""lint"": {
+          ""builder"": ""@angular-eslint/builder:lint"",
+          ""options"": {
+            ""lintFilePatterns"": [
+              ""src/framework/theme/**/*.ts"",
+              ""src/framework/theme/**/*.html""
+            ]
+          }
+        }
+      }
+    },
+    ""auth"": {
+      ""projectType"": ""library"",
+      ""root"": ""src/framework/auth"",
+      ""sourceRoot"": ""src/framework/auth"",
+      ""prefix"": ""nb"",
+      ""architect"": {
+        ""build"": {
+          ""builder"": ""@angular-devkit/build-angular:ng-packagr"",
+          ""options"": {
+            ""project"": ""src/framework/auth/ng-package.json""
+          },
+          ""configurations"": {
+            ""production"": {
+              ""tsConfig"": ""src/framework/auth/tsconfig.lib.prod.json""
+            },
+            ""development"": {
+              ""tsConfig"": ""src/framework/auth/tsconfig.lib.json""
+            }
+          },
+          ""defaultConfiguration"": ""production""
+        },
+        ""test"": {
+          ""builder"": ""@angular-devkit/build-angular:karma"",
+          ""options"": {
+            ""main"": ""src/framework/auth/test.ts"",
+            ""tsConfig"": ""src/framework/auth/tsconfig.spec.json"",
+            ""karmaConfig"": ""karma.conf.js""
+          }
+        },
+        ""lint"": {
+          ""builder"": ""@angular-eslint/builder:lint"",
+          ""options"": {
+            ""lintFilePatterns"": [
+              ""src/framework/auth/**/*.ts"",
+              ""src/framework/auth/**/*.html""
+            ]
+          }
+        }
+      }
+    },
+    ""date-fns"": {
+      ""projectType"": ""library"",
+      ""root"": ""src/framework/date-fns"",
+      ""sourceRoot"": ""src/framework/date-fns"",
+      ""prefix"": ""nb"",
+      ""architect"": {
+        ""build"": {
+          ""builder"": ""@angular-devkit/build-angular:ng-packagr"",
+          ""options"": {
+            ""project"": ""src/framework/date-fns/ng-package.json""
+          },
+          ""configurations"": {
+            ""production"": {
+              ""tsConfig"": ""src/framework/date-fns/tsconfig.lib.prod.json""
+            },
+            ""development"": {
+              ""tsConfig"": ""src/framework/date-fns/tsconfig.lib.json""
+            }
+          },
+          ""defaultConfiguration"": ""production""
+        },
+        ""test"": {
+          ""builder"": ""@angular-devkit/build-angular:karma"",
+          ""options"": {
+            ""main"": ""src/framework/date-fns/test.ts"",
+            ""tsConfig"": ""src/framework/date-fns/tsconfig.spec.json"",
+            ""karmaConfig"": ""karma.conf.js""
+          }
+        },
+        ""lint"": {
+          ""builder"": ""@angular-eslint/builder:lint"",
+          ""options"": {
+            ""lintFilePatterns"": [
+              ""src/framework/date-fns/**/*.ts"",
+              ""src/framework/date-fns/**/*.html""
+            ]
+          }
+        }
+      }
+    },
+    ""eva-icons"": {
+      ""projectType"": ""library"",
+      ""root"": ""src/framework/eva-icons"",
+      ""sourceRoot"": ""src/framework/eva-icons"",
+      ""prefix"": ""nb"",
+      ""architect"": {
+        ""build"": {
+          ""builder"": ""@angular-devkit/build-angular:ng-packagr"",
+          ""options"": {
+            ""project"": ""src/framework/eva-icons/ng-package.json""
+          },
+          ""configurations"": {
+            ""production"": {
+              ""tsConfig"": ""src/framework/eva-icons/tsconfig.lib.prod.json""
+            },
+            ""development"": {
+              ""tsConfig"": ""src/framework/eva-icons/tsconfig.lib.json""
+            }
+          },
+          ""defaultConfiguration"": ""production""
+        },
+        ""test"": {
+          ""builder"": ""@angular-devkit/build-angular:karma"",
+          ""options"": {
+            ""main"": ""src/framework/eva-icons/test.ts"",
+            ""tsConfig"": ""src/framework/eva-icons/tsconfig.spec.json"",
+            ""karmaConfig"": ""karma.conf.js""
+          }
+        },
+        ""lint"": {
+          ""builder"": ""@angular-eslint/builder:lint"",
+          ""options"": {
+            ""lintFilePatterns"": [
+              ""src/framework/eva-icons/**/*.ts"",
+              ""src/framework/eva-icons/**/*.html""
+            ]
+          }
+        }
+      }
+    },
+    ""firebase-auth"": {
+      ""projectType"": ""library"",
+      ""root"": ""src/framework/firebase-auth"",
+      ""sourceRoot"": ""src/framework/firebase-auth"",
+      ""prefix"": ""nb"",
+      ""architect"": {
+        ""build"": {
+          ""builder"": ""@angular-devkit/build-angular:ng-packagr"",
+          ""options"": {
+            ""project"": ""src/framework/firebase-auth/ng-package.json""
+          },
+          ""configurations"": {
+            ""production"": {
+              ""tsConfig"": ""src/framework/firebase-auth/tsconfig.lib.prod.json""
+            },
+            ""development"": {
+              ""tsConfig"": ""src/framework/firebase-auth/tsconfig.lib.json""
+            }
+          },
+          ""defaultConfiguration"": ""production""
+        },
+        ""test"": {
+          ""builder"": ""@angular-devkit/build-angular:karma"",
+          ""options"": {
+            ""main"": ""src/framework/firebase-auth/test.ts"",
+            ""tsConfig"": ""src/framework/firebase-auth/tsconfig.spec.json"",
+            ""karmaConfig"": ""karma.conf.js""
+          }
+        },
+        ""lint"": {
+          ""builder"": ""@angular-eslint/builder:lint"",
+          ""options"": {
+            ""lintFilePatterns"": [
+              ""src/framework/firebase-auth/**/*.ts"",
+              ""src/framework/firebase-auth/**/*.html""
+            ]
+          }
+        }
+      }
+    },
+    ""moment"": {
+      ""projectType"": ""library"",
+      ""root"": ""src/framework/moment"",
+      ""sourceRoot"": ""src/framework/moment"",
+      ""prefix"": ""nb"",
+      ""architect"": {
+        ""build"": {
+          ""builder"": ""@angular-devkit/build-angular:ng-packagr"",
+          ""options"": {
+            ""project"": ""src/framework/moment/ng-package.json""
+          },
+          ""configurations"": {
+            ""production"": {
+              ""tsConfig"": ""src/framework/moment/tsconfig.lib.prod.json""
+            },
+            ""development"": {
+              ""tsConfig"": ""src/framework/moment/tsconfig.lib.json""
+            }
+          },
+          ""defaultConfiguration"": ""production""
+        },
+        ""test"": {
+          ""builder"": ""@angular-devkit/build-angular:karma"",
+          ""options"": {
+            ""main"": ""src/framework/moment/test.ts"",
+            ""tsConfig"": ""src/framework/moment/tsconfig.spec.json"",
+            ""karmaConfig"": ""karma.conf.js""
+          }
+        },
+        ""lint"": {
+          ""builder"": ""@angular-eslint/builder:lint"",
+          ""options"": {
+            ""lintFilePatterns"": [
+              ""src/framework/moment/**/*.ts"",
+              ""src/framework/moment/**/*.html""
+            ]
+          }
+        }
+      }
+    },
+    ""security"": {
+      ""projectType"": ""library"",
+      ""root"": ""src/framework/security"",
+      ""sourceRoot"": ""src/framework/security"",
+      ""prefix"": ""nb"",
+      ""architect"": {
+        ""build"": {
+          ""builder"": ""@angular-devkit/build-angular:ng-packagr"",
+          ""options"": {
+            ""project"": ""src/framework/security/ng-package.json""
+          },
+          ""configurations"": {
+            ""production"": {
+              ""tsConfig"": ""src/framework/security/tsconfig.lib.prod.json""
+            },
+            ""development"": {
+              ""tsConfig"": ""src/framework/security/tsconfig.lib.json""
+            }
+          },
+          ""defaultConfiguration"": ""production""
+        },
+        ""test"": {
+          ""builder"": ""@angular-devkit/build-angular:karma"",
+          ""options"": {
+            ""main"": ""src/framework/security/test.ts"",
+            ""tsConfig"": ""src/framework/security/tsconfig.spec.json"",
+            ""karmaConfig"": ""karma.conf.js""
+          }
+        },
+        ""lint"": {
+          ""builder"": ""@angular-eslint/builder:lint"",
+          ""options"": {
+            ""lintFilePatterns"": [
+              ""src/framework/security/**/*.ts"",
+              ""src/framework/security/**/*.html""
+            ]
+          }
+        }
+      }
+    }
+  },
+  ""schematics"": {
+    ""@schematics/angular:component"": {
+      ""style"": ""scss"",
+      ""changeDetection"": ""OnPush""
+    },
+    ""@schematics/angular:application"": {
+      ""strict"": true
+    },
+    ""@angular-eslint/schematics:application"": {
+      ""setParserOptionsProject"": true
+    },
+    ""@angular-eslint/schematics:library"": {
+      ""setParserOptionsProject"": true
+    }
+  },
+  ""cli"": {
+    ""analytics"": false,
+    ""schematicCollections"": [
+      ""@angular-eslint/schematics""
+    ]
+  }
+}
+"
+DevCloudFE/ng-devui,angular.json,"{
+  ""$schema"": ""./node_modules/@angular/cli/lib/config/schema.json"",
+  ""version"": 1,
+  ""newProjectRoot"": ""projects"",
+  ""projects"": {
+    ""devui"": {
+      ""root"": """",
+      ""sourceRoot"": ""src"",
+      ""projectType"": ""application"",
+      ""prefix"": ""app"",
+      ""schematics"": {},
+      ""architect"": {
+        ""build"": {
+          ""builder"": ""@angular-builders/custom-webpack:browser"",
+          ""options"": {
+            ""allowedCommonJsDependencies"": [
+              ""date-fns"",
+              ""highlight.js"",
+              ""codemirror"",
+              ""xss"",
+              ""color"",
+              ""codesandbox""
+            ],
+            ""customWebpackConfig"": {
+              ""path"": ""scripts/extra-webpack.config.js""
+            },
+            ""outputPath"": ""dist/components"",
+            ""index"": ""src/index.html"",
+            ""main"": ""src/main.ts"",
+            ""polyfills"": ""src/polyfills.ts"",
+            ""tsConfig"": ""src/tsconfig.app.json"",
+            ""assets"": [
+              ""src/favicon.ico"",
+              ""src/assets"",
+              ""src/assets/i18n"",
+              ""src/assets/overview/**/*""
+            ],
+            ""styles"": [
+              ""node_modules/highlight.js/styles/an-old-hope.css"",
+              ""src/styles.scss"",
+              ""devui/style/layout/devui-layout.scss""
+            ],
+            ""scripts"": []
+          },
+          ""configurations"": {
+            ""production"": {
+              ""fileReplacements"": [
+                {
+                  ""replace"": ""src/environments/environment.ts"",
+                  ""with"": ""src/environments/environment.prod.ts""
+                }
+              ],
+              ""optimization"": true,
+              ""outputHashing"": ""all"",
+              ""sourceMap"": false,
+              ""namedChunks"": false,
+              ""aot"": true,
+              ""extractLicenses"": true,
+              ""vendorChunk"": false,
+              ""buildOptimizer"": true,
+              ""budgets"": [
+                {
+                  ""type"": ""initial"",
+                  ""maximumWarning"": ""3mb"",
+                  ""maximumError"": ""5mb""
+                }
+              ]
+            },
+            ""development"": { 
+              ""buildOptimizer"": false,
+              ""optimization"": false,
+              ""vendorChunk"": true,
+              ""extractLicenses"": false,
+              ""sourceMap"": true,
+              ""namedChunks"": true
+            },
+            ""es5"": {
+              ""tsConfig"": ""src/tsconfig.app.es5.json""
+            },
+            ""separate"": {
+              ""tsConfig"": ""src/tsconfig.app.separate.json""
+            }
+          }
+        },
+        ""serve"": {
+          ""builder"": ""@angular-builders/custom-webpack:dev-server"",
+          ""options"": {
+            ""browserTarget"": ""devui:build""
+          },
+          ""configurations"": {
+            ""production"": {
+              ""browserTarget"": ""devui:build:production""
+            },
+            ""development"": { 
+              ""browserTarget"": ""devui:build:development""
+            },
+            ""es5"": {
+              ""browserTarget"": ""devui:build:es5""
+            },
+            ""separate"": {
+              ""browserTarget"": ""devui:build:separate""
+            }
+          },
+          ""defaultConfiguration"": ""development"" 
+        },
+        ""extract-i18n"": {
+          ""builder"": ""@angular-devkit/build-angular:extract-i18n"",
+          ""options"": {
+            ""buildTarget"": ""devui:build""
+          }
+        },
+        ""test"": {
+          ""builder"": ""@angular-builders/custom-webpack:karma"",
+          ""options"": {
+            ""customWebpackConfig"": {
+              ""path"": ""scripts/extra-webpack.config.js""
+            },
+            ""main"": ""src/test.ts"",
+            ""polyfills"": ""src/polyfills.ts"",
+            ""tsConfig"": ""src/tsconfig.spec.json"",
+            ""karmaConfig"": ""src/karma.conf.js"",
+            ""styles"": [
+              ""src/styles.scss""
+            ],
+            ""scripts"": [],
+            ""assets"": [
+              ""src/favicon.ico"",
+              ""src/assets"",
+              ""src/assets/i18n""
+            ]
+          }
+        },
+        ""lint"": {
+          ""builder"": ""@angular-eslint/builder:lint"",
+          ""options"": {
+            ""fix"": true,
+            ""lintFilePatterns"": [
+              ""src/**/*.ts""
+            ]
+          }
+        }
+      }
+    },
+    ""devui-e2e"": {
+      ""root"": ""e2e/"",
+      ""projectType"": ""application"",
+      ""prefix"": """",
+      ""architect"": {
+        ""e2e"": {
+          ""builder"": ""@angular-devkit/build-angular:protractor"",
+          ""options"": {
+            ""protractorConfig"": ""e2e/protractor.conf.js"",
+            ""devServerTarget"": ""devui:serve""
+          },
+          ""configurations"": {
+            ""production"": {
+              ""devServerTarget"": ""devui:serve:production""
+            }
+          }
+        }
+      }
+    },
+    ""devui-lib"": {
+      ""root"": ""devui"",
+      ""sourceRoot"": ""devui"",
+      ""projectType"": ""library"",
+      ""prefix"": ""lib"",
+      ""architect"": {
+        ""build"": {
+          ""builder"": ""@angular-devkit/build-angular:ng-packagr"",
+          ""options"": {
+            ""project"": ""devui/ng-package.json""
+          },
+          ""configurations"": {
+            ""production"": {
+              ""tsConfig"": ""devui/tsconfig.lib.prod.json""
+            },
+            ""development"": {
+              ""tsConfig"": ""devui/tsconfig.lib.json""
+            }
+          }
+        },
+        ""test"": {
+          ""builder"": ""@angular-builders/custom-webpack:karma"",
+          ""options"": {
+            ""customWebpackConfig"": {
+              ""path"": ""scripts/extra-webpack.config.js""
+            },
+            ""main"": ""devui/test.ts"",
+            ""tsConfig"": ""devui/tsconfig.spec.json"",
+            ""karmaConfig"": ""devui/karma.conf.js"",
+            ""polyfills"": ""devui/polyfills.ts"",
+            ""codeCoverage"": true,
+            ""styles"": [
+              ""src/styles.scss""
+            ]
+          }
+        },
+        ""lint"": {
+          ""builder"": ""@angular-eslint/builder:lint"",
+          ""options"": {
+            ""fix"": true,
+            ""lintFilePatterns"": [
+              ""devui/**/*.ts""
+            ]
+          }
+        }
+      }
+    }
+  }
+}
+"
+mdbootstrap/mdb-angular-ui-kit,angular.json,"{
+  ""$schema"": ""./node_modules/@angular/cli/lib/config/schema.json"",
+  ""version"": 1,
+  ""newProjectRoot"": ""projects"",
+  ""projects"": {
+    ""mdb-angular-ui-kit-free"": {
+      ""projectType"": ""application"",
+      ""schematics"": {
+        ""@schematics/angular:component"": {
+          ""style"": ""scss""
+        }
+      },
+      ""root"": """",
+      ""sourceRoot"": ""src"",
+      ""prefix"": ""app"",
+      ""architect"": {
+        ""build"": {
+          ""builder"": ""@angular-devkit/build-angular:application"",
+          ""options"": {
+            ""outputPath"": {
+              ""base"": ""dist/mdb-angular-ui-kit-free""
+            },
+            ""index"": ""src/index.html"",
+            ""polyfills"": [
+              ""src/polyfills.ts""
+            ],
+            ""tsConfig"": ""tsconfig.app.json"",
+            ""assets"": [
+              ""src/favicon.ico"",
+              ""src/assets""
+            ],
+            ""styles"": [
+              ""src/styles.scss""
+            ],
+            ""scripts"": [],
+            ""extractLicenses"": false,
+            ""sourceMap"": true,
+            ""optimization"": false,
+            ""namedChunks"": true,
+            ""browser"": ""src/main.ts""
+          },
+          ""configurations"": {
+            ""production"": {
+              ""fileReplacements"": [
+                {
+                  ""replace"": ""src/environments/environment.ts"",
+                  ""with"": ""src/environments/environment.prod.ts""
+                }
+              ],
+              ""optimization"": true,
+              ""outputHashing"": ""all"",
+              ""sourceMap"": false,
+              ""namedChunks"": false,
+              ""extractLicenses"": true,
+              ""budgets"": [
+                {
+                  ""type"": ""initial"",
+                  ""maximumWarning"": ""2mb"",
+                  ""maximumError"": ""5mb""
+                },
+                {
+                  ""type"": ""anyComponentStyle"",
+                  ""maximumWarning"": ""6kb"",
+                  ""maximumError"": ""10kb""
+                }
+              ]
+            }
+          },
+          ""defaultConfiguration"": """"
+        },
+        ""serve"": {
+          ""builder"": ""@angular-devkit/build-angular:dev-server"",
+          ""options"": {
+            ""buildTarget"": ""mdb-angular-ui-kit-free:build""
+          },
+          ""configurations"": {
+            ""production"": {
+              ""buildTarget"": ""mdb-angular-ui-kit-free:build:production""
+            }
+          }
+        },
+        ""extract-i18n"": {
+          ""builder"": ""@angular-devkit/build-angular:extract-i18n"",
+          ""options"": {
+            ""buildTarget"": ""mdb-angular-ui-kit-free:build""
+          }
+        },
+        ""test"": {
+          ""builder"": ""@angular-builders/jest:run"",
+          ""options"": {
+            ""polyfills"": ""src/polyfills.ts"",
+            ""tsConfig"": ""tsconfig.spec.json"",
+            ""assets"": [
+              ""src/favicon.ico"",
+              ""src/assets""
+            ],
+            ""styles"": [
+              ""src/styles.scss""
+            ],
+            ""scripts"": []
+          }
+        },
+        ""e2e"": {
+          ""builder"": ""@angular-devkit/build-angular:protractor"",
+          ""options"": {
+            ""protractorConfig"": ""e2e/protractor.conf.js"",
+            ""devServerTarget"": ""mdb-angular-ui-kit-free:serve""
+          },
+          ""configurations"": {
+            ""production"": {
+              ""devServerTarget"": ""mdb-angular-ui-kit-free:serve:production""
+            }
+          }
+        }
+      }
+    },
+    ""mdb-angular-ui-kit"": {
+      ""projectType"": ""library"",
+      ""root"": ""projects/mdb-angular-ui-kit"",
+      ""sourceRoot"": ""projects/mdb-angular-ui-kit/src"",
+      ""prefix"": ""lib"",
+      ""architect"": {
+        ""build"": {
+          ""builder"": ""@angular-devkit/build-angular:ng-packagr"",
+          ""options"": {
+            ""tsConfig"": ""projects/mdb-angular-ui-kit/tsconfig.lib.json"",
+            ""project"": ""projects/mdb-angular-ui-kit/ng-package.json""
+          },
+          ""configurations"": {
+            ""production"": {
+              ""tsConfig"": ""projects/mdb-angular-ui-kit/tsconfig.lib.prod.json""
+            }
+          }
+        },
+        ""test"": {
+          ""builder"": ""@angular-builders/jest:run"",
+          ""options"": {
+            ""tsConfig"": ""projects/mdb-angular-ui-kit/tsconfig.spec.json""
+          }
+        }
+      }
+    }
+  }
+}"
+NG-ZORRO/ng-zorro-antd-mobile,angular.json,"{
+  ""$schema"": ""./node_modules/@angular/cli/lib/config/schema.json"",
+  ""version"": 1,
+  ""newProjectRoot"": ""projects"",
+  ""projects"": {
+    ""ng-zorro-antd-mobile"": {
+      ""root"": """",
+      ""sourceRoot"": ""site/src"",
+      ""projectType"": ""application"",
+      ""architect"": {
+        ""build"": {
+          ""builder"": ""@angular-devkit/build-angular:browser"",
+          ""options"": {
+            ""outputPath"": ""dist"",
+            ""index"": ""./site/src/index.html"",
+            ""main"": ""./site/src/main.ts"",
+            ""tsConfig"": ""./site/src/tsconfig.app.json"",
+            ""polyfills"": ""./site/src/polyfills.ts"",
+            ""assets"": [
+              ""site/src/assets"",
+              ""site/src/favicon.ico"",
+              ""site/src/404.html"",
+              {
+                ""glob"": ""**/*"",
+                ""input"": ""./node_modules/@ant-design/icons-angular/src/inline-svg/"",
+                ""output"": ""/assets/""
+              },
+              ""site/src/manifest.json""
+            ],
+            ""styles"": [
+              ""site/src/styles.less""
+            ],
+            ""scripts"": [],
+            ""vendorChunk"": true,
+            ""extractLicenses"": false,
+            ""buildOptimizer"": false,
+            ""sourceMap"": true,
+            ""optimization"": false,
+            ""namedChunks"": true
+          },
+          ""configurations"": {
+            ""production"": {
+              ""budgets"": [
+                {
+                  ""type"": ""anyComponentStyle"",
+                  ""maximumWarning"": ""6kb""
+                }
+              ],
+              ""fileReplacements"": [
+                {
+                  ""replace"": ""./site/src/environments/environment.ts"",
+                  ""with"": ""./site/src/environments/environment.prod.ts""
+                }
+              ],
+              ""optimization"": {
+                ""scripts"": true,
+                ""styles"": {
+                  ""minify"": true,
+                  ""inlineCritical"": false
+                },
+                ""fonts"": true
+              },
+              ""outputHashing"": ""all"",
+              ""sourceMap"": false,
+              ""namedChunks"": false,
+              ""vendorChunk"": false,
+              ""buildOptimizer"": true,
+              ""serviceWorker"": false
+            }
+          },
+          ""defaultConfiguration"": """"
+        },
+        ""serve"": {
+          ""builder"": ""@angular-devkit/build-angular:dev-server"",
+          ""options"": {
+            ""browserTarget"": ""ng-zorro-antd-mobile:build""
+          },
+          ""configurations"": {
+            ""production"": {
+              ""browserTarget"": ""ng-zorro-antd-mobile:build:production""
+            }
+          }
+        }
+      }
+    },
+    ""ng-zorro-antd-mobile-e2e"": {
+      ""root"": """",
+      ""sourceRoot"": """",
+      ""projectType"": ""application""
+    },
+    ""ng-zorro-antd-mobile-lib"": {
+      ""root"": ""components"",
+      ""projectType"": ""library"",
+      ""prefix"": """",
+      ""architect"": {
+        ""build"": {
+          ""builder"": ""@angular-devkit/build-angular:ng-packagr"",
+          ""options"": {
+            ""tsConfig"": ""components/tsconfig.lib.json"",
+            ""project"": ""components/ng-package.json""
+          },
+          ""configurations"": {
+            ""production"": {
+              ""tsConfig"": ""components/tsconfig.lib.prod.json""
+            }
+          }
+        },
+        ""test"": {
+          ""builder"": ""@angular-devkit/build-angular:karma"",
+          ""options"": {
+            ""styles"": [""components/ng-zorro-antd-mobile.less""],
+            ""main"": ""components/test.ts"",
+            ""karmaConfig"": ""components/karma.conf.js"",
+            ""polyfills"": ""components/polyfills.ts"",
+            ""tsConfig"": ""components/tsconfig.spec.json"",
+            ""scripts"": []
+          }
+        }
+      }
+    }
+  },
+  ""schematics"": {
+    ""@schematics/angular:component"": {
+      ""prefix"": ""app"",
+      ""style"": ""less""
+    },
+    ""@schematics/angular:directive"": {
+      ""prefix"": ""app""
+    }
+  },
+  ""cli"": {
+    ""analytics"": false
+  }
+}"
+angular-material-extensions/password-strength,angular.json,"{
+  ""$schema"": ""./node_modules/@angular/cli/lib/config/schema.json"",
+  ""version"": 1,
+  ""newProjectRoot"": ""projects"",
+  ""projects"": {
+    ""password-strength"": {
+      ""projectType"": ""application"",
+      ""schematics"": {
+        ""@schematics/angular:component"": {
+          ""style"": ""scss""
+        }
+      },
+      ""root"": """",
+      ""sourceRoot"": ""src"",
+      ""prefix"": ""app"",
+      ""architect"": {
+        ""build"": {
+          ""builder"": ""@angular-devkit/build-angular:browser"",
+          ""options"": {
+            ""outputPath"": ""dist/password-strength/browser"",
+            ""index"": ""src/index.html"",
+            ""main"": ""src/main.ts"",
+            ""polyfills"": ""src/polyfills.ts"",
+            ""tsConfig"": ""tsconfig.app.json"",
+            ""assets"": [
+              ""src/favicon.ico"",
+              ""src/assets""
+            ],
+            ""styles"": [
+              ""./node_modules/@angular/material/prebuilt-themes/indigo-pink.css"",
+              ""src/styles.scss"",
+              ""./node_modules/prismjs/themes/prism-okaidia.css""
+            ],
+            ""scripts"": [
+              ""./node_modules/marked/marked.min.js"",
+              ""./node_modules/prismjs/prism.js"",
+              ""./node_modules/prismjs/components/prism-typescript.min.js"",
+              ""./node_modules/prismjs/components/prism-css.min.js""
+            ],
+            ""vendorChunk"": true,
+            ""extractLicenses"": false,
+            ""buildOptimizer"": false,
+            ""sourceMap"": true,
+            ""optimization"": false,
+            ""namedChunks"": true
+          },
+          ""configurations"": {
+            ""production"": {
+              ""fileReplacements"": [
+                {
+                  ""replace"": ""src/environments/environment.ts"",
+                  ""with"": ""src/environments/environment.prod.ts""
+                }
+              ],
+              ""optimization"": true,
+              ""outputHashing"": ""all"",
+              ""sourceMap"": false,
+              ""namedChunks"": false,
+              ""extractLicenses"": true,
+              ""vendorChunk"": false,
+              ""buildOptimizer"": true,
+              ""budgets"": [
+                {
+                  ""type"": ""initial"",
+                  ""maximumWarning"": ""2mb"",
+                  ""maximumError"": ""5mb""
+                },
+                {
+                  ""type"": ""anyComponentStyle"",
+                  ""maximumWarning"": ""6kb"",
+                  ""maximumError"": ""10kb""
+                }
+              ]
+            }
+          },
+          ""defaultConfiguration"": """"
+        },
+        ""serve"": {
+          ""builder"": ""@angular-devkit/build-angular:dev-server"",
+          ""options"": {
+            ""buildTarget"": ""password-strength:build""
+          },
+          ""configurations"": {
+            ""production"": {
+              ""buildTarget"": ""password-strength:build:production""
+            }
+          }
+        },
+        ""extract-i18n"": {
+          ""builder"": ""@angular-devkit/build-angular:extract-i18n"",
+          ""options"": {
+            ""buildTarget"": ""password-strength:build""
+          }
+        },
+        ""test"": {
+          ""builder"": ""@angular-devkit/build-angular:karma"",
+          ""options"": {
+            ""main"": ""src/test.ts"",
+            ""polyfills"": ""src/polyfills.ts"",
+            ""tsConfig"": ""tsconfig.spec.json"",
+            ""karmaConfig"": ""karma.conf.js"",
+            ""assets"": [
+              ""src/favicon.ico"",
+              ""src/assets""
+            ],
+            ""styles"": [
+              ""./node_modules/@angular/material/prebuilt-themes/indigo-pink.css"",
+              ""src/styles.scss""
+            ],
+            ""scripts"": []
+          }
+        },
+        ""e2e"": {
+          ""builder"": ""@angular-devkit/build-angular:protractor"",
+          ""options"": {
+            ""protractorConfig"": ""e2e/protractor.conf.js"",
+            ""devServerTarget"": ""password-strength:serve""
+          },
+          ""configurations"": {
+            ""production"": {
+              ""devServerTarget"": ""password-strength:serve:production""
+            }
+          }
+        },
+        ""server"": {
+          ""builder"": ""@angular-devkit/build-angular:server"",
+          ""options"": {
+            ""outputPath"": ""dist/password-strength/server"",
+            ""main"": ""server.ts"",
+            ""tsConfig"": ""tsconfig.server.json"",
+            ""sourceMap"": true,
+            ""optimization"": false,
+            ""buildOptimizer"": false
+          },
+          ""configurations"": {
+            ""production"": {
+              ""outputHashing"": ""media"",
+              ""fileReplacements"": [
+                {
+                  ""replace"": ""src/environments/environment.ts"",
+                  ""with"": ""src/environments/environment.prod.ts""
+                }
+              ],
+              ""sourceMap"": false,
+              ""optimization"": true,
+              ""buildOptimizer"": true
+            }
+          },
+          ""defaultConfiguration"": """"
+        },
+        ""serve-ssr"": {
+          ""builder"": ""@angular-devkit/build-angular:ssr-dev-server"",
+          ""options"": {
+            ""browserTarget"": ""password-strength:build"",
+            ""serverTarget"": ""password-strength:server""
+          },
+          ""configurations"": {
+            ""production"": {
+              ""browserTarget"": ""password-strength:build:production"",
+              ""serverTarget"": ""password-strength:server:production""
+            }
+          }
+        },
+        ""prerender"": {
+          ""builder"": ""@angular-devkit/build-angular:prerender"",
+          ""options"": {
+            ""browserTarget"": ""password-strength:build:production"",
+            ""serverTarget"": ""password-strength:server:production"",
+            ""routes"": [
+              ""/""
+            ]
+          },
+          ""configurations"": {
+            ""production"": {}
+          }
+        },
+        ""deploy"": {
+          ""builder"": ""angular-cli-ghpages:deploy"",
+          ""options"": {}
+        }
+      }
+    },
+    ""@angular-material-extensions/password-strength"": {
+      ""projectType"": ""library"",
+      ""root"": ""projects/angular-material-extensions/password-strength"",
+      ""sourceRoot"": ""projects/angular-material-extensions/password-strength/src"",
+      ""prefix"": ""lib"",
+      ""architect"": {
+        ""build"": {
+          ""builder"": ""@angular-devkit/build-ng-packagr:build"",
+          ""options"": {
+            ""tsConfig"": ""projects/angular-material-extensions/password-strength/tsconfig.lib.json"",
+            ""project"": ""projects/angular-material-extensions/password-strength/ng-package.json""
+          },
+          ""configurations"": {
+            ""production"": {
+              ""tsConfig"": ""projects/angular-material-extensions/password-strength/tsconfig.lib.prod.json""
+            }
+          }
+        },
+        ""test"": {
+          ""builder"": ""@angular-devkit/build-angular:karma"",
+          ""options"": {
+            ""main"": ""projects/angular-material-extensions/password-strength/src/test.ts"",
+            ""tsConfig"": ""projects/angular-material-extensions/password-strength/tsconfig.spec.json"",
+            ""karmaConfig"": ""projects/angular-material-extensions/password-strength/karma.conf.js""
+          }
+        }
+      }
+    }
+  },
+  ""cli"": {
+    ""analytics"": ""80a8e7b5-ce29-40b8-a31c-aa518596a68a""
+  }
+}
+"
+jhipster/jhipster-online,angular.json,"{
+  ""$schema"": ""./node_modules/@angular/cli/lib/config/schema.json"",
+  ""version"": 1,
+  ""newProjectRoot"": ""projects"",
+  ""projects"": {
+    ""jhonline"": {
+      ""root"": """",
+      ""sourceRoot"": ""src/main/webapp"",
+      ""projectType"": ""application"",
+      ""schematics"": {
+        ""@schematics/angular:component"": {
+          ""skipTests"": true,
+          ""style"": ""scss""
+        },
+        ""@schematics/angular:directive"": {
+          ""skipTests"": true
+        },
+        ""@schematics/angular:guard"": {
+          ""skipTests"": true
+        },
+        ""@schematics/angular:pipe"": {
+          ""skipTests"": true
+        },
+        ""@schematics/angular:service"": {
+          ""skipTests"": true
+        }
+      },
+      ""prefix"": ""jhi"",
+      ""architect"": {
+        ""build"": {
+          ""builder"": ""@angular-builders/custom-webpack:browser"",
+          ""options"": {
+            ""customWebpackConfig"": {
+              ""path"": ""./webpack/webpack.custom.js""
+            },
+            ""outputPath"": ""target/classes/static/"",
+            ""index"": ""src/main/webapp/index.html"",
+            ""main"": ""src/main/webapp/app/app.main.ts"",
+            ""polyfills"": ""src/main/webapp/app/polyfills.ts"",
+            ""tsConfig"": ""tsconfig.app.json"",
+            ""inlineStyleLanguage"": ""scss"",
+            ""assets"": [
+              ""src/main/webapp/content"",
+              ""src/main/webapp/favicon.ico"",
+              ""src/main/webapp/manifest.webapp"",
+              ""src/main/webapp/robots.txt""
+            ],
+            ""styles"": [""src/main/webapp/content/scss/vendor.scss"", ""src/main/webapp/content/scss/global.scss""],
+            ""scripts"": []
+          },
+          ""configurations"": {
+            ""production"": {
+              ""optimization"": true,
+              ""outputHashing"": ""all"",
+              ""sourceMap"": false,
+              ""namedChunks"": false,
+              ""extractLicenses"": true,
+              ""vendorChunk"": false,
+              ""buildOptimizer"": true,
+              ""budgets"": [
+                {
+                  ""type"": ""initial"",
+                  ""maximumWarning"": ""500kb"",
+                  ""maximumError"": ""2mb""
+                },
+                {
+                  ""type"": ""anyComponentStyle"",
+                  ""maximumWarning"": ""2kb"",
+                  ""maximumError"": ""4kb""
+                }
+              ]
+            },
+            ""development"": {
+              ""buildOptimizer"": false,
+              ""optimization"": false,
+              ""vendorChunk"": true,
+              ""extractLicenses"": false,
+              ""sourceMap"": true,
+              ""namedChunks"": true
+            }
+          },
+          ""defaultConfiguration"": ""production""
+        },
+        ""serve"": {
+          ""builder"": ""@angular-builders/custom-webpack:dev-server"",
+          ""options"": {
+            ""browserTarget"": ""jhonline:build:development"",
+            ""port"": 4200
+          },
+          ""configurations"": {
+            ""production"": {
+              ""browserTarget"": ""jhonline:build:production""
+            },
+            ""development"": {
+              ""browserTarget"": ""jhonline:build:development""
+            }
+          },
+          ""defaultConfiguration"": ""development""
+        },
+        ""test"": {
+          ""builder"": ""@angular-builders/jest:run"",
+          ""options"": {
+            ""configPath"": ""jest.conf.js""
+          }
+        }
+      }
+    }
+  },
+  ""cli"": {
+    ""cache"": {
+      ""enabled"": true,
+      ""path"": ""./target/angular/"",
+      ""environment"": ""all""
+    },
+    ""packageManager"": ""yarn"",
+    ""analytics"": false
+  }
+}
+"
+DSpace/dspace-angular,angular.json,"{
+  ""$schema"": ""./node_modules/@angular/cli/lib/config/schema.json"",
+  ""version"": 1,
+  ""newProjectRoot"": ""projects"",
+  ""projects"": {
+    ""dspace-angular"": {
+      ""projectType"": ""application"",
+      ""schematics"": {
+        ""@schematics/angular:component"": {
+          ""style"": ""scss""
+        }
+      },
+      ""root"": """",
+      ""sourceRoot"": ""src"",
+      ""prefix"": ""ds"",
+      ""architect"": {
+        ""build"": {
+          ""builder"": ""@angular-builders/custom-webpack:browser"",
+          ""options"": {
+            ""preserveSymlinks"": true,
+            ""customWebpackConfig"": {
+              ""path"": ""./webpack/webpack.browser.ts"",
+              ""mergeStrategies"": {
+                ""loaders"": ""prepend""
+              }
+            },
+            ""allowedCommonJsDependencies"": [
+              ""cerialize"",
+              ""core-js"",
+              ""lodash"",
+              ""jwt-decode"",
+              ""uuid"",
+              ""zone.js""
+            ],
+            ""outputPath"": ""dist/browser"",
+            ""index"": ""src/index.html"",
+            ""main"": ""src/main.browser.ts"",
+            ""polyfills"": ""src/polyfills.ts"",
+            ""tsConfig"": ""tsconfig.app.json"",
+            ""aot"": true,
+            ""assets"": [
+              ""src/assets"",
+              ""src/robots.txt""
+            ],
+            ""styles"": [
+              ""src/styles/startup.scss"",
+              {
+                ""input"": ""src/styles/base-theme.scss"",
+                ""inject"": false,
+                ""bundleName"": ""base-theme""
+              },
+              {
+                ""input"": ""src/themes/custom/styles/theme.scss"",
+                ""inject"": false,
+                ""bundleName"": ""custom-theme""
+              },
+              {
+                ""input"": ""src/themes/dspace/styles/theme.scss"",
+                ""inject"": false,
+                ""bundleName"": ""dspace-theme""
+              }
+            ],
+            ""scripts"": [],
+            ""baseHref"": ""/""
+          },
+          ""configurations"": {
+            ""development"": {
+              ""buildOptimizer"": false,
+              ""optimization"": false,
+              ""vendorChunk"": true,
+              ""extractLicenses"": false,
+              ""sourceMap"": true,
+              ""namedChunks"": true
+            },
+            ""production"": {
+              ""fileReplacements"": [
+                {
+                  ""replace"": ""src/environments/environment.ts"",
+                  ""with"": ""src/environments/environment.production.ts""
+                },
+                {
+                  ""replace"": ""src/config/store/devtools.ts"",
+                  ""with"": ""src/config/store/devtools.prod.ts""
+                }
+              ],
+              ""optimization"": true,
+              ""outputHashing"": ""all"",
+              ""namedChunks"": false,
+              ""aot"": true,
+              ""extractLicenses"": true,
+              ""vendorChunk"": false,
+              ""buildOptimizer"": true,
+              ""budgets"": [
+                {
+                  ""type"": ""initial"",
+                  ""maximumWarning"": ""3mb"",
+                  ""maximumError"": ""5mb""
+                },
+                {
+                  ""type"": ""anyComponentStyle"",
+                  ""maximumWarning"": ""200kb"",
+                  ""maximumError"": ""300kb""
+                }
+              ]
+            }
+          }
+        },
+        ""serve"": {
+          ""builder"": ""@angular-builders/custom-webpack:dev-server"",
+          ""options"": {
+            ""buildTarget"": ""dspace-angular:build"",
+            ""port"": 4000
+          },
+          ""configurations"": {
+            ""development"": {
+              ""buildTarget"": ""dspace-angular:build:development""
+            },
+            ""production"": {
+              ""buildTarget"": ""dspace-angular:build:production""
+            }
+          }
+        },
+        ""extract-i18n"": {
+          ""builder"": ""@angular-devkit/build-angular:extract-i18n"",
+          ""options"": {
+            ""buildTarget"": ""dspace-angular:build""
+          }
+        },
+        ""test"": {
+          ""builder"": ""@angular-builders/custom-webpack:karma"",
+          ""options"": {
+            ""customWebpackConfig"": {
+              ""path"": ""./webpack/webpack.test.ts"",
+              ""mergeStrategies"": {
+                ""loaders"": ""prepend""
+              }
+            },
+            ""main"": ""src/test.ts"",
+            ""polyfills"": ""src/polyfills.ts"",
+            ""tsConfig"": ""tsconfig.spec.json"",
+            ""karmaConfig"": ""karma.conf.js"",
+            ""sourceMap"": {
+              ""scripts"": false,
+              ""styles"": false,
+              ""hidden"": false,
+              ""vendor"": false
+            },
+            ""assets"": [
+              ""src/assets""
+            ],
+            ""styles"": [
+              {
+                ""input"": ""src/styles/base-theme.scss"",
+                ""inject"": false,
+                ""bundleName"": ""base-theme""
+              }
+            ],
+            ""scripts"": []
+          },
+          ""configurations"": {
+            ""test"": {
+              ""fileReplacements"": [
+                {
+                  ""replace"": ""src/environments/environment.ts"",
+                  ""with"": ""src/environments/environment.test.ts""
+                }
+              ]
+            }
+          }
+        },
+        ""e2e"": {
+          ""builder"": ""@cypress/schematic:cypress"",
+          ""options"": {
+            ""devServerTarget"": ""dspace-angular:serve"",
+            ""watch"": true,
+            ""headless"": false
+          },
+          ""configurations"": {
+            ""production"": {
+              ""devServerTarget"": ""dspace-angular:serve:production""
+            }
+          }
+        },
+        ""server"": {
+          ""builder"": ""@angular-builders/custom-webpack:server"",
+          ""options"": {
+            ""customWebpackConfig"": {
+              ""path"": ""./webpack/webpack.prod.ts"",
+              ""mergeStrategies"": {
+                ""loaders"": ""prepend""
+              }
+            },
+            ""outputPath"": ""dist/server"",
+            ""main"": ""server.ts"",
+            ""tsConfig"": ""tsconfig.server.json""
+          },
+          ""configurations"": {
+            ""development"": {
+              ""sourceMap"": true,
+              ""optimization"": false
+            },
+            ""production"": {
+              ""sourceMap"": false,
+              ""optimization"": true,
+              ""fileReplacements"": [
+                {
+                  ""replace"": ""src/environments/environment.ts"",
+                  ""with"": ""src/environments/environment.production.ts""
+                },
+                {
+                  ""replace"": ""src/config/store/devtools.ts"",
+                  ""with"": ""src/config/store/devtools.prod.ts""
+                }
+              ]
+            }
+          }
+        },
+        ""serve-ssr"": {
+          ""builder"": ""@angular-devkit/build-angular:ssr-dev-server"",
+          ""options"": {
+            ""buildTarget"": ""dspace-angular:build"",
+            ""serverTarget"": ""dspace-angular:server"",
+            ""port"": 4000
+          },
+          ""configurations"": {
+            ""production"": {
+              ""buildTarget"": ""dspace-angular:build:production"",
+              ""serverTarget"": ""dspace-angular:server:production""
+            }
+          }
+        },
+        ""prerender"": {
+          ""builder"": ""@angular-devkit/build-angular:prerender"",
+          ""options"": {
+            ""buildTarget"": ""dspace-angular:build:production"",
+            ""serverTarget"": ""dspace-angular:server:production"",
+            ""routes"": [
+              ""/""
+            ]
+          },
+          ""configurations"": {
+            ""production"": {}
+          }
+        },
+        ""cypress-run"": {
+          ""builder"": ""@cypress/schematic:cypress"",
+          ""options"": {
+            ""devServerTarget"": ""dspace-angular:serve""
+          },
+          ""configurations"": {
+            ""production"": {
+              ""devServerTarget"": ""dspace-angular:serve:production""
+            }
+          }
+        },
+        ""cypress-open"": {
+          ""builder"": ""@cypress/schematic:cypress"",
+          ""options"": {
+            ""watch"": true,
+            ""headless"": false
+          }
+        },
+        ""lint"": {
+          ""builder"": ""@angular-eslint/builder:lint"",
+          ""options"": {
+            ""lintFilePatterns"": [
+              ""src/**/*.ts"",
+              ""cypress/**/*.ts"",
+              ""lint/**/*.ts"",
+              ""src/**/*.html"",
+              ""src/**/*.json5""
+            ]
+          }
+        }
+      }
+    }
+  },
+  ""cli"": {
+    ""analytics"": false,
+    ""schematicCollections"": [
+      ""@angular-eslint/schematics""
+    ]
+  },
+  ""schematics"": {
+    ""@angular-eslint/schematics:application"": {
+      ""setParserOptionsProject"": true
+    },
+    ""@angular-eslint/schematics:library"": {
+      ""setParserOptionsProject"": true
+    }
+  }
+}
+"
+ionicthemes/ionic4-starter-app-tutorial,angular.json,"{
+  ""$schema"": ""./node_modules/@angular-devkit/core/src/workspace/workspace-schema.json"",
+  ""version"": 1,
+  ""defaultProject"": ""app"",
+  ""newProjectRoot"": ""projects"",
+  ""projects"": {
+    ""app"": {
+      ""root"": """",
+      ""sourceRoot"": ""src"",
+      ""projectType"": ""application"",
+      ""prefix"": ""app"",
+      ""schematics"": {},
+      ""architect"": {
+        ""build"": {
+          ""builder"": ""@angular-devkit/build-angular:browser"",
+          ""options"": {
+            ""outputPath"": ""www"",
+            ""index"": ""src/index.html"",
+            ""main"": ""src/main.ts"",
+            ""polyfills"": ""src/polyfills.ts"",
+            ""tsConfig"": ""src/tsconfig.app.json"",
+            ""assets"": [
+              {
+                ""glob"": ""**/*"",
+                ""input"": ""src/assets"",
+                ""output"": ""assets""
+              },
+              {
+                ""glob"": ""**/*.svg"",
+                ""input"": ""node_modules/ionicons/dist/ionicons/svg"",
+                ""output"": ""./svg""
+              }
+            ],
+            ""styles"": [
+              {
+                ""input"": ""src/theme/variables.scss""
+              },
+              {
+                ""input"": ""src/global.scss""
+              }
+            ],
+            ""scripts"": []
+          },
+          ""configurations"": {
+            ""production"": {
+              ""fileReplacements"": [
+                {
+                  ""replace"": ""src/environments/environment.ts"",
+                  ""with"": ""src/environments/environment.prod.ts""
+                }
+              ],
+              ""optimization"": true,
+              ""outputHashing"": ""all"",
+              ""sourceMap"": false,
+              ""extractCss"": true,
+              ""namedChunks"": false,
+              ""aot"": true,
+              ""extractLicenses"": true,
+              ""vendorChunk"": false,
+              ""buildOptimizer"": true,
+              ""budgets"": [
+                {
+                  ""type"": ""initial"",
+                  ""maximumWarning"": ""2mb"",
+                  ""maximumError"": ""5mb""
+                }
+              ]
+            },
+            ""ci"": {
+              ""progress"": false
+            }
+          }
+        },
+        ""serve"": {
+          ""builder"": ""@angular-devkit/build-angular:dev-server"",
+          ""options"": {
+            ""browserTarget"": ""app:build""
+          },
+          ""configurations"": {
+            ""production"": {
+              ""browserTarget"": ""app:build:production""
+            },
+            ""ci"": {
+              ""progress"": false
+            }
+          }
+        },
+        ""extract-i18n"": {
+          ""builder"": ""@angular-devkit/build-angular:extract-i18n"",
+          ""options"": {
+            ""browserTarget"": ""app:build""
+          }
+        },
+        ""test"": {
+          ""builder"": ""@angular-devkit/build-angular:karma"",
+          ""options"": {
+            ""main"": ""src/test.ts"",
+            ""polyfills"": ""src/polyfills.ts"",
+            ""tsConfig"": ""src/tsconfig.spec.json"",
+            ""karmaConfig"": ""src/karma.conf.js"",
+            ""styles"": [],
+            ""scripts"": [],
+            ""assets"": [
+              {
+                ""glob"": ""favicon.ico"",
+                ""input"": ""src/"",
+                ""output"": ""/""
+              },
+              {
+                ""glob"": ""**/*"",
+                ""input"": ""src/assets"",
+                ""output"": ""/assets""
+              }
+            ]
+          },
+          ""configurations"": {
+            ""ci"": {
+              ""progress"": false,
+              ""watch"": false
+            }
+          }
+        },
+        ""lint"": {
+          ""builder"": ""@angular-devkit/build-angular:tslint"",
+          ""options"": {
+            ""tsConfig"": [""src/tsconfig.app.json"", ""src/tsconfig.spec.json""],
+            ""exclude"": [""**/node_modules/**""]
+          }
+        },
+        ""ionic-cordova-build"": {
+          ""builder"": ""@ionic/angular-toolkit:cordova-build"",
+          ""options"": {
+            ""browserTarget"": ""app:build""
+          },
+          ""configurations"": {
+            ""production"": {
+              ""browserTarget"": ""app:build:production""
+            }
+          }
+        },
+        ""ionic-cordova-serve"": {
+          ""builder"": ""@ionic/angular-toolkit:cordova-serve"",
+          ""options"": {
+            ""cordovaBuildTarget"": ""app:ionic-cordova-build"",
+            ""devServerTarget"": ""app:serve""
+          },
+          ""configurations"": {
+            ""production"": {
+              ""cordovaBuildTarget"": ""app:ionic-cordova-build:production"",
+              ""devServerTarget"": ""app:serve:production""
+            }
+          }
+        }
+      }
+    },
+    ""app-e2e"": {
+      ""root"": ""e2e/"",
+      ""projectType"": ""application"",
+      ""architect"": {
+        ""e2e"": {
+          ""builder"": ""@angular-devkit/build-angular:protractor"",
+          ""options"": {
+            ""protractorConfig"": ""e2e/protractor.conf.js"",
+            ""devServerTarget"": ""app:serve""
+          },
+          ""configurations"": {
+            ""ci"": {
+              ""devServerTarget"": ""app:serve:ci""
+            }
+          }
+        },
+        ""lint"": {
+          ""builder"": ""@angular-devkit/build-angular:tslint"",
+          ""options"": {
+            ""tsConfig"": ""e2e/tsconfig.e2e.json"",
+            ""exclude"": [""**/node_modules/**""]
+          }
+        }
+      }
+    }
+  },
+  ""cli"": {
+    ""defaultCollection"": ""@ionic/angular-toolkit""
+  },
+  ""schematics"": {
+    ""@ionic/angular-toolkit:component"": {
+      ""styleext"": ""scss""
+    },
+    ""@ionic/angular-toolkit:page"": {
+      ""styleext"": ""scss""
+    }
+  }
+}
+"
+ionicthemes/ionic5-starter-app-tutorial,angular.json,"{
+  ""$schema"": ""./node_modules/@angular/cli/lib/config/schema.json"",
+  ""version"": 1,
+  ""defaultProject"": ""app"",
+  ""newProjectRoot"": ""projects"",
+  ""projects"": {
+    ""app"": {
+      ""root"": """",
+      ""sourceRoot"": ""src"",
+      ""projectType"": ""application"",
+      ""prefix"": ""app"",
+      ""schematics"": {},
+      ""architect"": {
+        ""build"": {
+          ""builder"": ""@angular-devkit/build-angular:browser"",
+          ""options"": {
+            ""outputPath"": ""www"",
+            ""index"": ""src/index.html"",
+            ""main"": ""src/main.ts"",
+            ""polyfills"": ""src/polyfills.ts"",
+            ""tsConfig"": ""tsconfig.app.json"",
+            ""assets"": [
+              {
+                ""glob"": ""**/*"",
+                ""input"": ""src/assets"",
+                ""output"": ""assets""
+              },
+              {
+                ""glob"": ""**/*.svg"",
+                ""input"": ""node_modules/ionicons/dist/ionicons/svg"",
+                ""output"": ""./svg""
+              }
+            ],
+            ""styles"": [
+              {
+                ""input"": ""src/theme/variables.scss"",
+                ""inject"": true
+              },
+              {
+                ""input"": ""src/global.scss"",
+                ""inject"": true
+              }
+            ],
+            ""scripts"": [],
+            ""aot"": false,
+            ""vendorChunk"": true,
+            ""extractLicenses"": false,
+            ""buildOptimizer"": false,
+            ""sourceMap"": true,
+            ""optimization"": false,
+            ""namedChunks"": true
+          },
+          ""configurations"": {
+            ""production"": {
+              ""fileReplacements"": [
+                {
+                  ""replace"": ""src/environments/environment.ts"",
+                  ""with"": ""src/environments/environment.prod.ts""
+                }
+              ],
+              ""optimization"": true,
+              ""outputHashing"": ""all"",
+              ""sourceMap"": false,
+              ""namedChunks"": false,
+              ""aot"": true,
+              ""extractLicenses"": true,
+              ""vendorChunk"": false,
+              ""buildOptimizer"": true,
+              ""budgets"": [
+                {
+                  ""type"": ""initial"",
+                  ""maximumWarning"": ""2mb"",
+                  ""maximumError"": ""5mb""
+                },
+                {
+                  ""type"": ""anyComponentStyle"",
+                  ""maximumWarning"": ""6kb""
+                }
+              ]
+            },
+            ""ci"": {
+              ""progress"": false
+            }
+          },
+          ""defaultConfiguration"": """"
+        },
+        ""serve"": {
+          ""builder"": ""@angular-devkit/build-angular:dev-server"",
+          ""options"": {
+            ""browserTarget"": ""app:build""
+          },
+          ""configurations"": {
+            ""production"": {
+              ""browserTarget"": ""app:build:production""
+            },
+            ""ci"": {
+              ""progress"": false
+            }
+          }
+        },
+        ""extract-i18n"": {
+          ""builder"": ""@angular-devkit/build-angular:extract-i18n"",
+          ""options"": {
+            ""browserTarget"": ""app:build""
+          }
+        },
+        ""test"": {
+          ""builder"": ""@angular-devkit/build-angular:karma"",
+          ""options"": {
+            ""main"": ""src/test.ts"",
+            ""polyfills"": ""src/polyfills.ts"",
+            ""tsConfig"": ""tsconfig.spec.json"",
+            ""karmaConfig"": ""karma.conf.js"",
+            ""styles"": [],
+            ""scripts"": [],
+            ""assets"": [
+              {
+                ""glob"": ""favicon.ico"",
+                ""input"": ""src/"",
+                ""output"": ""/""
+              },
+              {
+                ""glob"": ""**/*"",
+                ""input"": ""src/assets"",
+                ""output"": ""/assets""
+              }
+            ]
+          },
+          ""configurations"": {
+            ""ci"": {
+              ""progress"": false,
+              ""watch"": false
+            }
+          }
+        },
+        ""lint"": {
+          ""builder"": ""@angular-devkit/build-angular:tslint"",
+          ""options"": {
+            ""tsConfig"": [
+              ""tsconfig.app.json"",
+              ""tsconfig.spec.json"",
+              ""e2e/tsconfig.json""
+            ],
+            ""exclude"": [""**/node_modules/**""]
+          }
+        },
+        ""e2e"": {
+          ""builder"": ""@angular-devkit/build-angular:protractor"",
+          ""options"": {
+            ""protractorConfig"": ""e2e/protractor.conf.js"",
+            ""devServerTarget"": ""app:serve""
+          },
+          ""configurations"": {
+            ""production"": {
+              ""devServerTarget"": ""app:serve:production""
+            },
+            ""ci"": {
+              ""devServerTarget"": ""app:serve:ci""
+            }
+          }
+        },
+        ""ionic-cordova-build"": {
+          ""builder"": ""@ionic/angular-toolkit:cordova-build"",
+          ""options"": {
+            ""browserTarget"": ""app:build""
+          },
+          ""configurations"": {
+            ""production"": {
+              ""browserTarget"": ""app:build:production""
+            }
+          }
+        },
+        ""ionic-cordova-serve"": {
+          ""builder"": ""@ionic/angular-toolkit:cordova-serve"",
+          ""options"": {
+            ""cordovaBuildTarget"": ""app:ionic-cordova-build"",
+            ""devServerTarget"": ""app:serve""
+          },
+          ""configurations"": {
+            ""production"": {
+              ""cordovaBuildTarget"": ""app:ionic-cordova-build:production"",
+              ""devServerTarget"": ""app:serve:production""
+            }
+          }
+        }
+      }
+    }
+  },
+  ""cli"": {
+    ""defaultCollection"": ""@ionic/angular-toolkit""
+  },
+  ""schematics"": {
+    ""@ionic/angular-toolkit:component"": {
+      ""styleext"": ""scss""
+    },
+    ""@ionic/angular-toolkit:page"": {
+      ""styleext"": ""scss""
+    }
+  }
+}
+"
+primefaces/primeng,angular.json,"{
+    ""$schema"": ""./node_modules/@angular/cli/lib/config/schema.json"",
+    ""version"": 1,
+    ""newProjectRoot"": ""projects"",
+    ""projects"": {
+        ""primeng-library"": {
+            ""root"": ""src"",
+            ""projectType"": ""library"",
+            ""architect"": {
+                ""build"": {
+                    ""builder"": ""@angular-devkit/build-angular:ng-packagr"",
+                    ""options"": {
+                        ""project"": ""src/app/components/ng-package.json"",
+                        ""tsConfig"": ""src/app/components/tsconfig.lib.prod.json""
+                    }
+                }
+            }
+        },
+        ""primeng"": {
+            ""projectType"": ""application"",
+            ""schematics"": {
+                ""@schematics/angular:component"": {
+                    ""style"": ""scss""
+                }
+            },
+            ""root"": """",
+            ""sourceRoot"": ""src"",
+            ""prefix"": ""app"",
+            ""architect"": {
+                ""build"": {
+                    ""builder"": ""@angular-devkit/build-angular:application"",
+                    ""options"": {
+                        ""outputPath"": ""dist/primeng"",
+                        ""index"": ""src/index.html"",
+                        ""browser"": ""src/main.ts"",
+                        ""polyfills"": [
+                            ""zone.js""
+                        ],
+                        ""tsConfig"": ""tsconfig.app.json"",
+                        ""inlineStyleLanguage"": ""scss"",
+                        ""assets"": [
+                            ""src/favicon.ico"",
+                            ""src/assets""
+                        ],
+                        ""styles"": [
+                            ""src/styles.scss""
+                        ],
+                        ""scripts"": [
+                            ""./node_modules/prismjs/prism.js"",
+                            ""./node_modules/prismjs/components/prism-typescript.js"",
+                            ""./node_modules/prismjs/components/prism-scss.js"",
+                            ""./node_modules/prismjs/components/prism-bash.js""
+                        ],
+                        ""allowedCommonJsDependencies"": [
+                            ""chart.js"",
+                            ""xlsx"",
+                            ""jspdf-autotable"",
+                            ""file-saver"",
+                            ""jspdf"",
+                            ""quill"",
+                            ""core-js"",
+                            ""raf"",
+                            ""rgbcolor""
+                        ],
+                        ""server"": ""src/main.server.ts"",
+                        ""prerender"": {
+                            ""discoverRoutes"": false,
+                            ""routesFile"": ""routes.txt""
+                        },
+                        ""ssr"": {
+                            ""entry"": ""server.ts""
+                        }
+                    },
+                    ""configurations"": {
+                        ""production"": {
+                            ""outputHashing"": ""all""
+                        },
+                        ""development"": {
+                            ""optimization"": false,
+                            ""extractLicenses"": false,
+                            ""sourceMap"": true
+                        }
+                    },
+                    ""defaultConfiguration"": ""production""
+                },
+                ""serve"": {
+                    ""builder"": ""@angular-devkit/build-angular:dev-server"",
+                    ""configurations"": {
+                        ""production"": {
+                            ""buildTarget"": ""primeng:build:production""
+                        },
+                        ""development"": {
+                            ""buildTarget"": ""primeng:build:development""
+                        }
+                    },
+                    ""defaultConfiguration"": ""development""
+                },
+                ""extract-i18n"": {
+                    ""builder"": ""@angular-devkit/build-angular:extract-i18n"",
+                    ""options"": {
+                        ""buildTarget"": ""primeng:build""
+                    }
+                },
+                ""test"": {
+                    ""builder"": ""@angular-devkit/build-angular:karma"",
+                    ""options"": {
+                        ""polyfills"": [
+                            ""zone.js"",
+                            ""zone.js/testing""
+                        ],
+                        ""tsConfig"": ""tsconfig.spec.json"",
+                        ""inlineStyleLanguage"": ""scss"",
+                        ""assets"": [
+                            ""src/favicon.ico"",
+                            ""src/assets""
+                        ],
+                        ""styles"": [
+                            ""src/styles.scss""
+                        ],
+                        ""scripts"": []
+                    }
+                }
+            }
+        }
+    },
+    ""cli"": {
+        ""analytics"": false
+    }
+}"
+angular/flex-layout,angular.json,"{
+  ""$schema"": ""./node_modules/@angular/cli/lib/config/schema.json"",
+  ""version"": 1,
+  ""newProjectRoot"": ""projects/apps"",
+  ""projects"": {
+    ""@angular/flex-layout"": {
+      ""projectType"": ""library"",
+      ""root"": ""projects/libs/flex-layout"",
+      ""sourceRoot"": ""projects/libs/flex-layout"",
+      ""prefix"": ""lib"",
+      ""architect"": {
+        ""build"": {
+          ""builder"": ""@angular-devkit/build-angular:ng-packagr"",
+          ""options"": {
+            ""project"": ""projects/libs/flex-layout/ng-package.json"",
+            ""tsConfig"": ""projects/libs/flex-layout/tsconfig.lib.json""
+          }
+        },
+        ""test"": {
+          ""builder"": ""@angular-devkit/build-angular:karma"",
+          ""options"": {
+            ""watch"": false,
+            ""main"": ""projects/libs/flex-layout/test.ts"",
+            ""tsConfig"": ""projects/libs/flex-layout/tsconfig.spec.json"",
+            ""karmaConfig"": ""test/karma.conf.js""
+          }
+        }
+      }
+    },
+    ""demo-app"": {
+      ""projectType"": ""application"",
+      ""schematics"": {
+        ""@schematics/angular:application"": {
+          ""strict"": true
+        }
+      },
+      ""root"": ""projects/apps/demo-app"",
+      ""sourceRoot"": ""projects/apps/demo-app/src"",
+      ""prefix"": ""app"",
+      ""architect"": {
+        ""build"": {
+          ""builder"": ""@angular-devkit/build-angular:browser"",
+          ""options"": {
+            ""outputPath"": ""dist/apps/demo-app"",
+            ""index"": ""projects/apps/demo-app/src/index.html"",
+            ""main"": ""projects/apps/demo-app/src/main.ts"",
+            ""polyfills"": ""projects/apps/demo-app/src/polyfills.ts"",
+            ""tsConfig"": ""projects/apps/demo-app/tsconfig.app.json"",
+            ""assets"": [
+              ""projects/apps/demo-app/src/favicon.ico"",
+              ""projects/apps/demo-app/src/assets""
+            ],
+            ""styles"": [""projects/apps/demo-app/src/styles.scss""],
+            ""scripts"": []
+          },
+          ""configurations"": {
+            ""production"": {
+              ""budgets"": [
+                {
+                  ""type"": ""initial"",
+                  ""maximumWarning"": ""500kb"",
+                  ""maximumError"": ""1mb""
+                },
+                {
+                  ""type"": ""anyComponentStyle"",
+                  ""maximumWarning"": ""2kb"",
+                  ""maximumError"": ""4kb""
+                }
+              ],
+              ""fileReplacements"": [
+                {
+                  ""replace"": ""projects/apps/demo-app/src/environments/environment.ts"",
+                  ""with"": ""projects/apps/demo-app/src/environments/environment.prod.ts""
+                }
+              ],
+              ""outputHashing"": ""all""
+            },
+            ""development"": {
+              ""buildOptimizer"": false,
+              ""optimization"": false,
+              ""vendorChunk"": true,
+              ""extractLicenses"": false,
+              ""sourceMap"": true,
+              ""namedChunks"": true
+            }
+          },
+          ""defaultConfiguration"": ""production""
+        },
+        ""serve"": {
+          ""builder"": ""@angular-devkit/build-angular:dev-server"",
+          ""configurations"": {
+            ""production"": {
+              ""browserTarget"": ""demo-app:build:production""
+            },
+            ""development"": {
+              ""browserTarget"": ""demo-app:build:development""
+            }
+          },
+          ""defaultConfiguration"": ""development""
+        },
+        ""extract-i18n"": {
+          ""builder"": ""@angular-devkit/build-angular:extract-i18n"",
+          ""options"": {
+            ""browserTarget"": ""demo-app:build""
+          }
+        },
+        ""test"": {
+          ""builder"": ""@angular-devkit/build-angular:karma"",
+          ""options"": {
+            ""watch"": false,
+            ""main"": ""projects/apps/demo-app/src/test.ts"",
+            ""polyfills"": ""projects/apps/demo-app/src/polyfills.ts"",
+            ""tsConfig"": ""projects/apps/demo-app/tsconfig.spec.json"",
+            ""karmaConfig"": ""projects/apps/demo-app/karma.conf.js"",
+            ""assets"": [
+              ""projects/apps/demo-app/src/favicon.ico"",
+              ""projects/apps/demo-app/src/assets""
+            ],
+            ""styles"": [""projects/apps/demo-app/src/styles.scss""],
+            ""scripts"": []
+          }
+        }
+      }
+    },
+    ""universal-demo-app"": {
+      ""projectType"": ""application"",
+      ""schematics"": {
+        ""@schematics/angular:application"": {
+          ""strict"": true
+        }
+      },
+      ""root"": ""projects/apps/universal-demo-app"",
+      ""sourceRoot"": ""projects/apps/universal-demo-app/src"",
+      ""prefix"": ""app"",
+      ""architect"": {
+        ""build"": {
+          ""builder"": ""@angular-devkit/build-angular:browser"",
+          ""options"": {
+            ""outputPath"": ""dist/universal-demo-app/browser"",
+            ""index"": ""projects/apps/universal-demo-app/src/index.html"",
+            ""main"": ""projects/apps/universal-demo-app/src/main.ts"",
+            ""polyfills"": ""projects/apps/universal-demo-app/src/polyfills.ts"",
+            ""tsConfig"": ""projects/apps/universal-demo-app/tsconfig.app.json"",
+            ""assets"": [
+              ""projects/apps/universal-demo-app/src/favicon.ico"",
+              ""projects/apps/universal-demo-app/src/assets""
+            ],
+            ""styles"": [""projects/apps/universal-demo-app/src/styles.scss""],
+            ""scripts"": []
+          },
+          ""configurations"": {
+            ""production"": {
+              ""budgets"": [
+                {
+                  ""type"": ""initial"",
+                  ""maximumWarning"": ""500kb"",
+                  ""maximumError"": ""1mb""
+                },
+                {
+                  ""type"": ""anyComponentStyle"",
+                  ""maximumWarning"": ""2kb"",
+                  ""maximumError"": ""4kb""
+                }
+              ],
+              ""fileReplacements"": [
+                {
+                  ""replace"": ""projects/apps/universal-demo-app/src/environments/environment.ts"",
+                  ""with"": ""projects/apps/universal-demo-app/src/environments/environment.prod.ts""
+                }
+              ],
+              ""outputHashing"": ""all""
+            },
+            ""development"": {
+              ""buildOptimizer"": false,
+              ""optimization"": false,
+              ""vendorChunk"": true,
+              ""extractLicenses"": false,
+              ""sourceMap"": true,
+              ""namedChunks"": true
+            }
+          },
+          ""defaultConfiguration"": ""production""
+        },
+        ""server"": {
+          ""builder"": ""@angular-devkit/build-angular:server"",
+          ""options"": {
+            ""outputPath"": ""dist/universal-demo-app/server"",
+            ""main"": ""projects/apps/universal-demo-app/server.ts"",
+            ""tsConfig"": ""projects/apps/universal-demo-app/tsconfig.server.json"",
+            ""preserveSymlinks"": true,
+            ""sourceMap"": true,
+            ""optimization"": false
+          },
+          ""configurations"": {
+            ""production"": {
+              ""optimization"": true,
+              ""fileReplacements"": [
+                {
+                  ""replace"": ""projects/apps/universal-demo-app/src/environments/environment.ts"",
+                  ""with"": ""projects/apps/universal-demo-app/src/environments/environment.prod.ts""
+                }
+              ]
+            }
+          }
+        },
+        ""serve-ssr"": {
+          ""builder"": ""@nguniversal/builders:ssr-dev-server"",
+          ""defaultConfiguration"": ""production"",
+          ""options"": {},
+          ""configurations"": {
+            ""production"": {
+              ""browserTarget"": ""universal-demo-app:build:production"",
+              ""serverTarget"": ""universal-demo-app:server:production""
+            }
+          }
+        },
+        ""serve"": {
+          ""builder"": ""@angular-devkit/build-angular:dev-server"",
+          ""configurations"": {
+            ""production"": {
+              ""browserTarget"": ""universal-demo-app:build:production""
+            },
+            ""development"": {
+              ""browserTarget"": ""universal-demo-app:build:development""
+            }
+          },
+          ""defaultConfiguration"": ""development""
+        },
+        ""extract-i18n"": {
+          ""builder"": ""@angular-devkit/build-angular:extract-i18n"",
+          ""options"": {
+            ""browserTarget"": ""universal-demo-app:build""
+          }
+        },
+        ""test"": {
+          ""builder"": ""@angular-devkit/build-angular:karma"",
+          ""options"": {
+            ""main"": ""projects/apps/universal-demo-app/src/test.ts"",
+            ""polyfills"": ""projects/apps/universal-demo-app/src/polyfills.ts"",
+            ""tsConfig"": ""projects/apps/universal-demo-app/tsconfig.spec.json"",
+            ""karmaConfig"": ""projects/apps/universal-demo-app/karma.conf.js"",
+            ""assets"": [
+              ""projects/apps/universal-demo-app/src/favicon.ico"",
+              ""projects/apps/universal-demo-app/src/assets""
+            ],
+            ""styles"": [""projects/apps/universal-demo-app/src/styles.scss""],
+            ""scripts"": []
+          }
+        }
+      }
+    }
+  }
+}
+"
+bpatrik/pigallery2,angular.json,"{
+  ""$schema"": ""./node_modules/@angular/cli/lib/config/schema.json"",
+  ""cli"": {
+    ""schematicCollections"": [
+      ""@angular-eslint/schematics"",
+      ""@schematics/angular""
+    ],
+    ""analytics"": false
+  },
+  ""version"": 1,
+  ""newProjectRoot"": ""projects"",
+  ""projects"": {
+    ""pigallery2"": {
+      ""root"": """",
+      ""sourceRoot"": ""src/frontend"",
+      ""projectType"": ""application"",
+      ""schematics"": {
+        ""@schematics/angular:application"": {
+          ""strict"": true
+        }
+      },
+      ""prefix"": ""app"",
+      ""i18n"": {
+        ""sourceLocale"": {
+          ""code"": ""en"",
+          ""baseHref"": """"
+        },
+        ""locales"": {
+          ""zh"": {
+            ""baseHref"": """",
+            ""translation"": ""src/frontend/translate/messages.cn.xlf""
+          },
+          ""de"": {
+            ""baseHref"": """",
+            ""translation"": ""src/frontend/translate/messages.de.xlf""
+          },
+          ""es"": {
+            ""baseHref"": """",
+            ""translation"": ""src/frontend/translate/messages.es.xlf""
+          },
+          ""fr"": {
+            ""baseHref"": """",
+            ""translation"": ""src/frontend/translate/messages.fr.xlf""
+          },
+          ""hu"": {
+            ""baseHref"": """",
+            ""translation"": ""src/frontend/translate/messages.hu.xlf""
+          },
+          ""id"": {
+            ""baseHref"": """",
+            ""translation"": ""src/frontend/translate/messages.id.xlf""
+          },
+          ""it"": {
+            ""baseHref"": """",
+            ""translation"": ""src/frontend/translate/messages.it.xlf""
+          },
+          ""ro"": {
+            ""baseHref"": """",
+            ""translation"": ""src/frontend/translate/messages.ro.xlf""
+          },
+          ""ru"": {
+            ""baseHref"": """",
+            ""translation"": ""src/frontend/translate/messages.ru.xlf""
+          },
+          ""sk"": {
+            ""baseHref"": """",
+            ""translation"": ""src/frontend/translate/messages.sk.xlf""
+          },
+          ""sv"": {
+            ""baseHref"": """",
+            ""translation"": ""src/frontend/translate/messages.sv.xlf""
+          },
+          ""pl"": {
+            ""baseHref"": """",
+            ""translation"": ""src/frontend/translate/messages.pl.xlf""
+          },
+          ""nl"": {
+            ""baseHref"": """",
+            ""translation"": ""src/frontend/translate/messages.nl.xlf""
+          },
+          ""pt-br"": {
+            ""baseHref"": """",
+            ""translation"": ""src/frontend/translate/messages.pt-br.xlf""
+          },
+          ""da"": {
+            ""baseHref"": """",
+            ""translation"": ""src/frontend/translate/messages.da.xlf""
+          }
+        }
+      },
+      ""architect"": {
+        ""build"": {
+          ""builder"": ""@angular-builders/custom-webpack:browser"",
+          ""options"": {
+            ""localize"": true,
+            ""aot"": true,
+            ""crossOrigin"": ""anonymous"",
+            ""outputPath"": ""dist"",
+            ""index"": ""src/frontend/index.html"",
+            ""progress"": true,
+            ""main"": ""src/frontend/main.ts"",
+            ""tsConfig"": ""src/frontend/tsconfig.app.json"",
+            ""polyfills"": ""src/frontend/polyfills.ts"",
+            ""assets"": [
+              ""src/frontend/robots.txt"",
+              {
+                ""glob"": ""**/*"",
+                ""input"": ""node_modules/leaflet/dist/images/"",
+                ""output"": ""./assets/""
+              }
+            ],
+            ""styles"": [
+              ""node_modules/bootstrap/dist/css/bootstrap.css"",
+              ""node_modules/ngx-bootstrap/datepicker/bs-datepicker.css"",
+              ""node_modules/ngx-toastr/toastr.css"",
+              ""node_modules/leaflet/dist/leaflet.css"",
+              ""node_modules/leaflet.markercluster/dist/MarkerCluster.css"",
+              ""node_modules/leaflet.markercluster/dist/MarkerCluster.Default.css"",
+              ""src/frontend/styles.css""
+            ],
+            ""scripts"": [
+              ""node_modules/marked/marked.min.js""
+            ],
+            ""i18nMissingTranslation"": ""warning"",
+            ""customWebpackConfig"": {
+              ""path"": ""./angular.webpack.js"",
+              ""replaceDuplicatePlugins"": true
+            }
+          },
+          ""configurations"": {
+            ""dev"": {
+              ""outputPath"": ""dist/en"",
+              ""localize"": false,
+              ""buildOptimizer"": false,
+              ""optimization"": false,
+              ""vendorChunk"": true,
+              ""extractLicenses"": false,
+              ""sourceMap"": true,
+              ""namedChunks"": true,
+              ""watch"": true
+            },
+            ""production"": {
+              ""optimization"": true,
+              ""outputHashing"": ""all"",
+              ""sourceMap"": false,
+              ""namedChunks"": false,
+              ""extractLicenses"": true,
+              ""vendorChunk"": false,
+              ""buildOptimizer"": true,
+              ""fileReplacements"": [
+                {
+                  ""replace"": ""src/frontend/environments/environment.ts"",
+                  ""with"": ""src/frontend/environments/environment.prod.ts""
+                }
+              ],
+              ""budgets"": [
+                {
+                  ""type"": ""initial"",
+                  ""maximumWarning"": ""2mb"",
+                  ""maximumError"": ""5mb""
+                },
+                {
+                  ""type"": ""anyComponentStyle"",
+                  ""maximumWarning"": ""6kb"",
+                  ""maximumError"": ""10kb""
+                }
+              ]
+            }
+          }
+        },
+        ""serve"": {
+          ""builder"": ""@angular-builders/custom-webpack:dev-server"",
+          ""options"": {
+            ""browserTarget"": ""pigallery2:build""
+          },
+          ""configurations"": {
+            ""production"": {
+              ""browserTarget"": ""pigallery2:build:production""
+            }
+          }
+        },
+        ""extract-i18n"": {
+          ""builder"": ""@angular-builders/custom-webpack:extract-i18n"",
+          ""options"": {
+            ""browserTarget"": ""pigallery2:build""
+          }
+        },
+        ""test"": {
+          ""builder"": ""@angular-builders/custom-webpack:karma"",
+          ""options"": {
+            ""karmaConfig"": ""./karma.conf.js"",
+            ""polyfills"": [
+              ""src/frontend/polyfills.ts"",
+              ""zone.js/testing""
+            ],
+            ""tsConfig"": ""src/frontend/tsconfig.spec.json"",
+            ""scripts"": [],
+            ""styles"": [
+              ""node_modules/bootstrap/dist/css/bootstrap.min.css"",
+              ""node_modules/ngx-toastr/toastr.css"",
+              ""node_modules/bootstrap/dist/css/bootstrap.css"",
+              ""node_modules/ngx-bootstrap/datepicker/bs-datepicker.css"",
+              ""node_modules/leaflet/dist/leaflet.css"",
+              ""node_modules/leaflet.markercluster/dist/MarkerCluster.css"",
+              ""node_modules/leaflet.markercluster/dist/MarkerCluster.Default.css"",
+              ""src/frontend/styles.css""
+            ],
+            ""assets"": [
+              {
+                ""glob"": ""**/*"",
+                ""input"": ""node_modules/leaflet/dist/images/"",
+                ""output"": ""./assets/""
+              }
+            ],
+            ""customWebpackConfig"": {
+              ""path"": ""./angular.webpack.js"",
+              ""replaceDuplicatePlugins"": true
+            }
+          }
+        },
+        ""lint"": {
+          ""builder"": ""@angular-eslint/builder:lint"",
+          ""options"": {
+            ""lintFilePatterns"": [
+              ""src/**/*.ts"",
+              ""src/**/*.html""
+            ]
+          }
+        }
+      }
+    }
+  },
+  ""schematics"": {
+    ""@angular-eslint/schematics:application"": {
+      ""setParserOptionsProject"": true
+    },
+    ""@angular-eslint/schematics:library"": {
+      ""setParserOptionsProject"": true
+    }
+  }
+}
+"
+Microwawe/mamba-ui,angular.json,"{
+	""$schema"": ""./node_modules/@angular/cli/lib/config/schema.json"",
+	""version"": 1,
+	""newProjectRoot"": ""projects"",
+	""projects"": {
+		""mamba-ui"": {
+			""projectType"": ""application"",
+			""schematics"": {
+				""@schematics/angular:component"": {
+					""style"": ""css""
+				}
+			},
+			""root"": """",
+			""sourceRoot"": ""src"",
+			""prefix"": ""custom"",
+			""architect"": {
+				""build"": {
+					""builder"": ""@angular-devkit/build-angular:application"",
+					""defaultConfiguration"": ""production"",
+					""options"": {
+						""allowedCommonJsDependencies"": [""prismjs"", ""tailwindcss/colors""],
+						""outputPath"": ""dist/mamba-ui"",
+						""index"": ""src/index.html"",
+						""browser"": ""src/main.ts"",
+						""polyfills"": [""src/polyfills.ts""],
+						""tsConfig"": ""tsconfig.app.json"",
+						""aot"": true,
+						""assets"": [
+							""src/favicon.ico"",
+							""src/favicon-16x16.png"",
+							""src/favicon-32x32.png"",
+							""src/apple-touch-icon.png"",
+							""src/android-chrome-192x192.png"",
+							""src/mstile-150x150.png"",
+							""src/safari-pinned-tab.svg"",
+							""src/site.webmanifest"",
+							""src/sitemap.xml"",
+							""src/robots.txt"",
+							{
+								""glob"": ""**/*"",
+								""input"": ""src/assets"",
+								""output"": ""assets""
+							}
+						],
+						""styles"": [
+							""src/styles/prism_light.css"",
+							""src/styles/prism_dark.css"",
+							""src/styles/styles.css""
+						],
+						""stylePreprocessorOptions"": {
+							""includePaths"": [""src/styles""]
+						},
+						""server"": ""src/main.server.ts"",
+						""prerender"": true,
+						""ssr"": {
+							""entry"": ""server.ts""
+						}
+					},
+					""configurations"": {
+						""production"": {
+							""fileReplacements"": [
+								{
+									""replace"": ""src/environments/environment.ts"",
+									""with"": ""src/environments/environment.prod.ts""
+								}
+							],
+							""optimization"": {
+								""styles"": {
+									""inlineCritical"": false
+								}
+							},
+							""outputHashing"": ""all"",
+							""sourceMap"": false,
+							""namedChunks"": false,
+							""extractLicenses"": true,
+							""budgets"": [
+								{
+									""type"": ""initial"",
+									""maximumWarning"": ""2mb"",
+									""maximumError"": ""5mb""
+								},
+								{
+									""type"": ""anyComponentStyle"",
+									""maximumWarning"": ""6kb"",
+									""maximumError"": ""10kb""
+								}
+							]
+						},
+						""development"": {
+							""optimization"": {
+								""styles"": {
+									""inlineCritical"": false
+								}
+							},
+							""sourceMap"": true,
+							""namedChunks"": true,
+							""extractLicenses"": true,
+							""budgets"": [
+								{
+									""type"": ""initial"",
+									""maximumWarning"": ""2mb"",
+									""maximumError"": ""5mb""
+								},
+								{
+									""type"": ""anyComponentStyle"",
+									""maximumWarning"": ""6kb"",
+									""maximumError"": ""10kb""
+								}
+							]
+						}
+					}
+				},
+				""serve"": {
+					""builder"": ""@angular-devkit/build-angular:dev-server"",
+					""options"": {
+						""buildTarget"": ""mamba-ui:build""
+					},
+					""configurations"": {
+						""production"": {
+							""buildTarget"": ""mamba-ui:build:production""
+						},
+						""development"": {
+							""buildTarget"": ""mamba-ui:build:development""
+						}
+					}
+				},
+				""extract-i18n"": {
+					""builder"": ""@angular-devkit/build-angular:extract-i18n"",
+					""options"": {
+						""buildTarget"": ""mamba-ui:build""
+					}
+				},
+				""test"": {
+					""builder"": ""@angular-devkit/build-angular:karma"",
+					""options"": {
+						""main"": ""src/test.ts"",
+						""polyfills"": ""src/polyfills.ts"",
+						""tsConfig"": ""tsconfig.spec.json"",
+						""karmaConfig"": ""karma.conf.js"",
+						""assets"": [""src/favicon.ico"", ""src/assets"", ""src/site.webmanifest""],
+						""styles"": [""src/styles/styles.css""],
+						""stylePreprocessorOptions"": {
+							""includePaths"": [""src/styles""]
+						},
+						""scripts"": []
+					}
+				},
+				""lint"": {
+					""builder"": ""@angular-devkit/build-angular:tslint"",
+					""options"": {
+						""tsConfig"": [
+							""tsconfig.app.json"",
+							""tsconfig.spec.json"",
+							""e2e/tsconfig.json""
+						],
+						""exclude"": [""**/node_modules/**""]
+					}
+				},
+				""e2e"": {
+					""builder"": ""@angular-devkit/build-angular:protractor"",
+					""options"": {
+						""protractorConfig"": ""e2e/protractor.conf.js"",
+						""devServerTarget"": ""mamba-ui:serve""
+					},
+					""configurations"": {
+						""production"": {
+							""devServerTarget"": ""mamba-ui:serve:production""
+						}
+					}
+				},
+				""deploy"": {
+					""builder"": ""angular-cli-ghpages:deploy"",
+					""options"": {}
+				}
+			}
+		}
+	}
+}
+"
+angular-split/angular-split,angular.json,"{
+  ""$schema"": ""./node_modules/@angular/cli/lib/config/schema.json"",
+  ""version"": 1,
+  ""newProjectRoot"": ""projects"",
+  ""projects"": {
+    ""angular-split-app"": {
+      ""root"": """",
+      ""sourceRoot"": ""src"",
+      ""projectType"": ""application"",
+      ""prefix"": ""app"",
+      ""schematics"": {
+        ""@schematics/angular:component"": {
+          ""style"": ""scss""
+        }
+      },
+      ""architect"": {
+        ""build"": {
+          ""builder"": ""@angular-devkit/build-angular:browser"",
+          ""options"": {
+            ""outputPath"": ""dist/angular-split-app"",
+            ""index"": ""src/index.html"",
+            ""main"": ""src/main.ts"",
+            ""polyfills"": [""zone.js""],
+            ""tsConfig"": ""src/tsconfig.app.json"",
+            ""assets"": [""src/favicon.ico"", ""src/assets""],
+            ""styles"": [""./node_modules/bootstrap/dist/css/bootstrap.min.css"", ""src/styles.scss""],
+            ""stylePreprocessorOptions"": {
+              ""includePaths"": [""dist""]
+            },
+            ""scripts"": []
+          },
+          ""configurations"": {
+            ""production"": {
+              ""budgets"": [],
+              ""outputHashing"": ""all""
+            },
+            ""development"": {
+              ""buildOptimizer"": false,
+              ""optimization"": false,
+              ""vendorChunk"": true,
+              ""extractLicenses"": false,
+              ""sourceMap"": true,
+              ""namedChunks"": true
+            }
+          },
+          ""defaultConfiguration"": ""production""
+        },
+        ""serve"": {
+          ""builder"": ""@angular-devkit/build-angular:dev-server"",
+          ""options"": {
+            ""buildTarget"": ""angular-split-app:build""
+          },
+          ""configurations"": {
+            ""production"": {
+              ""buildTarget"": ""angular-split-app:build:production""
+            },
+            ""development"": {
+              ""buildTarget"": ""angular-split-app:build:development""
+            }
+          },
+          ""defaultConfiguration"": ""development""
+        },
+        ""deploy"": {
+          ""builder"": ""angular-cli-ghpages:deploy"",
+          ""options"": {}
+        },
+        ""lint"": {
+          ""builder"": ""@angular-eslint/builder:lint"",
+          ""options"": {
+            ""lintFilePatterns"": [""src/**/*.ts"", ""src/**/*.html""]
+          }
+        }
+      }
+    },
+    ""angular-split"": {
+      ""root"": ""projects/angular-split"",
+      ""sourceRoot"": ""projects/angular-split/src"",
+      ""projectType"": ""library"",
+      ""prefix"": ""as"",
+      ""architect"": {
+        ""build"": {
+          ""builder"": ""@angular-devkit/build-angular:ng-packagr"",
+          ""options"": {
+            ""tsConfig"": ""projects/angular-split/tsconfig.lib.json"",
+            ""project"": ""projects/angular-split/ng-package.json""
+          }
+        },
+        ""lint"": {
+          ""builder"": ""@angular-eslint/builder:lint"",
+          ""options"": {
+            ""lintFilePatterns"": [""projects/angular-split/**/*.ts"", ""projects/angular-split/**/*.html""]
+          }
+        }
+      }
+    }
+  },
+  ""cli"": {
+    ""analytics"": ""4af3d67b-15ea-40d9-8c3a-998fb02958b9""
+  }
+}
+"

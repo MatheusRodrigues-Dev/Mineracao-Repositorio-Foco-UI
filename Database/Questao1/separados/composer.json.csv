@@ -1,0 +1,849 @@
+repository,file,content
+gabrielrcouto/php-gui,composer.json,"{
+    ""name"": ""gabrielrcouto/php-gui"",
+    ""description"": ""Extensionless PHP Graphic User Interface library"",
+    ""keywords"": [""php"",""gui"",""graphic"",""interface""],
+    ""homepage"": ""http://github.com/gabrielrcouto/php-gui"",
+    ""license"": ""MIT"",
+    ""authors"": [
+        {
+            ""name"": ""Gabriel Rodrigues Couto"",
+            ""email"": ""gabrielrcouto@gmail.com""
+        }
+    ],
+    ""require"": {
+        ""php"": "">=5.6"",
+        ""react/child-process"": ""^0.4.0""
+    },
+    ""require-dev"" : {
+        ""phing/phing"": ""2.*"",
+        ""phpunit/phpunit"": ""^4.8.35"",
+        ""squizlabs/php_codesniffer"": ""2.0.*@dev"",
+        ""evert/phpdoc-md"" : ""~0.2.0"",
+        ""phpdocumentor/phpdocumentor"": ""^2.8""
+    },
+    ""config"" : {
+        ""bin-dir"" : ""bin/""
+    },
+    ""autoload"": {
+        ""psr-4"": {
+            ""Gui\\"": ""src/"",
+            ""Test\\"": ""test/""
+        }
+    }
+}
+"
+MohmmedAshraf/laravel-translations,composer.json,"{
+    ""name"": ""outhebox/laravel-translations"",
+    ""description"": ""Laravel Translations UI provides a simple way to manage your translations in your Laravel application. It allows you to add, edit, delete and export translations, and it also provides a search functionality to find translations."",
+    ""keywords"": [
+        ""laravel"",
+        ""laravel-translations"",
+        ""translations"",
+        ""localization"",
+        ""inertiajs"",
+        ""inertia"",
+        ""translation-manager""
+    ],
+    ""homepage"": ""https://github.com/MohmmedAshraf/laravel-translations"",
+    ""license"": ""MIT"",
+    ""authors"": [
+        {
+            ""name"": ""Mohamed Ashraf"",
+            ""email"": ""cupo.ashraf@gmail.com"",
+            ""role"": ""Developer""
+        }
+    ],
+    ""require"": {
+        ""php"": ""^8.2|^8.3"",
+        ""based/momentum-modal"": ""^0.3.0"",
+        ""brick/varexporter"": ""^0.5.0"",
+        ""inertiajs/inertia-laravel"": ""^1.0"",
+        ""spatie/laravel-package-tools"": ""^1.0"",
+        ""stichoza/google-translate-php"": ""^5.1"",
+        ""tightenco/ziggy"": ""^2.0"",
+        ""ext-zip"": ""*""
+    },
+    ""require-dev"": {
+        ""laravel/pint"": ""^1.0"",
+        ""nunomaduro/collision"": ""^8.0"",
+        ""orchestra/testbench"": ""^9.0"",
+        ""pestphp/pest"": ""^2.18"",
+        ""pestphp/pest-plugin-faker"": ""^2.0"",
+        ""pestphp/pest-plugin-laravel"": ""^2.2""
+    },
+    ""autoload"": {
+        ""psr-4"": {
+            ""Outhebox\\TranslationsUI\\"": ""src"",
+            ""Outhebox\\TranslationsUI\\Database\\Factories\\"": ""database/factories"",
+            ""Outhebox\\TranslationsUI\\Database\\Seeders\\"": ""database/seeders""
+        },
+        ""files"": [
+            ""src/helpers.php""
+        ]
+    },
+    ""autoload-dev"": {
+        ""psr-4"": {
+            ""Outhebox\\TranslationsUI\\Tests\\"": ""tests""
+        }
+    },
+    ""scripts"": {
+        ""post-autoload-dump"": ""@php ./vendor/bin/testbench package:discover --ansi"",
+        ""analyse"": ""vendor/bin/phpstan analyse"",
+        ""test"": ""vendor/bin/pest"",
+        ""test-coverage"": ""vendor/bin/pest --coverage"",
+        ""format"": ""vendor/bin/pint""
+    },
+    ""config"": {
+        ""allow-plugins"": {
+            ""pestphp/pest-plugin"": true
+        }
+    },
+    ""extra"": {
+        ""laravel"": {
+            ""providers"": [
+                ""Outhebox\\TranslationsUI\\TranslationsUIServiceProvider""
+            ],
+            ""aliases"": {
+                ""TranslationsUI"": ""Outhebox\\TranslationsUI\\Facades\\TranslationsUI""
+            }
+        }
+    },
+    ""minimum-stability"": ""stable"",
+    ""prefer-stable"": true
+}
+"
+Daynnnnn/soketi-ui,composer.json,"{
+    ""name"": ""laravel/laravel"",
+    ""type"": ""project"",
+    ""description"": ""The Laravel Framework."",
+    ""keywords"": [""framework"", ""laravel""],
+    ""license"": ""MIT"",
+    ""require"": {
+        ""php"": ""^8.2.0"",
+        ""guzzlehttp/guzzle"": ""^7.2"",
+        ""inertiajs/inertia-laravel"": ""^0.6.3"",
+        ""laravel/framework"": ""^9.19"",
+        ""laravel/sanctum"": ""^3.2"",
+        ""laravel/tinker"": ""^2.7"",
+        ""pusher/pusher-php-server"": ""^7.2"",
+        ""spatie/laravel-webhook-client"": ""^3.2"",
+        ""tightenco/ziggy"": ""^1.0""
+    },
+    ""require-dev"": {
+        ""fakerphp/faker"": ""^1.9.1"",
+        ""laravel/breeze"": ""^1.18"",
+        ""laravel/pint"": ""^1.0"",
+        ""laravel/sail"": ""^1.0.1"",
+        ""mockery/mockery"": ""^1.4.4"",
+        ""nunomaduro/collision"": ""^6.1"",
+        ""phpunit/phpunit"": ""^9.5.10"",
+        ""spatie/laravel-ignition"": ""^1.0""
+    },
+    ""autoload"": {
+        ""psr-4"": {
+            ""App\\"": ""app/"",
+            ""Database\\Factories\\"": ""database/factories/"",
+            ""Database\\Seeders\\"": ""database/seeders/""
+        }
+    },
+    ""autoload-dev"": {
+        ""psr-4"": {
+            ""Tests\\"": ""tests/""
+        }
+    },
+    ""scripts"": {
+        ""post-autoload-dump"": [
+            ""Illuminate\\Foundation\\ComposerScripts::postAutoloadDump"",
+            ""@php artisan package:discover --ansi""
+        ],
+        ""post-update-cmd"": [
+            ""@php artisan vendor:publish --tag=laravel-assets --ansi --force""
+        ],
+        ""post-root-package-install"": [
+            ""@php -r \""file_exists('.env') || copy('.env.example', '.env');\""""
+        ],
+        ""post-create-project-cmd"": [
+            ""@php artisan key:generate --ansi""
+        ]
+    },
+    ""extra"": {
+        ""laravel"": {
+            ""dont-discover"": []
+        }
+    },
+    ""config"": {
+        ""optimize-autoloader"": true,
+        ""preferred-install"": ""dist"",
+        ""sort-packages"": true,
+        ""allow-plugins"": {
+            ""pestphp/pest-plugin"": true
+        }
+    },
+    ""minimum-stability"": ""stable"",
+    ""prefer-stable"": true
+}
+"
+laminas/laminas-config,composer.json,"{
+    ""name"": ""laminas/laminas-config"",
+    ""description"": ""provides a nested object property based user interface for accessing this configuration data within application code"",
+    ""license"": ""BSD-3-Clause"",
+    ""keywords"": [
+        ""laminas"",
+        ""config""
+    ],
+    ""homepage"": ""https://laminas.dev"",
+    ""support"": {
+        ""docs"": ""https://docs.laminas.dev/laminas-config/"",
+        ""issues"": ""https://github.com/laminas/laminas-config/issues"",
+        ""source"": ""https://github.com/laminas/laminas-config"",
+        ""rss"": ""https://github.com/laminas/laminas-config/releases.atom"",
+        ""chat"": ""https://laminas.dev/chat"",
+        ""forum"": ""https://discourse.laminas.dev""
+    },
+    ""config"": {
+        ""sort-packages"": true,
+        ""allow-plugins"": {
+            ""dealerdirect/phpcodesniffer-composer-installer"": true
+        },
+        ""platform"": {
+            ""php"": ""8.0.99""
+        }
+    },
+    ""require"": {
+        ""php"": ""~8.0.0 || ~8.1.0 || ~8.2.0 || ~8.3.0"",
+        ""ext-json"": ""*"",
+        ""laminas/laminas-stdlib"": ""^3.6"",
+        ""psr/container"": ""^1.0""
+    },
+    ""require-dev"": {
+        ""laminas/laminas-coding-standard"": ""~2.4.0"",
+        ""laminas/laminas-filter"": ""~2.23.0"",
+        ""laminas/laminas-i18n"": ""~2.19.0"",
+        ""laminas/laminas-servicemanager"": ""~3.19.0"",
+        ""phpunit/phpunit"": ""~9.5.25""
+    },
+    ""conflict"": {
+        ""container-interop/container-interop"": ""<1.2.0"",
+        ""zendframework/zend-config"": ""*""
+    },
+    ""suggest"": {
+        ""laminas/laminas-filter"": ""^2.7.2; install if you want to use the Filter processor"",
+        ""laminas/laminas-i18n"": ""^2.7.4; install if you want to use the Translator processor"",
+        ""laminas/laminas-servicemanager"": ""^2.7.8 || ^3.3; if you need an extensible plugin manager for use with the Config Factory""
+    },
+    ""autoload"": {
+        ""psr-4"": {
+            ""Laminas\\Config\\"": ""src/""
+        }
+    },
+    ""autoload-dev"": {
+        ""psr-4"": {
+            ""LaminasTest\\Config\\"": ""test/""
+        }
+    },
+    ""scripts"": {
+        ""check"": [
+            ""@license-check"",
+            ""@cs-check"",
+            ""@test""
+        ],
+        ""cs-check"": ""phpcs"",
+        ""cs-fix"": ""phpcbf"",
+        ""test"": ""phpunit --colors=always"",
+        ""test-coverage"": ""phpunit --colors=always --coverage-clover clover.xml"",
+        ""license-check"": ""docheader check src/""
+    }
+}
+"
+orchidjs/tom-select,composer.json,"{
+  ""name"": ""orchidjs/tom-select"",
+  ""description"": ""Tom Select is a dynamic, framework agnostic, and lightweight (~16kb gzipped) <select> UI control. With autocomplete and native-feeling keyboard navigation, it's useful for tagging, contact lists, country selectors, and so on."",
+  ""type"": ""component"",
+  ""homepage"": ""https://tom-select.js.org/"",
+  ""license"": ""Apache-2.0"",
+  ""extra"": {
+    ""component"": {
+      ""scripts"": [
+        ""dist/js/tom-select.complete.min.js""
+      ],
+      ""styles"": [
+        ""dist/css/tom-select.default.min.css""
+      ],
+      ""files"": [
+        ""dist/js/tom-select.complete.min.js"",
+        ""dist/css/tom-select.default.min.css""
+      ]
+    }
+  }
+}
+"
+spatie/laravel-navigation,composer.json,"{
+    ""name"": ""spatie/laravel-navigation"",
+    ""description"": ""Manage menus, breadcrumbs, and other navigational elements in Laravel apps"",
+    ""keywords"": [
+        ""spatie"",
+        ""laravel-navigation""
+    ],
+    ""homepage"": ""https://github.com/spatie/laravel-navigation"",
+    ""license"": ""MIT"",
+    ""authors"": [
+        {
+            ""name"": ""Sebastian De Deyne"",
+            ""email"": ""sebastian@spatie.be"",
+            ""homepage"": ""https://spatie.be"",
+            ""role"": ""Developer""
+        }
+    ],
+    ""require"": {
+        ""php"": ""^8.0"",
+        ""spatie/url"": ""^1.3.5|^2.0""
+    },
+    ""require-dev"": {
+        ""orchestra/testbench"": ""^5.0|^6.23|^7.0|^8.0"",
+        ""pestphp/pest-plugin-laravel"": ""^1.3"",
+        ""phpunit/phpunit"": ""^9.5"",
+        ""spatie/pest-plugin-snapshots"": ""^1.1"",
+        ""spatie/phpunit-snapshot-assertions"": ""^4.2""
+    },
+    ""autoload"": {
+        ""psr-4"": {
+            ""Spatie\\Navigation\\"": ""src""
+        }
+    },
+    ""autoload-dev"": {
+        ""psr-4"": {
+            ""Spatie\\Navigation\\Tests\\"": ""tests""
+        }
+    },
+    ""scripts"": {
+        ""test"": ""vendor/bin/pest"",
+        ""test-coverage"": ""vendor/bin/pest --coverage-html coverage""
+    },
+    ""config"": {
+        ""sort-packages"": true,
+        ""allow-plugins"": {
+            ""pestphp/pest-plugin"": true
+        }
+    },
+    ""extra"": {
+        ""laravel"": {
+            ""providers"": [
+                ""Spatie\\Navigation\\NavigationServiceProvider""
+            ],
+            ""aliases"": {
+                ""Navigation"": ""Spatie\\Navigation\\Facades\\Navigation""
+            }
+        }
+    },
+    ""minimum-stability"": ""dev"",
+    ""prefer-stable"": true
+}
+"
+laravelista/Ekko,composer.json,"{
+  ""name"": ""laravelista/ekko"",
+  ""description"": ""Framework agnostic PHP package for marking navigation items active."",
+  ""license"": ""MIT"",
+  ""keywords"": [""php"", ""function"", ""active"", ""bootstrap"", ""helper"", ""laravel""],
+  ""authors"": [
+      {
+          ""name"": ""Mario Bašić"",
+          ""email"": ""mario@laravelista.hr"",
+          ""homepage"": ""https://mariobasic.com""
+      }
+  ],
+  ""autoload"": {
+      ""psr-4"": {
+        ""Laravelista\\Ekko\\"": ""src/""
+      }
+  },
+  ""minimum-stability"": ""stable"",
+  ""require"": {
+    ""php"": ""^8.0""
+  },
+  ""require-dev"": {
+    ""phpunit/phpunit"": ""^9.5"",
+    ""mockery/mockery"": ""^1.4"",
+    ""illuminate/support"": ""^8.0"",
+    ""illuminate/routing"": ""^8.0"",
+    ""vimeo/psalm"": ""^4.6"",
+    ""friendsofphp/php-cs-fixer"": ""^2.18""
+  },
+  ""extra"": {
+    ""laravel"": {
+      ""providers"": [
+          ""Laravelista\\Ekko\\Frameworks\\Laravel\\ServiceProvider""
+      ],
+      ""aliases"": {
+          ""Ekko"": ""Laravelista\\Ekko\\Frameworks\\Laravel\\Facade""
+      }
+    }
+  }
+}
+"
+verbb/cp-nav,composer.json,"{
+    ""name"": ""verbb/cp-nav"",
+    ""description"": ""Manage the Craft Control Panel navigation."",
+    ""type"": ""craft-plugin"",
+    ""version"": ""5.0.2"",
+    ""keywords"": [
+        ""craft"",
+        ""cms"",
+        ""craftcms"",
+        ""craft-plugin"",
+        ""cp nav"",
+        ""control panel nav"",
+        ""control panel navigation""
+    ],
+    ""support"": {
+        ""email"": ""support@verbb.io"",
+        ""issues"": ""https://github.com/verbb/cp-nav/issues?state=open"",
+        ""source"": ""https://github.com/verbb/cp-nav"",
+        ""docs"": ""https://github.com/verbb/cp-nav"",
+        ""rss"": ""https://github.com/verbb/cp-nav/commits/v2.atom""
+    },
+    ""license"": ""MIT"",
+    ""authors"": [
+        {
+            ""name"": ""Verbb"",
+            ""homepage"": ""https://verbb.io""
+        }
+    ],
+    ""require"": {
+        ""php"": ""^8.2"",
+        ""craftcms/cms"": ""^5.0.0"",
+        ""verbb/base"": ""^3.0.0""
+    },
+    ""autoload"": {
+        ""psr-4"": {
+            ""verbb\\cpnav\\"": ""src/""
+        }
+    },
+    ""extra"": {
+        ""name"": ""Control Panel Nav"",
+        ""handle"": ""cp-nav"",
+        ""changelogUrl"": ""https://raw.githubusercontent.com/verbb/cp-nav/craft-5/CHANGELOG.md"",
+        ""class"": ""verbb\\cpnav\\CpNav""
+    }
+}
+"
+verbb/navigation,composer.json,"{
+    ""name"": ""verbb/navigation"",
+    ""description"": ""Create navigation menus for your site."",
+    ""type"": ""craft-plugin"",
+    ""version"": ""3.0.5"",
+    ""keywords"": [
+        ""craft"",
+        ""cms"",
+        ""craftcms"",
+        ""craft-plugin"",
+        ""navigation"",
+        ""menu""
+    ],
+    ""support"": {
+        ""email"": ""support@verbb.io"",
+        ""issues"": ""https://github.com/verbb/navigation/issues?state=open"",
+        ""source"": ""https://github.com/verbb/navigation"",
+        ""docs"": ""https://github.com/verbb/navigation"",
+        ""rss"": ""https://github.com/verbb/navigation/commits/v2.atom""
+    },
+    ""license"": ""proprietary"",
+    ""authors"": [
+        {
+            ""name"": ""Verbb"",
+            ""homepage"": ""https://verbb.io""
+        }
+    ],
+    ""require"": {
+        ""php"": ""^8.2"",
+        ""craftcms/cms"": ""^5.0.0"",
+        ""verbb/base"": ""^3.0.0""
+    },
+    ""autoload"": {
+        ""psr-4"": {
+            ""verbb\\navigation\\"": ""src/""
+        }
+    },
+    ""extra"": {
+        ""name"": ""Navigation"",
+        ""handle"": ""navigation"",
+        ""changelogUrl"": ""https://raw.githubusercontent.com/verbb/navigation/craft-5/CHANGELOG.md"",
+        ""class"": ""verbb\\navigation\\Navigation""
+    }
+}
+"
+qossmic/rich-model-forms-bundle,composer.json,"{
+    ""name"": ""qossmic/rich-model-forms-bundle"",
+    ""description"": ""Provides additional data mapper options that ease the use of the Symfony Form component with rich models."",
+    ""keywords"": [""Symfony"", ""form"", ""forms"", ""bundle"", ""rich model"", ""DDD"", ""domain-driven design""],
+    ""type"": ""symfony-bundle"",
+    ""license"": ""MIT"",
+    ""authors"": [
+        {
+            ""name"": ""Christian Flothmann"",
+            ""email"": ""christian.flothmann@qossmic.com""
+        },
+        {
+            ""name"": ""Christopher Hertel"",
+            ""email"": ""mail@christopher-hertel.de""
+        }
+    ],
+    ""require"": {
+        ""php"": ""^8.1"",
+        ""psr/container"": ""^1.0||^2.0"",
+        ""symfony/config"": ""^6.4||^7.0"",
+        ""symfony/dependency-injection"": ""^6.4||^7.0"",
+        ""symfony/form"": ""^6.4||^7.0"",
+        ""symfony/framework-bundle"": ""^6.4||^7.0"",
+        ""symfony/http-kernel"": ""^6.4||^7.0"",
+        ""symfony/options-resolver"": ""^6.4||^7.0"",
+        ""symfony/property-access"": ""^6.4||^7.0""
+    },
+    ""require-dev"": {
+        ""symfony/phpunit-bridge"": ""^6.4||^7.0"",
+        ""symfony/translation"": ""^6.4||^7.0""
+    },
+    ""conflict"": {
+        ""sensiolabs-de/rich-model-forms-bundle"": ""0.8.*""
+    },
+    ""minimum-stability"": ""dev"",
+    ""config"": {
+        ""sort-packages"": true
+    },
+    ""autoload"": {
+        ""psr-4"": {
+            ""Qossmic\\RichModelForms\\"": ""src/Qossmic""
+        }
+    },
+    ""autoload-dev"": {
+        ""psr-4"": {
+            ""Qossmic\\RichModelForms\\Tests\\"": ""tests""
+        }
+    },
+    ""extra"": {
+        ""branch-alias"": {
+            ""dev-main"": ""0.3-dev""
+        }
+    }
+}
+"
+FusionWowCMS/FusionCMS,composer.json,"{
+    ""description"": ""Fusion CMS"",
+    ""name"": ""fusionwowcms/fusioncms"",
+    ""license"": ""GPL-3.0-or-later"",
+    ""type"": ""project"",
+    ""homepage"": ""https://github.com/FusionWowCMS/FusionCMS"",
+    ""support"": {
+        ""discord"": ""https://discord.gg/tnWTkZ7akZ"",
+        ""source"": ""https://github.com/FusionWowCMS/FusionCMS""
+    },
+    ""autoload"": {
+        ""psr-4"": {
+            ""CodeIgniter\\"": ""system/""
+        }
+    },
+    ""require"": {
+        ""php"": "">=8.3"",
+
+        ""ext-curl"": ""*"",
+        ""ext-mysqli"": ""*"",
+        ""ext-openssl"": ""*"",
+        ""ext-soap"": ""*"",
+        ""ext-mbstring"": ""*"",
+        ""ext-json"": ""*"",
+        ""ext-zip"": ""*"",
+        ""ext-zlib"": ""*"",
+        ""ext-libxml"": ""*"",
+        ""ext-dom"": ""*"",
+        ""ext-gmp"": ""*"",
+        ""ext-gd"": ""*"",
+        ""ext-intl"": ""*"",
+
+        ""fusion-cms/mx"": ""^2.0"",
+        ""monolog/monolog"": ""^2.8"",
+        ""psr/log"": ""^1.1"",
+        ""ezyang/htmlpurifier"": ""^4.16"",
+        ""smarty/smarty"": ""^5.0"",
+        ""matthiasmullie/minify"": ""^1.3"",
+        ""fusion-cms/auto-updater"": ""^1.0"",
+        ""fusion-cms/rest-api-sdk-php"": ""^2.0"",
+        ""chillerlan/php-qrcode"": ""^5.0"",
+        ""laminas/laminas-escaper"": ""^2.6"",
+        ""kint-php/kint"": ""^5.0.4""
+    }
+}
+"
+joshrps/laravel-shopify-API-wrapper,composer.json,"{
+    ""name"": ""rocket-code/shopify"",
+    ""description"": """",
+    ""authors"": [
+        {
+            ""name"": ""Rocket Code"",
+            ""email"": ""josh@rocketcode.io""
+        }
+    ],
+    ""require"": {
+      ""laravel/framework"": ""~5.0""
+    },
+    ""autoload"": {
+      ""psr-4"":
+      {
+        ""RocketCode\\"": ""src/RocketCode""
+      }
+    },
+    ""minimum-stability"": ""stable""
+}
+"
+filamentphp/filament,composer.json,"{
+    ""name"": ""filament/filament"",
+    ""description"": ""A collection of full-stack components for accelerated Laravel development."",
+    ""license"": ""MIT"",
+    ""require"": {
+        ""php"": ""^8.1"",
+        ""ext-intl"": ""*"",
+        ""composer-runtime-api"": ""^2.1""
+    },
+    ""require-dev"": {
+        ""anourvalar/eloquent-serialize"": ""^1.2"",
+        ""danharrin/livewire-rate-limiting"": ""^0.3|^1.0"",
+        ""filament/support"": ""*"",
+        ""larastan/larastan"": ""^2.2"",
+        ""laravel/pint"": ""^1.0"",
+        ""league/csv"": ""^9.14"",
+        ""league/flysystem-aws-s3-v3"": ""^3.0"",
+        ""nunomaduro/termwind"": ""^1.0|^2.0"",
+        ""openspout/openspout"": ""^4.23"",
+        ""orchestra/testbench"": ""^8.20|^9.0"",
+        ""pestphp/pest"": ""^2.0"",
+        ""pestphp/pest-plugin-laravel"": ""^2.0"",
+        ""phpstan/extension-installer"": ""^1.1"",
+        ""phpstan/phpstan"": ""v1.11.1"",
+        ""rector/rector"": ""^1.0"",
+        ""spatie/laravel-medialibrary"": ""^10.0|^11.0"",
+        ""spatie/laravel-ray"": ""^1.29"",
+        ""spatie/laravel-tags"": ""^4.2"",
+        ""staudenmeir/belongs-to-through"": ""^2.5"",
+        ""staudenmeir/eloquent-has-many-deep"": ""^1.7"",
+        ""symplify/monorepo-builder"": ""^10.0""
+    },
+    ""autoload"": {
+        ""files"": [
+            ""packages/panels/src/global_helpers.php"",
+            ""packages/panels/src/helpers.php"",
+            ""packages/support/src/helpers.php"",
+            ""tests/helpers.php""
+        ],
+        ""psr-4"": {
+            ""Filament\\"": [
+                ""packages/panels/src"",
+                ""packages/spatie-laravel-media-library-plugin/src"",
+                ""packages/spatie-laravel-settings-plugin/src"",
+                ""packages/spatie-laravel-tags-plugin/src"",
+                ""packages/spatie-laravel-translatable-plugin/src""
+            ],
+            ""Filament\\Actions\\"": ""packages/actions/src"",
+            ""Filament\\Billing\\Providers\\"": ""packages/spark-billing-provider/src"",
+            ""Filament\\Forms\\"": ""packages/forms/src"",
+            ""Filament\\FontProviders\\"": ""packages/spatie-laravel-google-fonts-plugin/src"",
+            ""Filament\\Infolists\\"": ""packages/infolists/src"",
+            ""Filament\\Notifications\\"": ""packages/notifications/src"",
+            ""Filament\\Support\\"": ""packages/support/src"",
+            ""Filament\\Tables\\"": ""packages/tables/src"",
+            ""Filament\\Tests\\"": ""tests/src"",
+            ""Filament\\Tests\\Database\\Factories\\"": ""tests/database/factories"",
+            ""Filament\\Upgrade\\"": ""packages/upgrade/src"",
+            ""Filament\\Widgets\\"": ""packages/widgets/src""
+        }
+    },
+    ""config"": {
+        ""sort-packages"": true,
+        ""allow-plugins"": {
+            ""composer/package-versions-deprecated"": true,
+            ""pestphp/pest-plugin"": true,
+            ""phpstan/extension-installer"": true
+        }
+    },
+    ""scripts"": {
+        ""cs"": [
+            ""pint"",
+            ""npm run prettier""
+        ],
+        ""pint"": ""pint --config pint-strict-imports.json"",
+        ""test:pest"": ""pest --parallel"",
+        ""test:phpstan"": ""phpstan analyse"",
+        ""test"": [
+            ""@test:pest"",
+            ""@test:phpstan""
+        ]
+    },
+    ""minimum-stability"": ""dev"",
+    ""prefer-stable"": true,
+    ""repositories"": [
+        {
+            ""type"": ""path"",
+            ""url"": ""packages/support""
+        }
+    ]
+}
+"
+fomantic/Fomantic-UI,composer.json,"{
+  ""name""        : ""fomantic/ui"",
+  ""description"" : ""Fomantic empowers designers and developers by creating a shared vocabulary for UI."",
+  ""homepage""    : ""https://fomantic-ui.com"",
+  ""authors""     : [
+    {
+      ""name""     : ""Jack Lukic"",
+      ""email""    : ""jacklukic@gmail.com"",
+      ""homepage"" : ""http://www.jacklukic.com"",
+      ""role""     : ""Creator""
+    }
+  ],
+  ""support"": {
+    ""issues"": ""https://github.com/fomantic/Fomantic-UI/issues"",
+    ""source"": ""https://github.com/fomantic/Fomantic-UI""
+  },
+  ""keywords"" : [
+    ""fomantic"",
+    ""fomantic-ui"",
+    ""semantic"",
+    ""ui"",
+    ""css"",
+    ""framework""
+  ],
+  ""license"" : ""MIT""
+}
+"
+tuandm/laravue,composer.json,"{
+    ""name"": ""tuandm/laravue"",
+    ""type"": ""project"",
+    ""description"": ""A beautiful dashboard for Laravel built by VueJS"",
+    ""keywords"": [
+        ""laravel"",
+        ""laravue"",
+        ""vue"",
+        ""admin"",
+        ""dashboard""
+    ],
+    ""license"": ""MIT"",
+    ""authors"": [
+        {
+            ""name"": ""Tuan Duong"",
+            ""email"": ""bacduong@gmail.com"",
+            ""homepage"": ""https://laravue.dev"",
+            ""role"": ""Developer""
+        }
+    ],
+    ""require"": {
+        ""php"": ""^7.3"",
+        ""fideloper/proxy"": ""^4.2"",
+        ""fruitcake/laravel-cors"": ""^2.0"",
+        ""guzzlehttp/guzzle"": ""^7.0.1"",
+        ""laravel/framework"": ""^8.0"",
+        ""laravel/legacy-factories"": ""^1.3"",
+        ""laravel/sanctum"": ""^2.1"",
+        ""laravel/tinker"": ""^2.0"",
+        ""spatie/laravel-permission"": ""^5.3""
+    },
+    ""require-dev"": {
+        ""facade/ignition"": ""^2.3.6"",
+        ""fzaninotto/faker"": ""^1.9.1"",
+        ""mockery/mockery"": ""^1.4.4"",
+        ""nunomaduro/collision"": ""^5.0"",
+        ""phpunit/phpunit"": ""^9.0""
+    },
+    ""config"": {
+        ""optimize-autoloader"": true,
+        ""preferred-install"": ""dist"",
+        ""sort-packages"": true
+    },
+    ""extra"": {
+        ""laravel"": {
+            ""dont-discover"": []
+        }
+    },
+    ""autoload"": {
+        ""psr-4"": {
+            ""App\\"": ""app/"",
+            ""Database\\Factories\\"": ""database/factories/"",
+            ""Database\\Seeders\\"": ""database/seeds/""
+        },
+        ""classmap"": [
+            ""database/seeds"",
+            ""database/factories""
+        ]
+    },
+    ""autoload-dev"": {
+        ""psr-4"": {
+            ""Tests\\"": ""tests/""
+        }
+    },
+    ""minimum-stability"": ""dev"",
+    ""prefer-stable"": true,
+    ""scripts"": {
+        ""post-autoload-dump"": [
+            ""Illuminate\\Foundation\\ComposerScripts::postAutoloadDump"",
+            ""@php artisan package:discover --ansi""
+        ],
+        ""post-root-package-install"": [
+            ""@php -r \""file_exists('.env') || copy('.env.example', '.env');\""""
+        ],
+        ""post-create-project-cmd"": [
+            ""@php artisan key:generate --ansi""
+        ]
+    }
+}
+"
+totumonline/totum-mit,composer.json,"{
+  ""name"": ""totumonline/totum-mit"",
+  ""description"": ""CRM, ERP and custom constructor"",
+  ""type"": ""project"",
+  ""require"": {
+    ""php"": ""^8.3"",
+    ""phpmailer/phpmailer"": ""~6.9.1"",
+    ""salsify/json-streaming-parser"": ""^8.2"",
+    ""psr/http-message"": ""^2.0"",
+    ""psr/log"": ""^3.0.0"",
+    ""guzzlehttp/psr7"": ""^2.6.2"",
+    ""symfony/console"": ""^v7.0.1"",
+    ""ext-pdo"": ""*"",
+    ""ext-json"": ""*"",
+    ""ext-openssl"": ""*"",
+    ""ext-simplexml"": ""*"",
+    ""ext-soap"": ""*"",
+    ""ext-zlib"": ""*"",
+    ""ext-bcmath"": ""*"",
+    ""ext-curl"": ""*"",
+    ""ext-gd"": ""*"",
+    ""ext-zip"": ""*""
+  },
+  ""require-dev"": {
+    ""phpunit/phpunit"": ""^9.4"",
+    ""pheromone/phpcs-security-audit"": ""^2.0.1""
+  },
+  ""autoload"": {
+    ""psr-4"": {
+      ""totum\\"": ""totum/"",
+      ""totum\\config\\"": ""./""
+    }
+  },
+  ""autoload-dev"": {
+    ""psr-4"": {
+      ""totum\\tests\\"": ""./tests/""
+    }
+  },
+  ""bin"": [
+    ""bin/schema""
+  ],
+  ""license"": ""MIT"",
+  ""minimum-stability"": ""dev"",
+  ""extra"": {
+    ""compile"": [
+        ""echo 'test'>> test2222.txt""
+    ]
+  },
+  ""scripts"": {
+    ""dev-run"": ""php -S localhost:8080 -t http/"",
+    ""dev-front-run"": ""php -S localhost:8080 -t vendor/totumonline/totum-front/http/""
+  }
+}
+"

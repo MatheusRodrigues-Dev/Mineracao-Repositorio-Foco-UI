@@ -1,0 +1,520 @@
+repository,file,content
+XiaoMi/hiui,postcss.config.js,"const rucksack = require('rucksack-css')
+const autoprefixer = require('autoprefixer')
+
+module.exports = {
+  plugins: [
+    rucksack(),
+    autoprefixer({
+      browsers: ['last 2 versions', 'ie > 9'],
+    }),
+  ],
+}
+"
+vueComponent/ant-design-vue,postcss.config.js,"module.exports = {
+  plugins: [require('autoprefixer')],
+};
+"
+epicmaxco/vuestic-admin,postcss.config.js,"module.exports = {
+  plugins: {
+    tailwindcss: {},
+    autoprefixer: {},
+  },
+}
+"
+didi/mand-mobile,postcss.config.js,"
+// https://github.com/michael-ciniawsky/postcss-load-config
+const browserslist = require('./package.json').browserslist
+module.exports = () => {
+  const plugins = {
+    'postcss-url': {url: 'inline'},
+    'cssnano': {
+      preset: ['default', {
+        zindex: false,
+        mergeIdents: false,
+        discardUnused: false,
+        autoprefixer: false,
+        reduceIdents: false,
+      }]
+    },
+    'autoprefixer': { browsers: browserslist }
+  }
+
+  if (process.env.NODE_ENV !== 'production' || process.env.BUILD_TYPE === 'example') {
+    plugins['postcss-pxtorem'] = { rootValue: 100, minPixelValue: 2, propWhiteList: [] }
+  }
+
+  return {
+    plugins
+  }
+}
+"
+alibaba/ChatUI,postcss.config.js,"const cssnanoConfig = {
+  preset: [
+    'default',
+    {
+      calc: false,
+      discardComments: { removeAll: true },
+    },
+  ],
+};
+
+const pxtoremConfig = {
+  propList: [
+    '*',
+    '!border*',
+    '!box-shadow',
+  ],
+  selectorBlackList: [':root'],
+};
+
+module.exports = (ctx) => ({
+  map: ctx.env === 'development' && ctx.options ? ctx.options.map : false,
+  plugins: {
+    autoprefixer: {},
+    'postcss-pxtorem': pxtoremConfig,
+    cssnano: ctx.env === 'production' ? cssnanoConfig : false,
+  },
+});
+"
+adrianhajdin/brainwave,postcss.config.js,"export default {
+  plugins: {
+    tailwindcss: {},
+    autoprefixer: {},
+  },
+}
+"
+StaticMania/keep-react,postcss.config.js,"module.exports = {
+  plugins: {
+    tailwindcss: {},
+    autoprefixer: {},
+  },
+}
+"
+vechai/vechaiui,postcss.config.js,"module.exports = {
+  plugins: {
+    tailwindcss: {},
+    autoprefixer: {},
+  },
+};
+"
+sersavan/shadcn-multi-select-component,postcss.config.js,"module.exports = {
+  plugins: {
+    tailwindcss: {},
+    autoprefixer: {},
+  },
+};
+"
+NSFI/ppfish-components,postcss.config.js,"/* eslint-disable import/no-commonjs */
+/* eslint-env node */
+const autoprefixer = require('autoprefixer');
+
+module.exports = {
+  plugins: [
+    autoprefixer({
+      // Tell Autoprefixer not to remove outdated prefixes
+      // We don't include any by default, so this just speeds up build time
+      remove: false
+    })
+  ]
+};
+"
+danielwuachin/nextjs-animations,postcss.config.js,"module.exports = {
+  plugins: {
+    tailwindcss: {},
+    autoprefixer: {},
+  },
+}
+"
+18F/guides,postcss.config.js,"/* eslint global-require: 0 */
+module.exports = {
+  plugins: [require('autoprefixer')],
+};
+"
+zircleUI/zircleUI,postcss.config.js,"module.exports = {
+  plugins: {
+    autoprefixer: {}
+  }
+}
+"
+neo4j/neo4j-browser,postcss.config.js,"/*
+ * Copyright (c) 2002-2021 ""Neo4j,""
+ * Neo4j Sweden AB [http://neo4j.com]
+ *
+ * This file is part of Neo4j.
+ *
+ * Neo4j is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
+
+module.exports = {
+  plugins: {
+    precss: {},
+    autoprefixer: {
+      browsers: ['last 1 version', 'not ie > 0']
+    }
+  }
+}
+"
+MohmmedAshraf/laravel-translations,postcss.config.js,"module.exports = {
+    plugins: {
+        tailwindcss: {},
+        autoprefixer: {},
+    },
+};
+"
+ekvedaras/redis-gui,postcss.config.js,"module.exports = {
+  plugins: {
+    'postcss-import': {},
+    tailwindcss: {},
+    autoprefixer: {},
+  },
+}
+"
+oslabs-beta/Ahoy,postcss.config.js,"module.exports = {
+  plugins: {
+    'postcss-import': {},
+    'postcss-nested': {},
+    'postcss-preset-env': {},
+    'postcss-pxtorem': {
+      rootValue: 16,
+      unitPrecision: 5,
+      propList: ['*'],
+      selectorBlackList: ['html', 'body'],
+      replace: true,
+      mediaQuery: false,
+      minPixelValue: 0
+    }
+  }
+}
+"
+DSpace/dspace-angular,postcss.config.js,"module.exports = {
+  plugins: [
+    require('postcss-import')(),
+    require('postcss-preset-env')()
+  ]
+};
+"
+openware/baseapp,postcss.config.js,"module.exports = {
+    include: [
+        'node_modules',
+    ],
+    plugins: [
+        require('postcss-import'),
+        require('postcss-nested'),
+        require('postcss-hexrgba'),
+        require('autoprefixer'),
+    ],
+};
+"
+solana-nft-programs/staking-ui,postcss.config.js,"module.exports = {
+  plugins: {
+    tailwindcss: {},
+    autoprefixer: {},
+  },
+}
+"
+openbmc/webui-vue,postcss.config.js,"module.exports = {
+  'postcss-modules': {},
+  plugins: {
+    autoprefixer: {},
+  },
+};
+"
+Daynnnnn/soketi-ui,postcss.config.js,"module.exports = {
+    plugins: {
+        tailwindcss: {},
+        autoprefixer: {},
+    },
+};
+"
+oleksiikhr/vue-stripe-menu,postcss.config.js,"module.exports = {
+  plugins: {
+    autoprefixer: {},
+  },
+};
+"
+1943time/inkdown,postcss.config.js,"module.exports = {
+  plugins: {
+    tailwindcss: {}
+  }
+}
+"
+beekeeper-studio/beekeeper-studio,postcss.config.js,"module.exports = {}
+"
+tusen-ai/naive-ui,postcss.config.js,"// this file is used by vite, keep it here
+module.exports = {
+  plugins: [
+    require('autoprefixer'),
+    require('cssnano')({
+      preset: [
+        'default',
+        {
+          normalizeWhitespace: false,
+          colormin: false
+        }
+      ]
+    })
+  ]
+}
+"
+adrianhajdin/travel_ui_ux,postcss.config.js,"module.exports = {
+  plugins: {
+    tailwindcss: {},
+    autoprefixer: {},
+  },
+}
+"
+rfmiotto/react-use-draggable-scroll,postcss.config.js,"module.exports = {
+  plugins: {
+    tailwindcss: {},
+    autoprefixer: {},
+  },
+};
+"
+didi/cube-ui,postcss.config.js,"module.exports = {
+  plugins: [
+    require('autoprefixer')({
+      browsers: require('./package.json').browserslist
+    })
+  ]
+}
+"
+themesberg/flowbite,postcss.config.js,"/* eslint-disable @typescript-eslint/no-var-requires */
+module.exports = {
+    plugins: {
+        tailwindcss: {},
+        autoprefixer: {},
+        cssnano:
+            process.env.NPM_ENV === 'production'
+                ? { preset: 'default' }
+                : false,
+    },
+};
+"
+apache/incubator-weex-ui,postcss.config.js,"module.exports = {
+  plugins: [
+    require('postcss-plugin-weex')(),
+    require('autoprefixer')({
+      browsers: ['> 0.1%', 'ios >= 8', 'not ie < 12']
+    }),
+    require('postcss-plugin-px2rem')({
+      rootValue: 75,
+      minPixelValue: 1.01
+    })
+  ]
+};
+"
+ixartz/SaaS-Boilerplate,postcss.config.js,"// Please do not use the array form (like ['tailwindcss', 'postcss-preset-env'])
+// it will create an unexpected error: Invalid PostCSS Plugin found: [0]
+
+/** @type {import('postcss-load-config').Config} */
+module.exports = {
+  plugins: {
+    tailwindcss: {},
+    autoprefixer: {},
+    ...(process.env.NODE_ENV === 'production' ? { cssnano: {} } : {}),
+  },
+};
+"
+JetBrains/ring-ui,postcss.config.js,"const EMBRACED_STAGE = 3; // See https://cssdb.org/#staging-process
+
+module.exports = () => {
+  const plugins = [
+    require('postcss-modules-values-replace')(),
+    require('postcss-preset-env')({
+      stage: EMBRACED_STAGE,
+      features: {
+        'nesting-rules': true,
+      },
+    }),
+    require('postcss-font-family-system-ui')({browsers: ['last 2 versions']}),
+    require('postcss-flexbugs-fixes')(),
+    require('@jetbrains/postcss-require-hover')(),
+    require('postcss-calc')({mediaQueries: true}),
+  ];
+
+  return {plugins};
+};
+"
+konstaui/konsta,postcss.config.js,"module.exports = {
+  plugins: {
+    tailwindcss: {},
+    autoprefixer: {},
+  },
+};
+"
+MarsX-dev/floatui,postcss.config.js,"module.exports = {
+  plugins: {
+    tailwindcss: {},
+    autoprefixer: {},
+  },
+}
+"
+ElementUI/element-starter,postcss.config.js,"module.exports = {
+  plugins: [
+    require('autoprefixer')()
+  ]
+}
+"
+Kiranism/next-shadcn-dashboard-starter,postcss.config.js,"module.exports = {
+  plugins: {
+    tailwindcss: {},
+    autoprefixer: {}
+  }
+};
+"
+alfonsobries/vue-tailwind,postcss.config.js,"module.exports = {
+  plugins: {
+    tailwindcss: {},
+    autoprefixer: {},
+  },
+};
+"
+rogden/tailwind-config-viewer,postcss.config.js,"module.exports = {
+  plugins: [
+    require('tailwindcss'),
+    require('autoprefixer')
+  ]
+}
+"
+suyalcinkaya/onur.dev,postcss.config.js,"module.exports = {
+  plugins: {
+    'tailwindcss/nesting': {},
+    tailwindcss: {},
+    autoprefixer: {},
+    ...(process.env.NODE_ENV === 'production' && {
+      cssnano: {
+        preset: 'advanced',
+        discardComments: {
+          removeAll: true
+        }
+      }
+    })
+  }
+}
+"
+CzBiX/qb-web,postcss.config.js,"module.exports = {
+  plugins: {
+    autoprefixer: {},
+  },
+};
+"
+Leecason/element-tiptap,postcss.config.js,"module.exports = {
+  plugins: [require('autoprefixer'), require('postcss-nested')],
+};
+"
+djenriquez/vault-ui,postcss.config.js,"module.exports = {
+  plugins: [
+    require('autoprefixer')
+  ]
+}
+"
+adrianhajdin/social_media_app,postcss.config.js,"export default {
+  plugins: {
+    tailwindcss: {},
+    autoprefixer: {},
+  },
+}
+"
+TailAdmin/tailadmin-free-tailwind-dashboard-template,postcss.config.js,"module.exports = {
+  plugins: {
+    tailwindcss: {},
+    autoprefixer: {},
+  },
+};
+"
+Equal-UI/Equal,postcss.config.js,"module.exports = {
+  plugins: {
+    tailwindcss: {},
+    autoprefixer: {},
+  },
+}
+"
+Microwawe/mamba-ui,postcss.config.js,"module.exports = {
+	plugins: {
+		'postcss-import': {},
+    	'tailwindcss/nesting': {},
+		tailwindcss: {},
+		autoprefixer: {},
+	},
+};
+"
+TailGrids/tailwind-ui-components,postcss.config.js,"module.exports = {
+  plugins: {
+    tailwindcss: {},
+    autoprefixer: {},
+  },
+};
+"
+blefnk/relivator-nextjs-template,postcss.config.js,"/** @type {import('postcss-load-config').Config} */
+const config = {
+  plugins: {
+    tailwindcss: {},
+  },
+};
+
+export default config;
+"
+hsuanyi-chou/shadcn-ui-expansions,postcss.config.js,"module.exports = {
+  plugins: {
+    tailwindcss: {},
+    autoprefixer: {},
+  },
+}
+"
+robbins23/daisyui-admin-dashboard-template,postcss.config.js,"module.exports = {
+  plugins: {
+    tailwindcss: {},
+    autoprefixer: {},
+    
+  },
+}
+"
+Tencent/tdesign-react,postcss.config.js,"const plugins = [
+  require('autoprefixer')
+];
+
+module.exports = {
+  plugins,
+};
+"
+adobe/react-spectrum,postcss.config.js,"/*
+ * Copyright 2020 Adobe. All rights reserved.
+ * This file is licensed to you under the Apache License, Version 2.0 (the ""License"");
+ * you may not use this file except in compliance with the License. You may obtain a copy
+ * of the License at http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software distributed under
+ * the License is distributed on an ""AS IS"" BASIS, WITHOUT WARRANTIES OR REPRESENTATIONS
+ * OF ANY KIND, either express or implied. See the License for the specific language
+ * governing permissions and limitations under the License.
+ */
+
+module.exports = {
+  plugins: require(""@spectrum-css/component-builder/css/processors"").processors
+};
+"
+dot-cafe/beam.cafe,postcss.config.js,"module.exports = {
+    plugins: [
+        require('autoprefixer')
+    ]
+};
+"
+nisabmohd/ChatGPT,postcss.config.js,"module.exports = {
+  plugins: {
+    tailwindcss: {},
+    autoprefixer: {},
+  },
+};
+"

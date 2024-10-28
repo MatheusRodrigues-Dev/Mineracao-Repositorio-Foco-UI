@@ -1,0 +1,551 @@
+repository,file,content
+adrianhajdin/brainwave,vite.config.js,"import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+})
+"
+creativetimofficial/vue-material-kit,vite.config.js,"import { fileURLToPath, URL } from ""url"";
+
+import { defineConfig } from ""vite"";
+import vue from ""@vitejs/plugin-vue"";
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [vue()],
+  resolve: {
+    alias: {
+      ""@"": fileURLToPath(new URL(""./src"", import.meta.url)),
+    },
+  },
+});
+"
+SAP/ui5-webcomponents,vite.config.js,"import { defineConfig } from 'vite';
+import virtualIndex from ""@ui5/webcomponents-tools/lib/dev-server/virtual-index-html-plugin.js"";
+import customHotUpdate from ""@ui5/webcomponents-tools/lib/dev-server/custom-hot-update-plugin.js"";
+import path, { dirname, join, resolve } from 'path';
+import tsconfigPaths from 'vite-tsconfig-paths';
+import { checker } from 'vite-plugin-checker';
+
+// use after path.join and path.resolve as they turn paths to windows separators and comparisons and replacements stop working
+const toPosixPath = (pathStr) => {
+	return pathStr.split(path.sep).join(path.posix.sep);
+}
+
+const customResolver = (id, source, options) => {
+	const isIconImporter = source.includes(""packages/icons"") || source.includes(""packages/icons-tnt/"") || source.includes(""packages/icons-business-suite/"")
+	if (isIconImporter && id.startsWith(""@ui5/webcomponents-base/dist"")) {
+		const importerRoot = source.replace(/packages\/icons.*/, ""packages"");
+		const resolved = join(importerRoot, ""base/src"", id.replace(""@ui5/webcomponents-base/dist/"", """")).replace("".js"", "".ts"");
+		return resolved;
+	}
+
+	if (isIconImporter && id.startsWith(""../generated"")) {
+		let absoluteId = join(dirname(source), id);
+		// join returns paths with \\ on windows, so the replaces won't work unless converted to posix paths /
+		absoluteId = toPosixPath(absoluteId);
+		const resolved = absoluteId.replace(""/dist/"", ""/src/"").replace(/\.js$/, "".ts"");
+		return resolved;
+	}
+
+	// json files are always in dist, this saves a separate copy task
+	if (id.endsWith("".json"")) {
+		let absoluteId = join(dirname(source), id);
+		// join returns paths with \\ on windows, so the replaces won't work unless converted to posix paths /
+		absoluteId = toPosixPath(absoluteId);
+		const resolved = absoluteId.replace(""/src/"", ""/dist/"");
+		return resolved;
+	}
+
+	if (id.startsWith(""./"") || id.startsWith(""../"")) {
+		//   `/sap/base/` and `sap/ui/core/` files imported from `src` are actually in dist
+		//   except 4 files with are ts files in src and could be imported from `dist`
+		let absoluteId = resolve(dirname(source), id);
+		// resolve returns paths with \\ on windows, so the replaces won't work unless converted to posix paths /
+		absoluteId = toPosixPath(absoluteId);
+		if (absoluteId.includes(""/sap/base/"") || absoluteId.includes(""/sap/ui/core/"")) {
+			const virtSource = source.replace(/packages\/(\w+)\/src\//, ""packages/$1/dist/"");
+			let resolved = join(dirname(virtSource), id);
+			// join returns paths with \\ on windows, so the replaces won't work unless converted to posix paths /
+			resolved = toPosixPath(resolved);
+			if (resolved.endsWith(""sap/ui/core/Core.js"") && resolved.includes(""/dist/"")) {
+				resolved = resolved.replace(""/dist/"", ""/src/"").replace("".js"", "".ts"");
+			}
+			if (resolved.endsWith(""localization/dist/sap/base/i18n/Localization.js"")) {
+				resolved = resolved.replace(""/dist/"", ""/src/"").replace("".js"", "".ts"");
+			}
+			if (resolved.endsWith(""dist/sap/ui/core/Configuration.js"")) {
+				resolved = resolved.replace(""/dist/"", ""/src/"").replace("".js"", "".ts"");
+			}
+			if (resolved.endsWith(""dist/sap/ui/core/FormatSettings.js"")) {
+				resolved = resolved.replace(""/dist/"", ""/src/"").replace("".js"", "".ts"");
+			}
+			if (resolved.endsWith(""dist/sap/base/util/LoaderExtensions.js"")) {
+				resolved = resolved.replace(""/dist/"", ""/src/"").replace("".js"", "".ts"");
+			}
+			if (resolved.endsWith(""dist/sap/base/util/ObjectPath.js"")) {
+				resolved = resolved.replace(""/dist/"", ""/src/"").replace("".js"", "".ts"");
+			}
+			return resolved;
+		}
+	}
+
+	// relative imports from fiori src that are to a folder starting with `illustrations` are in dist
+	if (source.includes(""fiori/src/"") && id.includes(""/illustrations"") && !id.includes(""AllIllustrations"") && id.startsWith(""."")) {
+		let absoluteId = resolve(dirname(source), id);
+		// join returns paths with \\ on windows, so the replaces won't work unless converted to posix paths /
+		absoluteId = toPosixPath(absoluteId);
+		const resolved = absoluteId.replace(""/src/"", ""/dist/"");
+		return resolved;
+	}
+
+	// generated illustrations search for i18n texts which are in `src/generated`
+	if (source.includes(""fiori/dist/illustrations"") && id.startsWith(""../generated"")) {
+		let absoluteId = join(dirname(source), id);
+		// join returns paths with \\ on windows, so the replaces won't work unless converted to posix paths /
+		absoluteId = toPosixPath(absoluteId);
+		const resolved = absoluteId.replace(""/dist/"", ""/src/"").replace(/\.js$/, "".ts"");
+		return resolved;
+	}
+
+	if (source.includes(""fiori/dist/illustrations"") && id.startsWith(""@ui5/webcomponents-base/dist"")) {
+		const importerRoot = source.replace(/packages\/fiori.*/, ""packages"");
+		const resolved = join(importerRoot, ""base/src"", id.replace(""@ui5/webcomponents-base/dist/"", """")).replace("".js"", "".ts"");
+		return resolved;
+	}
+}
+
+export default defineConfig(async () => {
+	return {
+		build: {
+			emptyOutDir: false,
+		},
+		plugins: [
+			await virtualIndex(),
+			tsconfigPaths(),
+			customHotUpdate(),
+			!process.env.UI5_BASE && checker({
+				// e.g. use TypeScript check
+				typescript: {
+					tsconfigPath: ""packages/fiori/tsconfig.json"",
+					buildMode: true,
+				}
+			})
+		],
+		resolve: {
+			alias: [
+				// { find: /\@ui5\/webcomponents-base\/dist\/(.*)/, replacement: ""../base/src/$1"" },
+				// { find: /\@ui5\/webcomponents-icons\/dist\/(.*)/, replacement: ""../icons/src/$1"" },
+				// { find: /\@ui5\/webcomponents-icons-tnt\/dist\/(.*)/, replacement: ""../icons-tnt/src/$1"" },
+				// { find: /\@ui5\/webcomponents-icons-business-suite\/dist\/(.*)/, replacement: ""../icons-business-suite/src/$1"" },
+				{ find: /(\@ui5)(.*)/, replacement: ""$1$2"", customResolver },
+				{ find: /(..\/generated)(.*)/, replacement: ""$1$2"", customResolver },
+				// ../sap files are in dist, not src
+				{ find: /^(\..*)/, replacement: ""$1"", customResolver },
+			],
+		}
+	}
+});
+"
+MohmmedAshraf/laravel-translations,vite.config.js,"import { defineConfig } from ""vite""
+import laravel from ""laravel-vite-plugin""
+import vue from ""@vitejs/plugin-vue""
+import autoimport from ""unplugin-auto-import/vite""
+import components from ""unplugin-vue-components/vite""
+
+export default defineConfig({
+    resolve: {
+        alias: {
+            ""@"": ""/resources"",
+            ""~"": ""/node_modules"",
+        },
+    },
+    plugins: [
+        laravel({
+            input: ""resources/scripts/app.ts"",
+            ssr: ""resources/scripts/ssr.ts"",
+            publicDirectory: ""resources/dist"",
+            buildDirectory: ""vendor/translations-ui"",
+            refresh: true,
+        }),
+        vue({
+            template: {
+                transformAssetUrls: {
+                    base: null,
+                    includeAbsolute: false,
+                },
+            },
+            script: {
+                defineModel: true,
+                propsDestructure: true,
+            },
+        }),
+        autoimport({
+            vueTemplate: true,
+            dts: ""resources/scripts/types/auto-imports.d.ts"",
+            dirs: [""resources/scripts/composables"", ""resources/scripts/utils""],
+            imports: [
+                ""vue"",
+                ""@vueuse/core"",
+                {
+                    ""momentum-lock"": [""can""],
+                },
+                {
+                    ""momentum-modal"": [""useModal""],
+                },
+                {
+                    ""@inertiajs/vue3"": [""router"", ""useForm"", ""usePage"", ""useRemember""],
+                },
+            ],
+        }),
+        components({
+            dirs: [""resources/views/components""],
+            dts: ""resources/scripts/types/components.d.ts"",
+            resolvers: [
+                (name) => {
+                    const components = [""Link"", ""Head""]
+
+                    if (components.includes(name)) {
+                        return {
+                            name: name,
+                            from: ""@inertiajs/vue3"",
+                        }
+                    }
+                },
+
+                (name) => {
+                    if (name.startsWith(""Layout"")) {
+                        const componentName = name.substring(""Layout"".length).toLowerCase()
+
+                        return {
+                            name: ""default"",
+                            from: `@/views/layouts/${componentName}/layout-${componentName}.vue`,
+                        }
+                    }
+                },
+            ],
+        }),
+    ],
+})
+"
+louh/lcars,vite.config.js,"import { defineConfig } from 'vite'
+import vue from '@vitejs/plugin-vue'
+import svgLoader from 'vite-svg-loader'
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [vue(), svgLoader()],
+  server: {
+    host: true
+  }
+})
+"
+hezhongfeng/vue-page-stack,vite.config.js,"import { resolve } from 'path';
+import { defineConfig } from 'vite';
+
+export default defineConfig({
+  build: {
+    lib: {
+      // Could also be a dictionary or array of multiple entry points
+      entry: resolve(__dirname, 'lib/main.js'),
+      name: 'VuePageStack',
+      // the proper extensions will be added
+      fileName: format => `vue-page-stack.${format}.js`,
+      formats: ['cjs', 'es', 'iife', 'umd']
+    },
+    sourcemap: false,
+    rollupOptions: {
+      // 确保外部化处理那些你不想打包进库的依赖
+      external: ['vue', 'vue-router'],
+      output: {
+        // 在 UMD 构建模式下为这些外部化的依赖提供一个全局变量
+        globals: {
+          vue: 'Vue',
+          'vue-router': 'vueRouter'
+        }
+      }
+    }
+  }
+});
+"
+tusen-ai/naive-ui,vite.config.js,"const path = require('node:path')
+const dns = require('node:dns')
+const process = require('node:process')
+const { babel } = require('@rollup/plugin-babel')
+const createDemoPlugin = require('./build/vite-plugin-demo')
+
+dns.setDefaultResultOrder('verbatim')
+
+/**
+ * @type {import('vite').UserConfig}
+ */
+module.exports = {
+  root: __dirname,
+  plugins: createDemoPlugin(),
+  resolve: {
+    // In production site build, we want to import naive-ui from node_modules
+    alias:
+      process.env.NODE_ENV !== 'production'
+        ? [
+            {
+              find: 'naive-ui',
+              replacement: path.resolve(__dirname, './src')
+            }
+          ]
+        : undefined
+  },
+  define: {
+    'process.env.NODE_ENV': `'${process.env.NODE_ENV}'`,
+    'process.env.TUSIMPLE': !!process.env.TUSIMPLE,
+    __DEV__: process.env.NODE_ENV !== 'production'
+  },
+  optimizeDeps: {
+    include: [
+      '@css-render/plugin-bem',
+      'async-validator',
+      'css-render',
+      'date-fns',
+      'date-fns-tz/getTimezoneOffset',
+      'evtd',
+      'highlight.js',
+      'lodash-es',
+      'seemly',
+      'treemate',
+      'vdirs',
+      'vooks',
+      'vue',
+      'vue-router',
+      'vueuc',
+      '@css-render/vue3-ssr',
+      'date-fns-tz',
+      'codesandbox/lib/api/define',
+      'grapheme-splitter',
+      'highlight.js/lib/core',
+      'highlight.js/lib/languages/javascript',
+      'highlight.js/lib/languages/python',
+      'highlight.js/lib/languages/cpp',
+      'highlight.js/lib/languages/xml',
+      '@vicons/ionicons5',
+      '@vicons/ionicons4',
+      '@vicons/fluent/Compose16Regular.js'
+    ],
+    exclude: ['__INDEX__']
+  },
+  build: {
+    outDir: 'site',
+    output: {
+      manualChunks: {
+        'grapheme-splitter': ['grapheme-splitter'],
+        katex: ['katex']
+      }
+    },
+    rollupOptions: {
+      plugins: [
+        babel({
+          babelHelpers: 'bundled'
+        })
+      ]
+    }
+  },
+  esbuild: {
+    jsx: 'transform',
+    jsxFactory: 'h',
+    jsxFragment: 'Fragment'
+  }
+}
+"
+adrianhajdin/project_hoobank,vite.config.js,"import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()]
+})
+"
+rdkcentral/Lightning,vite.config.js,"// @ts-check
+/// <reference types=""vitest"" />
+import { resolve } from 'path'
+import { defineConfig } from 'vite'
+import { babel } from '@rollup/plugin-babel';
+import { banner } from './banner.vite-plugin';
+import cleanup from 'rollup-plugin-cleanup';
+import packageJson from './package.json';
+import { fixTsImportsFromJs } from './fixTsImportsFromJs.vite-plugin';
+
+const isEs5Build = process.env.BUILD_ES5 === 'true';
+const isMinifiedBuild = process.env.BUILD_MINIFY === 'true';
+const isInspectorBuild = process.env.BUILD_INSPECTOR === 'true';
+
+let outDir = 'dist';
+let entry = resolve(__dirname, 'src/lightning.mjs');
+let outputBase = 'lightning';
+let sourcemap = true;
+let useDts = true;
+
+if (isInspectorBuild) {
+  outDir = 'devtools';
+  entry = resolve(__dirname, 'devtools/lightning-inspect.js');
+  outputBase = 'lightning-inspect';
+  sourcemap = false;
+  useDts = false;
+}
+
+export default defineConfig(() => {
+  return {
+    plugins: [
+      fixTsImportsFromJs(),
+      /* Cleanup comments */
+      cleanup({
+        comments: 'none',
+      }),
+      /* ES5 (if requested) */
+      isEs5Build && babel({
+        presets: [
+          [
+            '@babel/preset-env',
+            {
+              targets: {
+                chrome: '39',
+              },
+              spec: true,
+              debug: false,
+              modules: false,
+            },
+          ],
+        ],
+      }),
+      /* Add comment banner to top of bundle */
+      banner([
+        '/*',
+        ` * Lightning v${packageJson.version}`,
+        ' *',
+        ' * https://github.com/rdkcentral/Lightning',
+        ' */',
+      ].join('\n')),
+    ],
+    build: {
+      sourcemap,
+      emptyOutDir: false,
+      outDir,
+      minify: isMinifiedBuild ? 'terser' : false,
+      terserOptions: {
+        keep_classnames: true,
+        keep_fnames: true,
+      },
+      lib: {
+        // Could also be a dictionary or array of multiple entry points
+        entry,
+        /**
+         * @type {import('vite').LibraryFormats[]}
+         */
+        formats: ['umd', .../** @type {[] | ['es']} */ (isEs5Build ? [] : ['es'])],
+        name: 'lng',
+        // the proper extensions will be added
+        fileName: (format) => {
+          let extension = isMinifiedBuild ? '.min.js' : '.js';
+          if (isEs5Build) {
+            extension = '.es5' + extension;
+          }
+          if (format === 'es') {
+            extension = '.esm' + extension;
+          }
+          return outputBase + extension;
+        }
+      },
+    },
+  }
+});
+"
+heyui/heyui,vite.config.js,"import { defineConfig } from 'vite';
+import vue from '@vitejs/plugin-vue';
+const path = require('path');
+
+// https://vitejs.dev/config/
+const config = defineConfig({
+  plugins: [vue()],
+  target: 'es2015',
+  build: {
+    outDir: path.resolve(__dirname, './dist'),
+    lib: {
+      entry: path.resolve(__dirname, './src/index.js'),
+      name: 'HeyUI'
+    },
+    rollupOptions: {
+      context: 'globalThis',
+      preserveEntrySignatures: 'strict',
+      external: ['vue'],
+      output: [
+        {
+          format: 'umd',
+          exports: 'named',
+          sourcemap: false,
+          entryFileNames: 'heyui.js',
+          chunkFileNames: '[name].js',
+          assetFileNames: '[name].[ext]',
+          namespaceToStringTag: true,
+          inlineDynamicImports: false,
+          manualChunks: undefined,
+          globals: { vue: 'Vue' }
+        },
+        {
+          format: 'es',
+          exports: 'named',
+          sourcemap: false,
+          entryFileNames: 'heyui.esm.js',
+          chunkFileNames: '[name].js',
+          assetFileNames: '[name].[ext]',
+          namespaceToStringTag: true,
+          inlineDynamicImports: false,
+          manualChunks: undefined,
+          globals: { vue: 'Vue' }
+        }
+      ]
+    }
+  },
+  resolve: {
+    alias: {
+      heyui: path.resolve(__dirname, './src')
+    },
+    extensions: ['.mjs', '.js', '.ts', '.jsx', '.tsx', '.json', '.vue']
+  }
+});
+
+export default config;
+"
+rgossiaux/svelte-headlessui,vite.config.js,"import { sveltekit } from '@sveltejs/kit/vite';
+
+/** @type {import('vite').UserConfig} */
+const config = {
+  plugins: [sveltekit()]
+};
+
+export default config;
+
+"
+uilibrary/matx-react,vite.config.js,"import path from ""path"";
+import { defineConfig } from ""vite"";
+import react from ""@vitejs/plugin-react"";
+import { VitePWA } from ""vite-plugin-pwa"";
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [
+    react(),
+    VitePWA({
+      injectRegister: ""auto"",
+      registerType: ""autoUpdate"",
+      workbox: { clientsClaim: true, skipWaiting: true }
+    })
+  ],
+  build: {
+    chunkSizeWarningLimit: 2000
+  },
+  resolve: {
+    alias: {
+      app: path.resolve(__dirname, ""src/app"")
+    }
+  }
+});
+"
