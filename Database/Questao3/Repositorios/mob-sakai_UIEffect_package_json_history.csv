@@ -1,0 +1,11 @@
+commit,date,dependencies,dev_dependencies,prev_dependencies,prev_dev_dependencies,dependencies_changes,dev_dependencies_changes
+49d01cac3d3b40d15b6e5f01488a9bfe10f49fd3,2020-04-10 08:31:50+00:00,[],[],,,"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+e32f6200811270d664cf461c806195d281c61d85,2020-04-10 08:55:23+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+5504338d5ebc98fd2f386bc3c817f13c60209769,2020-04-10 15:16:47+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+467ae5f1cd1177793161e4e341918485db746cd7,2020-04-13 05:23:55+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+aca9290700b9c84f25f82532549120f48a31d74f,2020-04-13 06:36:23+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+fecf06256ea8f0918cfefd5df321470f799e8f4f,2020-04-14 02:03:45+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+07926376c6999aae8df52173ccac80351ec417d5,2020-05-11 09:50:05+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+7371e889ad28330d2af4e16f40435202f398abe8,2020-06-04 08:22:42+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+b43e40508b167d143330d8b9eff0d5c9965cdf3c,2020-06-09 05:50:24+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+332340e7bc2f8257816dd28784607a1edf6b6c2a,2023-11-09 08:50:32+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"

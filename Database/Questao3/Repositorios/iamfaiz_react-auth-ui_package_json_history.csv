@@ -1,0 +1,4 @@
+commit,date,dependencies,dev_dependencies,prev_dependencies,prev_dev_dependencies,dependencies_changes,dev_dependencies_changes
+71edd549176bd0adc485d643063f9028838eb8b1,2018-05-10 14:23:26+00:00,"['react', 'react-dom', 'react-router-dom', 'react-scripts']",[],,,"{'added': ['react', 'react-dom', 'react-router-dom', 'react-scripts'], 'removed': []}","{'added': [], 'removed': []}"
+0e5804467bb6136b658d3dbe61bcd2b99eecab2a,2018-05-10 14:37:33+00:00,"['gh-pages', 'react', 'react-dom', 'react-router-dom', 'react-scripts']",[],"['react', 'react-dom', 'react-router-dom', 'react-scripts']",[],"{'added': ['gh-pages'], 'removed': []}","{'added': [], 'removed': []}"
+944e4aee083cf5790b9989378a84cce06f5c0879,2018-05-10 14:39:40+00:00,"['gh-pages', 'react', 'react-dom', 'react-router-dom', 'react-scripts']",[],"['gh-pages', 'react', 'react-dom', 'react-router-dom', 'react-scripts']",[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"

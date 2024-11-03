@@ -1,0 +1,2 @@
+commit,date,dependencies,dev_dependencies,prev_dependencies,prev_dev_dependencies,dependencies_changes,dev_dependencies_changes
+072215049a7188f9501e5265400e6bff5f639f36,2022-08-08 14:03:38+00:00,"['react', 'react-dom']","['@types/react', '@types/react-dom', '@vitejs/plugin-react', 'autoprefixer', 'postcss', 'tailwindcss', 'vite']",,,"{'added': ['react', 'react-dom'], 'removed': []}","{'added': ['@types/react', '@types/react-dom', '@vitejs/plugin-react', 'autoprefixer', 'postcss', 'tailwindcss', 'vite'], 'removed': []}"

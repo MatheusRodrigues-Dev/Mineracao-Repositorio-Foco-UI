@@ -1,0 +1,2 @@
+commit,date,dependencies,dev_dependencies,prev_dependencies,prev_dev_dependencies,dependencies_changes,dev_dependencies_changes
+4df2ede69d03d5b1c0131c7ef21a745f66394264,2021-10-07 06:24:17+00:00,[],['sass'],,,"{'added': [], 'removed': []}","{'added': ['sass'], 'removed': []}"

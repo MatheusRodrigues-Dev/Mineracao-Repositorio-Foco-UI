@@ -1,0 +1,2 @@
+commit,date,dependencies,dev_dependencies,prev_dependencies,prev_dev_dependencies,dependencies_changes,dev_dependencies_changes
+5a4592f7162929352d1649a68ca35ec863ddcf81,2022-03-23 04:25:17+00:00,[],"['@commitlint/cli', '@commitlint/config-conventional', 'husky', 'commitizen', 'cz-conventional-changelog']",,,"{'added': [], 'removed': []}","{'added': ['@commitlint/cli', '@commitlint/config-conventional', 'husky', 'commitizen', 'cz-conventional-changelog'], 'removed': []}"

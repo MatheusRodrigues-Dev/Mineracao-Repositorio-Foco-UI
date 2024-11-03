@@ -1,0 +1,9 @@
+commit,date,dependencies,dev_dependencies,prev_dependencies,prev_dev_dependencies,dependencies_changes,dev_dependencies_changes
+f513be5e735565c2c10cc9c4398baf96f98a7e60,2024-05-01 09:59:20+00:00,['posthog-js'],[],,,"{'added': ['posthog-js'], 'removed': []}","{'added': [], 'removed': []}"
+043a9b5b9d9917468a603b3d4e6f50a1674cd2ea,2024-05-02 08:50:49+00:00,[],[],['posthog-js'],[],"{'added': [], 'removed': ['posthog-js']}","{'added': [], 'removed': []}"
+56e1ca9ba86d496d2758ddb31088b9891c35839c,2024-05-02 10:26:11+00:00,"['chalk', 'commander', 'enquirer', 'ora']",[],[],[],"{'added': ['enquirer', 'chalk', 'commander', 'ora'], 'removed': []}","{'added': [], 'removed': []}"
+ad3683a1970ee476134c57dca1853277e5e769f8,2024-05-02 13:09:24+00:00,"['chalk', 'commander', 'enquirer', 'ora']",[],"['chalk', 'commander', 'enquirer', 'ora']",[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+79ac5e5b21172ef5ddf124d9f963d90d3514b759,2024-07-27 10:42:31+00:00,"['chalk', 'commander', 'enquirer', 'ora']",[],"['chalk', 'commander', 'enquirer', 'ora']",[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+9cb87f9fd81018f65fd10f958f8b1020c26acbf3,2024-07-27 10:59:45+00:00,"['chalk', 'commander', 'enquirer', 'ora']",[],"['chalk', 'commander', 'enquirer', 'ora']",[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+c6ee961d5951e3a9cca2593a47f6872820aad8cc,2024-08-04 20:02:53+00:00,"['chalk', 'commander', 'enquirer', 'ora']",[],"['chalk', 'commander', 'enquirer', 'ora']",[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+dfacdbedf32684ff12dc517f0641cef7d0783f15,2024-09-08 18:01:52+00:00,"['chalk', 'commander', 'enquirer', 'ora']",[],"['chalk', 'commander', 'enquirer', 'ora']",[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"

@@ -1,0 +1,4 @@
+commit,date,dependencies,dev_dependencies,prev_dependencies,prev_dev_dependencies,dependencies_changes,dev_dependencies_changes
+20dd73713a1c6cba6cdac668115cd9ad2d8eccfb,2024-03-29 09:36:28+00:00,"['bootstrap', 'owl.carousel', 'sweetalert2']",[],,,"{'added': ['bootstrap', 'owl.carousel', 'sweetalert2'], 'removed': []}","{'added': [], 'removed': []}"
+e2b1dead1fa916f6d1f45d01f4d34ebe1625227a,2024-05-08 23:01:10+00:00,"['bootstrap', 'owl.carousel', 'sweetalert2', 'vanilla-lazyload']",[],"['bootstrap', 'owl.carousel', 'sweetalert2']",[],"{'added': ['vanilla-lazyload'], 'removed': []}","{'added': [], 'removed': []}"
+0a920407c3001c378151dddfc35777dfa1ba36b8,2024-08-30 23:00:10+00:00,"['bootstrap', 'owl.carousel', 'sweetalert2', 'vanilla-lazyload']",[],"['bootstrap', 'owl.carousel', 'sweetalert2', 'vanilla-lazyload']",[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"

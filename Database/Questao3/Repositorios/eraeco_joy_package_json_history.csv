@@ -1,0 +1,9 @@
+commit,date,dependencies,dev_dependencies,prev_dependencies,prev_dev_dependencies,dependencies_changes,dev_dependencies_changes
+e73fb7a3b0aafe857479bff53ebdb771319ae65a,2019-01-10 22:33:49+00:00,[],[],,,"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+6f28651e00687b64b91968207a2656d2f52d762f,2019-07-04 23:41:26+00:00,"['gun', 'text-encoding', 'node-webcrypto-ossl']",[],[],[],"{'added': ['text-encoding', 'gun', 'node-webcrypto-ossl'], 'removed': []}","{'added': [], 'removed': []}"
+b6c90392f09826add170b7859f47c75ed03fe3e3,2019-07-04 23:50:15+00:00,"['gun', 'text-encoding', 'node-webcrypto-ossl']",[],"['gun', 'text-encoding', 'node-webcrypto-ossl']",[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+ee593b8ee4bab2733f4f10387d144d9d6d278c39,2019-07-16 00:20:35+00:00,"['gun', 'text-encoding', 'node-webcrypto-ossl']",[],"['gun', 'text-encoding', 'node-webcrypto-ossl']",[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+aaf1918176cff5cbd4a8a8e65d56e0b2388ae532,2019-07-16 23:41:20+00:00,"['gun', 'text-encoding', 'node-webcrypto-ossl']",[],"['gun', 'text-encoding', 'node-webcrypto-ossl']",[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+b372e04b29c561e07b497f53badfab90b57ad117,2019-07-23 18:33:24+00:00,"['gun', 'text-encoding', 'node-webcrypto-ossl']",[],"['gun', 'text-encoding', 'node-webcrypto-ossl']",[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+6db068b4372cdded43abf90f8c6b4b8fced4a7e1,2019-07-23 18:35:43+00:00,"['gun', 'text-encoding', 'node-webcrypto-ossl']",[],"['gun', 'text-encoding', 'node-webcrypto-ossl']",[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+8dcf5943e9065e7f65e1d7ae3d147a82c6b70cb9,2021-07-01 15:42:57+00:00,['gun'],[],"['gun', 'text-encoding', 'node-webcrypto-ossl']",[],"{'added': [], 'removed': ['text-encoding', 'node-webcrypto-ossl']}","{'added': [], 'removed': []}"

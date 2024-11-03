@@ -1,0 +1,13 @@
+commit,date,dependencies,dev_dependencies,prev_dependencies,prev_dev_dependencies,dependencies_changes,dev_dependencies_changes
+a7a2ddff7c5b10bd583cca90d1b48d835a83a8e1,2016-01-18 10:59:33+00:00,"['object-assign', 'postcss']",[],,,"{'added': ['object-assign', 'postcss'], 'removed': []}","{'added': [], 'removed': []}"
+ecf0ef2bad54c9f4cf6f8b64a5d2777eef4b33b9,2016-01-19 08:51:53+00:00,"['object-assign', 'postcss']",[],"['object-assign', 'postcss']",[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+2b8e75f569a13124439766981d17e625d21df46a,2016-03-01 15:18:44+00:00,"['object-assign', 'postcss']",[],"['object-assign', 'postcss']",[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+95214818ff69282a5abe0292d6a494d05065d389,2016-08-23 10:16:52+00:00,"['object-assign', 'postcss']",[],"['object-assign', 'postcss']",[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+43c6ba7d163845ebd62ba286ac3025ac0e88ad74,2019-01-23 12:41:11+00:00,"['object-assign', 'postcss']",['jasmine-node'],"['object-assign', 'postcss']",[],"{'added': [], 'removed': []}","{'added': ['jasmine-node'], 'removed': []}"
+1822d16469ef2cc985157458dbf3b7e25274821d,2019-01-23 13:35:44+00:00,"['object-assign', 'postcss']",['jasmine-node'],"['object-assign', 'postcss']",['jasmine-node'],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+9b4139699c98464e33913b46c292476d938e2ecf,2019-01-23 13:37:38+00:00,"['object-assign', 'postcss']",['jasmine-node'],"['object-assign', 'postcss']",['jasmine-node'],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+ae4e24e8ce3ec704db46e5e52765d415326e12f4,2019-01-23 13:38:50+00:00,"['object-assign', 'postcss']",['jasmine-node'],"['object-assign', 'postcss']",['jasmine-node'],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+2ec80c9fce032ef8fed651b63a8b33c80ff4206f,2019-01-28 14:21:28+00:00,"['object-assign', 'postcss']",['jasmine-node'],"['object-assign', 'postcss']",['jasmine-node'],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+f7da5f6862a57a6cefc7e7bef5e8b69fec146862,2019-02-05 10:08:47+00:00,"['object-assign', 'postcss']",['jasmine-node'],"['object-assign', 'postcss']",['jasmine-node'],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+40da73adf24d85693aa0650766c14c768d69569d,2019-07-08 06:50:54+00:00,"['object-assign', 'postcss']",['jasmine-node'],"['object-assign', 'postcss']",['jasmine-node'],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+8f5ea1de52deddf14fbad873bab1473a877f6a7e,2020-04-28 11:59:54+00:00,['object-assign'],"['jest', 'postcss']","['object-assign', 'postcss']",['jasmine-node'],"{'added': [], 'removed': ['postcss']}","{'added': ['jest', 'postcss'], 'removed': ['jasmine-node']}"

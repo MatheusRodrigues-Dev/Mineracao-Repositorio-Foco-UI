@@ -26,6 +26,8 @@ O projeto está organizado em três diretórios principais:
 
 Para realizar a mineração e análise de repositórios com foco em UI, siga a ordem de execução dos scripts abaixo:
 
+
+### Criar o Dataseet
 1. **`01-pesquisa.ipynb`**  
    Executa a busca inicial de repositórios no GitHub usando palavras-chave relacionadas à UI/UX.
 
@@ -47,6 +49,8 @@ Para realizar a mineração e análise de repositórios com foco em UI, siga a o
 7. **`07-primeiras-analise.ipynb`**  
    Realiza uma análise preliminar, como distribuição de repositórios por ano.
 
+### Responder a Primeira Pergunta
+
 8. **`08-busca-pelo-arquivo-config.ipynb`**  
    Realiza a busca e armazena o conteúdo dos arquivos de configuração presentes nos repositórios filtrados.
 
@@ -58,3 +62,17 @@ Para realizar a mineração e análise de repositórios com foco em UI, siga a o
 
 11. **`11-repositorios-frequencia.ipynb`**  
    A partir dos dados anteriores, realiza uma análise da frequência de uso de componentes de UI e configuração em diferentes repositórios.
+
+### Responder a Segunda Pergunta
+
+12. **`12-historico-repositorios.ipynb`**
+   Com o dataset com os repositorios é  possível realizar uma análise histórica dos arquivos de configurações e armazenar os dados para cada repositorio
+
+
+### Responder a Terceira Pergunta
+
+
+### Responder a Quarta Pergunta
+
+
+### Responder a Quinta Pergunta

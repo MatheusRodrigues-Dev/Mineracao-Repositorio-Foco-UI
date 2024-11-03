@@ -1,0 +1,7 @@
+commit,date,dependencies,dev_dependencies,prev_dependencies,prev_dev_dependencies,dependencies_changes,dev_dependencies_changes
+5db878337463771c3a753e2bab4381daf61f93e1,2022-02-12 09:07:33+00:00,[],[],,,"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+874cb8bce8918a69d18ddc5d6b0bc6495473b631,2022-02-13 08:36:28+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+daa29be0dcb5973cda41ce527f90836ddc4d6d4d,2022-02-13 16:29:51+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+82a3857a071fb91ae90f0e4f96754541dea78c3f,2022-02-14 03:31:52+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+4fb5ff0b05bcb4c9f673f3ca81987f190cdbad7a,2022-02-14 03:36:08+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+80226a0849dc8ed2ad05f9945f550a8638eda3a1,2022-07-01 16:03:01+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"

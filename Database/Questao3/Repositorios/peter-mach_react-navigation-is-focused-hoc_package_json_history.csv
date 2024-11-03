@@ -1,0 +1,4 @@
+commit,date,dependencies,dev_dependencies,prev_dependencies,prev_dev_dependencies,dependencies_changes,dev_dependencies_changes
+92f1f18b2398130230da0e65d22752905afabdb4,2017-05-24 12:54:37+00:00,['react-navigation'],[],,,"{'added': ['react-navigation'], 'removed': []}","{'added': [], 'removed': []}"
+50ae6d6d2a0c9deb65a36b4c9dc567203c0b6b19,2018-01-09 14:45:47+00:00,"['prop-types', 'react-navigation']",[],['react-navigation'],[],"{'added': ['prop-types'], 'removed': []}","{'added': [], 'removed': []}"
+c3e7230f46c6efb7821e07d2d657769b5b579f4c,2018-01-11 21:55:57+00:00,"['prop-types', 'react-navigation']",[],"['prop-types', 'react-navigation']",[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"

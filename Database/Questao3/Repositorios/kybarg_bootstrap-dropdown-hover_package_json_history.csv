@@ -1,0 +1,6 @@
+commit,date,dependencies,dev_dependencies,prev_dependencies,prev_dev_dependencies,dependencies_changes,dev_dependencies_changes
+7e0caab3829f79c8ce87e0489f31cc9d5bd0596b,2019-06-20 12:40:23+00:00,[],[],,,"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+4a3cb115e5dc58d400eb4448576853811a4f9951,2020-09-15 09:38:56+00:00,[],['minify'],[],[],"{'added': [], 'removed': []}","{'added': ['minify'], 'removed': []}"
+af84197f1c2fd3defad9468f720a46a2e6421f24,2020-09-15 09:40:06+00:00,[],['minify'],[],['minify'],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+48c8928faef289964c3d10ee078e385a64db48cf,2020-09-15 09:43:53+00:00,[],['minify'],[],['minify'],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+c1e33afeaff5dd10dc7485e2898cfefcc6c2d252,2020-09-15 09:44:07+00:00,[],['minify'],[],['minify'],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"

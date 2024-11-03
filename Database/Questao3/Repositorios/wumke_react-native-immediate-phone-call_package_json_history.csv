@@ -1,0 +1,5 @@
+commit,date,dependencies,dev_dependencies,prev_dependencies,prev_dev_dependencies,dependencies_changes,dev_dependencies_changes
+c865ae4379bd3f9dc1a376ccf517bfa2f8ccf3f5,2017-05-19 08:47:23+00:00,[],[],,,"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+d887314a724504e1fd2b0679fe901f2946a34bff,2017-09-18 15:18:47+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+4da1f094bca396c38ea8b4b4124a845e97e00ef9,2017-09-18 17:28:33+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+282becbd5f022899bd6c8c3c42c0deb64f704d30,2020-02-12 07:27:39+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"

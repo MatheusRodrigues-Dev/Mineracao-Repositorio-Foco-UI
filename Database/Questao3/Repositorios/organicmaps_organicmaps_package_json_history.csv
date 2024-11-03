@@ -1,0 +1,3 @@
+commit,date,dependencies,dev_dependencies,prev_dependencies,prev_dev_dependencies,dependencies_changes,dev_dependencies_changes
+38a92fef453bcb878682011d168b53ffd49bf134,2021-05-30 20:38:06+00:00,[],['prettier'],,,"{'added': [], 'removed': []}","{'added': ['prettier'], 'removed': []}"
+bd0e3adbe1c474f283f704be2a3eac3e2c52c285,2021-08-14 07:23:13+00:00,[],['prettier'],[],['prettier'],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"

@@ -1,0 +1,5 @@
+commit,date,dependencies,dev_dependencies,prev_dependencies,prev_dev_dependencies,dependencies_changes,dev_dependencies_changes
+8fb09813e17cc974b5fc85d4b2fffb07e5bd9474,2019-01-08 17:46:54+00:00,"['react', 'react-dom', 'react-scripts']",[],,,"{'added': ['react', 'react-dom', 'react-scripts'], 'removed': []}","{'added': [], 'removed': []}"
+dbf14e7d00c4a2a1b71920f0032d01c9c006e616,2019-01-08 21:36:13+00:00,"['axios', 'moment', 'react', 'react-dom', 'react-scripts']",['shave'],"['react', 'react-dom', 'react-scripts']",[],"{'added': ['axios', 'moment'], 'removed': []}","{'added': ['shave'], 'removed': []}"
+698edd310596dd3b3782490ad633bf7ab57bd425,2019-09-29 20:15:15+00:00,"['axios', 'moment', 'react', 'react-dom', 'react-scripts']",['shave'],"['axios', 'moment', 'react', 'react-dom', 'react-scripts']",['shave'],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+09922cd13218922d584a5bdc01707f9b981dd700,2021-07-04 16:42:16+00:00,"['axios', 'moment', 'react', 'react-dom', 'react-scripts']",['shave'],"['axios', 'moment', 'react', 'react-dom', 'react-scripts']",['shave'],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"

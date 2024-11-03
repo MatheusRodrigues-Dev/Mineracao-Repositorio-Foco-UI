@@ -1,0 +1,4 @@
+commit,date,dependencies,dev_dependencies,prev_dependencies,prev_dev_dependencies,dependencies_changes,dev_dependencies_changes
+11aa90792112c208e7613c9dd2c1a9a025400927,2016-05-11 20:41:30+00:00,[],[],,,"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+e685e5b8df230d4b85bff9b4fce3be1d377caaa6,2016-05-11 20:44:06+00:00,['jQuery'],[],[],[],"{'added': ['jQuery'], 'removed': []}","{'added': [], 'removed': []}"
+5dde930780329ffe4ccd4ab7658316fe26c5fdaf,2020-04-26 15:11:29+00:00,['jquery'],[],['jQuery'],[],"{'added': ['jquery'], 'removed': ['jQuery']}","{'added': [], 'removed': []}"

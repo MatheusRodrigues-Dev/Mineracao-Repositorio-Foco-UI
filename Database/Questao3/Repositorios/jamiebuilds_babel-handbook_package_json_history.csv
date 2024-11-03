@@ -1,0 +1,3 @@
+commit,date,dependencies,dev_dependencies,prev_dependencies,prev_dev_dependencies,dependencies_changes,dev_dependencies_changes
+cd74480808277d835382c3883d2482eeee08a8c1,2015-11-16 18:11:20+00:00,"['default-pager', 'marked-man']",[],,,"{'added': ['default-pager', 'marked-man'], 'removed': []}","{'added': [], 'removed': []}"
+c37cc02f70e5443b73833d3d2cc396759c9f3518,2016-01-19 05:35:19+00:00,[],[],"['default-pager', 'marked-man']",[],"{'added': [], 'removed': ['default-pager', 'marked-man']}","{'added': [], 'removed': []}"

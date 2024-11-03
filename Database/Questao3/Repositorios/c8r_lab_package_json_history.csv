@@ -1,0 +1,2 @@
+commit,date,dependencies,dev_dependencies,prev_dependencies,prev_dev_dependencies,dependencies_changes,dev_dependencies_changes
+cd3c19d901ec8bfc42712c88367fdb39c8214a8b,2017-09-12 02:10:44+00:00,"['@compositor/logo', 'babel-preset-react', 'babel-register', 'cxs', 'dxs', 'react', 'react-dom']",[],,,"{'added': ['@compositor/logo', 'babel-preset-react', 'babel-register', 'cxs', 'dxs', 'react', 'react-dom'], 'removed': []}","{'added': [], 'removed': []}"

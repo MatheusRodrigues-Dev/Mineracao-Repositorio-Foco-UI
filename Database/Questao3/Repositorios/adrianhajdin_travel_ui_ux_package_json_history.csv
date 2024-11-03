@@ -1,0 +1,2 @@
+commit,date,dependencies,dev_dependencies,prev_dependencies,prev_dev_dependencies,dependencies_changes,dev_dependencies_changes
+4b7fdead69f4ea9c69b760727393fdf2a055b39f,2023-10-12 10:14:54+00:00,"['react', 'react-dom', 'next']","['typescript', '@types/node', '@types/react', '@types/react-dom', 'autoprefixer', 'postcss', 'tailwindcss']",,,"{'added': ['react', 'react-dom', 'next'], 'removed': []}","{'added': ['typescript', '@types/node', '@types/react', '@types/react-dom', 'autoprefixer', 'postcss', 'tailwindcss'], 'removed': []}"

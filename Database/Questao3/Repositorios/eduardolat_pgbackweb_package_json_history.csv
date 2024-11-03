@@ -1,0 +1,7 @@
+commit,date,dependencies,dev_dependencies,prev_dependencies,prev_dev_dependencies,dependencies_changes,dev_dependencies_changes
+fa3e8cf1ca58963638b69ccaa314b874e2d00910,2024-07-20 00:25:42+00:00,[],"['daisyui', 'tailwindcss']",,,"{'added': [], 'removed': []}","{'added': ['daisyui', 'tailwindcss'], 'removed': []}"
+3a9e1786511323b3145057952a21e3a1454dc625,2024-07-24 00:14:15+00:00,[],"['daisyui', 'standard', 'tailwindcss']",[],"['daisyui', 'tailwindcss']","{'added': [], 'removed': []}","{'added': ['standard'], 'removed': []}"
+72ce05b102ab92e21415b360b7a5eaefa6eae47b,2024-08-04 02:03:18+00:00,[],"['daisyui', 'standard', 'tailwindcss']",[],"['daisyui', 'standard', 'tailwindcss']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+89e01336da4b38394b6a3c9aaf45dbd268b1b59e,2024-09-05 04:49:56+00:00,[],"['daisyui', 'standard', 'tailwindcss']",[],"['daisyui', 'standard', 'tailwindcss']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+ef8259e7d90438526e00b3f39a13c48fc4163e84,2024-09-06 04:56:05+00:00,[],"['daisyui', 'esbuild', 'kill-port', 'standard', 'tailwindcss']",[],"['daisyui', 'standard', 'tailwindcss']","{'added': [], 'removed': []}","{'added': ['esbuild', 'kill-port'], 'removed': []}"
+ae6555c6b2bb03fff657a259bbb7be80b4f24526,2024-09-06 05:55:33+00:00,[],"['daisyui', 'esbuild', 'standard', 'tailwindcss']",[],"['daisyui', 'esbuild', 'kill-port', 'standard', 'tailwindcss']","{'added': [], 'removed': []}","{'added': [], 'removed': ['kill-port']}"
