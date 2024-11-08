@@ -1,58 +1,404 @@
-commit,date,dependencies,dev_dependencies,prev_dependencies,prev_dev_dependencies,dependencies_changes,dev_dependencies_changes
-4fe697b90b9de444031ab093bb1e5cbd9f267ff4,2019-01-12 04:48:59+00:00,[],[],,,"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-b2ceddeff9c67eeddea392fdc503aa42af55f438,2019-01-12 05:26:49+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-1534a488cc373406ad722bea848587a2f5360e91,2019-01-13 02:11:16+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-e954e6d3b247034a2551aaea9b94359eabd9750b,2019-02-01 11:35:47+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-16516296b4e6bb0ea165958eb5601bc94dc67a1b,2019-02-06 23:51:59+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-3331704c0a3bcb1e3c7ab9fc979c03469db51ccf,2019-03-11 07:38:56+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-a89aad0f8840f3fdeb512ee56011e5d5b854b7ca,2019-03-11 11:42:29+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-90000efd3df3eb9888bcba8bb4677cf367347b33,2019-03-14 18:02:05+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-3c36199b91bf57863a0fbdeef44b7ede716e5d2c,2019-05-01 12:39:04+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-7c895725406715e9ae1882bdab60c3430efab04d,2019-05-07 10:27:04+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-62ac172783b59ac0849039bd9a37adf4aeb2692a,2019-08-27 02:43:43+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-4b59e3dc9b9f042224576ec52adb5b1f6f232992,2020-01-28 11:53:37+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-a9c6dadfa15cde9a9080dbd947aa14bcb07285f3,2020-05-01 09:38:37+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-f5f5b7e3413b16a9f9ba8e27fcf7f22a0f82adac,2020-05-03 11:38:06+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-b9eb1a9b953729cd88551e497e3bfa0cf999aff9,2020-05-08 22:06:43+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-60ce6997e04dbda56cd783e316736debee61732a,2020-05-11 07:34:22+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-7ebbdeb2510e11ff14de3ce96161230da78a4fc7,2020-05-13 05:43:18+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-9ad7d46a10541a6f857931f9a7dfacfa02060d80,2020-06-04 04:43:17+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-9aa9f568b8c56e5f1dffc14c6356c960593f70b0,2020-06-07 04:19:49+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-03a7b84fa229fb20dbe67f69971cb0f481509acf,2020-06-09 05:41:36+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-52c3a09e61ddf742f1f9fc4ad6f27048e4409b94,2020-08-17 01:40:01+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-147906493125910ad965654a42efdc011db37fcc,2020-08-17 02:38:48+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-58eeefc698e9bb8b3e2c4e360dbe500a7ea9c04f,2020-09-08 02:33:57+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-4d6a3a4f01d72f7ea152708aa47a6a2cb4880ca0,2020-09-08 02:44:49+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-ded86d96af6108700cd78e3d0b13a20cd07b5f92,2020-09-14 13:55:22+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-9b6205070f811b362efbb768d26360ac0a297af6,2020-09-27 09:46:58+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-db266a8cf0c8e44f86a186dd05095edb998216ab,2020-09-28 01:35:56+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-73177082e5fd75eaa2faab356597d91986b7295c,2020-10-01 09:57:56+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-5c54622518b193e917239d66e12fd6e5516db31d,2020-10-08 15:59:24+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-f59d147fe04be6a84b3cd7eb93bce149410911be,2021-02-24 00:53:06+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-29def6dbe5dd0fe8f99b8ab33f2d2b3a2e5db027,2022-05-15 06:18:12+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-b870d64b5704a764fd03aaccb11f2dbe652b1756,2022-05-15 06:52:50+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-403e834b8222dea6235729b60fca57eb866a4eec,2024-02-10 07:45:55+00:00,['com.unity.ugui'],[],[],[],"{'added': ['com.unity.ugui'], 'removed': []}","{'added': [], 'removed': []}"
-83eaceccbd2580de632213c6b19c587d0d35cbdb,2024-02-10 16:48:57+00:00,['com.unity.ugui'],[],['com.unity.ugui'],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-679acc4138a85a1939a7abbbf22249df3e1210cc,2024-02-10 18:27:11+00:00,['com.unity.ugui'],[],['com.unity.ugui'],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-c480cefd62a8f3949fdb0688e6bd62528539bd94,2024-07-13 03:00:28+00:00,['com.unity.ugui'],[],['com.unity.ugui'],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-0ada3f7e29e632877ebcb2a8f2d6f047cde70e3c,2024-07-17 08:26:50+00:00,['com.unity.ugui'],[],['com.unity.ugui'],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-5abafad89705d574b20d1d1cacaec66e562f7199,2024-07-23 15:33:40+00:00,['com.unity.ugui'],[],['com.unity.ugui'],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-0da016a2b6aad4446d4c5189753d02ff25afd41a,2024-07-24 08:13:42+00:00,['com.unity.ugui'],[],['com.unity.ugui'],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-469b40448f6e46d1a4a447d1e1341cc7e4f8c9b8,2024-07-25 12:58:21+00:00,['com.unity.ugui'],[],['com.unity.ugui'],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-9370fd2fb7bdf05a75eedee57a55b459be7d4a11,2024-07-26 03:29:59+00:00,['com.unity.ugui'],[],['com.unity.ugui'],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-1cf2d8ba58afe42d5000e78965fd9c7ad3ca1f80,2024-08-11 00:49:20+00:00,['com.unity.ugui'],[],['com.unity.ugui'],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-c3ae63118322c39a984d40ea394ea9c637a3baa7,2024-08-16 08:48:45+00:00,['com.unity.ugui'],[],['com.unity.ugui'],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-215dba92e44afade75a8f57b22de9aa033f0be84,2024-08-17 04:18:34+00:00,['com.unity.ugui'],[],['com.unity.ugui'],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-19104f7e79056702e1234196ceee5cb95c8fd599,2024-08-22 00:39:55+00:00,['com.unity.ugui'],[],['com.unity.ugui'],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-ea783a66724dddc7d10c963cee9e479a5fd86635,2024-09-04 03:59:29+00:00,['com.unity.ugui'],[],['com.unity.ugui'],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-f21f2ffaccf64a115aa72841aef6e37ecec8062c,2024-09-04 14:02:19+00:00,['com.unity.ugui'],[],['com.unity.ugui'],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-e51a46048c6ef53e764b2203385b444737be2f48,2024-09-05 06:29:46+00:00,['com.unity.ugui'],[],['com.unity.ugui'],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-69f82c740c5a0d32d36b82b179fc6dd1fb21706a,2024-09-05 07:23:26+00:00,['com.unity.ugui'],[],['com.unity.ugui'],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-a849ffff5182f8e13ff8f2502b269b21217bf73c,2024-09-06 00:23:27+00:00,['com.unity.ugui'],[],['com.unity.ugui'],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-64f0421d11311870c32bbd3146cce6e400822a41,2024-09-06 11:15:56+00:00,['com.unity.ugui'],[],['com.unity.ugui'],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-353b7f94c4aeb726601e63a224acbaf18e7a76a0,2024-09-14 06:45:56+00:00,['com.unity.ugui'],[],['com.unity.ugui'],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-8a6c84cb8ed26886e348f4519622380ed30c713f,2024-09-15 10:59:51+00:00,['com.unity.ugui'],[],['com.unity.ugui'],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-95fe70dd9c7085056d3c0b439b7f71f034d826cc,2024-09-16 06:43:22+00:00,['com.unity.ugui'],[],['com.unity.ugui'],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-0841c8050ff913090f793899d82fed6b96c54a1e,2024-09-16 10:33:55+00:00,['com.unity.ugui'],[],['com.unity.ugui'],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-20a581b80077fb7465ed6eb6eb2aabc7e535b447,2024-09-29 14:34:04+00:00,['com.unity.ugui'],[],['com.unity.ugui'],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-f11be8c7d9122d7e43139b64a461d0e5b0ff8e3c,2024-11-01 00:05:10+00:00,['com.unity.ugui'],[],['com.unity.ugui'],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+commit,date,message,author_name,author_email,committer_name,committer_email,url,parents,additions,deletions,total_changes,files_changed,dependencies,dev_dependencies,prev_dependencies,prev_dev_dependencies,dependencies_changes,dev_dependencies_changes
+4fe697b90b9de444031ab093bb1e5cbd9f267ff4,2019-01-12 04:48:59+00:00,Move documents,mob-sakai,sakai861104@gmail.com,mob-sakai,sakai861104@gmail.com,https://github.com/mob-sakai/SoftMaskForUGUI/commit/4fe697b90b9de444031ab093bb1e5cbd9f267ff4,['e270581581c4a5df6443f41fde130b58cdb430bc'],422,0,422,"[{'filename': '.gitignore', 'additions': 46, 'deletions': 0, 'changes': 46}, {'filename': 'CHANGELOG.md', 'additions': 51, 'deletions': 0, 'changes': 51}, {'filename': 'LICENSE.md', 'additions': 7, 'deletions': 0, 'changes': 7}, {'filename': 'LICENSE.md.meta', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'README.md', 'additions': 300, 'deletions': 0, 'changes': 300}, {'filename': 'package.json', 'additions': 10, 'deletions': 0, 'changes': 10}, {'filename': 'package.json.meta', 'additions': 8, 'deletions': 0, 'changes': 8}]",[],[],,,"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+b2ceddeff9c67eeddea392fdc503aa42af55f438,2019-01-12 05:26:49+00:00,Update release protocol,mob-sakai,sakai861104@gmail.com,mob-sakai,sakai861104@gmail.com,https://github.com/mob-sakai/SoftMaskForUGUI/commit/b2ceddeff9c67eeddea392fdc503aa42af55f438,['43882f046aa8fb4acb4ab7e1c89b79a79dc9cc65'],14,8,22,"[{'filename': 'package.json', 'additions': 14, 'deletions': 8, 'changes': 22}]",[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+1534a488cc373406ad722bea848587a2f5360e91,2019-01-13 02:11:16+00:00,update change log,mob-sakai,sakai861104@gmail.com,mob-sakai,sakai861104@gmail.com,https://github.com/mob-sakai/SoftMaskForUGUI/commit/1534a488cc373406ad722bea848587a2f5360e91,['101870391ee89313b25d548f5e3a4cb110ccd1a7'],14,2,16,"[{'filename': 'CHANGELOG.md', 'additions': 12, 'deletions': 0, 'changes': 12}, {'filename': 'package.json', 'additions': 2, 'deletions': 2, 'changes': 4}]",[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+e954e6d3b247034a2551aaea9b94359eabd9750b,2019-02-01 11:35:47+00:00,update documents for v0.5.0,mob-sakai,sakai861104@gmail.com,mob-sakai,sakai861104@gmail.com,https://github.com/mob-sakai/SoftMaskForUGUI/commit/e954e6d3b247034a2551aaea9b94359eabd9750b,['c0912ab4e4c9800b6c2466ba5ef036e150c9ec47'],21,5,26,"[{'filename': 'CHANGELOG.md', 'additions': 17, 'deletions': 3, 'changes': 20}, {'filename': 'README.md', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'package.json', 'additions': 3, 'deletions': 1, 'changes': 4}]",[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+16516296b4e6bb0ea165958eb5601bc94dc67a1b,2019-02-06 23:51:59+00:00,update documents for v0.6.0,mob-sakai,sakai861104@gmail.com,mob-sakai,sakai861104@gmail.com,https://github.com/mob-sakai/SoftMaskForUGUI/commit/16516296b4e6bb0ea165958eb5601bc94dc67a1b,['39468327c7a83ce9c7302555e64a12f3169bb412'],19,2,21,"[{'filename': 'CHANGELOG.md', 'additions': 18, 'deletions': 1, 'changes': 19}, {'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+3331704c0a3bcb1e3c7ab9fc979c03469db51ccf,2019-03-11 07:38:56+00:00,update documents for v0.7.0,mob-sakai,sakai861104@gmail.com,mob-sakai,sakai861104@gmail.com,https://github.com/mob-sakai/SoftMaskForUGUI/commit/3331704c0a3bcb1e3c7ab9fc979c03469db51ccf,['8a57e34d40451f72839d52aacb272a32c5167836'],25,3,28,"[{'filename': 'CHANGELOG.md', 'additions': 18, 'deletions': 0, 'changes': 18}, {'filename': 'README.md', 'additions': 6, 'deletions': 2, 'changes': 8}, {'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+a89aad0f8840f3fdeb512ee56011e5d5b854b7ca,2019-03-11 11:42:29+00:00,update documents for v0.7.1,mob-sakai,sakai861104@gmail.com,mob-sakai,sakai861104@gmail.com,https://github.com/mob-sakai/SoftMaskForUGUI/commit/a89aad0f8840f3fdeb512ee56011e5d5b854b7ca,['2bcec9dffe6bfc89b28a94ca9cd4d21032082776'],11,5,16,"[{'filename': 'CHANGELOG.md', 'additions': 10, 'deletions': 4, 'changes': 14}, {'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+90000efd3df3eb9888bcba8bb4677cf367347b33,2019-03-14 18:02:05+00:00,update documents for v0.7.2,mob-sakai,sakai861104@gmail.com,mob-sakai,sakai861104@gmail.com,https://github.com/mob-sakai/SoftMaskForUGUI/commit/90000efd3df3eb9888bcba8bb4677cf367347b33,['741c8b80c0517e31faedf6f08f371e1394f0334a'],9,1,10,"[{'filename': 'CHANGELOG.md', 'additions': 8, 'deletions': 0, 'changes': 8}, {'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+3c36199b91bf57863a0fbdeef44b7ede716e5d2c,2019-05-01 12:39:04+00:00,update documents for v0.8.0,mob-sakai,sakai861104@gmail.com,mob-sakai,sakai861104@gmail.com,https://github.com/mob-sakai/SoftMaskForUGUI/commit/3c36199b91bf57863a0fbdeef44b7ede716e5d2c,['3d5ce6c2415ddbc9261ad6ac699bdbbf024c52b3'],16,3,19,"[{'filename': 'CHANGELOG.md', 'additions': 11, 'deletions': 0, 'changes': 11}, {'filename': 'README.md', 'additions': 4, 'deletions': 2, 'changes': 6}, {'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+7c895725406715e9ae1882bdab60c3430efab04d,2019-05-07 10:27:04+00:00,update documents for v0.8.1,mob-sakai,sakai861104@gmail.com,mob-sakai,sakai861104@gmail.com,https://github.com/mob-sakai/SoftMaskForUGUI/commit/7c895725406715e9ae1882bdab60c3430efab04d,['2138a9bac2bc7936c9db787f6222e3fbb6585509'],10,2,12,"[{'filename': 'CHANGELOG.md', 'additions': 8, 'deletions': 0, 'changes': 8}, {'filename': 'README.md', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+62ac172783b59ac0849039bd9a37adf4aeb2692a,2019-08-27 02:43:43+00:00,update documents for v0.9.0,mob-sakai,sakai861104@gmail.com,mob-sakai,sakai861104@gmail.com,https://github.com/mob-sakai/SoftMaskForUGUI/commit/62ac172783b59ac0849039bd9a37adf4aeb2692a,['df3e829ca81ca47d429ec3c8fbcf169fc1af5781'],29,10,39,"[{'filename': 'CHANGELOG.md', 'additions': 13, 'deletions': 0, 'changes': 13}, {'filename': 'README.md', 'additions': 15, 'deletions': 9, 'changes': 24}, {'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+4b59e3dc9b9f042224576ec52adb5b1f6f232992,2020-01-28 11:53:37+00:00,update documents for v0.9.1,mob-sakai,sakai@mobcast.jp,mob-sakai,sakai@mobcast.jp,https://github.com/mob-sakai/SoftMaskForUGUI/commit/4b59e3dc9b9f042224576ec52adb5b1f6f232992,['fcbaeec420f222eafc99336ab39a4b6e5c18f58d'],15,1,16,"[{'filename': 'CHANGELOG.md', 'additions': 14, 'deletions': 0, 'changes': 14}, {'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+a9c6dadfa15cde9a9080dbd947aa14bcb07285f3,2020-05-01 09:38:37+00:00,"0.10.0-preview.1
+
+# [0.10.0-preview.1](https://github.com/mob-sakai/SoftMaskForUGUI/compare/v0.9.1...v0.10.0-preview.1) (2020-05-01)
+
+### Bug Fixes
+
+* softmask not working on PS4 ([b391c10](https://github.com/mob-sakai/SoftMaskForUGUI/commit/b391c103c57cdb3a848701ee5663b86b962031cd)), closes [#74](https://github.com/mob-sakai/SoftMaskForUGUI/issues/74)
+
+### Features
+
+* add sample importer ([d98a241](https://github.com/mob-sakai/SoftMaskForUGUI/commit/d98a241e78f81a92bf22181d94a7622c6a65b589))
+* raycast filter is now optional feature ([3b42727](https://github.com/mob-sakai/SoftMaskForUGUI/commit/3b427274c9842c46dd90fa8845dc5156822b04e1)), closes [#73](https://github.com/mob-sakai/SoftMaskForUGUI/issues/73)",semantic-release-bot,semantic-release-bot@martynus.net,semantic-release-bot,semantic-release-bot@martynus.net,https://github.com/mob-sakai/SoftMaskForUGUI/commit/a9c6dadfa15cde9a9080dbd947aa14bcb07285f3,['4b59e3dc9b9f042224576ec52adb5b1f6f232992'],24395,278,24673,"[{'filename': '.github/FUNDING.yml', 'additions': 12, 'deletions': 0, 'changes': 12}, {'filename': '.github/ISSUE_TEMPLATE/bug_report.md', 'additions': 35, 'deletions': 0, 'changes': 35}, {'filename': '.github/ISSUE_TEMPLATE/feature_request.md', 'additions': 22, 'deletions': 0, 'changes': 22}, {'filename': '.github/ISSUE_TEMPLATE/question.md', 'additions': 16, 'deletions': 0, 'changes': 16}, {'filename': '.gitignore', 'additions': 0, 'deletions': 45, 'changes': 45}, {'filename': '.releaserc', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'CHANGELOG.md', 'additions': 13, 'deletions': 0, 'changes': 13}, {'filename': 'Icons.meta', 'additions': 8, 'deletions': 0, 'changes': 8}, {'filename': 'Icons/SoftMaskIcon.png', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'Icons/SoftMaskIcon.png.meta', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'Icons/SoftMaskableIcon.png', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'Icons/SoftMaskableIcon.png.meta', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'LICENSE.md', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'README.md', 'additions': 75, 'deletions': 196, 'changes': 271}, {'filename': 'Samples~/Demo.meta', 'additions': 8, 'deletions': 0, 'changes': 8}, {'filename': 'Samples~/Demo/Coffee.SoftMaskForUGUI_Demo.asmdef', 'additions': 14, 'deletions': 0, 'changes': 14}, {'filename': 'Samples~/Demo/Coffee.SoftMaskForUGUI_Demo.asmdef.meta', 'additions': 7, 'deletions': 0, 'changes': 7}, {'filename': 'Samples~/Demo/Font.meta', 'additions': 3, 'deletions': 2, 'changes': 5}, {'filename': 'Samples~/Demo/Font/FontLicense.txt', 'additions': 202, 'deletions': 0, 'changes': 202}, {'filename': 'Samples~/Demo/Font/FontLicense.txt.meta', 'additions': 7, 'deletions': 0, 'changes': 7}, {'filename': 'Samples~/Demo/Font/LuckiestGuy.ttf', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'Samples~/Demo/Font/LuckiestGuy.ttf.meta', 'additions': 20, 'deletions': 0, 'changes': 20}, {'filename': 'Samples~/Demo/Light_Frame.png', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'Samples~/Demo/Light_Frame.png.meta', 'additions': 100, 'deletions': 0, 'changes': 100}, {'filename': 'Samples~/Demo/SoftMask-Circle.png', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'Samples~/Demo/SoftMask-Circle.png.meta', 'additions': 116, 'deletions': 0, 'changes': 116}, {'filename': 'Samples~/Demo/SoftMask-Horizontal.png', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'Samples~/Demo/SoftMask-Horizontal.png.meta', 'additions': 106, 'deletions': 0, 'changes': 106}, {'filename': 'Samples~/Demo/SoftMask-Star.png', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'Samples~/Demo/SoftMask-Star.png.meta', 'additions': 106, 'deletions': 0, 'changes': 106}, {'filename': 'Samples~/Demo/SoftMask-Vertictal.png', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'Samples~/Demo/SoftMask-Vertictal.png.meta', 'additions': 106, 'deletions': 0, 'changes': 106}, {'filename': 'Samples~/Demo/SoftMask_Demo.cs', 'additions': 63, 'deletions': 0, 'changes': 63}, {'filename': 'Samples~/Demo/SoftMask_Demo.cs.meta', 'additions': 12, 'deletions': 0, 'changes': 12}, {'filename': 'Samples~/Demo/SoftMask_Demo.unity', 'additions': 21952, 'deletions': 0, 'changes': 21952}, {'filename': 'Samples~/Demo/SoftMask_Demo.unity.meta', 'additions': 7, 'deletions': 0, 'changes': 7}, {'filename': 'Samples~/Demo/SoftMask_Demo_Title.controller', 'additions': 713, 'deletions': 0, 'changes': 713}, {'filename': 'Samples~/Demo/SoftMask_Demo_Title.controller.meta', 'additions': 8, 'deletions': 0, 'changes': 8}, {'filename': 'Samples~/Demo/SoftMask_Demo_Transition.controller', 'additions': 401, 'deletions': 0, 'changes': 401}, {'filename': 'Samples~/Demo/SoftMask_Demo_Transition.controller.meta', 'additions': 8, 'deletions': 0, 'changes': 8}, {'filename': 'Samples~/Demo/Unity-chan.png', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'Samples~/Demo/Unity-chan.png.meta', 'additions': 100, 'deletions': 0, 'changes': 100}, {'filename': 'Scripts/Editor/ImportSampleMenu.cs', 'additions': 76, 'deletions': 0, 'changes': 76}, {'filename': 'Scripts/Editor/ImportSampleMenu.cs.meta', 'additions': 11, 'deletions': 0, 'changes': 11}, {'filename': 'Scripts/SoftMask.cs', 'additions': 3, 'deletions': 3, 'changes': 6}, {'filename': 'Scripts/SoftMaskable.cs', 'additions': 16, 'deletions': 1, 'changes': 17}, {'filename': 'Shaders/Resources/SoftMask.shader', 'additions': 12, 'deletions': 12, 'changes': 24}, {'filename': 'Shaders/Resources/UI-Default-SoftMask.shader', 'additions': 5, 'deletions': 6, 'changes': 11}, {'filename': 'Shaders/SoftMask.cginc', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'Shaders/SoftMask.cginc.meta', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'Shaders/TextMeshProSupport.meta', 'additions': 8, 'deletions': 0, 'changes': 8}, {'filename': 'Shaders/TextMeshProSupport/TMP_SDF (SoftMaskable).shader', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'Shaders/TextMeshProSupport/TMP_SDF (SoftMaskable).shader.meta', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'Shaders/TextMeshProSupport/TMP_SDF-Mobile (SoftMaskable).shader', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'Shaders/TextMeshProSupport/TMP_SDF-Mobile (SoftMaskable).shader.meta', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'Shaders/TextMeshProSupport/TMP_Sprite (SoftMaskable).shader', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'Shaders/TextMeshProSupport/TMP_Sprite (SoftMaskable).shader.meta', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'SoftMask_Demo.unitypackage', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'package.json', 'additions': 20, 'deletions': 9, 'changes': 29}]",[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+f5f5b7e3413b16a9f9ba8e27fcf7f22a0f82adac,2020-05-03 11:38:06+00:00,"0.10.0-preview.2
+
+# [0.10.0-preview.2](https://github.com/mob-sakai/SoftMaskForUGUI/compare/v0.10.0-preview.1...v0.10.0-preview.2) (2020-05-03)
+
+### Bug Fixes
+
+* visual bug with ScreenSpaceCamera canvas on editor ([482b967](https://github.com/mob-sakai/SoftMaskForUGUI/commit/482b96709b9dce680e48214df26c81b7e963dc09)), closes [#78](https://github.com/mob-sakai/SoftMaskForUGUI/issues/78)",semantic-release-bot,semantic-release-bot@martynus.net,semantic-release-bot,semantic-release-bot@martynus.net,https://github.com/mob-sakai/SoftMaskForUGUI/commit/f5f5b7e3413b16a9f9ba8e27fcf7f22a0f82adac,['a9c6dadfa15cde9a9080dbd947aa14bcb07285f3'],89,76,165,"[{'filename': 'CHANGELOG.md', 'additions': 7, 'deletions': 0, 'changes': 7}, {'filename': 'README.md', 'additions': 6, 'deletions': 7, 'changes': 13}, {'filename': 'Samples~/Demo/SoftMask_Demo.unity', 'additions': 25, 'deletions': 12, 'changes': 37}, {'filename': 'Scripts/SoftMask.cs', 'additions': 41, 'deletions': 4, 'changes': 45}, {'filename': 'Scripts/SoftMaskable.cs', 'additions': 4, 'deletions': 47, 'changes': 51}, {'filename': 'Shaders/SoftMask.cginc', 'additions': 5, 'deletions': 5, 'changes': 10}, {'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+b9eb1a9b953729cd88551e497e3bfa0cf999aff9,2020-05-08 22:06:43+00:00,"0.10.0-preview.3
+
+# [0.10.0-preview.3](https://github.com/mob-sakai/SoftMaskForUGUI/compare/v0.10.0-preview.2...v0.10.0-preview.3) (2020-05-08)
+
+### Bug Fixes
+
+* compile error on build ([e7ff660](https://github.com/mob-sakai/SoftMaskForUGUI/commit/e7ff660aa5539ae0a2fb88b49582a5b7f7c11c45)), closes [#84](https://github.com/mob-sakai/SoftMaskForUGUI/issues/84)
+* visual bug with ScreenSpaceCamera canvas on editor ([ec9ac44](https://github.com/mob-sakai/SoftMaskForUGUI/commit/ec9ac4481f9b1ecaf4044743efe02533e7f1ff66))",semantic-release-bot,semantic-release-bot@martynus.net,semantic-release-bot,semantic-release-bot@martynus.net,https://github.com/mob-sakai/SoftMaskForUGUI/commit/b9eb1a9b953729cd88551e497e3bfa0cf999aff9,['f5f5b7e3413b16a9f9ba8e27fcf7f22a0f82adac'],24,29,53,"[{'filename': 'CHANGELOG.md', 'additions': 8, 'deletions': 0, 'changes': 8}, {'filename': 'Scripts/SoftMask.cs', 'additions': 15, 'deletions': 28, 'changes': 43}, {'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+60ce6997e04dbda56cd783e316736debee61732a,2020-05-11 07:34:22+00:00,"1.0.0-preview.1
+
+# [1.0.0-preview.1](https://github.com/mob-sakai/SoftMaskForUGUI/compare/v0.10.0-preview.3...v1.0.0-preview.1) (2020-05-11)
+
+### Bug Fixes
+
+* Unintentional material destruction ([bf17b19](https://github.com/mob-sakai/SoftMaskForUGUI/commit/bf17b19ef29ea35b54cbaf5473611ad58136540a))
+
+### change
+
+* change namespace ([0347b04](https://github.com/mob-sakai/SoftMaskForUGUI/commit/0347b04fb70d970b3558ebb454ecd2dbbd3dfce0))
+
+### Features
+
+* support graphic connector ([3451521](https://github.com/mob-sakai/SoftMaskForUGUI/commit/34515216a39d69601595dffbbac1803da3a27379)), closes [#75](https://github.com/mob-sakai/SoftMaskForUGUI/issues/75) [#76](https://github.com/mob-sakai/SoftMaskForUGUI/issues/76) [#80](https://github.com/mob-sakai/SoftMaskForUGUI/issues/80)
+
+### BREAKING CHANGES
+
+* If your code contained the SoftMask API, it would fail to compile. Please change the namespace from  to .
+* The name of the custom SoftMaskable shader must be changed. For more information, see the ‘Support soft masks with your custom shaders’ section of the README.",semantic-release-bot,semantic-release-bot@martynus.net,semantic-release-bot,semantic-release-bot@martynus.net,https://github.com/mob-sakai/SoftMaskForUGUI/commit/60ce6997e04dbda56cd783e316736debee61732a,['b9eb1a9b953729cd88551e497e3bfa0cf999aff9'],1816,2108,3924,"[{'filename': 'CHANGELOG.md', 'additions': 23, 'deletions': 0, 'changes': 23}, {'filename': 'README.md', 'additions': 13, 'deletions': 1, 'changes': 14}, {'filename': 'Samples~/Demo/Light_Frame.png.meta', 'additions': 43, 'deletions': 11, 'changes': 54}, {'filename': 'Samples~/Demo/SoftMask-Circle.png.meta', 'additions': 23, 'deletions': 7, 'changes': 30}, {'filename': 'Samples~/Demo/SoftMask-Horizontal.png.meta', 'additions': 36, 'deletions': 10, 'changes': 46}, {'filename': 'Samples~/Demo/SoftMask-Star.png.meta', 'additions': 36, 'deletions': 10, 'changes': 46}, {'filename': 'Samples~/Demo/SoftMask-Vertictal.png.meta', 'additions': 36, 'deletions': 10, 'changes': 46}, {'filename': 'Samples~/Demo/SoftMask_Demo.cs', 'additions': 46, 'deletions': 50, 'changes': 96}, {'filename': 'Samples~/Demo/SoftMask_Demo.unity', 'additions': 7, 'deletions': 430, 'changes': 437}, {'filename': 'Samples~/Demo/Unity-chan.png.meta', 'additions': 43, 'deletions': 11, 'changes': 54}, {'filename': 'Scripts/Editor/EditorUtils.cs', 'additions': 57, 'deletions': 0, 'changes': 57}, {'filename': 'Scripts/Editor/EditorUtils.cs.meta', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'Scripts/Editor/ImportSampleMenu.cs', 'additions': 2, 'deletions': 2, 'changes': 4}, {'filename': 'Scripts/Editor/SoftMaskEditor.cs', 'additions': 99, 'deletions': 126, 'changes': 225}, {'filename': 'Scripts/Editor/SoftMaskableEditor.cs', 'additions': 172, 'deletions': 401, 'changes': 573}, {'filename': 'Scripts/Editor/Utils.cs', 'additions': 0, 'deletions': 22, 'changes': 22}, {'filename': 'Scripts/GraphicConnector.cs', 'additions': 107, 'deletions': 0, 'changes': 107}, {'filename': 'Scripts/GraphicConnector.cs.meta', 'additions': 11, 'deletions': 0, 'changes': 11}, {'filename': 'Scripts/MaterialCache.cs', 'additions': 80, 'deletions': 0, 'changes': 80}, {'filename': 'Scripts/MaterialCache.cs.meta', 'additions': 11, 'deletions': 0, 'changes': 11}, {'filename': 'Scripts/SoftMask.cs', 'additions': 687, 'deletions': 695, 'changes': 1382}, {'filename': 'Scripts/SoftMaskable.cs', 'additions': 245, 'deletions': 283, 'changes': 528}, {'filename': 'Shaders/Resources/UI-Default-SoftMaskable.shader', 'additions': 2, 'deletions': 2, 'changes': 4}, {'filename': 'Shaders/Resources/UI-Default-SoftMaskable.shader.meta', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'Shaders/TextMeshProSupport/TMP_SDF (SoftMaskable).shader', 'additions': 11, 'deletions': 11, 'changes': 22}, {'filename': 'Shaders/TextMeshProSupport/TMP_SDF-Mobile (SoftMaskable).shader', 'additions': 9, 'deletions': 9, 'changes': 18}, {'filename': 'Shaders/TextMeshProSupport/TMP_Sprite (SoftMaskable).shader', 'additions': 16, 'deletions': 16, 'changes': 32}, {'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+7ebbdeb2510e11ff14de3ce96161230da78a4fc7,2020-05-13 05:43:18+00:00,"1.0.0-preview.2
+
+# [1.0.0-preview.2](https://github.com/mob-sakai/SoftMaskForUGUI/compare/v1.0.0-preview.1...v1.0.0-preview.2) (2020-05-13)
+
+### Bug Fixes
+
+* compile error ([56b1791](https://github.com/mob-sakai/SoftMaskForUGUI/commit/56b1791bd3995ba387b1dc866ea68325b56a8830)), closes [#87](https://github.com/mob-sakai/SoftMaskForUGUI/issues/87)",semantic-release-bot,semantic-release-bot@martynus.net,semantic-release-bot,semantic-release-bot@martynus.net,https://github.com/mob-sakai/SoftMaskForUGUI/commit/7ebbdeb2510e11ff14de3ce96161230da78a4fc7,['60ce6997e04dbda56cd783e316736debee61732a'],235,13,248,"[{'filename': '.github/pull_request_template.md', 'additions': 9, 'deletions': 0, 'changes': 9}, {'filename': '.releaserc', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'CHANGELOG.md', 'additions': 7, 'deletions': 0, 'changes': 7}, {'filename': 'CODE_OF_CONDUCT.md', 'additions': 84, 'deletions': 0, 'changes': 84}, {'filename': 'CODE_OF_CONDUCT.md.meta', 'additions': 7, 'deletions': 0, 'changes': 7}, {'filename': 'CONTRIBUTING.md', 'additions': 92, 'deletions': 0, 'changes': 92}, {'filename': 'CONTRIBUTING.md.meta', 'additions': 7, 'deletions': 0, 'changes': 7}, {'filename': 'README.md', 'additions': 27, 'deletions': 11, 'changes': 38}, {'filename': 'Scripts/SoftMaskable.cs', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+9ad7d46a10541a6f857931f9a7dfacfa02060d80,2020-06-04 04:43:17+00:00,"1.0.0-preview.3
+
+# [1.0.0-preview.3](https://github.com/mob-sakai/SoftMaskForUGUI/compare/v1.0.0-preview.2...v1.0.0-preview.3) (2020-06-04)
+
+### Bug Fixes
+
+* outside interaction doesn't work when the RaycastFilter option is off ([1935650](https://github.com/mob-sakai/SoftMaskForUGUI/commit/19356500c5b777aa5857fa5176fc09f0fd7951cb))
+
+### Features
+
+* Add ignore self graphic option. ([91c0099](https://github.com/mob-sakai/SoftMaskForUGUI/commit/91c00993b9afbdda0386b8e426e181f8f31618b9))
+* TextMeshPro support ([5b0906b](https://github.com/mob-sakai/SoftMaskForUGUI/commit/5b0906b6086193bc8f62fa174955c9df901ef3f0))
+
+### BREAKING CHANGES
+
+* TextMeshPro support is now an option.
+If a shader or material has errors after a version upgrade, you will need to import the asset.
+Please see the README for more information.",semantic-release-bot,semantic-release-bot@martynus.net,semantic-release-bot,semantic-release-bot@martynus.net,https://github.com/mob-sakai/SoftMaskForUGUI/commit/9ad7d46a10541a6f857931f9a7dfacfa02060d80,['7ebbdeb2510e11ff14de3ce96161230da78a4fc7'],325,299,624,"[{'filename': 'CHANGELOG.md', 'additions': 20, 'deletions': 0, 'changes': 20}, {'filename': 'README.md', 'additions': 24, 'deletions': 12, 'changes': 36}, {'filename': 'Samples~/TextMeshPro Support.meta', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'Samples~/TextMeshPro Support/TMP_SDF (SoftMaskable).shader', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'Samples~/TextMeshPro Support/TMP_SDF (SoftMaskable).shader.meta', 'additions': 2, 'deletions': 0, 'changes': 2}, {'filename': 'Samples~/TextMeshPro Support/TMP_SDF-Mobile (SoftMaskable).shader', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'Samples~/TextMeshPro Support/TMP_SDF-Mobile (SoftMaskable).shader.meta', 'additions': 2, 'deletions': 0, 'changes': 2}, {'filename': 'Samples~/TextMeshPro Support/TMP_Sprite (SoftMaskable).shader', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'Samples~/TextMeshPro Support/TMP_Sprite (SoftMaskable).shader.meta', 'additions': 2, 'deletions': 2, 'changes': 4}, {'filename': 'Scripts/Editor/EditorUtils.cs', 'additions': 1, 'deletions': 2, 'changes': 3}, {'filename': 'Scripts/Editor/ImportSampleMenu.cs', 'additions': 10, 'deletions': 5, 'changes': 15}, {'filename': 'Scripts/Editor/SoftMaskEditor.cs', 'additions': 13, 'deletions': 18, 'changes': 31}, {'filename': 'Scripts/Editor/SoftMaskableEditor.cs', 'additions': 45, 'deletions': 91, 'changes': 136}, {'filename': 'Scripts/GraphicConnector.cs', 'additions': 14, 'deletions': 15, 'changes': 29}, {'filename': 'Scripts/MaterialCache.cs', 'additions': 23, 'deletions': 21, 'changes': 44}, {'filename': 'Scripts/SoftMask.cs', 'additions': 76, 'deletions': 56, 'changes': 132}, {'filename': 'Scripts/SoftMaskable.cs', 'additions': 61, 'deletions': 50, 'changes': 111}, {'filename': 'package.json', 'additions': 32, 'deletions': 27, 'changes': 59}]",[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+9aa9f568b8c56e5f1dffc14c6356c960593f70b0,2020-06-07 04:19:49+00:00,"1.0.0-preview.4
+
+# [1.0.0-preview.4](https://github.com/mob-sakai/SoftMaskForUGUI/compare/v1.0.0-preview.3...v1.0.0-preview.4) (2020-06-07)
+
+### Bug Fixes
+
+* fix the tooltip text ([f38f034](https://github.com/mob-sakai/SoftMaskForUGUI/commit/f38f0341480cfd8eda6bea3e488c7ae052b89924))
+
+### Features
+
+* add a new option to ignore stencil if it is not needed as a mask ([9edcb2d](https://github.com/mob-sakai/SoftMaskForUGUI/commit/9edcb2d22be25c285b0a7f853314884c3e9df499))
+* add a new public property 'useStencil' ([09dbaad](https://github.com/mob-sakai/SoftMaskForUGUI/commit/09dbaad203fa9eaaa16abf683add04267f82439d))
+* improve performance ([018ec78](https://github.com/mob-sakai/SoftMaskForUGUI/commit/018ec78c759745907c2e06d3ab09167939bdb05a))",semantic-release-bot,semantic-release-bot@martynus.net,semantic-release-bot,semantic-release-bot@martynus.net,https://github.com/mob-sakai/SoftMaskForUGUI/commit/9aa9f568b8c56e5f1dffc14c6356c960593f70b0,['9ad7d46a10541a6f857931f9a7dfacfa02060d80'],1631,1621,3252,"[{'filename': 'CHANGELOG.md', 'additions': 14, 'deletions': 0, 'changes': 14}, {'filename': 'CODE_OF_CONDUCT.md', 'additions': 0, 'deletions': 84, 'changes': 84}, {'filename': 'CODE_OF_CONDUCT.md.meta', 'additions': 0, 'deletions': 7, 'changes': 7}, {'filename': 'CONTRIBUTING.md', 'additions': 0, 'deletions': 92, 'changes': 92}, {'filename': 'CONTRIBUTING.md.meta', 'additions': 0, 'deletions': 7, 'changes': 7}, {'filename': 'Samples~/Demo/SoftMask_Demo.unity', 'additions': 1529, 'deletions': 1395, 'changes': 2924}, {'filename': 'Scripts/SoftMask.cs', 'additions': 63, 'deletions': 7, 'changes': 70}, {'filename': 'Scripts/SoftMaskable.cs', 'additions': 21, 'deletions': 4, 'changes': 25}, {'filename': 'Shaders/SoftMask.cginc', 'additions': 3, 'deletions': 24, 'changes': 27}, {'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+03a7b84fa229fb20dbe67f69971cb0f481509acf,2020-06-09 05:41:36+00:00,"1.0.0-preview.5
+
+# [1.0.0-preview.5](https://github.com/mob-sakai/SoftMaskForUGUI/compare/v1.0.0-preview.4...v1.0.0-preview.5) (2020-06-09)
+
+### Bug Fixes
+
+* screen space overlay bug with game window resize ([91b7788](https://github.com/mob-sakai/SoftMaskForUGUI/commit/91b77885bc5f60cb59e8081009982a4635f9245c)), closes [#93](https://github.com/mob-sakai/SoftMaskForUGUI/issues/93)",semantic-release-bot,semantic-release-bot@martynus.net,semantic-release-bot,semantic-release-bot@martynus.net,https://github.com/mob-sakai/SoftMaskForUGUI/commit/03a7b84fa229fb20dbe67f69971cb0f481509acf,['9aa9f568b8c56e5f1dffc14c6356c960593f70b0'],76,46,122,"[{'filename': 'CHANGELOG.md', 'additions': 7, 'deletions': 0, 'changes': 7}, {'filename': 'Scripts/Editor/SoftMaskEditor.cs', 'additions': 9, 'deletions': 6, 'changes': 15}, {'filename': 'Scripts/SoftMask.cs', 'additions': 29, 'deletions': 24, 'changes': 53}, {'filename': 'Scripts/SoftMaskable.cs', 'additions': 18, 'deletions': 14, 'changes': 32}, {'filename': 'Shaders/SoftMask.cginc', 'additions': 12, 'deletions': 1, 'changes': 13}, {'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+52c3a09e61ddf742f1f9fc4ad6f27048e4409b94,2020-08-17 01:40:01+00:00,"1.0.0-preview.6
+
+# [1.0.0-preview.6](https://github.com/mob-sakai/SoftMaskForUGUI/compare/v1.0.0-preview.5...v1.0.0-preview.6) (2020-08-17)
+
+### Bug Fixes
+
+* Always Include TextMeshPro Shaders ([7f24280](https://github.com/mob-sakai/SoftMaskForUGUI/commit/7f24280b9586f5ccc50d233d0eb4241bb8cd9b10)), closes [#99](https://github.com/mob-sakai/SoftMaskForUGUI/issues/99)",semantic-release-bot,semantic-release-bot@martynus.net,semantic-release-bot,semantic-release-bot@martynus.net,https://github.com/mob-sakai/SoftMaskForUGUI/commit/52c3a09e61ddf742f1f9fc4ad6f27048e4409b94,['03a7b84fa229fb20dbe67f69971cb0f481509acf'],33,8,41,"[{'filename': 'CHANGELOG.md', 'additions': 7, 'deletions': 0, 'changes': 7}, {'filename': 'README.md', 'additions': 17, 'deletions': 7, 'changes': 24}, {'filename': 'Samples~/TextMeshPro Support/Resources.meta', 'additions': 8, 'deletions': 0, 'changes': 8}, {'filename': 'Samples~/TextMeshPro Support/Resources/TMP_SDF (SoftMaskable).shader', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'Samples~/TextMeshPro Support/Resources/TMP_SDF (SoftMaskable).shader.meta', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'Samples~/TextMeshPro Support/Resources/TMP_SDF-Mobile (SoftMaskable).shader', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'Samples~/TextMeshPro Support/Resources/TMP_SDF-Mobile (SoftMaskable).shader.meta', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'Samples~/TextMeshPro Support/Resources/TMP_Sprite (SoftMaskable).shader', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'Samples~/TextMeshPro Support/Resources/TMP_Sprite (SoftMaskable).shader.meta', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+147906493125910ad965654a42efdc011db37fcc,2020-08-17 02:38:48+00:00,"1.0.0-preview.7
+
+# [1.0.0-preview.7](https://github.com/mob-sakai/SoftMaskForUGUI/compare/v1.0.0-preview.6...v1.0.0-preview.7) (2020-08-17)
+
+### Features
+
+* memoryless mode (depth) ([8cf202f](https://github.com/mob-sakai/SoftMaskForUGUI/commit/8cf202f958be902d34994f3c07082f893f9b455b))",semantic-release-bot,semantic-release-bot@martynus.net,semantic-release-bot,semantic-release-bot@martynus.net,https://github.com/mob-sakai/SoftMaskForUGUI/commit/147906493125910ad965654a42efdc011db37fcc,['52c3a09e61ddf742f1f9fc4ad6f27048e4409b94'],15,2,17,"[{'filename': 'CHANGELOG.md', 'additions': 7, 'deletions': 0, 'changes': 7}, {'filename': 'README.md', 'additions': 6, 'deletions': 0, 'changes': 6}, {'filename': 'Scripts/SoftMask.cs', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+58eeefc698e9bb8b3e2c4e360dbe500a7ea9c04f,2020-09-08 02:33:57+00:00,"1.0.0-preview.8
+
+# [1.0.0-preview.8](https://github.com/mob-sakai/SoftMaskForUGUI/compare/v1.0.0-preview.7...v1.0.0-preview.8) (2020-09-08)
+
+### Features
+
+* if the 'UIMask' sprite is specified as the source image, it is suggested to use another image ([ea904db](https://github.com/mob-sakai/SoftMaskForUGUI/commit/ea904dbe3afd9f18eab0d449bd08bf78375fd53d)), closes [#82](https://github.com/mob-sakai/SoftMaskForUGUI/issues/82)
+* option to disable softening completely ([dedd847](https://github.com/mob-sakai/SoftMaskForUGUI/commit/dedd847fd0c5faa5094a08293600cbb8aa4b6456)), closes [#98](https://github.com/mob-sakai/SoftMaskForUGUI/issues/98)
+* use the stencil buffer outside the scene view canvas for editing ([dbab85c](https://github.com/mob-sakai/SoftMaskForUGUI/commit/dbab85c0f0bd8a58b8ab09306bed351ad1cf6375)), closes [#100](https://github.com/mob-sakai/SoftMaskForUGUI/issues/100)",semantic-release-bot,semantic-release-bot@martynus.net,semantic-release-bot,semantic-release-bot@martynus.net,https://github.com/mob-sakai/SoftMaskForUGUI/commit/58eeefc698e9bb8b3e2c4e360dbe500a7ea9c04f,['147906493125910ad965654a42efdc011db37fcc'],39,7,46,"[{'filename': 'CHANGELOG.md', 'additions': 9, 'deletions': 0, 'changes': 9}, {'filename': 'Scripts/Editor/SoftMaskEditor.cs', 'additions': 23, 'deletions': 0, 'changes': 23}, {'filename': 'Scripts/SoftMask.cs', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'Scripts/SoftMaskable.cs', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'Shaders/Resources/SoftMask.shader', 'additions': 2, 'deletions': 1, 'changes': 3}, {'filename': 'Shaders/SoftMask.cginc', 'additions': 2, 'deletions': 3, 'changes': 5}, {'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+4d6a3a4f01d72f7ea152708aa47a6a2cb4880ca0,2020-09-08 02:44:49+00:00,"1.0.0-preview.9
+
+# [1.0.0-preview.9](https://github.com/mob-sakai/SoftMaskForUGUI/compare/v1.0.0-preview.8...v1.0.0-preview.9) (2020-09-08)
+
+### Bug Fixes
+
+* TextMeshPro not work TMP_SubMeshUI ([56995e9](https://github.com/mob-sakai/SoftMaskForUGUI/commit/56995e9f81218a40cfd777f51b9f11a86775a131)), closes [#94](https://github.com/mob-sakai/SoftMaskForUGUI/issues/94)",semantic-release-bot,semantic-release-bot@martynus.net,semantic-release-bot,semantic-release-bot@martynus.net,https://github.com/mob-sakai/SoftMaskForUGUI/commit/4d6a3a4f01d72f7ea152708aa47a6a2cb4880ca0,['58eeefc698e9bb8b3e2c4e360dbe500a7ea9c04f'],12,2,14,"[{'filename': 'CHANGELOG.md', 'additions': 7, 'deletions': 0, 'changes': 7}, {'filename': 'README.md', 'additions': 3, 'deletions': 1, 'changes': 4}, {'filename': 'Scripts/SoftMaskable.cs', 'additions': 1, 'deletions': 0, 'changes': 1}, {'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+ded86d96af6108700cd78e3d0b13a20cd07b5f92,2020-09-14 13:55:22+00:00,"1.0.0-preview.10
+
+# [1.0.0-preview.10](https://github.com/mob-sakai/SoftMaskForUGUI/compare/v1.0.0-preview.9...v1.0.0-preview.10) (2020-09-14)
+
+### Bug Fixes
+
+* if the package was installed via openupm, an unintended directory 'Samples' was included ([d8fd47a](https://github.com/mob-sakai/SoftMaskForUGUI/commit/d8fd47aadbbb99fc6ebd830820abaee4ab1d9cf2)), closes [#102](https://github.com/mob-sakai/SoftMaskForUGUI/issues/102)",semantic-release-bot,semantic-release-bot@martynus.net,semantic-release-bot,semantic-release-bot@martynus.net,https://github.com/mob-sakai/SoftMaskForUGUI/commit/ded86d96af6108700cd78e3d0b13a20cd07b5f92,['4d6a3a4f01d72f7ea152708aa47a6a2cb4880ca0'],8,1,9,"[{'filename': 'CHANGELOG.md', 'additions': 7, 'deletions': 0, 'changes': 7}, {'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+9b6205070f811b362efbb768d26360ac0a297af6,2020-09-27 09:46:58+00:00,"1.0.0-preview.11
+
+# [1.0.0-preview.11](https://github.com/mob-sakai/SoftMaskForUGUI/compare/v1.0.0-preview.10...v1.0.0-preview.11) (2020-09-27)
+
+### Bug Fixes
+
+* an exception is thrown when the game view is inactive ([97e5a21](https://github.com/mob-sakai/SoftMaskForUGUI/commit/97e5a21b784ae9081aec8f17603355eef7e8b2b9)), closes [#104](https://github.com/mob-sakai/SoftMaskForUGUI/issues/104)
+* graphic.materialForRendering always returns different material ([3f6acec](https://github.com/mob-sakai/SoftMaskForUGUI/commit/3f6acec67b3c0467670eb8f4b10928fa8724e082)), closes [#103](https://github.com/mob-sakai/SoftMaskForUGUI/issues/103)",semantic-release-bot,semantic-release-bot@martynus.net,semantic-release-bot,semantic-release-bot@martynus.net,https://github.com/mob-sakai/SoftMaskForUGUI/commit/9b6205070f811b362efbb768d26360ac0a297af6,['ded86d96af6108700cd78e3d0b13a20cd07b5f92'],21,10,31,"[{'filename': 'CHANGELOG.md', 'additions': 8, 'deletions': 0, 'changes': 8}, {'filename': 'Scripts/SoftMask.cs', 'additions': 2, 'deletions': 2, 'changes': 4}, {'filename': 'Scripts/SoftMaskable.cs', 'additions': 10, 'deletions': 7, 'changes': 17}, {'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+db266a8cf0c8e44f86a186dd05095edb998216ab,2020-09-28 01:35:56+00:00,"1.0.0-preview.12
+
+# [1.0.0-preview.12](https://github.com/mob-sakai/SoftMaskForUGUI/compare/v1.0.0-preview.11...v1.0.0-preview.12) (2020-09-28)
+
+### Bug Fixes
+
+* clickable area inverted on Metal ([3c189ff](https://github.com/mob-sakai/SoftMaskForUGUI/commit/3c189ffed61baa6806aadc6ff89c41b9102491b5))
+* in Unity 2018.x, sample import failed on Windows ([207ea9c](https://github.com/mob-sakai/SoftMaskForUGUI/commit/207ea9c1dc4117ab6c00e70290d5f7651fa906d8))",semantic-release-bot,semantic-release-bot@martynus.net,semantic-release-bot,semantic-release-bot@martynus.net,https://github.com/mob-sakai/SoftMaskForUGUI/commit/db266a8cf0c8e44f86a186dd05095edb998216ab,['9b6205070f811b362efbb768d26360ac0a297af6'],15,4,19,"[{'filename': 'CHANGELOG.md', 'additions': 8, 'deletions': 0, 'changes': 8}, {'filename': 'Scripts/Editor/ImportSampleMenu.cs', 'additions': 3, 'deletions': 2, 'changes': 5}, {'filename': 'Scripts/SoftMask.cs', 'additions': 3, 'deletions': 1, 'changes': 4}, {'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+73177082e5fd75eaa2faab356597d91986b7295c,2020-10-01 09:57:56+00:00,"1.0.0-preview.13
+
+# [1.0.0-preview.13](https://github.com/mob-sakai/SoftMaskForUGUI/compare/v1.0.0-preview.12...v1.0.0-preview.13) (2020-10-01)
+
+### Bug Fixes
+
+* screen resolution in full screen mode is incorrect ([39e3084](https://github.com/mob-sakai/SoftMaskForUGUI/commit/39e3084ec840293f2ad461f50d51eeafe66cbebf))",semantic-release-bot,semantic-release-bot@martynus.net,semantic-release-bot,semantic-release-bot@martynus.net,https://github.com/mob-sakai/SoftMaskForUGUI/commit/73177082e5fd75eaa2faab356597d91986b7295c,['db266a8cf0c8e44f86a186dd05095edb998216ab'],42,23,65,"[{'filename': 'CHANGELOG.md', 'additions': 7, 'deletions': 0, 'changes': 7}, {'filename': 'Scripts/SoftMask.cs', 'additions': 34, 'deletions': 22, 'changes': 56}, {'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+5c54622518b193e917239d66e12fd6e5516db31d,2020-10-08 15:59:24+00:00,"1.0.0-preview.14
+
+# [1.0.0-preview.14](https://github.com/mob-sakai/SoftMaskForUGUI/compare/v1.0.0-preview.13...v1.0.0-preview.14) (2020-10-08)
+
+### Bug Fixes
+
+* incorrect behavior when a world space canvas and an overlay canvas are enabled together ([a6e82fa](https://github.com/mob-sakai/SoftMaskForUGUI/commit/a6e82fa2a7baa06aa4e1fb7e4a8099c5e1039d67)), closes [#107](https://github.com/mob-sakai/SoftMaskForUGUI/issues/107)",semantic-release-bot,semantic-release-bot@martynus.net,semantic-release-bot,semantic-release-bot@martynus.net,https://github.com/mob-sakai/SoftMaskForUGUI/commit/5c54622518b193e917239d66e12fd6e5516db31d,['73177082e5fd75eaa2faab356597d91986b7295c'],62,27,89,"[{'filename': 'CHANGELOG.md', 'additions': 7, 'deletions': 0, 'changes': 7}, {'filename': 'Scripts/SoftMask.cs', 'additions': 0, 'deletions': 21, 'changes': 21}, {'filename': 'Scripts/SoftMaskable.cs', 'additions': 53, 'deletions': 4, 'changes': 57}, {'filename': 'Shaders/SoftMask.cginc', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+f59d147fe04be6a84b3cd7eb93bce149410911be,2021-02-24 00:53:06+00:00,"chore(release): 1.0.0 [skip ci]
+
+# [1.0.0](https://github.com/mob-sakai/SoftMaskForUGUI/compare/0.9.1...1.0.0) (2021-02-24)
+
+### Features
+
+* release 1.0.0 ([127b455](https://github.com/mob-sakai/SoftMaskForUGUI/commit/127b455f38889dfe9a1c6ae5449d2c537d2a4d78))
+
+### BREAKING CHANGES
+
+* release 1.0.0",semantic-release-bot,semantic-release-bot@martynus.net,semantic-release-bot,semantic-release-bot@martynus.net,https://github.com/mob-sakai/SoftMaskForUGUI/commit/f59d147fe04be6a84b3cd7eb93bce149410911be,['127b455f38889dfe9a1c6ae5449d2c537d2a4d78'],13,1,14,"[{'filename': 'CHANGELOG.md', 'additions': 12, 'deletions': 0, 'changes': 12}, {'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+29def6dbe5dd0fe8f99b8ab33f2d2b3a2e5db027,2022-05-15 06:18:12+00:00,"chore(release): 1.0.1 [skip ci]
+
+## [1.0.1](https://github.com/mob-sakai/SoftMaskForUGUI/compare/1.0.0...1.0.1) (2022-05-15)
+
+### Bug Fixes
+
+* applied a workaround to fix a Microsoft HLSL compiler issue ([50c41f2](https://github.com/mob-sakai/SoftMaskForUGUI/commit/50c41f29ccc9b70acdd7f15490debd8eacf5a102)), closes [#131](https://github.com/mob-sakai/SoftMaskForUGUI/issues/131)
+* fixed shader compilation in some platforms ([40b450b](https://github.com/mob-sakai/SoftMaskForUGUI/commit/40b450ba24e77c34c97fe8411f7b0b1dd103d487))",semantic-release-bot,semantic-release-bot@martynus.net,semantic-release-bot,semantic-release-bot@martynus.net,https://github.com/mob-sakai/SoftMaskForUGUI/commit/29def6dbe5dd0fe8f99b8ab33f2d2b3a2e5db027,['40b450ba24e77c34c97fe8411f7b0b1dd103d487'],9,1,10,"[{'filename': 'CHANGELOG.md', 'additions': 8, 'deletions': 0, 'changes': 8}, {'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+b870d64b5704a764fd03aaccb11f2dbe652b1756,2022-05-15 06:52:50+00:00,"chore(release): 1.0.2 [skip ci]
+
+## [1.0.2](https://github.com/mob-sakai/SoftMaskForUGUI/compare/1.0.1...1.0.2) (2022-05-15)
+
+### Bug Fixes
+
+* support TextMeshPro v2 or later ([c85409e](https://github.com/mob-sakai/SoftMaskForUGUI/commit/c85409e56ff09607244061c59518f5d1f460a918))",semantic-release-bot,semantic-release-bot@martynus.net,semantic-release-bot,semantic-release-bot@martynus.net,https://github.com/mob-sakai/SoftMaskForUGUI/commit/b870d64b5704a764fd03aaccb11f2dbe652b1756,['c85409e56ff09607244061c59518f5d1f460a918'],8,1,9,"[{'filename': 'CHANGELOG.md', 'additions': 7, 'deletions': 0, 'changes': 7}, {'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+403e834b8222dea6235729b60fca57eb866a4eec,2024-02-10 07:45:55+00:00,feat: add explicit dependencies,mob-sakai,sakai861104@gmail.com,mob-sakai,sakai861104@gmail.com,https://github.com/mob-sakai/SoftMaskForUGUI/commit/403e834b8222dea6235729b60fca57eb866a4eec,['9c7094aaee490bcaa669befc6ecf92541b9c9174'],3,1,4,"[{'filename': 'package.json', 'additions': 3, 'deletions': 1, 'changes': 4}]",['com.unity.ugui'],[],[],[],"{'added': ['com.unity.ugui'], 'removed': []}","{'added': [], 'removed': []}"
+83eaceccbd2580de632213c6b19c587d0d35cbdb,2024-02-10 16:48:57+00:00,"fix: fix soft-maskable shaders for TextMeshPro v2.0/v2.1/v2.2/v3.0
+
+Support RectMask2D softness",mob-sakai,sakai861104@gmail.com,mob-sakai,sakai861104@gmail.com,https://github.com/mob-sakai/SoftMaskForUGUI/commit/83eaceccbd2580de632213c6b19c587d0d35cbdb,['403e834b8222dea6235729b60fca57eb866a4eec'],249,229,478,"[{'filename': 'Samples~/TextMeshPro Support.meta', 'additions': 0, 'deletions': 8, 'changes': 8}, {'filename': 'Samples~/TextMeshPro Support/Resources/TMP_Sprite (SoftMaskable).shader', 'additions': 0, 'deletions': 118, 'changes': 118}, {'filename': 'Samples~/TextMeshPro Support~/Resources.meta', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'Samples~/TextMeshPro Support~/Resources/TMP_SDF (SoftMaskable).shader', 'additions': 63, 'deletions': 53, 'changes': 116}, {'filename': 'Samples~/TextMeshPro Support~/Resources/TMP_SDF (SoftMaskable).shader.meta', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'Samples~/TextMeshPro Support~/Resources/TMP_SDF-Mobile (SoftMaskable).shader', 'additions': 55, 'deletions': 49, 'changes': 104}, {'filename': 'Samples~/TextMeshPro Support~/Resources/TMP_SDF-Mobile (SoftMaskable).shader.meta', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'Samples~/TextMeshPro Support~/Resources/TMP_Sprite (SoftMaskable).shader', 'additions': 130, 'deletions': 0, 'changes': 130}, {'filename': 'Samples~/TextMeshPro Support~/Resources/TMP_Sprite (SoftMaskable).shader.meta', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",['com.unity.ugui'],[],['com.unity.ugui'],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+679acc4138a85a1939a7abbbf22249df3e1210cc,2024-02-10 18:27:11+00:00,feat: add soft-maskable shaders for TextMeshPro v3.2/v4.0,mob-sakai,sakai861104@gmail.com,mob-sakai,sakai861104@gmail.com,https://github.com/mob-sakai/SoftMaskForUGUI/commit/679acc4138a85a1939a7abbbf22249df3e1210cc,['83eaceccbd2580de632213c6b19c587d0d35cbdb'],764,0,764,"[{'filename': 'Samples~/TextMeshPro Support v3.2 or v4.0~/Resources.meta', 'additions': 8, 'deletions': 0, 'changes': 8}, {'filename': 'Samples~/TextMeshPro Support v3.2 or v4.0~/Resources/TMP_SDF (SoftMaskable).shader', 'additions': 333, 'deletions': 0, 'changes': 333}, {'filename': 'Samples~/TextMeshPro Support v3.2 or v4.0~/Resources/TMP_SDF (SoftMaskable).shader.meta', 'additions': 9, 'deletions': 0, 'changes': 9}, {'filename': 'Samples~/TextMeshPro Support v3.2 or v4.0~/Resources/TMP_SDF-Mobile (SoftMaskable).shader', 'additions': 256, 'deletions': 0, 'changes': 256}, {'filename': 'Samples~/TextMeshPro Support v3.2 or v4.0~/Resources/TMP_SDF-Mobile (SoftMaskable).shader.meta', 'additions': 9, 'deletions': 0, 'changes': 9}, {'filename': 'Samples~/TextMeshPro Support v3.2 or v4.0~/Resources/TMP_Sprite (SoftMaskable).shader', 'additions': 135, 'deletions': 0, 'changes': 135}, {'filename': 'Samples~/TextMeshPro Support v3.2 or v4.0~/Resources/TMP_Sprite (SoftMaskable).shader.meta', 'additions': 9, 'deletions': 0, 'changes': 9}, {'filename': 'package.json', 'additions': 5, 'deletions': 0, 'changes': 5}]",['com.unity.ugui'],[],['com.unity.ugui'],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+c480cefd62a8f3949fdb0688e6bd62528539bd94,2024-07-13 03:00:28+00:00,feat: support uGUI 2.0.0,mob-sakai,12690315+mob-sakai@users.noreply.github.com,mob-sakai,12690315+mob-sakai@users.noreply.github.com,https://github.com/mob-sakai/SoftMaskForUGUI/commit/c480cefd62a8f3949fdb0688e6bd62528539bd94,['d0bdcdd0a2022a03d205954c6c0c7f1dae64a7b7'],42,10497,10539,"[{'filename': 'Runtime/Coffee.SoftMaskForUGUI.asmdef', 'additions': 5, 'deletions': 0, 'changes': 5}, {'filename': 'Samples~/TextMeshPro Support (ugui 2.0)~/Hidden-TMP_SDF-Mobile-SoftMaskable.shader', 'additions': 6, 'deletions': 7, 'changes': 13}, {'filename': 'Samples~/TextMeshPro Support (ugui 2.0)~/Hidden-TMP_SDF-Mobile-SoftMaskable.shader.meta', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'Samples~/TextMeshPro Support (ugui 2.0)~/Hidden-TMP_SDF-SoftMaskable.shader', 'additions': 6, 'deletions': 7, 'changes': 13}, {'filename': 'Samples~/TextMeshPro Support (ugui 2.0)~/Hidden-TMP_SDF-SoftMaskable.shader.meta', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'Samples~/TextMeshPro Support (ugui 2.0)~/Hidden-TMP_Sprite-SoftMaskable.shader', 'additions': 4, 'deletions': 5, 'changes': 9}, {'filename': 'Samples~/TextMeshPro Support (ugui 2.0)~/Hidden-TMP_Sprite-SoftMaskable.shader.meta', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'Samples~/TextMeshPro Support v3.2 or v4.0~/ShareTechMono SDF.asset', 'additions': 0, 'deletions': 2660, 'changes': 2660}, {'filename': 'Samples~/TextMeshPro Support v3.2 or v4.0~/ShareTechMono SDF.asset.meta', 'additions': 0, 'deletions': 8, 'changes': 8}, {'filename': 'Samples~/TextMeshPro Support v3.2 or v4.0~/SoftMask_Demo_TextMeshProSupport.unity', 'additions': 0, 'deletions': 2552, 'changes': 2552}, {'filename': 'Samples~/TextMeshPro Support v3.2 or v4.0~/SoftMask_Demo_TextMeshProSupport.unity.meta', 'additions': 0, 'deletions': 7, 'changes': 7}, {'filename': 'Samples~/TextMeshPro Support~/Hidden-TMP_SDF-Mobile-SoftMaskable.shader', 'additions': 7, 'deletions': 8, 'changes': 15}, {'filename': 'Samples~/TextMeshPro Support~/Hidden-TMP_SDF-SoftMaskable.shader', 'additions': 7, 'deletions': 8, 'changes': 15}, {'filename': 'Samples~/TextMeshPro Support~/Hidden-TMP_Sprite-SoftMaskable.shader', 'additions': 4, 'deletions': 5, 'changes': 9}, {'filename': 'Samples~/TextMeshPro Support~/ShareTechMono SDF.asset', 'additions': 0, 'deletions': 2660, 'changes': 2660}, {'filename': 'Samples~/TextMeshPro Support~/ShareTechMono SDF.asset.meta', 'additions': 0, 'deletions': 8, 'changes': 8}, {'filename': 'Samples~/TextMeshPro Support~/SoftMask_Demo_TextMeshProSupport.unity', 'additions': 0, 'deletions': 2552, 'changes': 2552}, {'filename': 'Samples~/TextMeshPro Support~/SoftMask_Demo_TextMeshProSupport.unity.meta', 'additions': 0, 'deletions': 7, 'changes': 7}, {'filename': 'package.json', 'additions': 3, 'deletions': 3, 'changes': 6}]",['com.unity.ugui'],[],['com.unity.ugui'],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+0ada3f7e29e632877ebcb2a8f2d6f047cde70e3c,2024-07-17 08:26:50+00:00,"chore(release): 2.0.0 [skip ci]
+
+# [2.0.0](https://github.com/mob-sakai/SoftMaskForUGUI/compare/v1.0.2...v2.0.0) (2024-07-17)
+
+### Bug Fixes
+
+* fix a major performance regression where if you had a lot of softmaskable components (even if the parent canvas was in-active) it would eat over 20ms doing a certain editor-only function ([6e9fb30](https://github.com/mob-sakai/SoftMaskForUGUI/commit/6e9fb303e0aacfae292c7c011630ba877fdb4b63))
+* fix broken anchor on README.md ([03a0425](https://github.com/mob-sakai/SoftMaskForUGUI/commit/03a0425c83119e9ff35252c0d6fce8fe2e35758c))
+* fix soft-maskable shaders for TextMeshPro v2.0/v2.1/v2.2/v3.0 ([51d84c9](https://github.com/mob-sakai/SoftMaskForUGUI/commit/51d84c96b0c9018826c9e757b489538cd626b515))
+* when changing resolution, display, or screen orientation, soft-masking do not work properly ([b39fcd9](https://github.com/mob-sakai/SoftMaskForUGUI/commit/b39fcd98b01310254613915d90b284b8d82fd10c))
+
+### Features
+
+* 'SoftMask.partOfParent' is now obsolete. Please use 'MaskingShape' component instead. ([3ac1dd2](https://github.com/mob-sakai/SoftMaskForUGUI/commit/3ac1dd28d4e42f5ee258b3f82a8949dd610a1d3b))
+* (editor) use stencil outside screen in scene view for development ([028b85b](https://github.com/mob-sakai/SoftMaskForUGUI/commit/028b85b0877397a45d52690714b4dca0dcc95ef0))
+* add 'AntiAliasing' masking mode. This mode suppresses stencil-derived mask aliasing without using RenderTexture. ([efb7f64](https://github.com/mob-sakai/SoftMaskForUGUI/commit/efb7f64dc1f7f9d68752e6271bc4fb3f22a745a0))
+* add 'SoftMask.softMaskingRange' option ([76f69cf](https://github.com/mob-sakai/SoftMaskForUGUI/commit/76f69cf859097409d1c022188a617d18ebf11418))
+* add asset modify system to migrate from v1 to v2 ([c451cf5](https://github.com/mob-sakai/SoftMaskForUGUI/commit/c451cf5a156e6fb05a7fb14b7f50a41d2e556e38))
+* add explicit dependencies ([90a97c6](https://github.com/mob-sakai/SoftMaskForUGUI/commit/90a97c604c017c49fb786bc7a8dceaaa657228ba))
+* add project settings for SoftMask ([4a124d4](https://github.com/mob-sakai/SoftMaskForUGUI/commit/4a124d41fcac3d291e07613a067ff97fc1845042))
+* add soft-maskable shaders for TextMeshPro v3.2/v4.0 ([df888e0](https://github.com/mob-sakai/SoftMaskForUGUI/commit/df888e0091d3ebd3449f470b6e0b8048167aeec7))
+* add stereo mode to shader ([e2e6733](https://github.com/mob-sakai/SoftMaskForUGUI/commit/e2e67339676a1e09b235eabb148cef7c06ed7065))
+* exclude unused shader variants from the build (option) ([87b6060](https://github.com/mob-sakai/SoftMaskForUGUI/commit/87b60600b5608a54a58c2e8d23e73818dc15ca31))
+* support uGUI 2.0.0 ([725278a](https://github.com/mob-sakai/SoftMaskForUGUI/commit/725278a6b3fbe57b9bfc78d929a03b97a1405eb3))
+
+### BREAKING CHANGES
+
+* The implementation way of the 'SoftMaskable' shader has been changed. Please refer to the ""Migrating from v1 to v2"" section in the Readme for details.",semantic-release-bot,semantic-release-bot@martynus.net,semantic-release-bot,semantic-release-bot@martynus.net,https://github.com/mob-sakai/SoftMaskForUGUI/commit/0ada3f7e29e632877ebcb2a8f2d6f047cde70e3c,['e0787c3469455ae6cd4a77d56749f8739078b74c'],31,1,32,"[{'filename': 'CHANGELOG.md', 'additions': 30, 'deletions': 0, 'changes': 30}, {'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",['com.unity.ugui'],[],['com.unity.ugui'],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+5abafad89705d574b20d1d1cacaec66e562f7199,2024-07-23 15:33:40+00:00,"chore(release): 2.1.0 [skip ci]
+
+# [2.1.0](https://github.com/mob-sakai/SoftMaskForUGUI/compare/v2.0.0...v2.1.0) (2024-07-23)
+
+### Bug Fixes
+
+* fix null exception ([15d6917](https://github.com/mob-sakai/SoftMaskForUGUI/commit/15d6917e80a58f35deabcbf7b8f3b8697f498d71))
+* fix upgrading asset system (v1 to v2) ([e6d0c60](https://github.com/mob-sakai/SoftMaskForUGUI/commit/e6d0c60edf63fe71c1cf8457a8e22c20485711bb))
+* support 'Apply display rotation during rendering' for Vulkan (experimental) ([f5c9b41](https://github.com/mob-sakai/SoftMaskForUGUI/commit/f5c9b414d420ce978e509af643ae51f92c1078d1)), closes [#171](https://github.com/mob-sakai/SoftMaskForUGUI/issues/171)
+
+### Features
+
+* add 'Hide Generated Components' option in project settings ([053e92b](https://github.com/mob-sakai/SoftMaskForUGUI/commit/053e92ba7a063b7a354dea19aefd1839e665c96a))
+* add a help box to the auto-generated object inspector ([f2d2115](https://github.com/mob-sakai/SoftMaskForUGUI/commit/f2d211538d07427fc2a5c8ba2063f2ee944057db)), closes [#175](https://github.com/mob-sakai/SoftMaskForUGUI/issues/175)
+* revive `SoftMask.alpha` ([8080cb2](https://github.com/mob-sakai/SoftMaskForUGUI/commit/8080cb24091ec49511e28c3c5ed92ff3477b5867)), closes [#172](https://github.com/mob-sakai/SoftMaskForUGUI/issues/172)
+* softmask buffers are now baked considering `Graphic.color.a` ([2eaaad6](https://github.com/mob-sakai/SoftMaskForUGUI/commit/2eaaad639673f440e096fd1ab529607d88fd5ba0))",semantic-release-bot,semantic-release-bot@martynus.net,semantic-release-bot,semantic-release-bot@martynus.net,https://github.com/mob-sakai/SoftMaskForUGUI/commit/5abafad89705d574b20d1d1cacaec66e562f7199,['470e5d99323b0209b9cb35febec5218017c70070'],18,1,19,"[{'filename': 'CHANGELOG.md', 'additions': 17, 'deletions': 0, 'changes': 17}, {'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",['com.unity.ugui'],[],['com.unity.ugui'],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+0da016a2b6aad4446d4c5189753d02ff25afd41a,2024-07-24 08:13:42+00:00,"chore(release): 2.1.1 [skip ci]
+
+## [2.1.1](https://github.com/mob-sakai/SoftMaskForUGUI/compare/v2.1.0...v2.1.1) (2024-07-24)
+
+### Bug Fixes
+
+* flashing when SoftnessRange is changed in inspector ([d1c6235](https://github.com/mob-sakai/SoftMaskForUGUI/commit/d1c623588c5cfd37aa8f23c57d5e15f397049eda))",semantic-release-bot,semantic-release-bot@martynus.net,semantic-release-bot,semantic-release-bot@martynus.net,https://github.com/mob-sakai/SoftMaskForUGUI/commit/0da016a2b6aad4446d4c5189753d02ff25afd41a,['12f81cf9845142e0cb651c70862b9b938c1549c4'],8,1,9,"[{'filename': 'CHANGELOG.md', 'additions': 7, 'deletions': 0, 'changes': 7}, {'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",['com.unity.ugui'],[],['com.unity.ugui'],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+469b40448f6e46d1a4a447d1e1341cc7e4f8c9b8,2024-07-25 12:58:21+00:00,"chore(release): 2.1.2 [skip ci]
+
+## [2.1.2](https://github.com/mob-sakai/SoftMaskForUGUI/compare/v2.1.1...v2.1.2) (2024-07-25)
+
+### Bug Fixes
+
+* shaders for SoftMask are not automatically included ([3a37659](https://github.com/mob-sakai/SoftMaskForUGUI/commit/3a376595d15ba1c7229e009e50f7cc84214d7093)), closes [#177](https://github.com/mob-sakai/SoftMaskForUGUI/issues/177) [#178](https://github.com/mob-sakai/SoftMaskForUGUI/issues/178)",semantic-release-bot,semantic-release-bot@martynus.net,semantic-release-bot,semantic-release-bot@martynus.net,https://github.com/mob-sakai/SoftMaskForUGUI/commit/469b40448f6e46d1a4a447d1e1341cc7e4f8c9b8,['0c22da789e854b2fcb509f9addc6c6a633d5c9cc'],8,1,9,"[{'filename': 'CHANGELOG.md', 'additions': 7, 'deletions': 0, 'changes': 7}, {'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",['com.unity.ugui'],[],['com.unity.ugui'],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+9370fd2fb7bdf05a75eedee57a55b459be7d4a11,2024-07-26 03:29:59+00:00,"chore(release): 2.1.3 [skip ci]
+
+## [2.1.3](https://github.com/mob-sakai/SoftMaskForUGUI/compare/v2.1.2...v2.1.3) (2024-07-26)
+
+### Bug Fixes
+
+* soft mask buffer is fliped on UNITY_UV_STARTS_AT_TOP devices ([e9c7822](https://github.com/mob-sakai/SoftMaskForUGUI/commit/e9c782287065adca628a32a6222adab4210e73fd)), closes [#179](https://github.com/mob-sakai/SoftMaskForUGUI/issues/179)",semantic-release-bot,semantic-release-bot@martynus.net,semantic-release-bot,semantic-release-bot@martynus.net,https://github.com/mob-sakai/SoftMaskForUGUI/commit/9370fd2fb7bdf05a75eedee57a55b459be7d4a11,['b44edc35005e658527853e1833b2c34dc34938bd'],8,1,9,"[{'filename': 'CHANGELOG.md', 'additions': 7, 'deletions': 0, 'changes': 7}, {'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",['com.unity.ugui'],[],['com.unity.ugui'],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+1cf2d8ba58afe42d5000e78965fd9c7ad3ca1f80,2024-08-11 00:49:20+00:00,"chore(release): 2.2.0 [skip ci]
+
+# [2.2.0](https://github.com/mob-sakai/SoftMaskForUGUI/compare/v2.1.3...v2.2.0) (2024-08-11)
+
+### Bug Fixes
+
+* `Stereo Enabled` option in preferences does not work ([552f806](https://github.com/mob-sakai/SoftMaskForUGUI/commit/552f806524a74ac253bfa8b23dfe23f13ba8bee4))
+* if no `Canvas` in the parents of the `SoftMask`, error occurred ([7c401d7](https://github.com/mob-sakai/SoftMaskForUGUI/commit/7c401d72c842fcce7696f045e109798b0966511a)), closes [#182](https://github.com/mob-sakai/SoftMaskForUGUI/issues/182)
+* placing a SoftMaskable object outside of a SoftMask makes the object invisible ([088b723](https://github.com/mob-sakai/SoftMaskForUGUI/commit/088b723dc6e7781d0f04bf3a359774bcf5ba7de3)), closes [#180](https://github.com/mob-sakai/SoftMaskForUGUI/issues/180)
+* softmask-buffer is cleared when TMPSubMeshUI is activated via EditorGUI ([13648ca](https://github.com/mob-sakai/SoftMaskForUGUI/commit/13648ca1bc860d36d580792187b536ead212bd3a)), closes [#180](https://github.com/mob-sakai/SoftMaskForUGUI/issues/180)
+
+### Features
+
+* support for shaders with `(SoftMaskable)` in the name except at the end ([3755656](https://github.com/mob-sakai/SoftMaskForUGUI/commit/37556569cb561bd6e6ac9463d502ec60ad6a45ea))",semantic-release-bot,semantic-release-bot@martynus.net,semantic-release-bot,semantic-release-bot@martynus.net,https://github.com/mob-sakai/SoftMaskForUGUI/commit/1cf2d8ba58afe42d5000e78965fd9c7ad3ca1f80,['96fafd2b162cdeab86ec81df27156223bb7c9234'],16,1,17,"[{'filename': 'CHANGELOG.md', 'additions': 15, 'deletions': 0, 'changes': 15}, {'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",['com.unity.ugui'],[],['com.unity.ugui'],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+c3ae63118322c39a984d40ea394ea9c637a3baa7,2024-08-16 08:48:45+00:00,"chore(release): 2.2.1 [skip ci]
+
+## [2.2.1](https://github.com/mob-sakai/SoftMaskForUGUI/compare/v2.2.0...v2.2.1) (2024-08-16)
+
+### Bug Fixes
+
+* soft mask is upside down on some devices ([6e2ad42](https://github.com/mob-sakai/SoftMaskForUGUI/commit/6e2ad42423d43b7e3345efb54ab226d5388c88ab)), closes [#185](https://github.com/mob-sakai/SoftMaskForUGUI/issues/185)
+* soft masked image flickers or disappears when resizing canvas in editor ([d5568b8](https://github.com/mob-sakai/SoftMaskForUGUI/commit/d5568b86a69baa443e923bab0dd68958134673ea)), closes [#184](https://github.com/mob-sakai/SoftMaskForUGUI/issues/184)",semantic-release-bot,semantic-release-bot@martynus.net,semantic-release-bot,semantic-release-bot@martynus.net,https://github.com/mob-sakai/SoftMaskForUGUI/commit/c3ae63118322c39a984d40ea394ea9c637a3baa7,['e16a161ef7c66da11648ced5030e37aeae2258ff'],9,1,10,"[{'filename': 'CHANGELOG.md', 'additions': 8, 'deletions': 0, 'changes': 8}, {'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",['com.unity.ugui'],[],['com.unity.ugui'],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+215dba92e44afade75a8f57b22de9aa033f0be84,2024-08-17 04:18:34+00:00,"chore(release): 2.2.2 [skip ci]
+
+## [2.2.2](https://github.com/mob-sakai/SoftMaskForUGUI/compare/v2.2.1...v2.2.2) (2024-08-17)
+
+### Bug Fixes
+
+* soft mask is upside down on some devices (refactor) ([d17784e](https://github.com/mob-sakai/SoftMaskForUGUI/commit/d17784e03eb38f3eb0aac93830093d45dcf63bc4))",semantic-release-bot,semantic-release-bot@martynus.net,semantic-release-bot,semantic-release-bot@martynus.net,https://github.com/mob-sakai/SoftMaskForUGUI/commit/215dba92e44afade75a8f57b22de9aa033f0be84,['c9db3613a2414a113889338d0e79066a7abda7ed'],8,1,9,"[{'filename': 'CHANGELOG.md', 'additions': 7, 'deletions': 0, 'changes': 7}, {'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",['com.unity.ugui'],[],['com.unity.ugui'],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+19104f7e79056702e1234196ceee5cb95c8fd599,2024-08-22 00:39:55+00:00,"chore(release): 2.2.3 [skip ci]
+
+## [2.2.3](https://github.com/mob-sakai/SoftMaskForUGUI/compare/v2.2.2...v2.2.3) (2024-08-22)
+
+### Bug Fixes
+
+* in linear color mode, `TextMeshProUGUI` appeared darker ([4105efd](https://github.com/mob-sakai/SoftMaskForUGUI/commit/4105efd9d0fe4c105a67b021db86506549873a4d)), closes [#187](https://github.com/mob-sakai/SoftMaskForUGUI/issues/187)",semantic-release-bot,semantic-release-bot@martynus.net,semantic-release-bot,semantic-release-bot@martynus.net,https://github.com/mob-sakai/SoftMaskForUGUI/commit/19104f7e79056702e1234196ceee5cb95c8fd599,['780beb119862a905a18f3ad468f4a5b479b596be'],8,1,9,"[{'filename': 'CHANGELOG.md', 'additions': 7, 'deletions': 0, 'changes': 7}, {'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",['com.unity.ugui'],[],['com.unity.ugui'],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+ea783a66724dddc7d10c963cee9e479a5fd86635,2024-09-04 03:59:29+00:00,"chore(release): 2.2.4 [skip ci]
+
+## [2.2.4](https://github.com/mob-sakai/SoftMaskForUGUI/compare/v2.2.3...v2.2.4) (2024-09-04)
+
+### Bug Fixes
+
+* stencil masking does not working correctly when `SoftMask` component is placed under `Mask` component ([07084aa](https://github.com/mob-sakai/SoftMaskForUGUI/commit/07084aaa3e51ec2726af964613618f5443116e7e)), closes [#183](https://github.com/mob-sakai/SoftMaskForUGUI/issues/183)",semantic-release-bot,semantic-release-bot@martynus.net,semantic-release-bot,semantic-release-bot@martynus.net,https://github.com/mob-sakai/SoftMaskForUGUI/commit/ea783a66724dddc7d10c963cee9e479a5fd86635,['b66fe862a99dd72654654b305f33b50baf2b3e1d'],8,1,9,"[{'filename': 'CHANGELOG.md', 'additions': 7, 'deletions': 0, 'changes': 7}, {'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",['com.unity.ugui'],[],['com.unity.ugui'],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+f21f2ffaccf64a115aa72841aef6e37ecec8062c,2024-09-04 14:02:19+00:00,"feat: ShaderGraph support
+
+Unity 2023.2/600.0+ is required.
+
+close #190",mob-sakai,12690315+mob-sakai@users.noreply.github.com,mob-sakai,12690315+mob-sakai@users.noreply.github.com,https://github.com/mob-sakai/SoftMaskForUGUI/commit/f21f2ffaccf64a115aa72841aef6e37ecec8062c,['560f6a3e421ea2d22d5e25466435fb57f7d262e3'],38,6,44,"[{'filename': 'README.md', 'additions': 18, 'deletions': 0, 'changes': 18}, {'filename': 'Shaders/SoftMask.cginc', 'additions': 15, 'deletions': 6, 'changes': 21}, {'filename': 'package.json', 'additions': 5, 'deletions': 0, 'changes': 5}]",['com.unity.ugui'],[],['com.unity.ugui'],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+e51a46048c6ef53e764b2203385b444737be2f48,2024-09-05 06:29:46+00:00,"chore(release): 2.3.0 [skip ci]
+
+# [2.3.0](https://github.com/mob-sakai/SoftMaskForUGUI/compare/v2.2.4...v2.3.0) (2024-09-05)
+
+### Bug Fixes
+
+* `MaskingShape.maskingMethod = Subtract` is not working correctly ([56e1262](https://github.com/mob-sakai/SoftMaskForUGUI/commit/56e12621267d9e3b03272101989d3956b424af7a))
+* nested `MaskingShape` is not working correctly ([b1331cf](https://github.com/mob-sakai/SoftMaskForUGUI/commit/b1331cf21376936ff4ad7fa57146e666698e4eb4)), closes [#189](https://github.com/mob-sakai/SoftMaskForUGUI/issues/189)
+* when `UseStencilOutsideScreen = true`, objects inside `SoftMask` are not batched in the editor ([21dfae7](https://github.com/mob-sakai/SoftMaskForUGUI/commit/21dfae7c2c4d53273df4649891e038eb41cb911f)), closes [#188](https://github.com/mob-sakai/SoftMaskForUGUI/issues/188)
+
+### Features
+
+* ShaderGraph support ([c4ebe58](https://github.com/mob-sakai/SoftMaskForUGUI/commit/c4ebe58cfa14140ab87cc889ceff214d97b3e2ba)), closes [#190](https://github.com/mob-sakai/SoftMaskForUGUI/issues/190)",semantic-release-bot,semantic-release-bot@martynus.net,semantic-release-bot,semantic-release-bot@martynus.net,https://github.com/mob-sakai/SoftMaskForUGUI/commit/e51a46048c6ef53e764b2203385b444737be2f48,['cc77830cc479326f1b8e4585a3c6452455bfe2d9'],15,1,16,"[{'filename': 'CHANGELOG.md', 'additions': 14, 'deletions': 0, 'changes': 14}, {'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",['com.unity.ugui'],[],['com.unity.ugui'],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+69f82c740c5a0d32d36b82b179fc6dd1fb21706a,2024-09-05 07:23:26+00:00,"chore(release): 2.3.1 [skip ci]
+
+## [2.3.1](https://github.com/mob-sakai/SoftMaskForUGUI/compare/v2.3.0...v2.3.1) (2024-09-05)
+
+### Bug Fixes
+
+* ShaderGraph support is not included ([ce29e1a](https://github.com/mob-sakai/SoftMaskForUGUI/commit/ce29e1a5a7f7a353d4308e44d83e4cbfe22cddcd))",semantic-release-bot,semantic-release-bot@martynus.net,semantic-release-bot,semantic-release-bot@martynus.net,https://github.com/mob-sakai/SoftMaskForUGUI/commit/69f82c740c5a0d32d36b82b179fc6dd1fb21706a,['e03ba18ae20dd074fc88b8b9d913bb15ce922479'],8,1,9,"[{'filename': 'CHANGELOG.md', 'additions': 7, 'deletions': 0, 'changes': 7}, {'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",['com.unity.ugui'],[],['com.unity.ugui'],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+a849ffff5182f8e13ff8f2502b269b21217bf73c,2024-09-06 00:23:27+00:00,"chore(release): 2.3.2 [skip ci]
+
+## [2.3.2](https://github.com/mob-sakai/SoftMaskForUGUI/compare/v2.3.1...v2.3.2) (2024-09-06)
+
+### Bug Fixes
+
+* SetDirtyAndNotify causes null exceptions on GameObject delete ([706f022](https://github.com/mob-sakai/SoftMaskForUGUI/commit/706f022cb3d503fc57d72f5c0bb716d7a918cdf7)), closes [#192](https://github.com/mob-sakai/SoftMaskForUGUI/issues/192)",semantic-release-bot,semantic-release-bot@martynus.net,semantic-release-bot,semantic-release-bot@martynus.net,https://github.com/mob-sakai/SoftMaskForUGUI/commit/a849ffff5182f8e13ff8f2502b269b21217bf73c,['898ef2b2914797be4fd8f23c2e9c7685c2ea38fd'],8,1,9,"[{'filename': 'CHANGELOG.md', 'additions': 7, 'deletions': 0, 'changes': 7}, {'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",['com.unity.ugui'],[],['com.unity.ugui'],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+64f0421d11311870c32bbd3146cce6e400822a41,2024-09-06 11:15:56+00:00,"chore(release): 2.3.3 [skip ci]
+
+## [2.3.3](https://github.com/mob-sakai/SoftMaskForUGUI/compare/v2.3.2...v2.3.3) (2024-09-06)
+
+### Bug Fixes
+
+* when the player window moved to a different resolution display, soft masking does not work property ([79cac0e](https://github.com/mob-sakai/SoftMaskForUGUI/commit/79cac0e065c358b21b9f70278821929532f10878)), closes [#193](https://github.com/mob-sakai/SoftMaskForUGUI/issues/193)",semantic-release-bot,semantic-release-bot@martynus.net,semantic-release-bot,semantic-release-bot@martynus.net,https://github.com/mob-sakai/SoftMaskForUGUI/commit/64f0421d11311870c32bbd3146cce6e400822a41,['fe9949d1c7b4453679a2f3fc4bfd4f38e139c2f6'],8,1,9,"[{'filename': 'CHANGELOG.md', 'additions': 7, 'deletions': 0, 'changes': 7}, {'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",['com.unity.ugui'],[],['com.unity.ugui'],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+353b7f94c4aeb726601e63a224acbaf18e7a76a0,2024-09-14 06:45:56+00:00,"chore(release): 2.3.4 [skip ci]
+
+## [2.3.4](https://github.com/mob-sakai/SoftMaskForUGUI/compare/v2.3.3...v2.3.4) (2024-09-14)
+
+### Bug Fixes
+
+* MaskingShapeContainer NullReferenceException in demo ([#195](https://github.com/mob-sakai/SoftMaskForUGUI/issues/195)) ([96a090f](https://github.com/mob-sakai/SoftMaskForUGUI/commit/96a090f09d16979d4b837da0d5c0095c5886bb3a))
+* ShaderGraph is not working correctly ([#191](https://github.com/mob-sakai/SoftMaskForUGUI/issues/191)) ([82c38dd](https://github.com/mob-sakai/SoftMaskForUGUI/commit/82c38dd290cd98b1daf9cfd3dc74334a53dbde8f))
+* subtract mode `MaskingShape` does not display correctly in the editor ([f83a647](https://github.com/mob-sakai/SoftMaskForUGUI/commit/f83a647c30a4b8df8a1f1d80ddfef299dc123408))",semantic-release-bot,semantic-release-bot@martynus.net,semantic-release-bot,semantic-release-bot@martynus.net,https://github.com/mob-sakai/SoftMaskForUGUI/commit/353b7f94c4aeb726601e63a224acbaf18e7a76a0,['018a26995f224277050e14394aaa2d638faaa21e'],10,1,11,"[{'filename': 'CHANGELOG.md', 'additions': 9, 'deletions': 0, 'changes': 9}, {'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",['com.unity.ugui'],[],['com.unity.ugui'],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+8a6c84cb8ed26886e348f4519622380ed30c713f,2024-09-15 10:59:51+00:00,"chore(release): 2.3.5 [skip ci]
+
+## [2.3.5](https://github.com/mob-sakai/SoftMaskForUGUI/compare/v2.3.4...v2.3.5) (2024-09-15)
+
+### Bug Fixes
+
+* alphaHitTestMinimumThreshold should not be modified on a texture not readeable or not using Crunch Compression ([98783ec](https://github.com/mob-sakai/SoftMaskForUGUI/commit/98783eceae6a7442f45cb1d829abc4d57c35efd4)), closes [#197](https://github.com/mob-sakai/SoftMaskForUGUI/issues/197)",semantic-release-bot,semantic-release-bot@martynus.net,semantic-release-bot,semantic-release-bot@martynus.net,https://github.com/mob-sakai/SoftMaskForUGUI/commit/8a6c84cb8ed26886e348f4519622380ed30c713f,['f09e2bcdb7ce5aff040ebb9fb8a0b70edde3a188'],8,1,9,"[{'filename': 'CHANGELOG.md', 'additions': 7, 'deletions': 0, 'changes': 7}, {'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",['com.unity.ugui'],[],['com.unity.ugui'],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+95fe70dd9c7085056d3c0b439b7f71f034d826cc,2024-09-16 06:43:22+00:00,"chore(release): 2.3.6 [skip ci]
+
+## [2.3.6](https://github.com/mob-sakai/SoftMaskForUGUI/compare/v2.3.5...v2.3.6) (2024-09-16)
+
+### Bug Fixes
+
+* version 2.3.5 does not work ([23d4aa9](https://github.com/mob-sakai/SoftMaskForUGUI/commit/23d4aa90aa9260a8be6619438840dcb044b74259))",semantic-release-bot,semantic-release-bot@martynus.net,semantic-release-bot,semantic-release-bot@martynus.net,https://github.com/mob-sakai/SoftMaskForUGUI/commit/95fe70dd9c7085056d3c0b439b7f71f034d826cc,['fe4cb5431e4013f33a7af3e11354e92ba060d32f'],8,1,9,"[{'filename': 'CHANGELOG.md', 'additions': 7, 'deletions': 0, 'changes': 7}, {'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",['com.unity.ugui'],[],['com.unity.ugui'],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+0841c8050ff913090f793899d82fed6b96c54a1e,2024-09-16 10:33:55+00:00,"chore(release): 2.3.7 [skip ci]
+
+## [2.3.7](https://github.com/mob-sakai/SoftMaskForUGUI/compare/v2.3.6...v2.3.7) (2024-09-16)
+
+### Bug Fixes
+
+* alias name conflict ([4b847ad](https://github.com/mob-sakai/SoftMaskForUGUI/commit/4b847adba35b8469dc8fbd6465e0db9f22aaff52)), closes [#198](https://github.com/mob-sakai/SoftMaskForUGUI/issues/198)",semantic-release-bot,semantic-release-bot@martynus.net,semantic-release-bot,semantic-release-bot@martynus.net,https://github.com/mob-sakai/SoftMaskForUGUI/commit/0841c8050ff913090f793899d82fed6b96c54a1e,['35dbb0217db3c92fd04fc828fddf72588667814c'],8,1,9,"[{'filename': 'CHANGELOG.md', 'additions': 7, 'deletions': 0, 'changes': 7}, {'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",['com.unity.ugui'],[],['com.unity.ugui'],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+20a581b80077fb7465ed6eb6eb2aabc7e535b447,2024-09-29 14:34:04+00:00,"chore(release): 2.3.8 [skip ci]
+
+## [2.3.8](https://github.com/mob-sakai/SoftMaskForUGUI/compare/v2.3.7...v2.3.8) (2024-09-29)
+
+### Bug Fixes
+
+* if `UniversalRenderPipelineAsset.renderScale` is not 1, soft masking will not be rendered correctly ([6e5a7f9](https://github.com/mob-sakai/SoftMaskForUGUI/commit/6e5a7f97a40d96f0493ec74bf8185d57bc646a8f)), closes [#194](https://github.com/mob-sakai/SoftMaskForUGUI/issues/194)
+* in URP, dynamic resolution does not work when render scale is close to 1 ([afed40a](https://github.com/mob-sakai/SoftMaskForUGUI/commit/afed40a0e85aa83194d0f28f5305d4312b015b17))
+* recreates ProjectSettings scriptable object when the project is pulled from GitHub ([9f6ea22](https://github.com/mob-sakai/SoftMaskForUGUI/commit/9f6ea2293607e36104371c633fd899ded1b2305a)), closes [#200](https://github.com/mob-sakai/SoftMaskForUGUI/issues/200)
+* when using dynamic resolution, soft masking will not be rendered correctly ([5100e3f](https://github.com/mob-sakai/SoftMaskForUGUI/commit/5100e3f092d831c3e0a40b2a7b543412601545c3)), closes [#199](https://github.com/mob-sakai/SoftMaskForUGUI/issues/199)",semantic-release-bot,semantic-release-bot@martynus.net,semantic-release-bot,semantic-release-bot@martynus.net,https://github.com/mob-sakai/SoftMaskForUGUI/commit/20a581b80077fb7465ed6eb6eb2aabc7e535b447,['488730dcdd21aa2618596ed189e97564145963bd'],11,1,12,"[{'filename': 'CHANGELOG.md', 'additions': 10, 'deletions': 0, 'changes': 10}, {'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",['com.unity.ugui'],[],['com.unity.ugui'],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+f11be8c7d9122d7e43139b64a461d0e5b0ff8e3c,2024-11-01 00:05:10+00:00,"chore(release): 2.4.0 [skip ci]
+
+# [2.4.0](https://github.com/mob-sakai/SoftMaskForUGUI/compare/v2.3.8...v2.4.0) (2024-11-01)
+
+### Bug Fixes
+
+* argumentException: RenderTextureDesc width must be greater than zero when setting the Down Sampling Rate to X8. ([3ffe109](https://github.com/mob-sakai/SoftMaskForUGUI/commit/3ffe109c456e7d97f41d909b11426fe48c10596d)), closes [#204](https://github.com/mob-sakai/SoftMaskForUGUI/issues/204)
+* compile error in UniversalRP 16 (Unity 2023.2) ([80413fc](https://github.com/mob-sakai/SoftMaskForUGUI/commit/80413fc4473f3ccf76e34a43b2a09267f0fd2f4c)), closes [#206](https://github.com/mob-sakai/SoftMaskForUGUI/issues/206)
+
+### Features
+
+* add `ignoreSelf` and `ignoreChildren` option for SoftMaskable element ([315b86c](https://github.com/mob-sakai/SoftMaskForUGUI/commit/315b86c08452731674b3fe1e31cfb8cf19f9dde8))
+* add `power` option for SoftMaskable element ([1362b18](https://github.com/mob-sakai/SoftMaskForUGUI/commit/1362b1874b9d65bcd29e8ea013c296f2d1e29014))",semantic-release-bot,semantic-release-bot@martynus.net,semantic-release-bot,semantic-release-bot@martynus.net,https://github.com/mob-sakai/SoftMaskForUGUI/commit/f11be8c7d9122d7e43139b64a461d0e5b0ff8e3c,['ca9ee5b8859904c55b3c1e6a45902ada5b578993'],15,1,16,"[{'filename': 'CHANGELOG.md', 'additions': 14, 'deletions': 0, 'changes': 14}, {'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",['com.unity.ugui'],[],['com.unity.ugui'],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"

@@ -1,42 +1,804 @@
-commit,date,dependencies,dev_dependencies,prev_dependencies,prev_dev_dependencies,dependencies_changes,dev_dependencies_changes
-2f721d9361f2824a539e4338a8853c33710c995a,2018-10-16 14:32:37+00:00,[],['lerna'],,,"{'added': [], 'removed': []}","{'added': ['lerna'], 'removed': []}"
-df5d93d6e0428760e28bb46a1ae90606d069ab2c,2018-10-16 18:41:48+00:00,[],['lerna'],[],['lerna'],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-a57d768b138b22fbd8ae5b688f1a632bc1e404b7,2018-10-16 19:42:41+00:00,[],"['jest', 'lerna']",[],['lerna'],"{'added': [], 'removed': []}","{'added': ['jest'], 'removed': []}"
-aa61213c43eeced94b74f16db9c53eebe63e4f28,2018-10-16 20:26:26+00:00,[],"['jest', 'lerna']",[],"['jest', 'lerna']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-e57f3b8220253cddc52d86702ba3f0ded02eff35,2018-11-01 19:55:44+00:00,[],['lerna'],[],"['jest', 'lerna']","{'added': [], 'removed': []}","{'added': [], 'removed': ['jest']}"
-eaf9b61164faf4dc4a90a29db69b8133e7696d03,2018-11-06 15:40:04+00:00,[],['lerna'],[],['lerna'],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-e8656c12e4b02fbed55245be8857746c3f595104,2018-11-06 16:04:39+00:00,[],"['@babel/core', '@babel/plugin-proposal-class-properties', '@babel/preset-env', 'babel-core', 'babel-jest', 'jest', 'lerna', 'regenerator-runtime']",[],['lerna'],"{'added': [], 'removed': []}","{'added': ['regenerator-runtime', 'babel-jest', '@babel/preset-env', '@babel/core', 'babel-core', 'jest', '@babel/plugin-proposal-class-properties'], 'removed': []}"
-4418f14c56a2335f73bf09a79f2dbf8efcbc20a2,2018-11-13 16:34:37+00:00,[],"['@babel/core', '@babel/plugin-proposal-class-properties', '@babel/preset-env', 'babel-core', 'babel-jest', 'husky', 'jest', 'lerna', 'lint-staged', 'prettier', 'regenerator-runtime']",[],"['@babel/core', '@babel/plugin-proposal-class-properties', '@babel/preset-env', 'babel-core', 'babel-jest', 'jest', 'lerna', 'regenerator-runtime']","{'added': [], 'removed': []}","{'added': ['prettier', 'husky', 'lint-staged'], 'removed': []}"
-94a5b46308f63881ba788c6bb929a842e6117b30,2018-11-13 19:51:15+00:00,[],"['@babel/core', '@babel/plugin-proposal-class-properties', '@babel/preset-env', 'babel-core', 'babel-eslint', 'babel-jest', 'eslint', 'eslint-config-prettier', 'eslint-plugin-react', 'husky', 'jest', 'lerna', 'lint-staged', 'prettier', 'regenerator-runtime']",[],"['@babel/core', '@babel/plugin-proposal-class-properties', '@babel/preset-env', 'babel-core', 'babel-jest', 'husky', 'jest', 'lerna', 'lint-staged', 'prettier', 'regenerator-runtime']","{'added': [], 'removed': []}","{'added': ['eslint-config-prettier', 'babel-eslint', 'eslint', 'eslint-plugin-react'], 'removed': []}"
-909b41b6f01b2be9e8ebc2183a015b556f262841,2018-11-15 17:59:42+00:00,[],"['@babel/core', '@babel/plugin-proposal-class-properties', '@babel/preset-env', 'babel-core', 'babel-eslint', 'babel-jest', 'eslint', 'eslint-config-prettier', 'eslint-plugin-jest', 'eslint-plugin-react', 'husky', 'jest', 'lerna', 'lint-staged', 'prettier', 'regenerator-runtime']",[],"['@babel/core', '@babel/plugin-proposal-class-properties', '@babel/preset-env', 'babel-core', 'babel-eslint', 'babel-jest', 'eslint', 'eslint-config-prettier', 'eslint-plugin-react', 'husky', 'jest', 'lerna', 'lint-staged', 'prettier', 'regenerator-runtime']","{'added': [], 'removed': []}","{'added': ['eslint-plugin-jest'], 'removed': []}"
-259329176de4f8cbe8d0a29c01fc09b69d714efd,2018-12-13 20:41:39+00:00,[],"['@babel/core', '@babel/plugin-proposal-class-properties', '@babel/preset-env', 'babel-core', 'babel-eslint', 'babel-jest', 'eslint', 'eslint-config-prettier', 'eslint-plugin-jest', 'eslint-plugin-react', 'husky', 'jest', 'lerna', 'lint-staged', 'prettier', 'regenerator-runtime']",[],"['@babel/core', '@babel/plugin-proposal-class-properties', '@babel/preset-env', 'babel-core', 'babel-eslint', 'babel-jest', 'eslint', 'eslint-config-prettier', 'eslint-plugin-jest', 'eslint-plugin-react', 'husky', 'jest', 'lerna', 'lint-staged', 'prettier', 'regenerator-runtime']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-86b9eafafdbe766e6edc46c576f0319e95469250,2019-02-11 22:41:20+00:00,[],"['eslint', 'husky', 'lerna', 'lint-staged', 'prettier']",[],"['@babel/core', '@babel/plugin-proposal-class-properties', '@babel/preset-env', 'babel-core', 'babel-eslint', 'babel-jest', 'eslint', 'eslint-config-prettier', 'eslint-plugin-jest', 'eslint-plugin-react', 'husky', 'jest', 'lerna', 'lint-staged', 'prettier', 'regenerator-runtime']","{'added': [], 'removed': []}","{'added': [], 'removed': ['@babel/plugin-proposal-class-properties', 'eslint-plugin-jest', 'regenerator-runtime', 'babel-eslint', '@babel/preset-env', '@babel/core', 'babel-jest', 'babel-core', 'jest', 'eslint-config-prettier', 'eslint-plugin-react']}"
-94249ded732cde78d979fc78323c598291e889bb,2019-02-11 22:49:22+00:00,[],"['husky', 'lerna', 'lint-staged', 'prettier']",[],"['eslint', 'husky', 'lerna', 'lint-staged', 'prettier']","{'added': [], 'removed': []}","{'added': [], 'removed': ['eslint']}"
-8fd0e8946b12438a93b8433d4260841743ecc0f3,2019-02-11 22:54:33+00:00,[],"['husky', 'lerna', 'lint-staged', 'prettier']",[],"['husky', 'lerna', 'lint-staged', 'prettier']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-087d653385d9dc8b980bc6b3aaf6e74cfc4345f6,2019-02-12 15:51:35+00:00,[],"['husky', 'lerna', 'lint-staged', 'prettier']",[],"['husky', 'lerna', 'lint-staged', 'prettier']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-7ed8174af81ea984d8ce5b8fa2dbc6722929d379,2019-02-12 16:31:45+00:00,[],"['husky', 'lerna', 'lint-staged', 'prettier']",[],"['husky', 'lerna', 'lint-staged', 'prettier']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-f24b9d7fea4a3d32b1484765f9c7dc063dad9c76,2019-02-13 19:22:20+00:00,[],"['husky', 'lerna', 'lint-staged', 'prettier']",[],"['husky', 'lerna', 'lint-staged', 'prettier']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-7483dca92a273982ef8d1ef6f34d76b80036370b,2019-04-16 14:07:43+00:00,[],"['husky', 'lerna', 'lint-staged', 'prettier']",[],"['husky', 'lerna', 'lint-staged', 'prettier']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-54a4a01ab2ad17461d2aa48e1a3f654cb80b9881,2019-05-06 18:57:31+00:00,[],"['husky', 'lerna', 'lint-staged', 'prettier']",[],"['husky', 'lerna', 'lint-staged', 'prettier']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-77a04a48af69036ea750863b9bc006856d3aa64f,2019-05-07 11:22:08+00:00,[],"['husky', 'lerna', 'lint-staged', 'prettier']",[],"['husky', 'lerna', 'lint-staged', 'prettier']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-98a329fbd3a1af930995036308ae2b3085a378da,2019-05-07 12:21:19+00:00,[],"['husky', 'lerna', 'lint-staged', 'prettier']",[],"['husky', 'lerna', 'lint-staged', 'prettier']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-01c768c23fdff4b3b7be3f1fb769f54fd0c17d5b,2019-05-29 13:02:19+00:00,[],"['husky', 'lerna', 'lint-staged', 'prettier']",[],"['husky', 'lerna', 'lint-staged', 'prettier']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-aebfd3a5e6f829c8af8c9a9b42f1a6627057c009,2019-06-04 14:47:11+00:00,[],"['husky', 'lerna', 'lint-staged', 'prettier']",[],"['husky', 'lerna', 'lint-staged', 'prettier']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-d838daee3a41fe2836ba1eb732dafbd048f77fe5,2019-07-12 20:58:54+00:00,[],"['husky', 'lerna', 'lint-staged', 'prettier']",[],"['husky', 'lerna', 'lint-staged', 'prettier']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-5ae6f21d6cdaa177cd5620671e2218a7fddaa1d1,2019-07-17 20:58:34+00:00,[],"['husky', 'lerna', 'lint-staged', 'prettier']",[],"['husky', 'lerna', 'lint-staged', 'prettier']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-7413aa37f3c3bfd77ee5dd9370e876e359bf3999,2019-08-26 19:57:38+00:00,[],"['husky', 'lerna', 'lint-staged', 'prettier']",[],"['husky', 'lerna', 'lint-staged', 'prettier']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-3b8da2d4377f49bfad3acfd25affa8314bbb870d,2020-03-27 14:01:07+00:00,[],"['husky', 'lerna', 'lint-staged', 'prettier']",[],"['husky', 'lerna', 'lint-staged', 'prettier']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-e279ac809d71a70767b30bc1f925d6a67ea7c2de,2020-05-07 15:06:17+00:00,[],"['husky', 'lerna', 'lint-staged', 'prettier']",[],"['husky', 'lerna', 'lint-staged', 'prettier']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-5d4c13f4277c5b9ffc0017e4fe7167266fa96533,2020-10-26 17:58:17+00:00,[],"['husky', 'lerna', 'lint-staged', 'prettier']",[],"['husky', 'lerna', 'lint-staged', 'prettier']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-0ed19fee97b0c2a61e38a0967a4fc614b5072023,2021-06-08 13:56:42+00:00,[],"['husky', 'lerna', 'lint-staged', 'prettier']",[],"['husky', 'lerna', 'lint-staged', 'prettier']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-de17f0d02e62599788ca6fc258562a67341f8501,2022-01-14 15:19:05+00:00,[],"['husky', 'lerna', 'lint-staged', 'prettier']",[],"['husky', 'lerna', 'lint-staged', 'prettier']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-9524308d07164380b53d0ca2f8661454affb0980,2022-03-14 20:31:24+00:00,[],"['@types/enzyme', '@types/react', '@types/jest', '@typescript-eslint/eslint-plugin', '@typescript-eslint/parser', '@wojtekmaj/enzyme-adapter-react-17', 'enzyme', 'enzyme-to-json', 'eslint', 'eslint-config-prettier', 'eslint-import-resolver-typescript', 'eslint-plugin-import', 'eslint-plugin-jest', 'eslint-plugin-prettier', 'eslint-plugin-react', 'husky', 'jest', 'lerna', 'lint-staged', 'prettier', 'typescript', 'ts-jest']",[],"['husky', 'lerna', 'lint-staged', 'prettier']","{'added': [], 'removed': []}","{'added': ['enzyme-to-json', 'eslint-import-resolver-typescript', '@types/jest', 'jest', 'eslint-plugin-import', 'eslint-plugin-prettier', '@types/enzyme', 'eslint-config-prettier', '@wojtekmaj/enzyme-adapter-react-17', 'eslint-plugin-react', '@typescript-eslint/eslint-plugin', 'eslint-plugin-jest', 'eslint', 'enzyme', '@types/react', 'typescript', 'ts-jest', '@typescript-eslint/parser'], 'removed': []}"
-1a92543da3dc076eb3945f766f8775f4434dafef,2022-03-21 15:12:36+00:00,[],"['@types/enzyme', '@types/react', '@types/jest', '@typescript-eslint/eslint-plugin', '@typescript-eslint/parser', '@wojtekmaj/enzyme-adapter-react-17', 'enzyme', 'enzyme-to-json', 'eslint', 'eslint-config-prettier', 'eslint-import-resolver-typescript', 'eslint-plugin-import', 'eslint-plugin-jest', 'eslint-plugin-prettier', 'eslint-plugin-react', 'husky', 'jest', 'lerna', 'lint-staged', 'prettier', 'typescript', 'ts-jest']",[],"['@types/enzyme', '@types/react', '@types/jest', '@typescript-eslint/eslint-plugin', '@typescript-eslint/parser', '@wojtekmaj/enzyme-adapter-react-17', 'enzyme', 'enzyme-to-json', 'eslint', 'eslint-config-prettier', 'eslint-import-resolver-typescript', 'eslint-plugin-import', 'eslint-plugin-jest', 'eslint-plugin-prettier', 'eslint-plugin-react', 'husky', 'jest', 'lerna', 'lint-staged', 'prettier', 'typescript', 'ts-jest']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-d4a19b4b2f47ef2e4ae6466bcd84c3b1ec21846c,2022-05-03 18:01:30+00:00,[],"['@types/enzyme', '@types/react', '@types/jest', '@typescript-eslint/eslint-plugin', '@typescript-eslint/parser', '@wojtekmaj/enzyme-adapter-react-17', 'enzyme', 'enzyme-to-json', 'eslint', 'eslint-config-prettier', 'eslint-import-resolver-typescript', 'eslint-plugin-import', 'eslint-plugin-jest', 'eslint-plugin-prettier', 'eslint-plugin-react', 'husky', 'jest', 'lerna', 'lint-staged', 'prettier', 'typescript', 'ts-jest']",[],"['@types/enzyme', '@types/react', '@types/jest', '@typescript-eslint/eslint-plugin', '@typescript-eslint/parser', '@wojtekmaj/enzyme-adapter-react-17', 'enzyme', 'enzyme-to-json', 'eslint', 'eslint-config-prettier', 'eslint-import-resolver-typescript', 'eslint-plugin-import', 'eslint-plugin-jest', 'eslint-plugin-prettier', 'eslint-plugin-react', 'husky', 'jest', 'lerna', 'lint-staged', 'prettier', 'typescript', 'ts-jest']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-4835b246fb690889c0bd1b90c46892501b1e11bf,2022-05-04 19:30:05+00:00,[],"['@types/enzyme', '@types/jest', '@types/react', '@typescript-eslint/eslint-plugin', '@typescript-eslint/parser', '@wojtekmaj/enzyme-adapter-react-17', 'enzyme', 'enzyme-to-json', 'eslint', 'eslint-config-prettier', 'eslint-import-resolver-typescript', 'eslint-plugin-import', 'eslint-plugin-jest', 'eslint-plugin-prettier', 'eslint-plugin-react', 'husky', 'jest', 'lerna', 'lint-staged', 'prettier', 'ts-jest', 'typescript']",[],"['@types/enzyme', '@types/react', '@types/jest', '@typescript-eslint/eslint-plugin', '@typescript-eslint/parser', '@wojtekmaj/enzyme-adapter-react-17', 'enzyme', 'enzyme-to-json', 'eslint', 'eslint-config-prettier', 'eslint-import-resolver-typescript', 'eslint-plugin-import', 'eslint-plugin-jest', 'eslint-plugin-prettier', 'eslint-plugin-react', 'husky', 'jest', 'lerna', 'lint-staged', 'prettier', 'typescript', 'ts-jest']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-06fb4f3c1c6e66552fa705e3bb75446828573f07,2022-05-10 18:00:52+00:00,[],"['@types/enzyme', '@types/jest', '@types/react', '@typescript-eslint/eslint-plugin', '@typescript-eslint/parser', '@wojtekmaj/enzyme-adapter-react-17', 'enzyme', 'enzyme-to-json', 'eslint', 'eslint-config-prettier', 'eslint-import-resolver-typescript', 'eslint-plugin-import', 'eslint-plugin-jest', 'eslint-plugin-prettier', 'eslint-plugin-react', 'husky', 'jest', 'lerna', 'lint-staged', 'prettier', 'ts-jest', 'typescript']",[],"['@types/enzyme', '@types/jest', '@types/react', '@typescript-eslint/eslint-plugin', '@typescript-eslint/parser', '@wojtekmaj/enzyme-adapter-react-17', 'enzyme', 'enzyme-to-json', 'eslint', 'eslint-config-prettier', 'eslint-import-resolver-typescript', 'eslint-plugin-import', 'eslint-plugin-jest', 'eslint-plugin-prettier', 'eslint-plugin-react', 'husky', 'jest', 'lerna', 'lint-staged', 'prettier', 'ts-jest', 'typescript']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-c5b50ac5e7bc9a4a8cf191c5a6c5706ecb96fee6,2022-06-21 15:23:31+00:00,[],"['@types/enzyme', '@types/jest', '@types/react', '@typescript-eslint/eslint-plugin', '@typescript-eslint/parser', '@wojtekmaj/enzyme-adapter-react-17', 'enzyme', 'enzyme-to-json', 'eslint', 'eslint-config-prettier', 'eslint-import-resolver-typescript', 'eslint-plugin-import', 'eslint-plugin-jest', 'eslint-plugin-prettier', 'eslint-plugin-react', 'husky', 'jest', 'lerna', 'lint-staged', 'prettier', 'ts-jest', 'typescript']",[],"['@types/enzyme', '@types/jest', '@types/react', '@typescript-eslint/eslint-plugin', '@typescript-eslint/parser', '@wojtekmaj/enzyme-adapter-react-17', 'enzyme', 'enzyme-to-json', 'eslint', 'eslint-config-prettier', 'eslint-import-resolver-typescript', 'eslint-plugin-import', 'eslint-plugin-jest', 'eslint-plugin-prettier', 'eslint-plugin-react', 'husky', 'jest', 'lerna', 'lint-staged', 'prettier', 'ts-jest', 'typescript']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-76feae8d5b95565ae69586b4e7260fd2fa4236ea,2022-07-19 17:33:47+00:00,[],"['@types/enzyme', '@types/jest', '@types/react', '@typescript-eslint/eslint-plugin', '@typescript-eslint/parser', '@wojtekmaj/enzyme-adapter-react-17', 'enzyme', 'enzyme-to-json', 'eslint', 'eslint-config-prettier', 'eslint-import-resolver-typescript', 'eslint-plugin-import', 'eslint-plugin-jest', 'eslint-plugin-prettier', 'eslint-plugin-react', 'husky', 'jest', 'lerna', 'lint-staged', 'prettier', 'ts-jest', 'typescript']",[],"['@types/enzyme', '@types/jest', '@types/react', '@typescript-eslint/eslint-plugin', '@typescript-eslint/parser', '@wojtekmaj/enzyme-adapter-react-17', 'enzyme', 'enzyme-to-json', 'eslint', 'eslint-config-prettier', 'eslint-import-resolver-typescript', 'eslint-plugin-import', 'eslint-plugin-jest', 'eslint-plugin-prettier', 'eslint-plugin-react', 'husky', 'jest', 'lerna', 'lint-staged', 'prettier', 'ts-jest', 'typescript']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-f2841b4acb9a55e34f92b1d9f531cbca8e39372b,2023-05-26 13:29:49+00:00,[],"['@types/enzyme', '@types/jest', '@types/react', '@typescript-eslint/eslint-plugin', '@typescript-eslint/parser', '@wojtekmaj/enzyme-adapter-react-17', 'enzyme', 'enzyme-to-json', 'eslint', 'eslint-config-prettier', 'eslint-import-resolver-typescript', 'eslint-plugin-import', 'eslint-plugin-jest', 'eslint-plugin-prettier', 'eslint-plugin-react', 'husky', 'jest', 'lerna', 'lint-staged', 'prettier', 'ts-jest', 'typescript']",[],"['@types/enzyme', '@types/jest', '@types/react', '@typescript-eslint/eslint-plugin', '@typescript-eslint/parser', '@wojtekmaj/enzyme-adapter-react-17', 'enzyme', 'enzyme-to-json', 'eslint', 'eslint-config-prettier', 'eslint-import-resolver-typescript', 'eslint-plugin-import', 'eslint-plugin-jest', 'eslint-plugin-prettier', 'eslint-plugin-react', 'husky', 'jest', 'lerna', 'lint-staged', 'prettier', 'ts-jest', 'typescript']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-782c7280eb30875e350a9d3001074c33b5ed8f88,2024-03-06 20:02:51+00:00,[],"['@types/enzyme', '@types/jest', '@types/react', '@typescript-eslint/eslint-plugin', '@typescript-eslint/parser', '@wojtekmaj/enzyme-adapter-react-17', 'enzyme', 'enzyme-to-json', 'eslint', 'eslint-config-prettier', 'eslint-import-resolver-typescript', 'eslint-plugin-import', 'eslint-plugin-jest', 'eslint-plugin-prettier', 'eslint-plugin-react', 'husky', 'jest', 'lerna', 'lint-staged', 'prettier', 'ts-jest', 'typescript']",[],"['@types/enzyme', '@types/jest', '@types/react', '@typescript-eslint/eslint-plugin', '@typescript-eslint/parser', '@wojtekmaj/enzyme-adapter-react-17', 'enzyme', 'enzyme-to-json', 'eslint', 'eslint-config-prettier', 'eslint-import-resolver-typescript', 'eslint-plugin-import', 'eslint-plugin-jest', 'eslint-plugin-prettier', 'eslint-plugin-react', 'husky', 'jest', 'lerna', 'lint-staged', 'prettier', 'ts-jest', 'typescript']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-6d297a7ef704f0ade8e0d3e7f9aa9d425828babd,2024-03-13 16:17:48+00:00,[],"['@types/enzyme', '@types/jest', '@types/react', '@typescript-eslint/eslint-plugin', '@typescript-eslint/parser', '@wojtekmaj/enzyme-adapter-react-17', 'enzyme', 'enzyme-to-json', 'eslint', 'eslint-config-prettier', 'eslint-import-resolver-typescript', 'eslint-plugin-import', 'eslint-plugin-jest', 'eslint-plugin-prettier', 'eslint-plugin-react', 'husky', 'jest', 'lerna', 'lint-staged', 'prettier', 'ts-jest', 'typescript']",[],"['@types/enzyme', '@types/jest', '@types/react', '@typescript-eslint/eslint-plugin', '@typescript-eslint/parser', '@wojtekmaj/enzyme-adapter-react-17', 'enzyme', 'enzyme-to-json', 'eslint', 'eslint-config-prettier', 'eslint-import-resolver-typescript', 'eslint-plugin-import', 'eslint-plugin-jest', 'eslint-plugin-prettier', 'eslint-plugin-react', 'husky', 'jest', 'lerna', 'lint-staged', 'prettier', 'ts-jest', 'typescript']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+commit,date,message,author_name,author_email,committer_name,committer_email,url,parents,additions,deletions,total_changes,files_changed,dependencies,dev_dependencies,prev_dependencies,prev_dev_dependencies,dependencies_changes,dev_dependencies_changes
+2f721d9361f2824a539e4338a8853c33710c995a,2018-10-16 14:32:37+00:00,Initial Commit,Jason Stoltzfus,jastoltz24@gmail.com,Jason Stoltzfus,jastoltz24@gmail.com,https://github.com/elastic/search-ui/commit/2f721d9361f2824a539e4338a8853c33710c995a,['632d4e0a2e5b2066e8423cbb97a13adf67b983e9'],5625,0,5625,"[{'filename': '.gitignore', 'additions': 1, 'deletions': 0, 'changes': 1}, {'filename': 'lerna.json', 'additions': 6, 'deletions': 0, 'changes': 6}, {'filename': 'package-lock.json', 'additions': 5611, 'deletions': 0, 'changes': 5611}, {'filename': 'package.json', 'additions': 7, 'deletions': 0, 'changes': 7}]",[],['lerna'],,,"{'added': [], 'removed': []}","{'added': ['lerna'], 'removed': []}"
+df5d93d6e0428760e28bb46a1ae90606d069ab2c,2018-10-16 18:41:48+00:00,Bootstrapped each package with,Jason Stoltzfus,jastoltz24@gmail.com,Jason Stoltzfus,jastoltz24@gmail.com,https://github.com/elastic/search-ui/commit/df5d93d6e0428760e28bb46a1ae90606d069ab2c,['d8ef97e0f8b3217ef135bbbc97e514b40e3dfed5'],422,13,435,"[{'filename': 'README.md', 'additions': 13, 'deletions': 13, 'changes': 26}, {'filename': 'package.json', 'additions': 1, 'deletions': 0, 'changes': 1}, {'filename': 'packages/jquery-search-app/.keep', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'packages/jquery-search-components/.keep', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'packages/jquery-search-components/README.md', 'additions': 11, 'deletions': 0, 'changes': 11}, {'filename': 'packages/jquery-search-components/__tests__/jquery-search-components.test.js', 'additions': 7, 'deletions': 0, 'changes': 7}, {'filename': 'packages/jquery-search-components/lib/jquery-search-components.js', 'additions': 7, 'deletions': 0, 'changes': 7}, {'filename': 'packages/jquery-search-components/package.json', 'additions': 26, 'deletions': 0, 'changes': 26}, {'filename': 'packages/jquery-search-ui/README.md', 'additions': 11, 'deletions': 0, 'changes': 11}, {'filename': 'packages/jquery-search-ui/__tests__/jquery-search-ui.test.js', 'additions': 7, 'deletions': 0, 'changes': 7}, {'filename': 'packages/jquery-search-ui/lib/jquery-search-ui.js', 'additions': 7, 'deletions': 0, 'changes': 7}, {'filename': 'packages/jquery-search-ui/package.json', 'additions': 26, 'deletions': 0, 'changes': 26}, {'filename': 'packages/react-search-app/.keep', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'packages/react-search-components/.keep', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'packages/react-search-components/README.md', 'additions': 11, 'deletions': 0, 'changes': 11}, {'filename': 'packages/react-search-components/__tests__/react-search-components.test.js', 'additions': 7, 'deletions': 0, 'changes': 7}, {'filename': 'packages/react-search-components/lib/react-search-components.js', 'additions': 7, 'deletions': 0, 'changes': 7}, {'filename': 'packages/react-search-components/package.json', 'additions': 26, 'deletions': 0, 'changes': 26}, {'filename': 'packages/react-search-ui/README.md', 'additions': 11, 'deletions': 0, 'changes': 11}, {'filename': 'packages/react-search-ui/__tests__/react-search-ui.test.js', 'additions': 7, 'deletions': 0, 'changes': 7}, {'filename': 'packages/react-search-ui/lib/react-search-ui.js', 'additions': 7, 'deletions': 0, 'changes': 7}, {'filename': 'packages/react-search-ui/package.json', 'additions': 26, 'deletions': 0, 'changes': 26}, {'filename': 'packages/search-app-app-search-connector/.keep', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'packages/search-app-elasticsearch-connector/.keep', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'packages/search-app-site-search-connector/.keep', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'packages/search-app/.keep', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'packages/search-ui-app-search-connector/README.md', 'additions': 11, 'deletions': 0, 'changes': 11}, {'filename': 'packages/search-ui-app-search-connector/__tests__/search-ui-app-search-connector.test.js', 'additions': 7, 'deletions': 0, 'changes': 7}, {'filename': 'packages/search-ui-app-search-connector/lib/search-ui-app-search-connector.js', 'additions': 7, 'deletions': 0, 'changes': 7}, {'filename': 'packages/search-ui-app-search-connector/package.json', 'additions': 26, 'deletions': 0, 'changes': 26}, {'filename': 'packages/search-ui-elasticsearch-connector/README.md', 'additions': 11, 'deletions': 0, 'changes': 11}, {'filename': 'packages/search-ui-elasticsearch-connector/__tests__/search-ui-elasticsearch-connector.test.js', 'additions': 7, 'deletions': 0, 'changes': 7}, {'filename': 'packages/search-ui-elasticsearch-connector/lib/search-ui-elasticsearch-connector.js', 'additions': 7, 'deletions': 0, 'changes': 7}, {'filename': 'packages/search-ui-elasticsearch-connector/package.json', 'additions': 26, 'deletions': 0, 'changes': 26}, {'filename': 'packages/search-ui-site-search-connector/README.md', 'additions': 11, 'deletions': 0, 'changes': 11}, {'filename': 'packages/search-ui-site-search-connector/__tests__/search-ui-site-search-connector.test.js', 'additions': 7, 'deletions': 0, 'changes': 7}, {'filename': 'packages/search-ui-site-search-connector/lib/search-ui-site-search-connector.js', 'additions': 7, 'deletions': 0, 'changes': 7}, {'filename': 'packages/search-ui-site-search-connector/package.json', 'additions': 26, 'deletions': 0, 'changes': 26}, {'filename': 'packages/search-ui/README.md', 'additions': 11, 'deletions': 0, 'changes': 11}, {'filename': 'packages/search-ui/__tests__/search-ui.test.js', 'additions': 7, 'deletions': 0, 'changes': 7}, {'filename': 'packages/search-ui/lib/search-ui.js', 'additions': 7, 'deletions': 0, 'changes': 7}, {'filename': 'packages/search-ui/package.json', 'additions': 26, 'deletions': 0, 'changes': 26}]",[],['lerna'],[],['lerna'],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+a57d768b138b22fbd8ae5b688f1a632bc1e404b7,2018-10-16 19:42:41+00:00,Added jest,Jason Stoltzfus,jastoltz24@gmail.com,Jason Stoltzfus,jastoltz24@gmail.com,https://github.com/elastic/search-ui/commit/a57d768b138b22fbd8ae5b688f1a632bc1e404b7,['5098c3e08abe49354bfb628759ef4a479b3a4ca6'],3936,643,4579,"[{'filename': 'package-lock.json', 'additions': 3883, 'deletions': 611, 'changes': 4494}, {'filename': 'package.json', 'additions': 5, 'deletions': 0, 'changes': 5}, {'filename': 'packages/jquery-search-components/__tests__/jquery-search-components.test.js', 'additions': 6, 'deletions': 4, 'changes': 10}, {'filename': 'packages/jquery-search-ui/__tests__/jquery-search-ui.test.js', 'additions': 6, 'deletions': 4, 'changes': 10}, {'filename': 'packages/react-search-components/__tests__/react-search-components.test.js', 'additions': 6, 'deletions': 4, 'changes': 10}, {'filename': 'packages/react-search-ui/__tests__/react-search-ui.test.js', 'additions': 6, 'deletions': 4, 'changes': 10}, {'filename': 'packages/search-ui-app-search-connector/__tests__/search-ui-app-search-connector.test.js', 'additions': 6, 'deletions': 4, 'changes': 10}, {'filename': 'packages/search-ui-elasticsearch-connector/__tests__/search-ui-elasticsearch-connector.test.js', 'additions': 6, 'deletions': 4, 'changes': 10}, {'filename': 'packages/search-ui-site-search-connector/__tests__/search-ui-site-search-connector.test.js', 'additions': 6, 'deletions': 4, 'changes': 10}, {'filename': 'packages/search-ui/__tests__/search-ui.test.js', 'additions': 6, 'deletions': 4, 'changes': 10}]",[],"['jest', 'lerna']",[],['lerna'],"{'added': [], 'removed': []}","{'added': ['jest'], 'removed': []}"
+aa61213c43eeced94b74f16db9c53eebe63e4f28,2018-10-16 20:26:26+00:00,Added Babel,Jason Stoltzfus,jastoltz24@gmail.com,Jason Stoltzfus,jastoltz24@gmail.com,https://github.com/elastic/search-ui/commit/aa61213c43eeced94b74f16db9c53eebe63e4f28,['a57d768b138b22fbd8ae5b688f1a632bc1e404b7'],24133,67,24200,"[{'filename': 'package.json', 'additions': 4, 'deletions': 2, 'changes': 6}, {'filename': 'packages/jquery-search-components/.gitignore', 'additions': 1, 'deletions': 0, 'changes': 1}, {'filename': 'packages/jquery-search-components/babel.config.js', 'additions': 16, 'deletions': 0, 'changes': 16}, {'filename': 'packages/jquery-search-components/lib/jquery-search-components.js', 'additions': 0, 'deletions': 7, 'changes': 7}, {'filename': 'packages/jquery-search-components/package-lock.json', 'additions': 2986, 'deletions': 0, 'changes': 2986}, {'filename': 'packages/jquery-search-components/package.json', 'additions': 8, 'deletions': 1, 'changes': 9}, {'filename': 'packages/jquery-search-components/src/jquery-search-components.js', 'additions': 5, 'deletions': 0, 'changes': 5}, {'filename': 'packages/jquery-search-ui/.gitignore', 'additions': 1, 'deletions': 0, 'changes': 1}, {'filename': 'packages/jquery-search-ui/babel.config.js', 'additions': 16, 'deletions': 0, 'changes': 16}, {'filename': 'packages/jquery-search-ui/lib/jquery-search-ui.js', 'additions': 0, 'deletions': 7, 'changes': 7}, {'filename': 'packages/jquery-search-ui/package-lock.json', 'additions': 2986, 'deletions': 0, 'changes': 2986}, {'filename': 'packages/jquery-search-ui/package.json', 'additions': 8, 'deletions': 1, 'changes': 9}, {'filename': 'packages/jquery-search-ui/src/jquery-search-ui.js', 'additions': 5, 'deletions': 0, 'changes': 5}, {'filename': 'packages/react-search-components/.gitignore', 'additions': 1, 'deletions': 0, 'changes': 1}, {'filename': 'packages/react-search-components/babel.config.js', 'additions': 16, 'deletions': 0, 'changes': 16}, {'filename': 'packages/react-search-components/lib/react-search-components.js', 'additions': 0, 'deletions': 8, 'changes': 8}, {'filename': 'packages/react-search-components/package-lock.json', 'additions': 2986, 'deletions': 0, 'changes': 2986}, {'filename': 'packages/react-search-components/package.json', 'additions': 8, 'deletions': 1, 'changes': 9}, {'filename': 'packages/react-search-components/src/react-search-components.js', 'additions': 6, 'deletions': 0, 'changes': 6}, {'filename': 'packages/react-search-ui/.gitignore', 'additions': 1, 'deletions': 0, 'changes': 1}, {'filename': 'packages/react-search-ui/babel.config.js', 'additions': 16, 'deletions': 0, 'changes': 16}, {'filename': 'packages/react-search-ui/lib/react-search-ui.js', 'additions': 0, 'deletions': 11, 'changes': 11}, {'filename': 'packages/react-search-ui/package-lock.json', 'additions': 2986, 'deletions': 0, 'changes': 2986}, {'filename': 'packages/react-search-ui/package.json', 'additions': 8, 'deletions': 1, 'changes': 9}, {'filename': 'packages/react-search-ui/src/react-search-ui.js', 'additions': 9, 'deletions': 0, 'changes': 9}, {'filename': 'packages/search-ui-app-search-connector/.gitignore', 'additions': 1, 'deletions': 0, 'changes': 1}, {'filename': 'packages/search-ui-app-search-connector/babel.config.js', 'additions': 16, 'deletions': 0, 'changes': 16}, {'filename': 'packages/search-ui-app-search-connector/lib/search-ui-app-search-connector.js', 'additions': 0, 'deletions': 7, 'changes': 7}, {'filename': 'packages/search-ui-app-search-connector/package-lock.json', 'additions': 2986, 'deletions': 0, 'changes': 2986}, {'filename': 'packages/search-ui-app-search-connector/package.json', 'additions': 8, 'deletions': 1, 'changes': 9}, {'filename': 'packages/search-ui-app-search-connector/src/search-ui-app-search-connector.js', 'additions': 5, 'deletions': 0, 'changes': 5}, {'filename': 'packages/search-ui-elasticsearch-connector/.gitignore', 'additions': 1, 'deletions': 0, 'changes': 1}, {'filename': 'packages/search-ui-elasticsearch-connector/babel.config.js', 'additions': 16, 'deletions': 0, 'changes': 16}, {'filename': 'packages/search-ui-elasticsearch-connector/lib/search-ui-elasticsearch-connector.js', 'additions': 0, 'deletions': 7, 'changes': 7}, {'filename': 'packages/search-ui-elasticsearch-connector/package-lock.json', 'additions': 2986, 'deletions': 0, 'changes': 2986}, {'filename': 'packages/search-ui-elasticsearch-connector/package.json', 'additions': 8, 'deletions': 1, 'changes': 9}, {'filename': 'packages/search-ui-elasticsearch-connector/src/search-ui-elasticsearch-connector.js', 'additions': 5, 'deletions': 0, 'changes': 5}, {'filename': 'packages/search-ui-site-search-connector/.gitignore', 'additions': 1, 'deletions': 0, 'changes': 1}, {'filename': 'packages/search-ui-site-search-connector/babel.config.js', 'additions': 16, 'deletions': 0, 'changes': 16}, {'filename': 'packages/search-ui-site-search-connector/lib/search-ui-site-search-connector.js', 'additions': 0, 'deletions': 7, 'changes': 7}, {'filename': 'packages/search-ui-site-search-connector/package-lock.json', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'packages/search-ui-site-search-connector/package.json', 'additions': 8, 'deletions': 1, 'changes': 9}, {'filename': 'packages/search-ui-site-search-connector/src/search-ui-site-search-connector.js', 'additions': 5, 'deletions': 0, 'changes': 5}, {'filename': 'packages/search-ui/.gitignore', 'additions': 1, 'deletions': 0, 'changes': 1}, {'filename': 'packages/search-ui/babel.config.js', 'additions': 16, 'deletions': 0, 'changes': 16}, {'filename': 'packages/search-ui/package-lock.json', 'additions': 2986, 'deletions': 0, 'changes': 2986}, {'filename': 'packages/search-ui/package.json', 'additions': 8, 'deletions': 1, 'changes': 9}, {'filename': 'packages/search-ui/src/search-ui.js', 'additions': 1, 'deletions': 3, 'changes': 4}]",[],"['jest', 'lerna']",[],"['jest', 'lerna']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+e57f3b8220253cddc52d86702ba3f0ded02eff35,2018-11-01 19:55:44+00:00,Get tests running,Jason Stoltzfus,jastoltz24@gmail.com,Jason Stoltzfus,jastoltz24@gmail.com,https://github.com/elastic/search-ui/commit/e57f3b8220253cddc52d86702ba3f0ded02eff35,['aa61213c43eeced94b74f16db9c53eebe63e4f28'],31743,5009,36752,"[{'filename': 'package-lock.json', 'additions': 647, 'deletions': 3919, 'changes': 4566}, {'filename': 'package.json', 'additions': 1, 'deletions': 3, 'changes': 4}, {'filename': 'packages/jquery-search-components/__tests__/jquery-search-components.test.js', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/jquery-search-components/babel.config.js', 'additions': 1, 'deletions': 14, 'changes': 15}, {'filename': 'packages/jquery-search-components/package-lock.json', 'additions': 3899, 'deletions': 109, 'changes': 4008}, {'filename': 'packages/jquery-search-components/package.json', 'additions': 6, 'deletions': 2, 'changes': 8}, {'filename': 'packages/jquery-search-ui/__tests__/jquery-search-ui.test.js', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/jquery-search-ui/babel.config.js', 'additions': 1, 'deletions': 14, 'changes': 15}, {'filename': 'packages/jquery-search-ui/package-lock.json', 'additions': 3872, 'deletions': 122, 'changes': 3994}, {'filename': 'packages/jquery-search-ui/package.json', 'additions': 6, 'deletions': 2, 'changes': 8}, {'filename': 'packages/react-search-components/__tests__/react-search-components.test.js', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/react-search-components/babel.config.js', 'additions': 1, 'deletions': 14, 'changes': 15}, {'filename': 'packages/react-search-components/package-lock.json', 'additions': 3872, 'deletions': 122, 'changes': 3994}, {'filename': 'packages/react-search-components/package.json', 'additions': 6, 'deletions': 2, 'changes': 8}, {'filename': 'packages/react-search-ui/__tests__/react-search-ui.test.js', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/react-search-ui/babel.config.js', 'additions': 1, 'deletions': 14, 'changes': 15}, {'filename': 'packages/react-search-ui/package-lock.json', 'additions': 3872, 'deletions': 122, 'changes': 3994}, {'filename': 'packages/react-search-ui/package.json', 'additions': 6, 'deletions': 2, 'changes': 8}, {'filename': 'packages/search-ui-app-search-connector/__tests__/search-ui-app-search-connector.test.js', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/search-ui-app-search-connector/babel.config.js', 'additions': 1, 'deletions': 14, 'changes': 15}, {'filename': 'packages/search-ui-app-search-connector/package-lock.json', 'additions': 3872, 'deletions': 122, 'changes': 3994}, {'filename': 'packages/search-ui-app-search-connector/package.json', 'additions': 6, 'deletions': 2, 'changes': 8}, {'filename': 'packages/search-ui-elasticsearch-connector/__tests__/search-ui-elasticsearch-connector.test.js', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/search-ui-elasticsearch-connector/babel.config.js', 'additions': 1, 'deletions': 14, 'changes': 15}, {'filename': 'packages/search-ui-elasticsearch-connector/package-lock.json', 'additions': 3872, 'deletions': 122, 'changes': 3994}, {'filename': 'packages/search-ui-elasticsearch-connector/package.json', 'additions': 6, 'deletions': 2, 'changes': 8}, {'filename': 'packages/search-ui-site-search-connector/__tests__/search-ui-site-search-connector.test.js', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/search-ui-site-search-connector/babel.config.js', 'additions': 1, 'deletions': 14, 'changes': 15}, {'filename': 'packages/search-ui-site-search-connector/package-lock.json', 'additions': 3872, 'deletions': 122, 'changes': 3994}, {'filename': 'packages/search-ui-site-search-connector/package.json', 'additions': 6, 'deletions': 2, 'changes': 8}, {'filename': 'packages/search-ui/__tests__/search-ui.test.js', 'additions': 2, 'deletions': 2, 'changes': 4}, {'filename': 'packages/search-ui/babel.config.js', 'additions': 1, 'deletions': 14, 'changes': 15}, {'filename': 'packages/search-ui/package-lock.json', 'additions': 3899, 'deletions': 109, 'changes': 4008}, {'filename': 'packages/search-ui/package.json', 'additions': 6, 'deletions': 2, 'changes': 8}]",[],['lerna'],[],"['jest', 'lerna']","{'added': [], 'removed': []}","{'added': [], 'removed': ['jest']}"
+eaf9b61164faf4dc4a90a29db69b8133e7696d03,2018-11-06 15:40:04+00:00,"Added ""--stream"" option for top level test command
+
+This is so that the full output from each sublevel of specs
+is displayed.",Jason Stoltzfus,jastoltz24@gmail.com,Jason Stoltzfus,jastoltz24@gmail.com,https://github.com/elastic/search-ui/commit/eaf9b61164faf4dc4a90a29db69b8133e7696d03,['88b5f8858b13d97322efa09d2cd0dacd9867431f'],1,1,2,"[{'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",[],['lerna'],[],['lerna'],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+e8656c12e4b02fbed55245be8857746c3f595104,2018-11-06 16:04:39+00:00,Hoisted dependencies to main package,Jason Stoltzfus,jastoltz24@gmail.com,Jason Stoltzfus,jastoltz24@gmail.com,https://github.com/elastic/search-ui/commit/e8656c12e4b02fbed55245be8857746c3f595104,['eaf9b61164faf4dc4a90a29db69b8133e7696d03'],6612,9496,16108,"[{'filename': 'package-lock.json', 'additions': 6488, 'deletions': 2242, 'changes': 8730}, {'filename': 'package.json', 'additions': 8, 'deletions': 1, 'changes': 9}, {'filename': 'packages/jquery-search-components/package-lock.json', 'additions': 0, 'deletions': 878, 'changes': 878}, {'filename': 'packages/jquery-search-components/package.json', 'additions': 1, 'deletions': 7, 'changes': 8}, {'filename': 'packages/jquery-search-ui/package-lock.json', 'additions': 0, 'deletions': 878, 'changes': 878}, {'filename': 'packages/jquery-search-ui/package.json', 'additions': 1, 'deletions': 7, 'changes': 8}, {'filename': 'packages/react-search-components/package-lock.json', 'additions': 108, 'deletions': 1074, 'changes': 1182}, {'filename': 'packages/react-search-components/package.json', 'additions': 1, 'deletions': 7, 'changes': 8}, {'filename': 'packages/react-search-ui/package-lock.json', 'additions': 0, 'deletions': 855, 'changes': 855}, {'filename': 'packages/react-search-ui/package.json', 'additions': 1, 'deletions': 7, 'changes': 8}, {'filename': 'packages/search-ui-app-search-connector/package-lock.json', 'additions': 0, 'deletions': 878, 'changes': 878}, {'filename': 'packages/search-ui-app-search-connector/package.json', 'additions': 1, 'deletions': 7, 'changes': 8}, {'filename': 'packages/search-ui-elasticsearch-connector/package-lock.json', 'additions': 0, 'deletions': 878, 'changes': 878}, {'filename': 'packages/search-ui-elasticsearch-connector/package.json', 'additions': 1, 'deletions': 7, 'changes': 8}, {'filename': 'packages/search-ui-site-search-connector/package-lock.json', 'additions': 0, 'deletions': 878, 'changes': 878}, {'filename': 'packages/search-ui-site-search-connector/package.json', 'additions': 1, 'deletions': 7, 'changes': 8}, {'filename': 'packages/search-ui/package-lock.json', 'additions': 0, 'deletions': 878, 'changes': 878}, {'filename': 'packages/search-ui/package.json', 'additions': 1, 'deletions': 7, 'changes': 8}]",[],"['@babel/core', '@babel/plugin-proposal-class-properties', '@babel/preset-env', 'babel-core', 'babel-jest', 'jest', 'lerna', 'regenerator-runtime']",[],['lerna'],"{'added': [], 'removed': []}","{'added': ['babel-jest', '@babel/core', '@babel/preset-env', 'jest', 'regenerator-runtime', '@babel/plugin-proposal-class-properties', 'babel-core'], 'removed': []}"
+4418f14c56a2335f73bf09a79f2dbf8efcbc20a2,2018-11-13 16:34:37+00:00,Added prettier,Jason Stoltzfus,jastoltz24@gmail.com,Jason Stoltzfus,jastoltz24@gmail.com,https://github.com/elastic/search-ui/commit/4418f14c56a2335f73bf09a79f2dbf8efcbc20a2,['753dcd7e72d991f1f39238f25f41bae31892cb56'],673,21,694,"[{'filename': 'package-lock.json', 'additions': 641, 'deletions': 2, 'changes': 643}, {'filename': 'package.json', 'additions': 17, 'deletions': 2, 'changes': 19}, {'filename': 'packages/react-search-components/src/Result.js', 'additions': 15, 'deletions': 17, 'changes': 32}]",[],"['@babel/core', '@babel/plugin-proposal-class-properties', '@babel/preset-env', 'babel-core', 'babel-jest', 'husky', 'jest', 'lerna', 'lint-staged', 'prettier', 'regenerator-runtime']",[],"['@babel/core', '@babel/plugin-proposal-class-properties', '@babel/preset-env', 'babel-core', 'babel-jest', 'jest', 'lerna', 'regenerator-runtime']","{'added': [], 'removed': []}","{'added': ['lint-staged', 'husky', 'prettier'], 'removed': []}"
+94a5b46308f63881ba788c6bb929a842e6117b30,2018-11-13 19:51:15+00:00,Added eslint,Jason Stoltzfus,jastoltz24@gmail.com,Jason Stoltzfus,jastoltz24@gmail.com,https://github.com/elastic/search-ui/commit/94a5b46308f63881ba788c6bb929a842e6117b30,['4418f14c56a2335f73bf09a79f2dbf8efcbc20a2'],512,2,514,"[{'filename': '.eslintrc.js', 'additions': 22, 'deletions': 0, 'changes': 22}, {'filename': 'package-lock.json', 'additions': 482, 'deletions': 0, 'changes': 482}, {'filename': 'package.json', 'additions': 8, 'deletions': 2, 'changes': 10}]",[],"['@babel/core', '@babel/plugin-proposal-class-properties', '@babel/preset-env', 'babel-core', 'babel-eslint', 'babel-jest', 'eslint', 'eslint-config-prettier', 'eslint-plugin-react', 'husky', 'jest', 'lerna', 'lint-staged', 'prettier', 'regenerator-runtime']",[],"['@babel/core', '@babel/plugin-proposal-class-properties', '@babel/preset-env', 'babel-core', 'babel-jest', 'husky', 'jest', 'lerna', 'lint-staged', 'prettier', 'regenerator-runtime']","{'added': [], 'removed': []}","{'added': ['babel-eslint', 'eslint', 'eslint-config-prettier', 'eslint-plugin-react'], 'removed': []}"
+909b41b6f01b2be9e8ebc2183a015b556f262841,2018-11-15 17:59:42+00:00,Added jest eslint config,Jason Stoltzfus,jastoltz24@gmail.com,Jason Stoltzfus,jastoltz24@gmail.com,https://github.com/elastic/search-ui/commit/909b41b6f01b2be9e8ebc2183a015b556f262841,['e1d6fa562876dec9676f2ea414b351aed0a3782d'],9,1,10,"[{'filename': '.eslintrc.js', 'additions': 2, 'deletions': 1, 'changes': 3}, {'filename': 'package-lock.json', 'additions': 6, 'deletions': 0, 'changes': 6}, {'filename': 'package.json', 'additions': 1, 'deletions': 0, 'changes': 1}]",[],"['@babel/core', '@babel/plugin-proposal-class-properties', '@babel/preset-env', 'babel-core', 'babel-eslint', 'babel-jest', 'eslint', 'eslint-config-prettier', 'eslint-plugin-jest', 'eslint-plugin-react', 'husky', 'jest', 'lerna', 'lint-staged', 'prettier', 'regenerator-runtime']",[],"['@babel/core', '@babel/plugin-proposal-class-properties', '@babel/preset-env', 'babel-core', 'babel-eslint', 'babel-jest', 'eslint', 'eslint-config-prettier', 'eslint-plugin-react', 'husky', 'jest', 'lerna', 'lint-staged', 'prettier', 'regenerator-runtime']","{'added': [], 'removed': []}","{'added': ['eslint-plugin-jest'], 'removed': []}"
+259329176de4f8cbe8d0a29c01fc09b69d714efd,2018-12-13 20:41:39+00:00,Added CircleCI,Jason Stoltzfus,jastoltz24@gmail.com,Jason Stoltzfus,jastoltz24@gmail.com,https://github.com/elastic/search-ui/commit/259329176de4f8cbe8d0a29c01fc09b69d714efd,['abddec06b006ed16540ab9269cb5191e28ba7ddf'],42,1,43,"[{'filename': '.circleci/config.yml', 'additions': 40, 'deletions': 0, 'changes': 40}, {'filename': 'README.md', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'package.json', 'additions': 1, 'deletions': 0, 'changes': 1}]",[],"['@babel/core', '@babel/plugin-proposal-class-properties', '@babel/preset-env', 'babel-core', 'babel-eslint', 'babel-jest', 'eslint', 'eslint-config-prettier', 'eslint-plugin-jest', 'eslint-plugin-react', 'husky', 'jest', 'lerna', 'lint-staged', 'prettier', 'regenerator-runtime']",[],"['@babel/core', '@babel/plugin-proposal-class-properties', '@babel/preset-env', 'babel-core', 'babel-eslint', 'babel-jest', 'eslint', 'eslint-config-prettier', 'eslint-plugin-jest', 'eslint-plugin-react', 'husky', 'jest', 'lerna', 'lint-staged', 'prettier', 'regenerator-runtime']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+86b9eafafdbe766e6edc46c576f0319e95469250,2019-02-11 22:41:20+00:00,Initial,Jason Stoltzfus,jastoltz24@gmail.com,Jason Stoltzfus,jastoltz24@gmail.com,https://github.com/elastic/search-ui/commit/86b9eafafdbe766e6edc46c576f0319e95469250,['ebb2e84fcb8c198a6c3c0d103b2e66c7768e65cf'],41798,7508,49306,"[{'filename': '.gitignore', 'additions': 1, 'deletions': 0, 'changes': 1}, {'filename': 'examples/sandbox/.env', 'additions': 1, 'deletions': 0, 'changes': 1}, {'filename': 'examples/sandbox/.gitignore', 'additions': 23, 'deletions': 0, 'changes': 23}, {'filename': 'examples/sandbox/README.md', 'additions': 33, 'deletions': 0, 'changes': 33}, {'filename': 'examples/sandbox/package-lock.json', 'additions': 16369, 'deletions': 0, 'changes': 16369}, {'filename': 'examples/sandbox/package.json', 'additions': 33, 'deletions': 0, 'changes': 33}, {'filename': 'examples/sandbox/public/favicon.ico', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'examples/sandbox/public/index.html', 'additions': 41, 'deletions': 0, 'changes': 41}, {'filename': 'examples/sandbox/public/manifest.json', 'additions': 15, 'deletions': 0, 'changes': 15}, {'filename': 'examples/sandbox/src/App.css', 'additions': 33, 'deletions': 0, 'changes': 33}, {'filename': 'examples/sandbox/src/App.js', 'additions': 112, 'deletions': 0, 'changes': 112}, {'filename': 'examples/sandbox/src/App.test.js', 'additions': 9, 'deletions': 0, 'changes': 9}, {'filename': 'examples/sandbox/src/index.css', 'additions': 14, 'deletions': 0, 'changes': 14}, {'filename': 'examples/sandbox/src/index.js', 'additions': 12, 'deletions': 0, 'changes': 12}, {'filename': 'examples/sandbox/src/logo.svg', 'additions': 7, 'deletions': 0, 'changes': 7}, {'filename': 'examples/sandbox/src/serviceWorker.js', 'additions': 135, 'deletions': 0, 'changes': 135}, {'filename': 'lerna.json', 'additions': 1, 'deletions': 3, 'changes': 4}, {'filename': 'package-lock.json', 'additions': 3657, 'deletions': 7479, 'changes': 11136}, {'filename': 'package.json', 'additions': 20, 'deletions': 25, 'changes': 45}, {'filename': 'packages/package.json', 'additions': 15, 'deletions': 0, 'changes': 15}, {'filename': 'packages/search-ui/package-lock.json', 'additions': 21267, 'deletions': 1, 'changes': 21268}]",[],"['eslint', 'husky', 'lerna', 'lint-staged', 'prettier']",[],"['@babel/core', '@babel/plugin-proposal-class-properties', '@babel/preset-env', 'babel-core', 'babel-eslint', 'babel-jest', 'eslint', 'eslint-config-prettier', 'eslint-plugin-jest', 'eslint-plugin-react', 'husky', 'jest', 'lerna', 'lint-staged', 'prettier', 'regenerator-runtime']","{'added': [], 'removed': []}","{'added': [], 'removed': ['eslint-config-prettier', 'babel-jest', 'babel-eslint', 'eslint-plugin-jest', '@babel/core', '@babel/preset-env', 'jest', 'regenerator-runtime', '@babel/plugin-proposal-class-properties', 'eslint-plugin-react', 'babel-core']}"
+94249ded732cde78d979fc78323c598291e889bb,2019-02-11 22:49:22+00:00,test,Jason Stoltzfus,jastoltz24@gmail.com,Jason Stoltzfus,jastoltz24@gmail.com,https://github.com/elastic/search-ui/commit/94249ded732cde78d979fc78323c598291e889bb,['86b9eafafdbe766e6edc46c576f0319e95469250'],7595,14,7609,"[{'filename': 'package.json', 'additions': 2, 'deletions': 3, 'changes': 5}, {'filename': 'packages/package-lock.json', 'additions': 7577, 'deletions': 0, 'changes': 7577}, {'filename': 'packages/package.json', 'additions': 14, 'deletions': 11, 'changes': 25}, {'filename': 'packages/react-search-ui-views/src/SearchBox.js', 'additions': 2, 'deletions': 0, 'changes': 2}]",[],"['husky', 'lerna', 'lint-staged', 'prettier']",[],"['eslint', 'husky', 'lerna', 'lint-staged', 'prettier']","{'added': [], 'removed': []}","{'added': [], 'removed': ['eslint']}"
+8fd0e8946b12438a93b8433d4260841743ecc0f3,2019-02-11 22:54:33+00:00,Fixes,Jason Stoltzfus,jastoltz24@gmail.com,Jason Stoltzfus,jastoltz24@gmail.com,https://github.com/elastic/search-ui/commit/8fd0e8946b12438a93b8433d4260841743ecc0f3,['f1d4ad28df59e06fcd77009c4d01bc493183c24f'],564,701,1265,"[{'filename': 'examples/sandbox/package-lock.json', 'additions': 304, 'deletions': 0, 'changes': 304}, {'filename': 'package-lock.json', 'additions': 259, 'deletions': 696, 'changes': 955}, {'filename': 'package.json', 'additions': 1, 'deletions': 5, 'changes': 6}]",[],"['husky', 'lerna', 'lint-staged', 'prettier']",[],"['husky', 'lerna', 'lint-staged', 'prettier']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+087d653385d9dc8b980bc6b3aaf6e74cfc4345f6,2019-02-12 15:51:35+00:00,More changes,Jason Stoltzfus,jastoltz24@gmail.com,Jason Stoltzfus,jastoltz24@gmail.com,https://github.com/elastic/search-ui/commit/087d653385d9dc8b980bc6b3aaf6e74cfc4345f6,['4269792cd56dab2414cd11f8d9957b971cd920f8'],53,21588,21641,"[{'filename': 'README.md', 'additions': 36, 'deletions': 9, 'changes': 45}, {'filename': 'examples/sandbox/package-lock.json', 'additions': 0, 'deletions': 304, 'changes': 304}, {'filename': 'lerna.json', 'additions': 7, 'deletions': 1, 'changes': 8}, {'filename': 'package.json', 'additions': 5, 'deletions': 3, 'changes': 8}, {'filename': 'packages/react-search-ui-views/package-lock.json', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/react-search-ui/package-lock.json', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/search-ui-app-search-connector/package-lock.json', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/search-ui-elasticsearch-connector/package-lock.json', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/search-ui-site-search-connector/package-lock.json', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/search-ui/package-lock.json', 'additions': 0, 'deletions': 21266, 'changes': 21266}]",[],"['husky', 'lerna', 'lint-staged', 'prettier']",[],"['husky', 'lerna', 'lint-staged', 'prettier']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+7ed8174af81ea984d8ce5b8fa2dbc6722929d379,2019-02-12 16:31:45+00:00,Updates,Jason Stoltzfus,jastoltz24@gmail.com,Jason Stoltzfus,jastoltz24@gmail.com,https://github.com/elastic/search-ui/commit/7ed8174af81ea984d8ce5b8fa2dbc6722929d379,['39fb6932bf8a20a55067a2cca0edc6f2564e431a'],19,6,25,"[{'filename': 'README.md', 'additions': 10, 'deletions': 0, 'changes': 10}, {'filename': 'examples/sandbox/README.md', 'additions': 7, 'deletions': 5, 'changes': 12}, {'filename': 'package.json', 'additions': 2, 'deletions': 1, 'changes': 3}]",[],"['husky', 'lerna', 'lint-staged', 'prettier']",[],"['husky', 'lerna', 'lint-staged', 'prettier']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+f24b9d7fea4a3d32b1484765f9c7dc063dad9c76,2019-02-13 19:22:20+00:00,"Updated SASS build pipeline (#88)
+
+Fixes #63
+
+The problem, is that a vendor CSS file was not being inlined in our SASS build output, `styles.css`. This required the consuming application to have some sort of css loader via webpack, etc. to be set up. While some setups, like `create-react-app` setups do, others do not, and they would error out after including this project.
+
+To resolve this, I had to find some mechanism outside of SASS to inline these files, since SASS does not support this.
+
+I landed on using a plugin for `postcss`. To implement it, I did the following:
+
+* Removed `node-sass-chokidar`, and installed `node-sass` and `chokidar` independently.
+* I set up `chokidar` to explicitly watch our `.scss` files and run `node-sass` any time they change.
+* I then run `postcss` with a css import plugin after running `node-sass`.
+* Since this gave us a good entry for using other `postcss` plugins, I also added the `autoprefixer` plugin, which should help with backwards compatibility.
+
+Another structural change I made was moving the more complicated scripts out of `package.json` and into `bin` files.
+
+I also updated every package to have a `watch` script, that watches and rebuilds everything. This makes it easier to run a task like `lerna run watch --parallel` to watch and rebuild every single package in the entire project.",Jason Stoltzfus,jastoltz24@gmail.com,GitHub,noreply@github.com,https://github.com/elastic/search-ui/commit/f24b9d7fea4a3d32b1484765f9c7dc063dad9c76,['cb38878193e2aa667d0759a53787be5c7a995981'],600,83,683,"[{'filename': 'examples/sandbox/README.md', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'package.json', 'additions': 2, 'deletions': 2, 'changes': 4}, {'filename': 'packages/react-search-ui-views/bin/build-css', 'additions': 9, 'deletions': 0, 'changes': 9}, {'filename': 'packages/react-search-ui-views/bin/build-js', 'additions': 5, 'deletions': 0, 'changes': 5}, {'filename': 'packages/react-search-ui-views/bin/watch-css', 'additions': 1, 'deletions': 0, 'changes': 1}, {'filename': 'packages/react-search-ui-views/bin/watch-js', 'additions': 2, 'deletions': 0, 'changes': 2}, {'filename': 'packages/react-search-ui-views/package-lock.json', 'additions': 512, 'deletions': 50, 'changes': 562}, {'filename': 'packages/react-search-ui-views/package.json', 'additions': 11, 'deletions': 7, 'changes': 18}, {'filename': 'packages/react-search-ui-views/src/styles/themes/reference-ui/components/_paging.scss', 'additions': 2, 'deletions': 2, 'changes': 4}, {'filename': 'packages/react-search-ui/bin/build-js', 'additions': 5, 'deletions': 0, 'changes': 5}, {'filename': 'packages/react-search-ui/bin/watch-js', 'additions': 2, 'deletions': 0, 'changes': 2}, {'filename': 'packages/react-search-ui/package.json', 'additions': 4, 'deletions': 4, 'changes': 8}, {'filename': 'packages/search-ui-app-search-connector/bin/build-js', 'additions': 5, 'deletions': 0, 'changes': 5}, {'filename': 'packages/search-ui-app-search-connector/bin/watch-js', 'additions': 2, 'deletions': 0, 'changes': 2}, {'filename': 'packages/search-ui-app-search-connector/package.json', 'additions': 4, 'deletions': 4, 'changes': 8}, {'filename': 'packages/search-ui-elasticsearch-connector/bin/build-js', 'additions': 5, 'deletions': 0, 'changes': 5}, {'filename': 'packages/search-ui-elasticsearch-connector/bin/watch-js', 'additions': 2, 'deletions': 0, 'changes': 2}, {'filename': 'packages/search-ui-elasticsearch-connector/package.json', 'additions': 4, 'deletions': 4, 'changes': 8}, {'filename': 'packages/search-ui-site-search-connector/bin/build-js', 'additions': 5, 'deletions': 0, 'changes': 5}, {'filename': 'packages/search-ui-site-search-connector/bin/watch-js', 'additions': 2, 'deletions': 0, 'changes': 2}, {'filename': 'packages/search-ui-site-search-connector/package.json', 'additions': 4, 'deletions': 4, 'changes': 8}, {'filename': 'packages/search-ui/bin/build-js', 'additions': 5, 'deletions': 0, 'changes': 5}, {'filename': 'packages/search-ui/bin/watch-js', 'additions': 2, 'deletions': 0, 'changes': 2}, {'filename': 'packages/search-ui/package.json', 'additions': 4, 'deletions': 5, 'changes': 9}]",[],"['husky', 'lerna', 'lint-staged', 'prettier']",[],"['husky', 'lerna', 'lint-staged', 'prettier']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+7483dca92a273982ef8d1ef6f34d76b80036370b,2019-04-16 14:07:43+00:00,Updated publishing instructions,Jason Stoltzfus,jastoltz24@gmail.com,Jason Stoltzfus,jastoltz24@gmail.com,https://github.com/elastic/search-ui/commit/7483dca92a273982ef8d1ef6f34d76b80036370b,['9e19ed72d08e1240132d8cd26e7761c0dee7e889'],7,4,11,"[{'filename': 'ADVANCED.md', 'additions': 6, 'deletions': 2, 'changes': 8}, {'filename': 'package.json', 'additions': 1, 'deletions': 2, 'changes': 3}]",[],"['husky', 'lerna', 'lint-staged', 'prettier']",[],"['husky', 'lerna', 'lint-staged', 'prettier']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+54a4a01ab2ad17461d2aa48e1a3f654cb80b9881,2019-05-06 18:57:31+00:00,"Documentation updates (#228)
+
+- Added top level command for starting sandbox, for convenience
+- Changed the recommendations for customizing component behavior to remove the mapViewProps function. It does not actually exist, and it's questionable whether it would actually be valuable. I added an alternate suggestion for overriding view props.
+- I made much more thorough examples for autocomplete, because it seems to be hard for people to understand, currently.",Jason Stoltzfus,jastoltz24@gmail.com,GitHub,noreply@github.com,https://github.com/elastic/search-ui/commit/54a4a01ab2ad17461d2aa48e1a3f654cb80b9881,['6ca17a7527e864e2911931399acc16b41ed64913'],162,66,228,"[{'filename': 'ADVANCED.md', 'additions': 160, 'deletions': 65, 'changes': 225}, {'filename': 'package.json', 'additions': 2, 'deletions': 1, 'changes': 3}]",[],"['husky', 'lerna', 'lint-staged', 'prettier']",[],"['husky', 'lerna', 'lint-staged', 'prettier']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+77a04a48af69036ea750863b9bc006856d3aa64f,2019-05-07 11:22:08+00:00,Updated dependency versions,Jason Stoltzfus,jastoltz24@gmail.com,Jason Stoltzfus,jastoltz24@gmail.com,https://github.com/elastic/search-ui/commit/77a04a48af69036ea750863b9bc006856d3aa64f,['e429bc6ccc84dd78a2671759156afc31bd5f657b'],661,604,1265,"[{'filename': 'package-lock.json', 'additions': 659, 'deletions': 602, 'changes': 1261}, {'filename': 'package.json', 'additions': 2, 'deletions': 2, 'changes': 4}]",[],"['husky', 'lerna', 'lint-staged', 'prettier']",[],"['husky', 'lerna', 'lint-staged', 'prettier']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+98a329fbd3a1af930995036308ae2b3085a378da,2019-05-07 12:21:19+00:00,"Revert ""Updated dependency versions""
+
+This reverts commit 77a04a48af69036ea750863b9bc006856d3aa64f.",Jason Stoltzfus,jastoltz24@gmail.com,Jason Stoltzfus,jastoltz24@gmail.com,https://github.com/elastic/search-ui/commit/98a329fbd3a1af930995036308ae2b3085a378da,['77a04a48af69036ea750863b9bc006856d3aa64f'],604,661,1265,"[{'filename': 'package-lock.json', 'additions': 602, 'deletions': 659, 'changes': 1261}, {'filename': 'package.json', 'additions': 2, 'deletions': 2, 'changes': 4}]",[],"['husky', 'lerna', 'lint-staged', 'prettier']",[],"['husky', 'lerna', 'lint-staged', 'prettier']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+01c768c23fdff4b3b7be3f1fb769f54fd0c17d5b,2019-05-29 13:02:19+00:00,"Fixed CI
+
+Fixed CI by using the ""--runInBand"" option which runs all tests in
+the same process. This was likely causing issues in CircleCI.",Jason Stoltzfus,jastoltz24@gmail.com,Jason Stoltzfus,jastoltz24@gmail.com,https://github.com/elastic/search-ui/commit/01c768c23fdff4b3b7be3f1fb769f54fd0c17d5b,['228ae64004efc6f0fe038461c6286601ab2b20ec'],7,1,8,"[{'filename': '.circleci/config.yml', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'package.json', 'additions': 1, 'deletions': 0, 'changes': 1}, {'filename': 'packages/react-search-ui-views/package.json', 'additions': 1, 'deletions': 0, 'changes': 1}, {'filename': 'packages/react-search-ui/package.json', 'additions': 1, 'deletions': 0, 'changes': 1}, {'filename': 'packages/search-ui-app-search-connector/package.json', 'additions': 1, 'deletions': 0, 'changes': 1}, {'filename': 'packages/search-ui-site-search-connector/package.json', 'additions': 1, 'deletions': 0, 'changes': 1}, {'filename': 'packages/search-ui/package.json', 'additions': 1, 'deletions': 0, 'changes': 1}]",[],"['husky', 'lerna', 'lint-staged', 'prettier']",[],"['husky', 'lerna', 'lint-staged', 'prettier']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+aebfd3a5e6f829c8af8c9a9b42f1a6627057c009,2019-06-04 14:47:11+00:00,"Updated Facet component to support quick search filter options (#248)
+
+The Facet component has a search box at the top which lets you live filter facet filter options. It also supports accent-folding. e.g.
+
+Search term lo will match LÒpez | logan | Logan
+
+- Added new prop isFilterable to the <Facet /> component to enable / disable quick search.
+- Implemented very basic accent-folding function.
+- Added new story with Search to the <MultiCheckboxFacet /> component.
+- Documented isFilterable prop usage.
+- Added new tests for <Facet /> and <MultiCheckboxFacet /> component.",Sureshraj,m.s.suresh100@gmail.com,Jason Stoltzfus,jastoltz24@gmail.com,https://github.com/elastic/search-ui/commit/aebfd3a5e6f829c8af8c9a9b42f1a6627057c009,['01c768c23fdff4b3b7be3f1fb769f54fd0c17d5b'],13243,39,13282,"[{'filename': '.eslintrc.js', 'additions': 2, 'deletions': 1, 'changes': 3}, {'filename': 'ADVANCED.md', 'additions': 5, 'deletions': 1, 'changes': 6}, {'filename': 'examples/elasticsearch/package-lock.json', 'additions': 12974, 'deletions': 0, 'changes': 12974}, {'filename': 'examples/elasticsearch/src/App.js', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'examples/sandbox/src/App.js', 'additions': 3, 'deletions': 1, 'changes': 4}, {'filename': 'package-lock.json', 'additions': 15, 'deletions': 15, 'changes': 30}, {'filename': 'package.json', 'additions': 3, 'deletions': 3, 'changes': 6}, {'filename': 'packages/react-search-ui-views/src/MultiCheckboxFacet.js', 'additions': 23, 'deletions': 2, 'changes': 25}, {'filename': 'packages/react-search-ui-views/src/__tests__/MultiCheckboxFacet.test.js', 'additions': 44, 'deletions': 0, 'changes': 44}, {'filename': 'packages/react-search-ui-views/src/styles/themes/reference-ui/components/_multi-checkbox-facet.scss', 'additions': 18, 'deletions': 0, 'changes': 18}, {'filename': 'packages/react-search-ui-views/src/styles/themes/reference-ui/components/_search-box.scss', 'additions': 0, 'deletions': 4, 'changes': 4}, {'filename': 'packages/react-search-ui-views/stories/MultiCheckboxFacet.stories.js', 'additions': 4, 'deletions': 0, 'changes': 4}, {'filename': 'packages/react-search-ui/src/__tests__/helpers.test.js', 'additions': 9, 'deletions': 0, 'changes': 9}, {'filename': 'packages/react-search-ui/src/containers/Facet.js', 'additions': 30, 'deletions': 6, 'changes': 36}, {'filename': 'packages/react-search-ui/src/containers/__tests__/Facet.test.js', 'additions': 100, 'deletions': 0, 'changes': 100}, {'filename': 'packages/react-search-ui/src/containers/__tests__/ResultsPerPage.test.js', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/react-search-ui/src/containers/__tests__/__snapshots__/Facet.test.js.snap', 'additions': 3, 'deletions': 0, 'changes': 3}, {'filename': 'packages/react-search-ui/src/helpers.js', 'additions': 4, 'deletions': 0, 'changes': 4}, {'filename': 'packages/search-ui-site-search-connector/src/requestAdapter.js', 'additions': 2, 'deletions': 2, 'changes': 4}, {'filename': 'packages/search-ui-site-search-connector/src/requestAdapters.js', 'additions': 2, 'deletions': 2, 'changes': 4}]",[],"['husky', 'lerna', 'lint-staged', 'prettier']",[],"['husky', 'lerna', 'lint-staged', 'prettier']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+d838daee3a41fe2836ba1eb732dafbd048f77fe5,2019-07-12 20:58:54+00:00,Version Updates and Security Fixes (#333),Jason Stoltzfus,jastoltz24@gmail.com,GitHub,noreply@github.com,https://github.com/elastic/search-ui/commit/d838daee3a41fe2836ba1eb732dafbd048f77fe5,['58c5b7bfa8bf32841742e7114e5a479be1491807'],1557,1411,2968,"[{'filename': '.nvmrc', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'package-lock.json', 'additions': 1390, 'deletions': 1129, 'changes': 2519}, {'filename': 'package.json', 'additions': 10, 'deletions': 13, 'changes': 23}, {'filename': 'packages/package-lock.json', 'additions': 28, 'deletions': 41, 'changes': 69}, {'filename': 'packages/react-search-ui-views/package-lock.json', 'additions': 50, 'deletions': 69, 'changes': 119}, {'filename': 'packages/react-search-ui/package-lock.json', 'additions': 22, 'deletions': 42, 'changes': 64}, {'filename': 'packages/search-ui-app-search-connector/package-lock.json', 'additions': 19, 'deletions': 39, 'changes': 58}, {'filename': 'packages/search-ui-site-search-connector/package-lock.json', 'additions': 19, 'deletions': 39, 'changes': 58}, {'filename': 'packages/search-ui/package-lock.json', 'additions': 18, 'deletions': 38, 'changes': 56}]",[],"['husky', 'lerna', 'lint-staged', 'prettier']",[],"['husky', 'lerna', 'lint-staged', 'prettier']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+5ae6f21d6cdaa177cd5620671e2218a7fddaa1d1,2019-07-17 20:58:34+00:00,"Automatically bake in subfolder installs into `npm install` (#353)
+
+* Automatically bake in subfolder installs into root install command
+
+* Update CircleCI
+
+* Update documentation",Constance,constancecchen@users.noreply.github.com,GitHub,noreply@github.com,https://github.com/elastic/search-ui/commit/5ae6f21d6cdaa177cd5620671e2218a7fddaa1d1,['bac5ff94a8146f2fc1be4bed8324eb93f2d69d26'],4,15,19,"[{'filename': '.circleci/config.yml', 'additions': 0, 'deletions': 6, 'changes': 6}, {'filename': 'CONTRIBUTING.md', 'additions': 3, 'deletions': 8, 'changes': 11}, {'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",[],"['husky', 'lerna', 'lint-staged', 'prettier']",[],"['husky', 'lerna', 'lint-staged', 'prettier']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+7413aa37f3c3bfd77ee5dd9370e876e359bf3999,2019-08-26 19:57:38+00:00,"Remove changelog and package-lock.json (#379)
+
+* Remove Changelog in favor of GitHub releases
+
+* Remove package-lock.json in packages
+
+* Use npm install in CI again since we deleted package-lock files
+
+* Remove redundant items from publishing instruction
+
+* Use only 1 in markdown ordered lists
+
+* Forbid creation of package-lock files in published packages
+
+* Force lerna to use 'npm install' instead of 'npm ci'",Vadim Yakhin,yakhin.v@gmail.com,GitHub,noreply@github.com,https://github.com/elastic/search-ui/commit/7413aa37f3c3bfd77ee5dd9370e876e359bf3999,['bfcd8e70eb064823a30970515e69f498d6eafa73'],31,55626,55657,"[{'filename': '.circleci/config.yml', 'additions': 1, 'deletions': 3, 'changes': 4}, {'filename': '.npmrc', 'additions': 1, 'deletions': 0, 'changes': 1}, {'filename': 'CHANGELOG.md', 'additions': 0, 'deletions': 286, 'changes': 286}, {'filename': 'CONTRIBUTING.md', 'additions': 22, 'deletions': 31, 'changes': 53}, {'filename': 'package-lock.json', 'additions': 0, 'deletions': 6986, 'changes': 6986}, {'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/.npmrc', 'additions': 1, 'deletions': 0, 'changes': 1}, {'filename': 'packages/package-lock.json', 'additions': 0, 'deletions': 9374, 'changes': 9374}, {'filename': 'packages/react-search-ui-views/.npmrc', 'additions': 1, 'deletions': 0, 'changes': 1}, {'filename': 'packages/react-search-ui-views/package-lock.json', 'additions': 0, 'deletions': 13667, 'changes': 13667}, {'filename': 'packages/react-search-ui/.npmrc', 'additions': 1, 'deletions': 0, 'changes': 1}, {'filename': 'packages/react-search-ui/package-lock.json', 'additions': 0, 'deletions': 7282, 'changes': 7282}, {'filename': 'packages/search-ui-app-search-connector/.npmrc', 'additions': 1, 'deletions': 0, 'changes': 1}, {'filename': 'packages/search-ui-app-search-connector/package-lock.json', 'additions': 0, 'deletions': 5987, 'changes': 5987}, {'filename': 'packages/search-ui-site-search-connector/.npmrc', 'additions': 1, 'deletions': 0, 'changes': 1}, {'filename': 'packages/search-ui-site-search-connector/package-lock.json', 'additions': 0, 'deletions': 5974, 'changes': 5974}, {'filename': 'packages/search-ui/.npmrc', 'additions': 1, 'deletions': 0, 'changes': 1}, {'filename': 'packages/search-ui/package-lock.json', 'additions': 0, 'deletions': 6035, 'changes': 6035}]",[],"['husky', 'lerna', 'lint-staged', 'prettier']",[],"['husky', 'lerna', 'lint-staged', 'prettier']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+3b8da2d4377f49bfad3acfd25affa8314bbb870d,2020-03-27 14:01:07+00:00,"Switched SearchProvider to be a functional component with hooks (#469)
+
+This PR changes SearchProvider to use hooks in advance of fixing #464.
+
+In order for hooks to work within the local sandbox environment during
+development, we needed to resolve an ""invalid hook call"" error.
+
+A number of solutions are proposed here:
+https://reactjs.org/warnings/invalid-hook-call-warning.html
+
+In our case, the error stemmed from the fact that we link our
+dependencies from sandbox to our packages. To resolve that, we
+need to also link the react we use in our packages to the react we use
+in the sandbox. 😵
+
+I chose to add that linking automatically so that it happens
+when running npm run sandbox, to make it seamless for developers.
+
+Since that unfortunately causes issues running tests, as a result, I also added a new check
+to tests to inform developers if they still have this linking in place.
+
+Lastly, in our SearchProvider test we were inspect state directly on our instantiated SearchProvider component. That won't work now that it is a functional component using
+useState, so we instead need to mock useState in order to access the underlying state.",Jason Stoltzfus,jastoltz24@gmail.com,GitHub,noreply@github.com,https://github.com/elastic/search-ui/commit/3b8da2d4377f49bfad3acfd25affa8314bbb870d,['6da55f5fc82e94657f95bc940a5a75675db53101'],170,105,275,"[{'filename': 'bin/sandbox', 'additions': 8, 'deletions': 0, 'changes': 8}, {'filename': 'examples/sandbox/README.md', 'additions': 29, 'deletions': 15, 'changes': 44}, {'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/react-search-ui-views/bin/test', 'additions': 13, 'deletions': 0, 'changes': 13}, {'filename': 'packages/react-search-ui-views/package.json', 'additions': 2, 'deletions': 1, 'changes': 3}, {'filename': 'packages/react-search-ui/bin/test', 'additions': 13, 'deletions': 0, 'changes': 13}, {'filename': 'packages/react-search-ui/package.json', 'additions': 3, 'deletions': 2, 'changes': 5}, {'filename': 'packages/react-search-ui/src/SearchProvider.js', 'additions': 38, 'deletions': 51, 'changes': 89}, {'filename': 'packages/react-search-ui/src/__tests__/SearchProvider.test.js', 'additions': 1, 'deletions': 35, 'changes': 36}, {'filename': 'packages/react-search-ui/src/__tests__/SearchProvider_withMocks.test.js', 'additions': 62, 'deletions': 0, 'changes': 62}]",[],"['husky', 'lerna', 'lint-staged', 'prettier']",[],"['husky', 'lerna', 'lint-staged', 'prettier']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+e279ac809d71a70767b30bc1f925d6a67ea7c2de,2020-05-07 15:06:17+00:00,Updated editor settings,Jason Stoltzfus,jastoltz24@gmail.com,Jason Stoltzfus,jastoltz24@gmail.com,https://github.com/elastic/search-ui/commit/e279ac809d71a70767b30bc1f925d6a67ea7c2de,['502aee89d8d550d2e87f02a07bd505550e06c0cc'],14,3,17,"[{'filename': 'CONTRIBUTING.md', 'additions': 12, 'deletions': 0, 'changes': 12}, {'filename': 'package.json', 'additions': 2, 'deletions': 3, 'changes': 5}]",[],"['husky', 'lerna', 'lint-staged', 'prettier']",[],"['husky', 'lerna', 'lint-staged', 'prettier']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+5d4c13f4277c5b9ffc0017e4fe7167266fa96533,2020-10-26 17:58:17+00:00,"Added engines property to package.json (#520)
+
+The is so that we get some enforcement of node version
+in development environments, which helps avoid some common
+errors.",Jason Stoltzfus,jastoltz24@gmail.com,GitHub,noreply@github.com,https://github.com/elastic/search-ui/commit/5d4c13f4277c5b9ffc0017e4fe7167266fa96533,['f25a2eea8cc98b0270e11ff6993b726acf06b5f4'],5,1,6,"[{'filename': '.nvmrc', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'package.json', 'additions': 4, 'deletions': 0, 'changes': 4}]",[],"['husky', 'lerna', 'lint-staged', 'prettier']",[],"['husky', 'lerna', 'lint-staged', 'prettier']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+0ed19fee97b0c2a61e38a0967a4fc614b5072023,2021-06-08 13:56:42+00:00,Update versions (#569),Jason Stoltzfus,jastoltz24@gmail.com,GitHub,noreply@github.com,https://github.com/elastic/search-ui/commit/0ed19fee97b0c2a61e38a0967a4fc614b5072023,['cb774e2ab1e6831ff40523c62d76b57d4c71ed5f'],3,3,6,"[{'filename': '.nvmrc', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'package.json', 'additions': 2, 'deletions': 2, 'changes': 4}]",[],"['husky', 'lerna', 'lint-staged', 'prettier']",[],"['husky', 'lerna', 'lint-staged', 'prettier']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+de17f0d02e62599788ca6fc258562a67341f8501,2022-01-14 15:19:05+00:00,"#276 react hooks fix for custom view components (#603)
+
+* bump to allow node version 14.17 or above
+
+* add vscode debug configurations for views package
+
+* change to way View components are mounted for facet and result component + tests to verify hooks support
+
+* finalise changes to View Render
+
+* update paging snapshot",Joseph McElroy,joseph.mcelroy@elastic.co,GitHub,noreply@github.com,https://github.com/elastic/search-ui/commit/de17f0d02e62599788ca6fc258562a67341f8501,['bafca20b2a018fdb8f4ec744122f499eff92201f'],237,143,380,"[{'filename': '.vscode/launch.json', 'additions': 26, 'deletions': 0, 'changes': 26}, {'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/react-search-ui/src/containers/ErrorBoundary.js', 'additions': 5, 'deletions': 3, 'changes': 8}, {'filename': 'packages/react-search-ui/src/containers/Facet.js', 'additions': 5, 'deletions': 2, 'changes': 7}, {'filename': 'packages/react-search-ui/src/containers/Paging.js', 'additions': 5, 'deletions': 2, 'changes': 7}, {'filename': 'packages/react-search-ui/src/containers/PagingInfo.js', 'additions': 5, 'deletions': 4, 'changes': 9}, {'filename': 'packages/react-search-ui/src/containers/Result.js', 'additions': 5, 'deletions': 2, 'changes': 7}, {'filename': 'packages/react-search-ui/src/containers/Results.js', 'additions': 19, 'deletions': 15, 'changes': 34}, {'filename': 'packages/react-search-ui/src/containers/ResultsPerPage.js', 'additions': 5, 'deletions': 3, 'changes': 8}, {'filename': 'packages/react-search-ui/src/containers/SearchBox.js', 'additions': 5, 'deletions': 3, 'changes': 8}, {'filename': 'packages/react-search-ui/src/containers/Sorting.js', 'additions': 5, 'deletions': 3, 'changes': 8}, {'filename': 'packages/react-search-ui/src/containers/__tests__/ErrorBoundary.test.js', 'additions': 5, 'deletions': 3, 'changes': 8}, {'filename': 'packages/react-search-ui/src/containers/__tests__/Facet.test.js', 'additions': 18, 'deletions': 16, 'changes': 34}, {'filename': 'packages/react-search-ui/src/containers/__tests__/Paging.test.js', 'additions': 10, 'deletions': 5, 'changes': 15}, {'filename': 'packages/react-search-ui/src/containers/__tests__/PagingInfo.test.js', 'additions': 6, 'deletions': 4, 'changes': 10}, {'filename': 'packages/react-search-ui/src/containers/__tests__/Result.test.js', 'additions': 48, 'deletions': 22, 'changes': 70}, {'filename': 'packages/react-search-ui/src/containers/__tests__/Results.test.js', 'additions': 6, 'deletions': 4, 'changes': 10}, {'filename': 'packages/react-search-ui/src/containers/__tests__/ResultsPerPage.test.js', 'additions': 6, 'deletions': 6, 'changes': 12}, {'filename': 'packages/react-search-ui/src/containers/__tests__/SearchBox.test.js', 'additions': 42, 'deletions': 37, 'changes': 79}, {'filename': 'packages/react-search-ui/src/containers/__tests__/Sorting.test.js', 'additions': 10, 'deletions': 6, 'changes': 16}, {'filename': 'packages/react-search-ui/src/containers/__tests__/__snapshots__/Paging.test.js.snap', 'additions': 0, 'deletions': 2, 'changes': 2}]",[],"['husky', 'lerna', 'lint-staged', 'prettier']",[],"['husky', 'lerna', 'lint-staged', 'prettier']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+9524308d07164380b53d0ca2f8661454affb0980,2022-03-14 20:31:24+00:00,"Typescript + elasticsearch-connector + minor fixes (#660)
+
+* #609 Search UI Typescript Conversion (#616)
+
+* TS setup configuration
+
+* WIP of JS -> TS
+
+* Initial support for Jenkins (#608)
+
+Adds initial support to run tests in Jenkins
+
+* WIP of typescript conversion
+
+* Finish up tests to typescript
+
+* Fix Typo changes
+
+* further tweaks to the types
+
+* added some more types for filters and facets
+
+* further clean up
+
+* remove yarn lock
+
+* switch to typescript ESLint + increased types coverage
+
+* clean up code tests
+
+* bump node version to 14 to make tests pass
+
+* remove lock file
+
+* move eslint-react to devDeps
+
+* add optional parameters for value and type
+
+Co-authored-by: Vadim Yakhin <yakhin.v@gmail.com>
+
+* update eslint settings + run prettier
+
+* remove lib from compilerOptions, use smart defaults
+
+Co-authored-by: Tarek Ziade <tarek@ziade.org>
+Co-authored-by: Vadim Yakhin <yakhin.v@gmail.com>
+
+* #610 react-search-ui package updated to typescript (#622)
+
+* Updated react-search-ui to TS
+
+* bump prettier version
+
+* update imports + clean up types
+
+* cast the sort direction to a const
+
+* remove package json in packages
+
+* fix eslint / prettier issues
+
+* Revert ""remove package json in packages""
+
+This reverts commit 3a228338ba09d84b9e99d4c7d58a2b38c6e6e443.
+
+* JS projects to use babel deps in their packages
+
+* cleanup of package.json in packages
+
+* comment fixes
+
+* #611 Typescript conversion of react-search-ui-views package (#625)
+
+* Updated react-search-ui to TS
+
+* bump prettier version
+
+* update imports + clean up types
+
+* cast the sort direction to a const
+
+* remove package json in packages
+
+* fix eslint / prettier issues
+
+* Revert ""remove package json in packages""
+
+This reverts commit 3a228338ba09d84b9e99d4c7d58a2b38c6e6e443.
+
+* JS projects to use babel deps in their packages
+
+* cleanup of package.json in packages
+
+* Apply ViewProp types to view components
+
+* eslint fixes with change in cmd to run on ts/tsx files
+
+* Updated tests
+
+* updated layout components
+
+* fix import path
+
+* remove proptypes + update tests
+
+* fix watch bin script
+
+* rejig the type imports to avoid circular deps
+
+* update eslint options to match only ts/tsx
+
+* eslint fixes
+
+* fix indentation of jest
+
+* fix test
+
+* update ErrorBoundary to not change snap
+
+* remove commented code
+
+* move facet types into types file
+
+* remove eslint-disable for eslint
+
+* #612 TypeScript conversion of search-ui-app-search-connector package  (#628)
+
+* Add configs, packages; and update scripts
+
+* Update extensions from js to ts
+
+* Silence all TS errors with any
+
+* Add a little more strict definitions for hooks
+
+* Run prettier
+
+* Fix eslint errors
+
+* Add basic types to AppSearchAPIConnector methods
+
+* Add basic types to buildResponseAdapterOptions
+
+* Add basic types to requestAdapters
+
+* Add basic types in requestAdapters.test
+
+* SQUASH to tsconfig commit
+
+* MIGHT CAUSE CONFLICTS
+
+* Add more types to AppSearchAPIConnector
+
+* Add more types to responseAdapter
+
+* Add types to QueryConfig
+
+* Remove wrong comment about client types
+
+* Extract constuctor params to a separate type, use in tests
+
+* Add more types to AppSearchAPIConnector tests
+
+* Add more types to requestAdapters
+
+* Fix tests
+
+* Fix typo
+
+* Improve the ""next"" function definitions
+
+* Add more types to AppSearchConnector test
+
+* Update react-search-ui package.json with module and types fields
+
+* Use Record where possible
+
+* Fix typo
+
+* Simplify types
+
+* Make types more strict
+
+* Reverse the test change and update type
+
+* Revert react-search-ui changes to avoid merge conflict
+
+* More revert
+
+* Improve hook types
+
+* Bring back test
+
+* Add the correct type to SearchQueryHook
+
+* remove facet as types been moved to types file
+
+* update FacetContainer type
+
+* allow fields to be specified
+
+* clean up the build steps for all TS packages
+
+* update the build step to allow for core dep to build first
+
+* Release: v1.10.0-rc.0
+
+* #613 site-search-connector TypeScript conversion  (#637)
+
+* Add configs, packages; and update scripts
+
+* Update extensions from js to ts
+
+* Silence all TS errors with any
+
+* Update configs and package.jsons
+
+* Extract isFilterValueRange helper to search-ui and import in connectors
+
+* Add request types
+
+* Rename tests from js to ts
+
+* Change the behaviour of request, update tests
+
+The docs suggest that errors are returned on ""errors"" field, not ""error"" field.
+This commit updates the behaviour, and needs testing.
+
+* Add types file
+
+* Add requestAdapter types
+
+* Add requestAdapters types
+
+* Add responseAdapter and responseAdapters types
+
+* Add SiteSearchAPIConnector types
+
+Co-authored-by: Jason Stoltzfus <jastoltz24@gmail.com>
+
+* Improve site search types (#638)
+
+* Move example-response to src folder to simplify build step
+
+* Clean up tsconfig
+
+* Use the same argument name everywhere
+
+* Improve types of SearchQueryHook and SiteSearchQueryConfig
+
+* Update TODO comments, ""type"" field is not optional, but it's omitted intentionally for testing
+
+* Release: v1.10.0-rc.1 (#641)
+
+* update node version in contributing (#640)
+
+* #626 yarn workspaces (#635)
+
+* use lerna workspaces + add resolutions
+
+* Including all examples + explicitly setting yarn as npm client
+
+* no longer need lerna bootstrap command
+
+* switch to yarn for ci + remove sandbox hooks bin script
+
+* push dependencies for test target into the root
+
+* run build command in CI
+
+* update import path for rc-pagination css
+
+* update path import
+
+* updated lock file
+
+* fix build issue with site-search-connector
+
+* Workplace search connector (#650)
+
+* Copy all files from app-search-connector to workplace-search-connector
+
+* Rename App -> Workplace in package.json
+
+* Rename App -> Workplace in connector files
+
+* Pass required parameters to WS connector
+
+* Accept parameters at WS connector
+
+* Pass AuthorizeUrl from connector to Search UI state, use in sandbox
+
+* Parse access token from the url hash
+
+* Implement search request
+
+* Update responseAdapter
+
+* Pass Search UI options to request
+
+* Handle API error if disjunctiveFacets fields are present
+
+* Use query directly instead of getting it from state
+
+* Implement autocomplete
+
+* Add Log in modal to App, pass the isLoggedIn state from connector to Search Driver
+
+* Cleanup
+
+* Override default EUI styles
+
+* Improve modal design
+
+* Save and get access token from localstorage
+
+* Refactor autocomplete method
+
+* Add jsdom to jest config, since we're using browser APIs, like localstorage
+
+* Add exampleResponse.json
+
+* Update tests for WorkplaceSearchAPIConnector.
+
+Many tests are simply removed. We should bring them back later to improve coverage
+
+* Update responseAdapter tests
+
+* Use environment variables for connector configuration if provided
+
+* Added Workplace Search connector README
+
+* Updated all references to connectors
+
+* Document additional state
+
+* Remove clear step in build script from AS and WS connectors
+
+* Remove dependency and mentions of language client
+
+* Remove unused ...rest
+
+* Marking the connector as private to avoid early publishing
+
+Co-authored-by: Jason Stoltzfus <jastoltz24@gmail.com>
+
+* Elasticsearch Connector (#651)
+
+* update sandbox example to useES connector
+
+* fixed type issue with wasSearched boolean state
+
+* Elasticsearch Connector POC
+
+* allow apiKey to be passed in
+
+* add debugger configuration
+
+* update elasticsearch connector
+
+* split out ResponseState types
+
+* add tests + refactor elasticsearch connector
+
+* remove server
+
+* update searchkit-sdk dep
+
+* fix type issues
+
+* fix data model errors in tests
+
+* readme documentation
+
+* remove proxy configuration + update field config
+
+* update readme
+
+* typo on privileges.
+
+Co-authored-by: Vadim Yakhin <yakhin.v@gmail.com>
+
+* accidental copy
+
+Co-authored-by: Vadim Yakhin <yakhin.v@gmail.com>
+
+* Update packages/search-ui-elasticsearch-connector/README.md
+
+Co-authored-by: Vadim Yakhin <yakhin.v@gmail.com>
+
+* Update packages/search-ui-elasticsearch-connector/README.md
+
+Co-authored-by: Vadim Yakhin <yakhin.v@gmail.com>
+
+* remove npm-run-all where not needed; clean up scripts
+
+* refactor around the handler methods to be a configuration object
+
+Co-authored-by: Vadim Yakhin <yakhin.v@gmail.com>
+
+* Extract Workplace Search sandbox to a different page (#658)
+
+* Extract Workplace Search sandbox to a different page
+
+* Use and older React Router version to avoid version conflict between history packages
+
+I first tried to upgrade history package to newer version
+to avoid conflicts, but they lack a migration guide
+
+* Elasticsearch Connector: Range Facet Support (#657)
+
+* update sandbox example to useES connector
+
+* fixed type issue with wasSearched boolean state
+
+* Elasticsearch Connector POC
+
+* allow apiKey to be passed in
+
+* add debugger configuration
+
+* update elasticsearch connector
+
+* split out ResponseState types
+
+* add tests + refactor elasticsearch connector
+
+* remove server
+
+* update searchkit-sdk dep
+
+* fix type issues
+
+* fix data model errors in tests
+
+* readme documentation
+
+* remove proxy configuration + update field config
+
+* update readme
+
+* WIP
+
+* typo on privileges.
+
+Co-authored-by: Vadim Yakhin <yakhin.v@gmail.com>
+
+* accidental copy
+
+Co-authored-by: Vadim Yakhin <yakhin.v@gmail.com>
+
+* Update packages/search-ui-elasticsearch-connector/README.md
+
+Co-authored-by: Vadim Yakhin <yakhin.v@gmail.com>
+
+* Update packages/search-ui-elasticsearch-connector/README.md
+
+Co-authored-by: Vadim Yakhin <yakhin.v@gmail.com>
+
+* remove npm-run-all where not needed; clean up scripts
+
+* refactor around the handler methods to be a configuration object
+
+* re-enable location facet + update configuration code to use geodistance facet
+
+* Fix Pagination issue + tests for range facets
+
+Co-authored-by: Vadim Yakhin <yakhin.v@gmail.com>
+
+* Divide connector examples into Pages (#659)
+
+* update sandbox example to useES connector
+
+* fixed type issue with wasSearched boolean state
+
+* Elasticsearch Connector POC
+
+* allow apiKey to be passed in
+
+* add debugger configuration
+
+* update elasticsearch connector
+
+* split out ResponseState types
+
+* add tests + refactor elasticsearch connector
+
+* remove server
+
+* update searchkit-sdk dep
+
+* fix type issues
+
+* fix data model errors in tests
+
+* readme documentation
+
+* remove proxy configuration + update field config
+
+* update readme
+
+* WIP
+
+* typo on privileges.
+
+Co-authored-by: Vadim Yakhin <yakhin.v@gmail.com>
+
+* accidental copy
+
+Co-authored-by: Vadim Yakhin <yakhin.v@gmail.com>
+
+* Update packages/search-ui-elasticsearch-connector/README.md
+
+Co-authored-by: Vadim Yakhin <yakhin.v@gmail.com>
+
+* Update packages/search-ui-elasticsearch-connector/README.md
+
+Co-authored-by: Vadim Yakhin <yakhin.v@gmail.com>
+
+* remove npm-run-all where not needed; clean up scripts
+
+* refactor around the handler methods to be a configuration object
+
+* re-enable location facet + update configuration code to use geodistance facet
+
+* Fix Pagination issue + tests for range facets
+
+* split out examples into pages, inline config in page
+
+Co-authored-by: Vadim Yakhin <yakhin.v@gmail.com>
+
+* Fix off-by-one error in results pagination state. (#647)
+
+Co-authored-by: Tarek Ziade <tarek@ziade.org>
+Co-authored-by: Vadim Yakhin <yakhin.v@gmail.com>
+Co-authored-by: Vadim Yakhin <vadim.yakhin@elastic.co>
+Co-authored-by: Jason Stoltzfus <jastoltz24@gmail.com>
+Co-authored-by: emlyn-h <emlyn.hughes@gmail.com>",Joseph McElroy,joseph.mcelroy@elastic.co,GitHub,noreply@github.com,https://github.com/elastic/search-ui/commit/9524308d07164380b53d0ca2f8661454affb0980,['0e1034c7d86abaf2e8c6fcb704f1239c69a04e17'],26595,36582,63177,"[{'filename': '.ci/jobs/searchui.yml', 'additions': 33, 'deletions': 0, 'changes': 33}, {'filename': '.ci/pipelines/searchui.groovy', 'additions': 21, 'deletions': 0, 'changes': 21}, {'filename': '.circleci/config.yml', 'additions': 3, 'deletions': 2, 'changes': 5}, {'filename': '.eslintrc.js', 'additions': 10, 'deletions': 7, 'changes': 17}, {'filename': '.github/ISSUE_TEMPLATE/bug_report.md', 'additions': 4, 'deletions': 4, 'changes': 8}, {'filename': '.github/ISSUE_TEMPLATE/question.md', 'additions': 3, 'deletions': 4, 'changes': 7}, {'filename': '.vscode/launch.json', 'additions': 56, 'deletions': 1, 'changes': 57}, {'filename': '.vscode/settings.json', 'additions': 2, 'deletions': 0, 'changes': 2}, {'filename': 'ADVANCED.md', 'additions': 30, 'deletions': 26, 'changes': 56}, {'filename': 'CONTRIBUTING.md', 'additions': 9, 'deletions': 10, 'changes': 19}, {'filename': 'README.md', 'additions': 6, 'deletions': 6, 'changes': 12}, {'filename': 'bin/sandbox', 'additions': 0, 'deletions': 8, 'changes': 8}, {'filename': 'examples/elasticsearch/package-lock.json', 'additions': 0, 'deletions': 22334, 'changes': 22334}, {'filename': 'examples/elasticsearch/package.json', 'additions': 5, 'deletions': 5, 'changes': 10}, {'filename': 'examples/sandbox/README.md', 'additions': 5, 'deletions': 2, 'changes': 7}, {'filename': 'examples/sandbox/package-lock.json', 'additions': 0, 'deletions': 11605, 'changes': 11605}, {'filename': 'examples/sandbox/package.json', 'additions': 12, 'deletions': 7, 'changes': 19}, {'filename': 'examples/sandbox/src/App.css', 'additions': 0, 'deletions': 33, 'changes': 33}, {'filename': 'examples/sandbox/src/App.test.js', 'additions': 0, 'deletions': 9, 'changes': 9}, {'filename': 'examples/sandbox/src/Router.js', 'additions': 26, 'deletions': 0, 'changes': 26}, {'filename': 'examples/sandbox/src/index.css', 'additions': 0, 'deletions': 14, 'changes': 14}, {'filename': 'examples/sandbox/src/index.js', 'additions': 8, 'deletions': 9, 'changes': 17}, {'filename': 'examples/sandbox/src/logo.svg', 'additions': 0, 'deletions': 7, 'changes': 7}, {'filename': 'examples/sandbox/src/pages/app-search/index.js', 'additions': 74, 'deletions': 65, 'changes': 139}, {'filename': 'examples/sandbox/src/pages/elasticsearch/index.js', 'additions': 300, 'deletions': 0, 'changes': 300}, {'filename': 'examples/sandbox/src/pages/workplace-search/index.css', 'additions': 25, 'deletions': 0, 'changes': 25}, {'filename': 'examples/sandbox/src/pages/workplace-search/index.js', 'additions': 207, 'deletions': 0, 'changes': 207}, {'filename': 'examples/sandbox/src/serviceWorker.js', 'additions': 0, 'deletions': 135, 'changes': 135}, {'filename': 'lerna.json', 'additions': 5, 'deletions': 1, 'changes': 6}, {'filename': 'package.json', 'additions': 33, 'deletions': 9, 'changes': 42}, {'filename': 'packages/package.json', 'additions': 0, 'deletions': 19, 'changes': 19}, {'filename': 'packages/react-search-ui-views/babel.config.js', 'additions': 0, 'deletions': 27, 'changes': 27}, {'filename': 'packages/react-search-ui-views/bin/build-js', 'additions': 4, 'deletions': 4, 'changes': 8}, {'filename': 'packages/react-search-ui-views/bin/test', 'additions': 0, 'deletions': 12, 'changes': 12}, {'filename': 'packages/react-search-ui-views/bin/watch-js', 'additions': 2, 'deletions': 2, 'changes': 4}, {'filename': 'packages/react-search-ui-views/jest.config.js', 'additions': 10, 'deletions': 0, 'changes': 10}, {'filename': 'packages/react-search-ui-views/package.json', 'additions': 9, 'deletions': 26, 'changes': 35}, {'filename': 'packages/react-search-ui-views/src/Autocomplete.tsx', 'additions': 32, 'deletions': 44, 'changes': 76}, {'filename': 'packages/react-search-ui-views/src/BooleanFacet.tsx', 'additions': 3, 'deletions': 13, 'changes': 16}, {'filename': 'packages/react-search-ui-views/src/ErrorBoundary.js', 'additions': 0, 'deletions': 24, 'changes': 24}, {'filename': 'packages/react-search-ui-views/src/ErrorBoundary.tsx', 'additions': 29, 'deletions': 0, 'changes': 29}, {'filename': 'packages/react-search-ui-views/src/Facets.tsx', 'additions': 6, 'deletions': 7, 'changes': 13}, {'filename': 'packages/react-search-ui-views/src/MultiCheckboxFacet.tsx', 'additions': 7, 'deletions': 21, 'changes': 28}, {'filename': 'packages/react-search-ui-views/src/Paging.tsx', 'additions': 20, 'deletions': 10, 'changes': 30}, {'filename': 'packages/react-search-ui-views/src/PagingInfo.js', 'additions': 0, 'deletions': 39, 'changes': 39}, {'filename': 'packages/react-search-ui-views/src/PagingInfo.tsx', 'additions': 51, 'deletions': 0, 'changes': 51}, {'filename': 'packages/react-search-ui-views/src/Result.tsx', 'additions': 52, 'deletions': 25, 'changes': 77}, {'filename': 'packages/react-search-ui-views/src/Results.js', 'additions': 0, 'deletions': 22, 'changes': 22}, {'filename': 'packages/react-search-ui-views/src/Results.tsx', 'additions': 39, 'deletions': 0, 'changes': 39}, {'filename': 'packages/react-search-ui-views/src/ResultsPerPage.tsx', 'additions': 29, 'deletions': 14, 'changes': 43}, {'filename': 'packages/react-search-ui-views/src/SearchBox.tsx', 'additions': 71, 'deletions': 60, 'changes': 131}, {'filename': 'packages/react-search-ui-views/src/SearchInput.js', 'additions': 0, 'deletions': 22, 'changes': 22}, {'filename': 'packages/react-search-ui-views/src/SearchInput.tsx', 'additions': 25, 'deletions': 0, 'changes': 25}, {'filename': 'packages/react-search-ui-views/src/SingleLinksFacet.tsx', 'additions': 15, 'deletions': 17, 'changes': 32}, {'filename': 'packages/react-search-ui-views/src/SingleSelectFacet.tsx', 'additions': 9, 'deletions': 11, 'changes': 20}, {'filename': 'packages/react-search-ui-views/src/Sorting.js', 'additions': 0, 'deletions': 47, 'changes': 47}, {'filename': 'packages/react-search-ui-views/src/Sorting.tsx', 'additions': 67, 'deletions': 0, 'changes': 67}, {'filename': 'packages/react-search-ui-views/src/__tests__/Autocomplete.test.tsx', 'additions': 8, 'deletions': 14, 'changes': 22}, {'filename': 'packages/react-search-ui-views/src/__tests__/BooleanFacet.test.tsx', 'additions': 8, 'deletions': 1, 'changes': 9}, {'filename': 'packages/react-search-ui-views/src/__tests__/ErrorBoundary.test.tsx', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'packages/react-search-ui-views/src/__tests__/Facets.test.tsx', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'packages/react-search-ui-views/src/__tests__/MultiCheckboxFacet.test.tsx', 'additions': 10, 'deletions': 15, 'changes': 25}, {'filename': 'packages/react-search-ui-views/src/__tests__/Paging.test.tsx', 'additions': 6, 'deletions': 3, 'changes': 9}, {'filename': 'packages/react-search-ui-views/src/__tests__/PagingInfo.test.tsx', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'packages/react-search-ui-views/src/__tests__/Result.test.tsx', 'additions': 3, 'deletions': 2, 'changes': 5}, {'filename': 'packages/react-search-ui-views/src/__tests__/Results.test.tsx', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'packages/react-search-ui-views/src/__tests__/ResultsPerPage.test.tsx', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/react-search-ui-views/src/__tests__/SearchBox.test.tsx', 'additions': 35, 'deletions': 35, 'changes': 70}, {'filename': 'packages/react-search-ui-views/src/__tests__/SingleLinksFacet.test.tsx', 'additions': 12, 'deletions': 4, 'changes': 16}, {'filename': 'packages/react-search-ui-views/src/__tests__/SingleSelectFacet.test.tsx', 'additions': 12, 'deletions': 3, 'changes': 15}, {'filename': 'packages/react-search-ui-views/src/__tests__/Sorting.test.tsx', 'additions': 7, 'deletions': 5, 'changes': 12}, {'filename': 'packages/react-search-ui-views/src/__tests__/__snapshots__/Autocomplete.test.tsx.snap', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'packages/react-search-ui-views/src/__tests__/__snapshots__/BooleanFacet.test.tsx.snap', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'packages/react-search-ui-views/src/__tests__/__snapshots__/ErrorBoundary.test.tsx.snap', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'packages/react-search-ui-views/src/__tests__/__snapshots__/Facets.test.tsx.snap', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'packages/react-search-ui-views/src/__tests__/__snapshots__/MultiCheckboxFacet.test.tsx.snap', 'additions': 10, 'deletions': 12, 'changes': 22}, {'filename': 'packages/react-search-ui-views/src/__tests__/__snapshots__/Paging.test.tsx.snap', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'packages/react-search-ui-views/src/__tests__/__snapshots__/PagingInfo.test.tsx.snap', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'packages/react-search-ui-views/src/__tests__/__snapshots__/Result.test.tsx.snap', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'packages/react-search-ui-views/src/__tests__/__snapshots__/Results.test.tsx.snap', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'packages/react-search-ui-views/src/__tests__/__snapshots__/ResultsPerPage.test.tsx.snap', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'packages/react-search-ui-views/src/__tests__/__snapshots__/SearchBox.test.tsx.snap', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/react-search-ui-views/src/__tests__/__snapshots__/SingleLinksFacet.test.tsx.snap', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'packages/react-search-ui-views/src/__tests__/__snapshots__/SingleSelectFacet.test.tsx.snap', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'packages/react-search-ui-views/src/__tests__/__snapshots__/Sorting.test.tsx.snap', 'additions': 11, 'deletions': 6, 'changes': 17}, {'filename': 'packages/react-search-ui-views/src/__tests__/layouts/Layout.test.tsx', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'packages/react-search-ui-views/src/__tests__/layouts/LayoutSidebar.test.tsx', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'packages/react-search-ui-views/src/__tests__/layouts/__snapshots__/Layout.test.tsx.snap', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'packages/react-search-ui-views/src/__tests__/layouts/__snapshots__/LayoutSidebar.test.tsx.snap', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'packages/react-search-ui-views/src/__tests__/view-helpers/appendClassName.test.ts', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'packages/react-search-ui-views/src/__tests__/view-helpers/getUrlSanitizer.test.ts', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'packages/react-search-ui-views/src/index.tsx', 'additions': 1, 'deletions': 0, 'changes': 1}, {'filename': 'packages/react-search-ui-views/src/layouts/Layout.tsx', 'additions': 11, 'deletions': 12, 'changes': 23}, {'filename': 'packages/react-search-ui-views/src/layouts/LayoutSidebar.tsx', 'additions': 13, 'deletions': 7, 'changes': 20}, {'filename': 'packages/react-search-ui-views/src/layouts/index.ts', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'packages/react-search-ui-views/src/styles/themes/reference-ui/components/_paging.scss', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/react-search-ui-views/src/types/Facet.js', 'additions': 0, 'deletions': 9, 'changes': 9}, {'filename': 'packages/react-search-ui-views/src/types/FacetType.js', 'additions': 0, 'deletions': 3, 'changes': 3}, {'filename': 'packages/react-search-ui-views/src/types/FacetValue.js', 'additions': 0, 'deletions': 11, 'changes': 11}, {'filename': 'packages/react-search-ui-views/src/types/FieldValue.js', 'additions': 0, 'deletions': 10, 'changes': 10}, {'filename': 'packages/react-search-ui-views/src/types/FieldValueWrapper.js', 'additions': 0, 'deletions': 17, 'changes': 17}, {'filename': 'packages/react-search-ui-views/src/types/Filter.js', 'additions': 0, 'deletions': 9, 'changes': 9}, {'filename': 'packages/react-search-ui-views/src/types/FilterType.js', 'additions': 0, 'deletions': 3, 'changes': 3}, {'filename': 'packages/react-search-ui-views/src/types/FilterValue.js', 'additions': 0, 'deletions': 5, 'changes': 5}, {'filename': 'packages/react-search-ui-views/src/types/FilterValueRange.js', 'additions': 0, 'deletions': 8, 'changes': 8}, {'filename': 'packages/react-search-ui-views/src/types/FilterValueValue.js', 'additions': 0, 'deletions': 3, 'changes': 3}, {'filename': 'packages/react-search-ui-views/src/types/Result.js', 'additions': 0, 'deletions': 16, 'changes': 16}, {'filename': 'packages/react-search-ui-views/src/types/Suggestion.js', 'additions': 0, 'deletions': 7, 'changes': 7}, {'filename': 'packages/react-search-ui-views/src/types/index.js', 'additions': 0, 'deletions': 12, 'changes': 12}, {'filename': 'packages/react-search-ui-views/src/types/index.ts', 'additions': 108, 'deletions': 0, 'changes': 108}, {'filename': 'packages/react-search-ui-views/src/view-helpers/appendClassName.js', 'additions': 0, 'deletions': 11, 'changes': 11}, {'filename': 'packages/react-search-ui-views/src/view-helpers/appendClassName.ts', 'additions': 19, 'deletions': 0, 'changes': 19}, {'filename': 'packages/react-search-ui-views/src/view-helpers/getFilterValueDisplay.ts', 'additions': 3, 'deletions': 2, 'changes': 5}, {'filename': 'packages/react-search-ui-views/src/view-helpers/getUrlSanitizer.ts', 'additions': 6, 'deletions': 3, 'changes': 9}, {'filename': 'packages/react-search-ui-views/src/view-helpers/index.ts', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'packages/react-search-ui-views/tsconfig-cjs.json', 'additions': 7, 'deletions': 0, 'changes': 7}, {'filename': 'packages/react-search-ui-views/tsconfig.json', 'additions': 25, 'deletions': 0, 'changes': 25}, {'filename': 'packages/react-search-ui/babel.config.js', 'additions': 0, 'deletions': 27, 'changes': 27}, {'filename': 'packages/react-search-ui/bin/build-js', 'additions': 4, 'deletions': 4, 'changes': 8}, {'filename': 'packages/react-search-ui/bin/test', 'additions': 0, 'deletions': 13, 'changes': 13}, {'filename': 'packages/react-search-ui/bin/watch-js', 'additions': 2, 'deletions': 2, 'changes': 4}, {'filename': 'packages/react-search-ui/jest.config.js', 'additions': 15, 'deletions': 0, 'changes': 15}, {'filename': 'packages/react-search-ui/package.json', 'additions': 12, 'deletions': 31, 'changes': 43}, {'filename': 'packages/react-search-ui/src/A11yNotifications.ts', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'packages/react-search-ui/src/SearchContext.js', 'additions': 0, 'deletions': 5, 'changes': 5}, {'filename': 'packages/react-search-ui/src/SearchContext.ts', 'additions': 7, 'deletions': 0, 'changes': 7}, {'filename': 'packages/react-search-ui/src/SearchProvider.tsx', 'additions': 36, 'deletions': 13, 'changes': 49}, {'filename': 'packages/react-search-ui/src/WithSearchRenderProps.tsx', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/react-search-ui/src/__tests__/A11yNotifications.test.ts', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'packages/react-search-ui/src/__tests__/SearchContext.test.js', 'additions': 0, 'deletions': 16, 'changes': 16}, {'filename': 'packages/react-search-ui/src/__tests__/SearchContext.test.tsx', 'additions': 23, 'deletions': 0, 'changes': 23}, {'filename': 'packages/react-search-ui/src/__tests__/SearchProvider.test.tsx', 'additions': 12, 'deletions': 5, 'changes': 17}, {'filename': 'packages/react-search-ui/src/__tests__/SearchProvider_withMocks.test.tsx', 'additions': 16, 'deletions': 9, 'changes': 25}, {'filename': 'packages/react-search-ui/src/__tests__/WithSearchRenderProps.test.tsx', 'additions': 3, 'deletions': 1, 'changes': 4}, {'filename': 'packages/react-search-ui/src/__tests__/helpers.test.ts', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'packages/react-search-ui/src/__tests__/withSearch.test.tsx', 'additions': 62, 'deletions': 47, 'changes': 109}, {'filename': 'packages/react-search-ui/src/containers/ErrorBoundary.js', 'additions': 0, 'deletions': 32, 'changes': 32}, {'filename': 'packages/react-search-ui/src/containers/ErrorBoundary.tsx', 'additions': 35, 'deletions': 0, 'changes': 35}, {'filename': 'packages/react-search-ui/src/containers/Facet.tsx', 'additions': 33, 'deletions': 39, 'changes': 72}, {'filename': 'packages/react-search-ui/src/containers/Paging.tsx', 'additions': 9, 'deletions': 17, 'changes': 26}, {'filename': 'packages/react-search-ui/src/containers/PagingInfo.tsx', 'additions': 9, 'deletions': 16, 'changes': 25}, {'filename': 'packages/react-search-ui/src/containers/Result.js', 'additions': 0, 'deletions': 76, 'changes': 76}, {'filename': 'packages/react-search-ui/src/containers/Result.tsx', 'additions': 63, 'deletions': 0, 'changes': 63}, {'filename': 'packages/react-search-ui/src/containers/Results.tsx', 'additions': 12, 'deletions': 21, 'changes': 33}, {'filename': 'packages/react-search-ui/src/containers/ResultsPerPage.tsx', 'additions': 14, 'deletions': 19, 'changes': 33}, {'filename': 'packages/react-search-ui/src/containers/SearchBox.tsx', 'additions': 36, 'deletions': 70, 'changes': 106}, {'filename': 'packages/react-search-ui/src/containers/Sorting.tsx', 'additions': 13, 'deletions': 25, 'changes': 38}, {'filename': 'packages/react-search-ui/src/containers/__tests__/ErrorBoundary.test.js', 'additions': 0, 'deletions': 45, 'changes': 45}, {'filename': 'packages/react-search-ui/src/containers/__tests__/ErrorBoundary.test.tsx', 'additions': 58, 'deletions': 0, 'changes': 58}, {'filename': 'packages/react-search-ui/src/containers/__tests__/Facet.test.tsx', 'additions': 42, 'deletions': 33, 'changes': 75}, {'filename': 'packages/react-search-ui/src/containers/__tests__/Paging.test.tsx', 'additions': 16, 'deletions': 5, 'changes': 21}, {'filename': 'packages/react-search-ui/src/containers/__tests__/PagingInfo.test.tsx', 'additions': 11, 'deletions': 5, 'changes': 16}, {'filename': 'packages/react-search-ui/src/containers/__tests__/Result.test.tsx', 'additions': 7, 'deletions': 7, 'changes': 14}, {'filename': 'packages/react-search-ui/src/containers/__tests__/Results.test.tsx', 'additions': 16, 'deletions': 8, 'changes': 24}, {'filename': 'packages/react-search-ui/src/containers/__tests__/ResultsPerPage.test.tsx', 'additions': 17, 'deletions': 5, 'changes': 22}, {'filename': 'packages/react-search-ui/src/containers/__tests__/SearchBox.test.tsx', 'additions': 126, 'deletions': 38, 'changes': 164}, {'filename': 'packages/react-search-ui/src/containers/__tests__/Sorting.test.tsx', 'additions': 39, 'deletions': 23, 'changes': 62}, {'filename': 'packages/react-search-ui/src/containers/__tests__/__snapshots__/ErrorBoundary.test.tsx.snap', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/react-search-ui/src/containers/__tests__/__snapshots__/Facet.test.tsx.snap', 'additions': 1, 'deletions': 0, 'changes': 1}, {'filename': 'packages/react-search-ui/src/containers/__tests__/__snapshots__/Paging.test.tsx.snap', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'packages/react-search-ui/src/containers/__tests__/__snapshots__/PagingInfo.test.tsx.snap', 'additions': 3, 'deletions': 1, 'changes': 4}, {'filename': 'packages/react-search-ui/src/containers/__tests__/__snapshots__/Result.test.tsx.snap', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'packages/react-search-ui/src/containers/__tests__/__snapshots__/Results.test.tsx.snap', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'packages/react-search-ui/src/containers/__tests__/__snapshots__/ResultsPerPage.test.tsx.snap', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'packages/react-search-ui/src/containers/__tests__/__snapshots__/SearchBox.test.tsx.snap', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'packages/react-search-ui/src/containers/__tests__/__snapshots__/Sorting.test.tsx.snap', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'packages/react-search-ui/src/containers/index.ts', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'packages/react-search-ui/src/helpers.ts', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/react-search-ui/src/index.ts', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'packages/react-search-ui/src/types/Facet.js', 'additions': 0, 'deletions': 10, 'changes': 10}, {'filename': 'packages/react-search-ui/src/types/FacetType.js', 'additions': 0, 'deletions': 3, 'changes': 3}, {'filename': 'packages/react-search-ui/src/types/FacetValue.js', 'additions': 0, 'deletions': 11, 'changes': 11}, {'filename': 'packages/react-search-ui/src/types/FieldValue.js', 'additions': 0, 'deletions': 10, 'changes': 10}, {'filename': 'packages/react-search-ui/src/types/FieldValueWrapper.js', 'additions': 0, 'deletions': 19, 'changes': 19}, {'filename': 'packages/react-search-ui/src/types/Filter.js', 'additions': 0, 'deletions': 9, 'changes': 9}, {'filename': 'packages/react-search-ui/src/types/FilterType.js', 'additions': 0, 'deletions': 3, 'changes': 3}, {'filename': 'packages/react-search-ui/src/types/FilterValue.js', 'additions': 0, 'deletions': 5, 'changes': 5}, {'filename': 'packages/react-search-ui/src/types/FilterValueRange.js', 'additions': 0, 'deletions': 11, 'changes': 11}, {'filename': 'packages/react-search-ui/src/types/FilterValueValue.js', 'additions': 0, 'deletions': 3, 'changes': 3}, {'filename': 'packages/react-search-ui/src/types/Result.js', 'additions': 0, 'deletions': 16, 'changes': 16}, {'filename': 'packages/react-search-ui/src/types/SortList.js', 'additions': 0, 'deletions': 8, 'changes': 8}, {'filename': 'packages/react-search-ui/src/types/SortOption.js', 'additions': 0, 'deletions': 26, 'changes': 26}, {'filename': 'packages/react-search-ui/src/types/Suggestion.js', 'additions': 0, 'deletions': 7, 'changes': 7}, {'filename': 'packages/react-search-ui/src/types/index.js', 'additions': 0, 'deletions': 14, 'changes': 14}, {'filename': 'packages/react-search-ui/src/types/index.ts', 'additions': 24, 'deletions': 0, 'changes': 24}, {'filename': 'packages/react-search-ui/src/withSearch.tsx', 'additions': 33, 'deletions': 10, 'changes': 43}, {'filename': 'packages/react-search-ui/tsconfig-cjs.json', 'additions': 7, 'deletions': 0, 'changes': 7}, {'filename': 'packages/react-search-ui/tsconfig.json', 'additions': 25, 'deletions': 0, 'changes': 25}, {'filename': 'packages/search-ui-app-search-connector/README.md', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/search-ui-app-search-connector/babel.config.js', 'additions': 0, 'deletions': 26, 'changes': 26}, {'filename': 'packages/search-ui-app-search-connector/bin/build-js', 'additions': 4, 'deletions': 4, 'changes': 8}, {'filename': 'packages/search-ui-app-search-connector/bin/watch-js', 'additions': 2, 'deletions': 2, 'changes': 4}, {'filename': 'packages/search-ui-app-search-connector/jest.config.js', 'additions': 4, 'deletions': 0, 'changes': 4}, {'filename': 'packages/search-ui-app-search-connector/package.json', 'additions': 11, 'deletions': 13, 'changes': 24}, {'filename': 'packages/search-ui-app-search-connector/src/AppSearchAPIConnector.ts', 'additions': 74, 'deletions': 19, 'changes': 93}, {'filename': 'packages/search-ui-app-search-connector/src/__tests__/AppSearchAPIConnector.test.ts', 'additions': 93, 'deletions': 41, 'changes': 134}, {'filename': 'packages/search-ui-app-search-connector/src/__tests__/buildResponseAdapterOptions.test.ts', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'packages/search-ui-app-search-connector/src/__tests__/requestAdapters.test.ts', 'additions': 13, 'deletions': 10, 'changes': 23}, {'filename': 'packages/search-ui-app-search-connector/src/__tests__/responseAdapter.test.ts', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'packages/search-ui-app-search-connector/src/buildResponseAdapterOptions.ts', 'additions': 3, 'deletions': 1, 'changes': 4}, {'filename': 'packages/search-ui-app-search-connector/src/index.ts', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'packages/search-ui-app-search-connector/src/requestAdapters.ts', 'additions': 23, 'deletions': 8, 'changes': 31}, {'filename': 'packages/search-ui-app-search-connector/src/responseAdapter.ts', 'additions': 18, 'deletions': 7, 'changes': 25}, {'filename': 'packages/search-ui-app-search-connector/tsconfig-cjs.json', 'additions': 7, 'deletions': 0, 'changes': 7}, {'filename': 'packages/search-ui-app-search-connector/tsconfig.json', 'additions': 23, 'deletions': 0, 'changes': 23}, {'filename': 'packages/search-ui-elasticsearch-connector/.gitignore', 'additions': 1, 'deletions': 0, 'changes': 1}, {'filename': 'packages/search-ui-elasticsearch-connector/LICENSE.txt', 'additions': 201, 'deletions': 0, 'changes': 201}, {'filename': 'packages/search-ui-elasticsearch-connector/NOTICE.txt', 'additions': 3, 'deletions': 0, 'changes': 3}, {'filename': 'packages/search-ui-elasticsearch-connector/README.md', 'additions': 63, 'deletions': 0, 'changes': 63}, {'filename': 'packages/search-ui-elasticsearch-connector/bin/build-js', 'additions': 6, 'deletions': 0, 'changes': 6}, {'filename': 'packages/search-ui-elasticsearch-connector/bin/watch-js', 'additions': 2, 'deletions': 0, 'changes': 2}, {'filename': 'packages/search-ui-elasticsearch-connector/jest.config.js', 'additions': 4, 'deletions': 0, 'changes': 4}, {'filename': 'packages/search-ui-elasticsearch-connector/package.json', 'additions': 43, 'deletions': 0, 'changes': 43}, {'filename': 'packages/search-ui-elasticsearch-connector/src/handlers/autocomplete/__tests__/results.test.ts', 'additions': 102, 'deletions': 0, 'changes': 102}, {'filename': 'packages/search-ui-elasticsearch-connector/src/handlers/autocomplete/index.ts', 'additions': 49, 'deletions': 0, 'changes': 49}, {'filename': 'packages/search-ui-elasticsearch-connector/src/handlers/autocomplete/results.ts', 'additions': 71, 'deletions': 0, 'changes': 71}, {'filename': 'packages/search-ui-elasticsearch-connector/src/handlers/autocomplete/suggestions.ts', 'additions': 5, 'deletions': 0, 'changes': 5}, {'filename': 'packages/search-ui-elasticsearch-connector/src/handlers/common.ts', 'additions': 26, 'deletions': 0, 'changes': 26}, {'filename': 'packages/search-ui-elasticsearch-connector/src/handlers/search/Configuration.ts', 'additions': 156, 'deletions': 0, 'changes': 156}, {'filename': 'packages/search-ui-elasticsearch-connector/src/handlers/search/Request.ts', 'additions': 33, 'deletions': 0, 'changes': 33}, {'filename': 'packages/search-ui-elasticsearch-connector/src/handlers/search/Response.ts', 'additions': 39, 'deletions': 0, 'changes': 39}, {'filename': 'packages/search-ui-elasticsearch-connector/src/handlers/search/__tests__/Configuration.test.ts', 'additions': 316, 'deletions': 0, 'changes': 316}, {'filename': 'packages/search-ui-elasticsearch-connector/src/handlers/search/__tests__/Request.test.ts', 'additions': 88, 'deletions': 0, 'changes': 88}, {'filename': 'packages/search-ui-elasticsearch-connector/src/handlers/search/__tests__/Response.test.ts', 'additions': 140, 'deletions': 0, 'changes': 140}, {'filename': 'packages/search-ui-elasticsearch-connector/src/handlers/search/__tests__/index.test.ts', 'additions': 164, 'deletions': 0, 'changes': 164}, {'filename': 'packages/search-ui-elasticsearch-connector/src/handlers/search/index.ts', 'additions': 49, 'deletions': 0, 'changes': 49}, {'filename': 'packages/search-ui-elasticsearch-connector/src/index.ts', 'additions': 69, 'deletions': 0, 'changes': 69}, {'filename': 'packages/search-ui-elasticsearch-connector/tsconfig-cjs.json', 'additions': 7, 'deletions': 0, 'changes': 7}, {'filename': 'packages/search-ui-elasticsearch-connector/tsconfig.json', 'additions': 23, 'deletions': 0, 'changes': 23}, {'filename': 'packages/search-ui-site-search-connector/babel.config.js', 'additions': 0, 'deletions': 26, 'changes': 26}, {'filename': 'packages/search-ui-site-search-connector/bin/build-js', 'additions': 4, 'deletions': 4, 'changes': 8}, {'filename': 'packages/search-ui-site-search-connector/bin/watch-js', 'additions': 5, 'deletions': 2, 'changes': 7}, {'filename': 'packages/search-ui-site-search-connector/jest.config.js', 'additions': 4, 'deletions': 0, 'changes': 4}, {'filename': 'packages/search-ui-site-search-connector/package.json', 'additions': 12, 'deletions': 12, 'changes': 24}, {'filename': 'packages/search-ui-site-search-connector/src/SiteSearchAPIConnector.ts', 'additions': 52, 'deletions': 13, 'changes': 65}, {'filename': 'packages/search-ui-site-search-connector/src/__tests__/SiteSearchAPIConnector.test.ts', 'additions': 30, 'deletions': 14, 'changes': 44}, {'filename': 'packages/search-ui-site-search-connector/src/__tests__/__snapshots__/SiteSearchAPIConnector.test.ts.snap', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'packages/search-ui-site-search-connector/src/__tests__/example-response.json', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'packages/search-ui-site-search-connector/src/__tests__/request.test.ts', 'additions': 14, 'deletions': 9, 'changes': 23}, {'filename': 'packages/search-ui-site-search-connector/src/__tests__/requestAdapter.test.ts', 'additions': 20, 'deletions': 18, 'changes': 38}, {'filename': 'packages/search-ui-site-search-connector/src/__tests__/requestAdapters.test.ts', 'additions': 6, 'deletions': 6, 'changes': 12}, {'filename': 'packages/search-ui-site-search-connector/src/__tests__/responseAdapter.test.ts', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'packages/search-ui-site-search-connector/src/index.ts', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'packages/search-ui-site-search-connector/src/request.ts', 'additions': 11, 'deletions': 3, 'changes': 14}, {'filename': 'packages/search-ui-site-search-connector/src/requestAdapter.ts', 'additions': 19, 'deletions': 8, 'changes': 27}, {'filename': 'packages/search-ui-site-search-connector/src/requestAdapters.ts', 'additions': 25, 'deletions': 21, 'changes': 46}, {'filename': 'packages/search-ui-site-search-connector/src/responseAdapter.ts', 'additions': 5, 'deletions': 1, 'changes': 6}, {'filename': 'packages/search-ui-site-search-connector/src/responseAdapters.ts', 'additions': 6, 'deletions': 6, 'changes': 12}, {'filename': 'packages/search-ui-site-search-connector/src/types/index.ts', 'additions': 43, 'deletions': 0, 'changes': 43}, {'filename': 'packages/search-ui-site-search-connector/tsconfig-cjs.json', 'additions': 7, 'deletions': 0, 'changes': 7}, {'filename': 'packages/search-ui-site-search-connector/tsconfig.json', 'additions': 23, 'deletions': 0, 'changes': 23}, {'filename': 'packages/search-ui-workplace-search-connector/.gitignore', 'additions': 2, 'deletions': 0, 'changes': 2}, {'filename': 'packages/search-ui-workplace-search-connector/.npmrc', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'packages/search-ui-workplace-search-connector/LICENSE.txt', 'additions': 201, 'deletions': 0, 'changes': 201}, {'filename': 'packages/search-ui-workplace-search-connector/NOTICE.txt', 'additions': 3, 'deletions': 0, 'changes': 3}, {'filename': 'packages/search-ui-workplace-search-connector/README.md', 'additions': 100, 'deletions': 0, 'changes': 100}, {'filename': 'packages/search-ui-workplace-search-connector/bin/build-js', 'additions': 5, 'deletions': 0, 'changes': 5}, {'filename': 'packages/search-ui-workplace-search-connector/bin/watch-js', 'additions': 2, 'deletions': 0, 'changes': 2}, {'filename': 'packages/search-ui-workplace-search-connector/jest.config.js', 'additions': 5, 'deletions': 0, 'changes': 5}, {'filename': 'packages/search-ui-workplace-search-connector/package.json', 'additions': 44, 'deletions': 0, 'changes': 44}, {'filename': 'packages/search-ui-workplace-search-connector/src/WorkplaceSearchAPIConnector.ts', 'additions': 326, 'deletions': 0, 'changes': 326}, {'filename': 'packages/search-ui-workplace-search-connector/src/__tests__/WorkplaceSearchAPIConnector.test.ts', 'additions': 135, 'deletions': 0, 'changes': 135}, {'filename': 'packages/search-ui-workplace-search-connector/src/__tests__/__snapshots__/responseAdapter.test.ts.snap', 'additions': 864, 'deletions': 0, 'changes': 864}, {'filename': 'packages/search-ui-workplace-search-connector/src/__tests__/buildResponseAdapterOptions.test.ts', 'additions': 71, 'deletions': 0, 'changes': 71}, {'filename': 'packages/search-ui-workplace-search-connector/src/__tests__/exampleResponse.json', 'additions': 89, 'deletions': 0, 'changes': 89}, {'filename': 'packages/search-ui-workplace-search-connector/src/__tests__/requestAdapters.test.ts', 'additions': 142, 'deletions': 0, 'changes': 142}, {'filename': 'packages/search-ui-workplace-search-connector/src/__tests__/responseAdapter.test.ts', 'additions': 71, 'deletions': 0, 'changes': 71}, {'filename': 'packages/search-ui-workplace-search-connector/src/buildResponseAdapterOptions.ts', 'additions': 24, 'deletions': 0, 'changes': 24}, {'filename': 'packages/search-ui-workplace-search-connector/src/index.ts', 'additions': 1, 'deletions': 0, 'changes': 1}, {'filename': 'packages/search-ui-workplace-search-connector/src/requestAdapters.ts', 'additions': 78, 'deletions': 0, 'changes': 78}, {'filename': 'packages/search-ui-workplace-search-connector/src/responseAdapter.ts', 'additions': 84, 'deletions': 0, 'changes': 84}, {'filename': 'packages/search-ui-workplace-search-connector/tsconfig-cjs.json', 'additions': 7, 'deletions': 0, 'changes': 7}, {'filename': 'packages/search-ui-workplace-search-connector/tsconfig.json', 'additions': 23, 'deletions': 0, 'changes': 23}, {'filename': 'packages/search-ui/babel.config.js', 'additions': 0, 'deletions': 26, 'changes': 26}, {'filename': 'packages/search-ui/bin/build-js', 'additions': 5, 'deletions': 4, 'changes': 9}, {'filename': 'packages/search-ui/bin/watch-js', 'additions': 2, 'deletions': 2, 'changes': 4}, {'filename': 'packages/search-ui/jest.config.js', 'additions': 8, 'deletions': 0, 'changes': 8}, {'filename': 'packages/search-ui/package.json', 'additions': 12, 'deletions': 18, 'changes': 30}, {'filename': 'packages/search-ui/src/A11yNotifications.ts', 'additions': 17, 'deletions': 8, 'changes': 25}, {'filename': 'packages/search-ui/src/DebounceManager.ts', 'additions': 30, 'deletions': 17, 'changes': 47}, {'filename': 'packages/search-ui/src/Events.ts', 'additions': 40, 'deletions': 3, 'changes': 43}, {'filename': 'packages/search-ui/src/RequestSequencer.ts', 'additions': 7, 'deletions': 5, 'changes': 12}, {'filename': 'packages/search-ui/src/SearchDriver.ts', 'additions': 101, 'deletions': 31, 'changes': 132}, {'filename': 'packages/search-ui/src/URLManager.ts', 'additions': 50, 'deletions': 24, 'changes': 74}, {'filename': 'packages/search-ui/src/__tests__/A11yNotifications.ssr.test.ts', 'additions': 4, 'deletions': 2, 'changes': 6}, {'filename': 'packages/search-ui/src/__tests__/A11yNotifications.test.ts', 'additions': 7, 'deletions': 7, 'changes': 14}, {'filename': 'packages/search-ui/src/__tests__/DebounceManager.test.ts', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'packages/search-ui/src/__tests__/Events.test.ts', 'additions': 4, 'deletions': 1, 'changes': 5}, {'filename': 'packages/search-ui/src/__tests__/SearchDriver.test.ts', 'additions': 56, 'deletions': 32, 'changes': 88}, {'filename': 'packages/search-ui/src/__tests__/URLManager.test.ts', 'additions': 45, 'deletions': 57, 'changes': 102}, {'filename': 'packages/search-ui/src/__tests__/__snapshots__/URLManager.test.ts.snap', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'packages/search-ui/src/__tests__/actions/a11yNotify.test.ts', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/search-ui/src/__tests__/actions/addFilter.test.ts', 'additions': 31, 'deletions': 23, 'changes': 54}, {'filename': 'packages/search-ui/src/__tests__/actions/clearFilters.test.ts', 'additions': 14, 'deletions': 14, 'changes': 28}, {'filename': 'packages/search-ui/src/__tests__/actions/removeFilter.test.ts', 'additions': 33, 'deletions': 20, 'changes': 53}, {'filename': 'packages/search-ui/src/__tests__/actions/reset.test.ts', 'additions': 18, 'deletions': 8, 'changes': 26}, {'filename': 'packages/search-ui/src/__tests__/actions/setCurrent.test.ts', 'additions': 8, 'deletions': 4, 'changes': 12}, {'filename': 'packages/search-ui/src/__tests__/actions/setFilter.test.ts', 'additions': 16, 'deletions': 16, 'changes': 32}, {'filename': 'packages/search-ui/src/__tests__/actions/setResultsPerPage.test.ts', 'additions': 7, 'deletions': 3, 'changes': 10}, {'filename': 'packages/search-ui/src/__tests__/actions/setSearchTerm.test.ts', 'additions': 24, 'deletions': 14, 'changes': 38}, {'filename': 'packages/search-ui/src/__tests__/actions/setSort.test.ts', 'additions': 4, 'deletions': 3, 'changes': 7}, {'filename': 'packages/search-ui/src/__tests__/actions/trackAutocompleteClickThrough.test.ts', 'additions': 7, 'deletions': 4, 'changes': 11}, {'filename': 'packages/search-ui/src/__tests__/actions/trackClickThrough.test.ts', 'additions': 9, 'deletions': 6, 'changes': 15}, {'filename': 'packages/search-ui/src/__tests__/helpers.test.ts', 'additions': 4, 'deletions': 3, 'changes': 7}, {'filename': 'packages/search-ui/src/__tests__/preserveTypesEncoder.test.ts', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'packages/search-ui/src/__tests__/queryString.test.ts', 'additions': 2, 'deletions': 25, 'changes': 27}, {'filename': 'packages/search-ui/src/actions/a11yNotify.ts', 'additions': 4, 'deletions': 1, 'changes': 5}, {'filename': 'packages/search-ui/src/actions/addFilter.ts', 'additions': 9, 'deletions': 4, 'changes': 13}, {'filename': 'packages/search-ui/src/actions/clearFilters.ts', 'additions': 2, 'deletions': 2, 'changes': 4}, {'filename': 'packages/search-ui/src/actions/index.js', 'additions': 0, 'deletions': 14, 'changes': 14}, {'filename': 'packages/search-ui/src/actions/index.ts', 'additions': 27, 'deletions': 0, 'changes': 27}, {'filename': 'packages/search-ui/src/actions/removeFilter.ts', 'additions': 8, 'deletions': 3, 'changes': 11}, {'filename': 'packages/search-ui/src/actions/reset.ts', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/search-ui/src/actions/setCurrent.ts', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/search-ui/src/actions/setFilter.ts', 'additions': 8, 'deletions': 2, 'changes': 10}, {'filename': 'packages/search-ui/src/actions/setResultsPerPage.ts', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/search-ui/src/actions/setSearchTerm.ts', 'additions': 13, 'deletions': 3, 'changes': 16}, {'filename': 'packages/search-ui/src/actions/setSort.ts', 'additions': 11, 'deletions': 5, 'changes': 16}, {'filename': 'packages/search-ui/src/actions/trackAutocompleteClickThrough.ts', 'additions': 4, 'deletions': 1, 'changes': 5}, {'filename': 'packages/search-ui/src/actions/trackClickThrough.ts', 'additions': 4, 'deletions': 1, 'changes': 5}, {'filename': 'packages/search-ui/src/constants.ts', 'additions': 1, 'deletions': 0, 'changes': 1}, {'filename': 'packages/search-ui/src/helpers.ts', 'additions': 26, 'deletions': 8, 'changes': 34}, {'filename': 'packages/search-ui/src/index.js', 'additions': 0, 'deletions': 6, 'changes': 6}, {'filename': 'packages/search-ui/src/index.ts', 'additions': 9, 'deletions': 0, 'changes': 9}, {'filename': 'packages/search-ui/src/preserveTypesEncoder.ts', 'additions': 4, 'deletions': 4, 'changes': 8}, {'filename': 'packages/search-ui/src/queryString.ts', 'additions': 2, 'deletions': 2, 'changes': 4}, {'filename': 'packages/search-ui/src/test/helpers.ts', 'additions': 38, 'deletions': 21, 'changes': 59}, {'filename': 'packages/search-ui/src/test/setupTests.js', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'packages/search-ui/src/test/sharedTests.js', 'additions': 2, 'deletions': 0, 'changes': 2}, {'filename': 'packages/search-ui/src/types/index.ts', 'additions': 176, 'deletions': 0, 'changes': 176}, {'filename': 'packages/search-ui/tsconfig-cjs.json', 'additions': 7, 'deletions': 0, 'changes': 7}, {'filename': 'packages/search-ui/tsconfig.json', 'additions': 25, 'deletions': 0, 'changes': 25}, {'filename': 'yarn.lock', 'additions': 18628, 'deletions': 0, 'changes': 18628}]",[],"['@types/enzyme', '@types/react', '@types/jest', '@typescript-eslint/eslint-plugin', '@typescript-eslint/parser', '@wojtekmaj/enzyme-adapter-react-17', 'enzyme', 'enzyme-to-json', 'eslint', 'eslint-config-prettier', 'eslint-import-resolver-typescript', 'eslint-plugin-import', 'eslint-plugin-jest', 'eslint-plugin-prettier', 'eslint-plugin-react', 'husky', 'jest', 'lerna', 'lint-staged', 'prettier', 'typescript', 'ts-jest']",[],"['husky', 'lerna', 'lint-staged', 'prettier']","{'added': [], 'removed': []}","{'added': ['enzyme-to-json', 'eslint-config-prettier', '@types/react', '@types/jest', 'jest', 'ts-jest', 'eslint-plugin-prettier', '@typescript-eslint/eslint-plugin', '@typescript-eslint/parser', 'eslint-plugin-import', 'eslint', 'typescript', '@wojtekmaj/enzyme-adapter-react-17', 'eslint-import-resolver-typescript', 'eslint-plugin-jest', '@types/enzyme', 'enzyme', 'eslint-plugin-react'], 'removed': []}"
+1a92543da3dc076eb3945f766f8775f4434dafef,2022-03-21 15:12:36+00:00,Updated to Node 16 (#674),Jason Stoltzfus,jastoltz24@gmail.com,GitHub,noreply@github.com,https://github.com/elastic/search-ui/commit/1a92543da3dc076eb3945f766f8775f4434dafef,['e31a8f6d59ed3a8b87046805495efde2737c88ff'],27,378,405,"[{'filename': '.ci/pipelines/search-ui.groovy', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': '.ci/pipelines/searchui.groovy', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': '.circleci/config.yml', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': '.nvmrc', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'CONTRIBUTING.md', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'package.json', 'additions': 2, 'deletions': 2, 'changes': 4}, {'filename': 'packages/react-search-ui-views/package.json', 'additions': 0, 'deletions': 1, 'changes': 1}, {'filename': 'yarn.lock', 'additions': 20, 'deletions': 370, 'changes': 390}]",[],"['@types/enzyme', '@types/react', '@types/jest', '@typescript-eslint/eslint-plugin', '@typescript-eslint/parser', '@wojtekmaj/enzyme-adapter-react-17', 'enzyme', 'enzyme-to-json', 'eslint', 'eslint-config-prettier', 'eslint-import-resolver-typescript', 'eslint-plugin-import', 'eslint-plugin-jest', 'eslint-plugin-prettier', 'eslint-plugin-react', 'husky', 'jest', 'lerna', 'lint-staged', 'prettier', 'typescript', 'ts-jest']",[],"['@types/enzyme', '@types/react', '@types/jest', '@typescript-eslint/eslint-plugin', '@typescript-eslint/parser', '@wojtekmaj/enzyme-adapter-react-17', 'enzyme', 'enzyme-to-json', 'eslint', 'eslint-config-prettier', 'eslint-import-resolver-typescript', 'eslint-plugin-import', 'eslint-plugin-jest', 'eslint-plugin-prettier', 'eslint-plugin-react', 'husky', 'jest', 'lerna', 'lint-staged', 'prettier', 'typescript', 'ts-jest']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+d4a19b4b2f47ef2e4ae6466bcd84c3b1ec21846c,2022-05-03 18:01:30+00:00,"Improve linting (#737)
+
+* Combine gitignore files from all packages (but not examples)
+
+* Swith to a later version of ecma in eslint.
+
+Remove from parser since env sets that automatically
+
+* Remove setting from prettier that matches the default
+
+* SQUASH to gitignore
+
+* Extract prettier from eslint
+
+Before eslint showed all formatting errors. Now eslint will only show real javascript errors and the formatting concerns will be handled by editor and precommit hook (coming in future commits)
+
+* Add prettier settings to vscode config
+
+* Simplify eslint call
+
+* Turn off no-explicit-any rule.
+
+We have too many such errors in codebase, so it's mostly noise now.
+
+* Remove no longer needed eslint-ignore comment
+
+* Run eslint on all files except those in gitignore
+
+* Fix new eslint errors
+
+* Add prettier-check and prettier-format commands
+
+* Add validate and validate-fix commands to check the health of the codebase",Vadim Yakhin,vadim.yakhin@elastic.co,GitHub,noreply@github.com,https://github.com/elastic/search-ui/commit/d4a19b4b2f47ef2e4ae6466bcd84c3b1ec21846c,['0ec81ba0ece38f6bc62dcec595568c7acac9b96d'],19,27,46,"[{'filename': '.eslintrc.js', 'additions': 4, 'deletions': 4, 'changes': 8}, {'filename': '.gitignore', 'additions': 2, 'deletions': 1, 'changes': 3}, {'filename': '.prettierrc.js', 'additions': 1, 'deletions': 2, 'changes': 3}, {'filename': '.vscode/settings.json', 'additions': 2, 'deletions': 0, 'changes': 2}, {'filename': 'package.json', 'additions': 8, 'deletions': 4, 'changes': 12}, {'filename': 'packages/react-search-ui-views/.gitignore', 'additions': 0, 'deletions': 2, 'changes': 2}, {'filename': 'packages/react-search-ui-views/src/types/index.ts', 'additions': 0, 'deletions': 1, 'changes': 1}, {'filename': 'packages/react-search-ui-views/stories/SearchBox.stories.js', 'additions': 2, 'deletions': 1, 'changes': 3}, {'filename': 'packages/react-search-ui/.gitignore', 'additions': 0, 'deletions': 2, 'changes': 2}, {'filename': 'packages/react-search-ui/src/types/index.ts', 'additions': 0, 'deletions': 1, 'changes': 1}, {'filename': 'packages/search-ui-app-search-connector/.gitignore', 'additions': 0, 'deletions': 2, 'changes': 2}, {'filename': 'packages/search-ui-elasticsearch-connector/.gitignore', 'additions': 0, 'deletions': 1, 'changes': 1}, {'filename': 'packages/search-ui-site-search-connector/.gitignore', 'additions': 0, 'deletions': 2, 'changes': 2}, {'filename': 'packages/search-ui-workplace-search-connector/.gitignore', 'additions': 0, 'deletions': 2, 'changes': 2}, {'filename': 'packages/search-ui/.gitignore', 'additions': 0, 'deletions': 2, 'changes': 2}]",[],"['@types/enzyme', '@types/react', '@types/jest', '@typescript-eslint/eslint-plugin', '@typescript-eslint/parser', '@wojtekmaj/enzyme-adapter-react-17', 'enzyme', 'enzyme-to-json', 'eslint', 'eslint-config-prettier', 'eslint-import-resolver-typescript', 'eslint-plugin-import', 'eslint-plugin-jest', 'eslint-plugin-prettier', 'eslint-plugin-react', 'husky', 'jest', 'lerna', 'lint-staged', 'prettier', 'typescript', 'ts-jest']",[],"['@types/enzyme', '@types/react', '@types/jest', '@typescript-eslint/eslint-plugin', '@typescript-eslint/parser', '@wojtekmaj/enzyme-adapter-react-17', 'enzyme', 'enzyme-to-json', 'eslint', 'eslint-config-prettier', 'eslint-import-resolver-typescript', 'eslint-plugin-import', 'eslint-plugin-jest', 'eslint-plugin-prettier', 'eslint-plugin-react', 'husky', 'jest', 'lerna', 'lint-staged', 'prettier', 'typescript', 'ts-jest']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+4835b246fb690889c0bd1b90c46892501b1e11bf,2022-05-04 19:30:05+00:00,"Improve linting 2 (#740)
+
+* Combine duplicate keys in CI configs
+
+* Fix eslint warnings
+
+* Run yarn
+
+* Remove old husky and lint-staged
+
+* Run `npx mrm@2 lint-staged` to setup husky and lint-staged
+
+This command is recommended in lint-staged readme: https://github.com/okonet/lint-staged
+
+* Update lint-staged command for our repo
+
+* Fix commits issued from VSCode
+
+* Only run linter on js and ts files
+
+* Run prettier on the entire codebase",Vadim Yakhin,vadim.yakhin@elastic.co,GitHub,noreply@github.com,https://github.com/elastic/search-ui/commit/4835b246fb690889c0bd1b90c46892501b1e11bf,['d4a19b4b2f47ef2e4ae6466bcd84c3b1ec21846c'],718,873,1591,"[{'filename': '.ci/jobs/defaults.yml', 'additions': 0, 'deletions': 1, 'changes': 1}, {'filename': '.ci/jobs/search-ui.yml', 'additions': 4, 'deletions': 6, 'changes': 10}, {'filename': '.ci/jobs/searchui.yml', 'additions': 4, 'deletions': 6, 'changes': 10}, {'filename': '.github/ISSUE_TEMPLATE/feature_request.md', 'additions': 2, 'deletions': 3, 'changes': 5}, {'filename': '.github/workflows/builder-docs-elastic-co.yml', 'additions': 10, 'deletions': 10, 'changes': 20}, {'filename': '.husky/.gitignore', 'additions': 1, 'deletions': 0, 'changes': 1}, {'filename': '.husky/pre-commit', 'additions': 12, 'deletions': 0, 'changes': 12}, {'filename': '.prettierrc.js', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': '.vscode/launch.json', 'additions': 87, 'deletions': 112, 'changes': 199}, {'filename': '.vscode/settings.json', 'additions': 3, 'deletions': 3, 'changes': 6}, {'filename': 'CONTRIBUTING.md', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'PUBLISHING.md', 'additions': 2, 'deletions': 0, 'changes': 2}, {'filename': 'docs/connectors-api-elasticsearch.mdx', 'additions': 5, 'deletions': 2, 'changes': 7}, {'filename': 'docs/connectors-api-workplace-search.mdx', 'additions': 6, 'deletions': 4, 'changes': 10}, {'filename': 'docs/guides-customizing-styles-and-html.mdx', 'additions': 9, 'deletions': 4, 'changes': 13}, {'filename': 'docs/tutorials-workplace-search.mdx', 'additions': 28, 'deletions': 14, 'changes': 42}, {'filename': 'examples/sandbox/README.md', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'examples/sandbox/src/pages/workplace-search/index.css', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'lerna.json', 'additions': 2, 'deletions': 9, 'changes': 11}, {'filename': 'package.json', 'additions': 18, 'deletions': 20, 'changes': 38}, {'filename': 'packages/react-search-ui-views/.storybook/config.js', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/react-search-ui-views/src/styles/themes/reference-ui/components/_error-boundary.scss', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/react-search-ui-views/src/styles/themes/reference-ui/components/_paging-info.scss', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/react-search-ui-views/src/styles/themes/reference-ui/components/_result.scss', 'additions': 11, 'deletions': 11, 'changes': 22}, {'filename': 'packages/react-search-ui-views/src/styles/themes/reference-ui/components/_results-container.scss', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/react-search-ui-views/src/styles/themes/reference-ui/components/_results-per-page.scss', 'additions': 2, 'deletions': 2, 'changes': 4}, {'filename': 'packages/react-search-ui-views/src/styles/themes/reference-ui/components/_select.scss', 'additions': 15, 'deletions': 15, 'changes': 30}, {'filename': 'packages/react-search-ui-views/src/styles/themes/reference-ui/components/_sorting.scss', 'additions': 2, 'deletions': 2, 'changes': 4}, {'filename': 'packages/react-search-ui-views/stories/MultiCheckboxFacet.stories.js', 'additions': 2, 'deletions': 2, 'changes': 4}, {'filename': 'packages/react-search-ui-views/stories/ResultsContainer.stories.js', 'additions': 98, 'deletions': 38, 'changes': 136}, {'filename': 'packages/react-search-ui-views/stories/ResultsPerPage.stories.js', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/react-search-ui-views/stories/SearchBox.stories.js', 'additions': 6, 'deletions': 6, 'changes': 12}, {'filename': 'packages/react-search-ui-views/stories/SingleLinksFacet.stories.js', 'additions': 2, 'deletions': 2, 'changes': 4}, {'filename': 'packages/react-search-ui-views/stories/SingleSelectFacet.stories.js', 'additions': 2, 'deletions': 2, 'changes': 4}, {'filename': 'packages/react-search-ui-views/tsconfig.json', 'additions': 4, 'deletions': 10, 'changes': 14}, {'filename': 'packages/react-search-ui/jest.config.js', 'additions': 9, 'deletions': 14, 'changes': 23}, {'filename': 'packages/react-search-ui/tsconfig.json', 'additions': 4, 'deletions': 10, 'changes': 14}, {'filename': 'packages/search-ui-app-search-connector/src/__tests__/AppSearchAPIConnector.test.ts', 'additions': 5, 'deletions': 5, 'changes': 10}, {'filename': 'packages/search-ui-app-search-connector/tsconfig-cjs.json', 'additions': 6, 'deletions': 6, 'changes': 12}, {'filename': 'packages/search-ui-app-search-connector/tsconfig.json', 'additions': 17, 'deletions': 22, 'changes': 39}, {'filename': 'packages/search-ui-elasticsearch-connector/src/handlers/autocomplete/results.ts', 'additions': 0, 'deletions': 1, 'changes': 1}, {'filename': 'packages/search-ui-elasticsearch-connector/src/handlers/autocomplete/suggestions.ts', 'additions': 1, 'deletions': 0, 'changes': 1}, {'filename': 'packages/search-ui-elasticsearch-connector/tsconfig-cjs.json', 'additions': 6, 'deletions': 6, 'changes': 12}, {'filename': 'packages/search-ui-elasticsearch-connector/tsconfig.json', 'additions': 17, 'deletions': 22, 'changes': 39}, {'filename': 'packages/search-ui-site-search-connector/src/__tests__/SiteSearchAPIConnector.test.ts', 'additions': 2, 'deletions': 2, 'changes': 4}, {'filename': 'packages/search-ui-site-search-connector/tsconfig.json', 'additions': 3, 'deletions': 8, 'changes': 11}, {'filename': 'packages/search-ui-workplace-search-connector/README.md', 'additions': 12, 'deletions': 13, 'changes': 25}, {'filename': 'packages/search-ui-workplace-search-connector/src/__tests__/WorkplaceSearchAPIConnector.test.ts', 'additions': 2, 'deletions': 2, 'changes': 4}, {'filename': 'packages/search-ui-workplace-search-connector/src/__tests__/exampleResponse.json', 'additions': 81, 'deletions': 86, 'changes': 167}, {'filename': 'packages/search-ui-workplace-search-connector/tsconfig-cjs.json', 'additions': 6, 'deletions': 6, 'changes': 12}, {'filename': 'packages/search-ui-workplace-search-connector/tsconfig.json', 'additions': 17, 'deletions': 22, 'changes': 39}, {'filename': 'packages/search-ui/jest.config.js', 'additions': 4, 'deletions': 7, 'changes': 11}, {'filename': 'packages/search-ui/src/SearchDriver.ts', 'additions': 0, 'deletions': 2, 'changes': 2}, {'filename': 'packages/search-ui/src/__tests__/SearchDriver.test.ts', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/search-ui/tsconfig.json', 'additions': 3, 'deletions': 9, 'changes': 12}, {'filename': 'yarn.lock', 'additions': 176, 'deletions': 336, 'changes': 512}]",[],"['@types/enzyme', '@types/jest', '@types/react', '@typescript-eslint/eslint-plugin', '@typescript-eslint/parser', '@wojtekmaj/enzyme-adapter-react-17', 'enzyme', 'enzyme-to-json', 'eslint', 'eslint-config-prettier', 'eslint-import-resolver-typescript', 'eslint-plugin-import', 'eslint-plugin-jest', 'eslint-plugin-prettier', 'eslint-plugin-react', 'husky', 'jest', 'lerna', 'lint-staged', 'prettier', 'ts-jest', 'typescript']",[],"['@types/enzyme', '@types/react', '@types/jest', '@typescript-eslint/eslint-plugin', '@typescript-eslint/parser', '@wojtekmaj/enzyme-adapter-react-17', 'enzyme', 'enzyme-to-json', 'eslint', 'eslint-config-prettier', 'eslint-import-resolver-typescript', 'eslint-plugin-import', 'eslint-plugin-jest', 'eslint-plugin-prettier', 'eslint-plugin-react', 'husky', 'jest', 'lerna', 'lint-staged', 'prettier', 'typescript', 'ts-jest']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+06fb4f3c1c6e66552fa705e3bb75446828573f07,2022-05-10 18:00:52+00:00,"Separate header example (#747)
+
+* Add a command to run sandbox from root
+
+* Create a new page and clone existing sandbox
+
+* Switch to cloud backends
+
+* Update the redirect link
+
+* Add autocomplete to header search bar
+
+Co-authored-by: Joseph McElroy <joseph.mcelroy@elastic.co>",Vadim Yakhin,vadim.yakhin@elastic.co,GitHub,noreply@github.com,https://github.com/elastic/search-ui/commit/06fb4f3c1c6e66552fa705e3bb75446828573f07,['df684eba43a144eeed73679e9358383a3cd76fda'],330,3,333,"[{'filename': 'examples/sandbox/src/Router.js', 'additions': 4, 'deletions': 0, 'changes': 4}, {'filename': 'examples/sandbox/src/pages/customizing-styles-and-html/index.js', 'additions': 6, 'deletions': 3, 'changes': 9}, {'filename': 'examples/sandbox/src/pages/root.js', 'additions': 3, 'deletions': 0, 'changes': 3}, {'filename': 'examples/sandbox/src/pages/search-bar-in-header/index.js', 'additions': 316, 'deletions': 0, 'changes': 316}, {'filename': 'package.json', 'additions': 1, 'deletions': 0, 'changes': 1}]",[],"['@types/enzyme', '@types/jest', '@types/react', '@typescript-eslint/eslint-plugin', '@typescript-eslint/parser', '@wojtekmaj/enzyme-adapter-react-17', 'enzyme', 'enzyme-to-json', 'eslint', 'eslint-config-prettier', 'eslint-import-resolver-typescript', 'eslint-plugin-import', 'eslint-plugin-jest', 'eslint-plugin-prettier', 'eslint-plugin-react', 'husky', 'jest', 'lerna', 'lint-staged', 'prettier', 'ts-jest', 'typescript']",[],"['@types/enzyme', '@types/jest', '@types/react', '@typescript-eslint/eslint-plugin', '@typescript-eslint/parser', '@wojtekmaj/enzyme-adapter-react-17', 'enzyme', 'enzyme-to-json', 'eslint', 'eslint-config-prettier', 'eslint-import-resolver-typescript', 'eslint-plugin-import', 'eslint-plugin-jest', 'eslint-plugin-prettier', 'eslint-plugin-react', 'husky', 'jest', 'lerna', 'lint-staged', 'prettier', 'ts-jest', 'typescript']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+c5b50ac5e7bc9a4a8cf191c5a6c5706ecb96fee6,2022-06-21 15:23:31+00:00,"Fix broken yarn watch command (#770)
+
+* Update lockfile after running yarn
+
+* Simplify build script
+
+Letna determines the build order by analyzing dependencies, so no need to specify the order
+
+* Add ""type"" to type imports
+
+* Don't run watch task in parallel to avoid race condition
+
+* Unify paths in package.json
+
+* Remove redundant path from clean task
+
+* Dont clean assets on watch task",Vadim Yakhin,vadim.yakhin@elastic.co,GitHub,noreply@github.com,https://github.com/elastic/search-ui/commit/c5b50ac5e7bc9a4a8cf191c5a6c5706ecb96fee6,['cf2af44959b24589f50cd48f2cc3f1857d286225'],75,93,168,"[{'filename': 'package.json', 'additions': 2, 'deletions': 2, 'changes': 4}, {'filename': 'packages/react-search-ui-views/package.json', 'additions': 4, 'deletions': 3, 'changes': 7}, {'filename': 'packages/react-search-ui-views/src/Autocomplete.tsx', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/react-search-ui-views/src/ErrorBoundary.tsx', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/react-search-ui-views/src/MultiCheckboxFacet.tsx', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/react-search-ui-views/src/Paging.tsx', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/react-search-ui-views/src/PagingInfo.tsx', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/react-search-ui-views/src/Result.tsx', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/react-search-ui-views/src/Results.tsx', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/react-search-ui-views/src/ResultsPerPage.tsx', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/react-search-ui-views/src/SearchBox.tsx', 'additions': 4, 'deletions': 1, 'changes': 5}, {'filename': 'packages/react-search-ui-views/src/SingleLinksFacet.tsx', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/react-search-ui-views/src/Sorting.tsx', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/react-search-ui-views/src/types/index.ts', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/react-search-ui/package.json', 'additions': 4, 'deletions': 3, 'changes': 7}, {'filename': 'packages/react-search-ui/src/SearchProvider.tsx', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/react-search-ui/src/__tests__/SearchProvider.test.tsx', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/react-search-ui/src/__tests__/WithSearchRenderProps.test.tsx', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/react-search-ui/src/containers/__tests__/Facet.test.tsx', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/react-search-ui/src/containers/__tests__/ResultsPerPage.test.tsx', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/react-search-ui/src/types/index.ts', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/react-search-ui/src/withSearch.tsx', 'additions': 2, 'deletions': 2, 'changes': 4}, {'filename': 'packages/search-ui-app-search-connector/package.json', 'additions': 5, 'deletions': 5, 'changes': 10}, {'filename': 'packages/search-ui-elasticsearch-connector/package.json', 'additions': 5, 'deletions': 5, 'changes': 10}, {'filename': 'packages/search-ui-elasticsearch-connector/src/handlers/autocomplete/__tests__/index.test.ts', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/search-ui-elasticsearch-connector/src/handlers/autocomplete/index.ts', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/search-ui-elasticsearch-connector/src/handlers/common.ts', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/search-ui-elasticsearch-connector/src/handlers/search/Configuration.ts', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/search-ui-elasticsearch-connector/src/handlers/search/Request.ts', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/search-ui-elasticsearch-connector/src/handlers/search/Response.ts', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/search-ui-elasticsearch-connector/src/handlers/search/__tests__/Configuration.node.test.ts', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/search-ui-elasticsearch-connector/src/handlers/search/__tests__/Configuration.test.ts', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/search-ui-elasticsearch-connector/src/handlers/search/__tests__/Request.test.ts', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/search-ui-elasticsearch-connector/src/handlers/search/__tests__/Response.test.ts', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/search-ui-elasticsearch-connector/src/handlers/search/__tests__/index.test.ts', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/search-ui-elasticsearch-connector/src/handlers/search/index.ts', 'additions': 5, 'deletions': 1, 'changes': 6}, {'filename': 'packages/search-ui-site-search-connector/package.json', 'additions': 5, 'deletions': 5, 'changes': 10}, {'filename': 'packages/search-ui-workplace-search-connector/package.json', 'additions': 5, 'deletions': 5, 'changes': 10}, {'filename': 'packages/search-ui/package.json', 'additions': 4, 'deletions': 4, 'changes': 8}, {'filename': 'yarn.lock', 'additions': 2, 'deletions': 29, 'changes': 31}]",[],"['@types/enzyme', '@types/jest', '@types/react', '@typescript-eslint/eslint-plugin', '@typescript-eslint/parser', '@wojtekmaj/enzyme-adapter-react-17', 'enzyme', 'enzyme-to-json', 'eslint', 'eslint-config-prettier', 'eslint-import-resolver-typescript', 'eslint-plugin-import', 'eslint-plugin-jest', 'eslint-plugin-prettier', 'eslint-plugin-react', 'husky', 'jest', 'lerna', 'lint-staged', 'prettier', 'ts-jest', 'typescript']",[],"['@types/enzyme', '@types/jest', '@types/react', '@typescript-eslint/eslint-plugin', '@typescript-eslint/parser', '@wojtekmaj/enzyme-adapter-react-17', 'enzyme', 'enzyme-to-json', 'eslint', 'eslint-config-prettier', 'eslint-import-resolver-typescript', 'eslint-plugin-import', 'eslint-plugin-jest', 'eslint-plugin-prettier', 'eslint-plugin-react', 'husky', 'jest', 'lerna', 'lint-staged', 'prettier', 'ts-jest', 'typescript']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+76feae8d5b95565ae69586b4e7260fd2fa4236ea,2022-07-19 17:33:47+00:00,"Add Vue.js example (#805)
+
+* Add start-docs command
+
+* Copy the https://github.com/elastic/vue-search-ui-demo to examples
+
+* Install deps and fix errors
+
+* Run prettier
+
+* Upgrade to Vue 3
+
+* Scaffold vue3 app with `npm init vue@latest`
+
+* Replace template files with actual app files
+
+* Delete old app
+
+* Rename vue3 folder to vue
+
+* Add metadata to package.json
+
+* Update credentials to use cloud deployment and update data
+
+* Disable pagination since it's not supported by Vue3
+
+* Update yarn file
+
+* Add start-vue command
+
+* Disable pagination package since it's not working on Vue3
+
+* Fix broken inputs
+
+By using this guide: https://vuejs.org/guide/components/events.html#usage-with-v-model
+
+* Add missing imports
+
+* Update path to css file
+
+* Add Vue.js guide",Vadim Yakhin,vadim.yakhin@elastic.co,GitHub,noreply@github.com,https://github.com/elastic/search-ui/commit/76feae8d5b95565ae69586b4e7260fd2fa4236ea,['4d07b1092d832d6d6a1ffee4b2f4a598db13720c'],152178,4,152182,"[{'filename': 'INTERNAL.md', 'additions': 2, 'deletions': 1, 'changes': 3}, {'filename': 'docs/guides-using-with-vue-js.mdx', 'additions': 33, 'deletions': 0, 'changes': 33}, {'filename': 'docs/nav-searchui.docnav.json', 'additions': 1, 'deletions': 0, 'changes': 1}, {'filename': 'examples/vue/.eslintrc.cjs', 'additions': 11, 'deletions': 0, 'changes': 11}, {'filename': 'examples/vue/.gitignore', 'additions': 28, 'deletions': 0, 'changes': 28}, {'filename': 'examples/vue/.vscode/extensions.json', 'additions': 3, 'deletions': 0, 'changes': 3}, {'filename': 'examples/vue/README.md', 'additions': 35, 'deletions': 0, 'changes': 35}, {'filename': 'examples/vue/cleanseCards.js', 'additions': 30, 'deletions': 0, 'changes': 30}, {'filename': 'examples/vue/index.html', 'additions': 13, 'deletions': 0, 'changes': 13}, {'filename': 'examples/vue/package.json', 'additions': 37, 'deletions': 0, 'changes': 37}, {'filename': 'examples/vue/public/favicon.ico', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'examples/vue/src/App.vue', 'additions': 34, 'deletions': 0, 'changes': 34}, {'filename': 'examples/vue/src/assets/base.css', 'additions': 75, 'deletions': 0, 'changes': 75}, {'filename': 'examples/vue/src/assets/logo.svg', 'additions': 1, 'deletions': 0, 'changes': 1}, {'filename': 'examples/vue/src/components/SearchFacet.vue', 'additions': 53, 'deletions': 0, 'changes': 53}, {'filename': 'examples/vue/src/components/SearchHeader.vue', 'additions': 31, 'deletions': 0, 'changes': 31}, {'filename': 'examples/vue/src/components/SearchPagination.vue', 'additions': 127, 'deletions': 0, 'changes': 127}, {'filename': 'examples/vue/src/components/SearchPagingInfo.vue', 'additions': 31, 'deletions': 0, 'changes': 31}, {'filename': 'examples/vue/src/components/SearchResult.vue', 'additions': 89, 'deletions': 0, 'changes': 89}, {'filename': 'examples/vue/src/components/SearchResults.vue', 'additions': 40, 'deletions': 0, 'changes': 40}, {'filename': 'examples/vue/src/components/SearchResultsPerPage.vue', 'additions': 21, 'deletions': 0, 'changes': 21}, {'filename': 'examples/vue/src/components/SearchSection.vue', 'additions': 173, 'deletions': 0, 'changes': 173}, {'filename': 'examples/vue/src/components/SearchSort.vue', 'additions': 20, 'deletions': 0, 'changes': 20}, {'filename': 'examples/vue/src/data/README.md', 'additions': 2, 'deletions': 0, 'changes': 2}, {'filename': 'examples/vue/src/data/cards-cleansed.json', 'additions': 75194, 'deletions': 0, 'changes': 75194}, {'filename': 'examples/vue/src/data/cards-raw.json', 'additions': 75194, 'deletions': 0, 'changes': 75194}, {'filename': 'examples/vue/src/main.js', 'additions': 4, 'deletions': 0, 'changes': 4}, {'filename': 'examples/vue/src/searchConfig.js', 'additions': 50, 'deletions': 0, 'changes': 50}, {'filename': 'examples/vue/vite.config.js', 'additions': 15, 'deletions': 0, 'changes': 15}, {'filename': 'package.json', 'additions': 2, 'deletions': 0, 'changes': 2}, {'filename': 'packages/react-search-ui-views/postcss.config.js', 'additions': 3, 'deletions': 0, 'changes': 3}, {'filename': 'yarn.lock', 'additions': 826, 'deletions': 3, 'changes': 829}]",[],"['@types/enzyme', '@types/jest', '@types/react', '@typescript-eslint/eslint-plugin', '@typescript-eslint/parser', '@wojtekmaj/enzyme-adapter-react-17', 'enzyme', 'enzyme-to-json', 'eslint', 'eslint-config-prettier', 'eslint-import-resolver-typescript', 'eslint-plugin-import', 'eslint-plugin-jest', 'eslint-plugin-prettier', 'eslint-plugin-react', 'husky', 'jest', 'lerna', 'lint-staged', 'prettier', 'ts-jest', 'typescript']",[],"['@types/enzyme', '@types/jest', '@types/react', '@typescript-eslint/eslint-plugin', '@typescript-eslint/parser', '@wojtekmaj/enzyme-adapter-react-17', 'enzyme', 'enzyme-to-json', 'eslint', 'eslint-config-prettier', 'eslint-import-resolver-typescript', 'eslint-plugin-import', 'eslint-plugin-jest', 'eslint-plugin-prettier', 'eslint-plugin-react', 'husky', 'jest', 'lerna', 'lint-staged', 'prettier', 'ts-jest', 'typescript']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+f2841b4acb9a55e34f92b1d9f531cbca8e39372b,2023-05-26 13:29:49+00:00,Update ignore-pattern for lint script,Yan Savitski,yan.savitski@elastic.co,Yan Savitski,yan.savitski@elastic.co,https://github.com/elastic/search-ui/commit/f2841b4acb9a55e34f92b1d9f531cbca8e39372b,['4529f1561cfcf1252ae4093cb4ad1e9e234e3d6b'],4,4,8,"[{'filename': 'package.json', 'additions': 4, 'deletions': 4, 'changes': 8}]",[],"['@types/enzyme', '@types/jest', '@types/react', '@typescript-eslint/eslint-plugin', '@typescript-eslint/parser', '@wojtekmaj/enzyme-adapter-react-17', 'enzyme', 'enzyme-to-json', 'eslint', 'eslint-config-prettier', 'eslint-import-resolver-typescript', 'eslint-plugin-import', 'eslint-plugin-jest', 'eslint-plugin-prettier', 'eslint-plugin-react', 'husky', 'jest', 'lerna', 'lint-staged', 'prettier', 'ts-jest', 'typescript']",[],"['@types/enzyme', '@types/jest', '@types/react', '@typescript-eslint/eslint-plugin', '@typescript-eslint/parser', '@wojtekmaj/enzyme-adapter-react-17', 'enzyme', 'enzyme-to-json', 'eslint', 'eslint-config-prettier', 'eslint-import-resolver-typescript', 'eslint-plugin-import', 'eslint-plugin-jest', 'eslint-plugin-prettier', 'eslint-plugin-react', 'husky', 'jest', 'lerna', 'lint-staged', 'prettier', 'ts-jest', 'typescript']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+782c7280eb30875e350a9d3001074c33b5ed8f88,2024-03-06 20:02:51+00:00,fix: remove vue demo from workspaces,Rodney Norris,rodney.norris@elastic.co,Rodney Norris,rodney.norris@elastic.co,https://github.com/elastic/search-ui/commit/782c7280eb30875e350a9d3001074c33b5ed8f88,['0b6d8f4395c62cccee39da9d901b359793bfa1bf'],1,1,2,"[{'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",[],"['@types/enzyme', '@types/jest', '@types/react', '@typescript-eslint/eslint-plugin', '@typescript-eslint/parser', '@wojtekmaj/enzyme-adapter-react-17', 'enzyme', 'enzyme-to-json', 'eslint', 'eslint-config-prettier', 'eslint-import-resolver-typescript', 'eslint-plugin-import', 'eslint-plugin-jest', 'eslint-plugin-prettier', 'eslint-plugin-react', 'husky', 'jest', 'lerna', 'lint-staged', 'prettier', 'ts-jest', 'typescript']",[],"['@types/enzyme', '@types/jest', '@types/react', '@typescript-eslint/eslint-plugin', '@typescript-eslint/parser', '@wojtekmaj/enzyme-adapter-react-17', 'enzyme', 'enzyme-to-json', 'eslint', 'eslint-config-prettier', 'eslint-import-resolver-typescript', 'eslint-plugin-import', 'eslint-plugin-jest', 'eslint-plugin-prettier', 'eslint-plugin-react', 'husky', 'jest', 'lerna', 'lint-staged', 'prettier', 'ts-jest', 'typescript']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+6d297a7ef704f0ade8e0d3e7f9aa9d425828babd,2024-03-13 16:17:48+00:00,"[Dependency] Update rc pagination to v4 (#1026)
+
+* update rc-pagination to latest version
+
+* es-lint
+
+* bump node engine version""
+
+* update with correct node image
+
+* update snapshot",Joe McElroy,joseph.mcelroy@elastic.co,GitHub,noreply@github.com,https://github.com/elastic/search-ui/commit/6d297a7ef704f0ade8e0d3e7f9aa9d425828babd,['d86dac42adaef04158aec41d1ab793a1e460105a'],62,869,931,"[{'filename': '.circleci/config.yml', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'docs/api-connectors-elasticsearch.mdx', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'docs/api-react-components-result.mdx', 'additions': 3, 'deletions': 3, 'changes': 6}, {'filename': 'examples/sandbox/src/Router.js', 'additions': 1, 'deletions': 5, 'changes': 6}, {'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/react-search-ui-views/package.json', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/react-search-ui-views/src/__tests__/__snapshots__/Paging.test.tsx.snap', 'additions': 2, 'deletions': 15, 'changes': 17}, {'filename': 'packages/react-search-ui-views/src/styles/themes/reference-ui/components/_paging.scss', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'yarn.lock', 'additions': 51, 'deletions': 841, 'changes': 892}]",[],"['@types/enzyme', '@types/jest', '@types/react', '@typescript-eslint/eslint-plugin', '@typescript-eslint/parser', '@wojtekmaj/enzyme-adapter-react-17', 'enzyme', 'enzyme-to-json', 'eslint', 'eslint-config-prettier', 'eslint-import-resolver-typescript', 'eslint-plugin-import', 'eslint-plugin-jest', 'eslint-plugin-prettier', 'eslint-plugin-react', 'husky', 'jest', 'lerna', 'lint-staged', 'prettier', 'ts-jest', 'typescript']",[],"['@types/enzyme', '@types/jest', '@types/react', '@typescript-eslint/eslint-plugin', '@typescript-eslint/parser', '@wojtekmaj/enzyme-adapter-react-17', 'enzyme', 'enzyme-to-json', 'eslint', 'eslint-config-prettier', 'eslint-import-resolver-typescript', 'eslint-plugin-import', 'eslint-plugin-jest', 'eslint-plugin-prettier', 'eslint-plugin-react', 'husky', 'jest', 'lerna', 'lint-staged', 'prettier', 'ts-jest', 'typescript']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"

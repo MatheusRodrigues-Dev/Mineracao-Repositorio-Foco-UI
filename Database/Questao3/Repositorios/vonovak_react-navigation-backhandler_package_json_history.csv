@@ -1,18 +1,42 @@
-commit,date,dependencies,dev_dependencies,prev_dependencies,prev_dev_dependencies,dependencies_changes,dev_dependencies_changes
-66309e63029db3fb72d38d66037b92ea890a3362,2018-03-16 19:30:00+00:00,[],[],,,"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-c6c56c3e6d784dbfe7ac947c7efc364255fe6132,2018-03-16 19:58:59+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-9034145309c11e4eba00a2d749eb8f26f553d746,2018-03-16 22:33:48+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-789a318b14a32b0cec8377dc605d55204c9c8928,2018-03-17 10:24:03+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-606ee841c0630ba85a7a6443ef2b43a39acd0524,2018-06-15 13:24:46+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-bb39eefd8cbd90a4bcfb77fab2a324e3dd64917f,2018-06-22 22:44:46+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-8c8cd8f4d648b6903b54139707479a98404bfa21,2018-10-18 11:07:18+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-c61d9aa9b115c3829d5b377a33073bc7f1d45911,2019-03-26 10:23:55+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-c2f093f24dbdb7cde85b48676366ce36c89fd05a,2019-04-25 06:35:35+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-e8f8cdccb34d9e90491a1a9fa9b5f8f4d7b06845,2019-05-09 17:15:00+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-e3fef97276666ddc2a8fae94cf6f3082e65c659f,2019-05-09 17:15:23+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-7a277f07220dd84aae569f167cd54a071e027aef,2020-02-02 19:16:20+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-a5e2849e79ffbbc45282fd478ef3f0e8c6252119,2020-03-30 08:35:01+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-ec435421e4ca94bae6b3efe8194701e09643c548,2020-03-30 08:39:10+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-bbe6a1c0894f9198214f0c7e8a4e3543a0a4f6ad,2020-07-30 13:23:33+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-492b24b2981b4757d063183fa4ca71790b6ba6e0,2023-08-24 14:35:03+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-db9400e1dc0411f55817afe61d5269aa320efe8e,2023-08-24 14:36:36+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+commit,date,message,author_name,author_email,committer_name,committer_email,url,parents,additions,deletions,total_changes,files_changed,dependencies,dev_dependencies,prev_dependencies,prev_dev_dependencies,dependencies_changes,dev_dependencies_changes
+66309e63029db3fb72d38d66037b92ea890a3362,2018-03-16 19:30:00+00:00,"add ios and android impl
+
+forgot 'props'
+
+0.1.1
+
+forgot rn import
+
+0.1.2
+
+do not code on friday evening
+
+0.1.3
+
+fix dep warning
+
+0.1.4
+
+fix dep warning2
+
+0.1.5",Vojtech Novak,vonovak@gmail.com,Vojtech Novak,vonovak@gmail.com,https://github.com/vonovak/react-navigation-backhandler/commit/66309e63029db3fb72d38d66037b92ea890a3362,['937154ad25278746d03916b057bd5fccc744acd5'],58,0,58,"[{'filename': 'BackHandler.android.js', 'additions': 28, 'deletions': 0, 'changes': 28}, {'filename': 'BackHandler.ios.js', 'additions': 1, 'deletions': 0, 'changes': 1}, {'filename': 'index.js', 'additions': 1, 'deletions': 0, 'changes': 1}, {'filename': 'package.json', 'additions': 28, 'deletions': 0, 'changes': 28}]",[],[],,,"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+c6c56c3e6d784dbfe7ac947c7efc364255fe6132,2018-03-16 19:58:59+00:00,1.0.0,Vojtech Novak,vonovak@gmail.com,Vojtech Novak,vonovak@gmail.com,https://github.com/vonovak/react-navigation-backhandler/commit/c6c56c3e6d784dbfe7ac947c7efc364255fe6132,['b74d2ede35b172d24e0427e68f9e8d5fc19c7b16'],1,1,2,"[{'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+9034145309c11e4eba00a2d749eb8f26f553d746,2018-03-16 22:33:48+00:00,1.0.1,Vojtech Novak,vonovak@gmail.com,Vojtech Novak,vonovak@gmail.com,https://github.com/vonovak/react-navigation-backhandler/commit/9034145309c11e4eba00a2d749eb8f26f553d746,['c0d38c484e22db116c0dab411dad8e84fa31effb'],1,1,2,"[{'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+789a318b14a32b0cec8377dc605d55204c9c8928,2018-03-17 10:24:03+00:00,1.0.2,Vojtech Novak,vonovak@gmail.com,Vojtech Novak,vonovak@gmail.com,https://github.com/vonovak/react-navigation-backhandler/commit/789a318b14a32b0cec8377dc605d55204c9c8928,['1b38e695a758bff04f98fe63b4b05b37c3b3d14b'],1,1,2,"[{'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+606ee841c0630ba85a7a6443ef2b43a39acd0524,2018-06-15 13:24:46+00:00,1.1.0,Vojtech Novak,vonovak@gmail.com,Vojtech Novak,vonovak@gmail.com,https://github.com/vonovak/react-navigation-backhandler/commit/606ee841c0630ba85a7a6443ef2b43a39acd0524,['90ee6963afa601e4d63d7ca9b5913e807e85b666'],1,1,2,"[{'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+bb39eefd8cbd90a4bcfb77fab2a324e3dd64917f,2018-06-22 22:44:46+00:00,1.1.1,Vojtech Novak,vonovak@gmail.com,Vojtech Novak,vonovak@gmail.com,https://github.com/vonovak/react-navigation-backhandler/commit/bb39eefd8cbd90a4bcfb77fab2a324e3dd64917f,['f74f62ab0dc04b0827d0d2682ff6bb527f04ceb8'],1,1,2,"[{'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+8c8cd8f4d648b6903b54139707479a98404bfa21,2018-10-18 11:07:18+00:00,1.2.0,Vojtech Novak,vonovak@gmail.com,Vojtech Novak,vonovak@gmail.com,https://github.com/vonovak/react-navigation-backhandler/commit/8c8cd8f4d648b6903b54139707479a98404bfa21,['537c34e7c8521b92f68d56be43014dca82fa9747'],1,1,2,"[{'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+c61d9aa9b115c3829d5b377a33073bc7f1d45911,2019-03-26 10:23:55+00:00,1.3.0,Vojtech Novak,vonovak@gmail.com,Vojtech Novak,vonovak@gmail.com,https://github.com/vonovak/react-navigation-backhandler/commit/c61d9aa9b115c3829d5b377a33073bc7f1d45911,['ebab73fa495d4880a611285c2d98e71cf4f8909c'],1,1,2,"[{'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+c2f093f24dbdb7cde85b48676366ce36c89fd05a,2019-04-25 06:35:35+00:00,1.3.1,Vojtech Novak,vonovak@gmail.com,Vojtech Novak,vonovak@gmail.com,https://github.com/vonovak/react-navigation-backhandler/commit/c2f093f24dbdb7cde85b48676366ce36c89fd05a,['ea8e610b1327050b64713b3dbb5eb0a47a622a4e'],1,1,2,"[{'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+e8f8cdccb34d9e90491a1a9fa9b5f8f4d7b06845,2019-05-09 17:15:00+00:00,fix react nav perr dep warning,Vojtech Novak,vonovak@gmail.com,Vojtech Novak,vonovak@gmail.com,https://github.com/vonovak/react-navigation-backhandler/commit/e8f8cdccb34d9e90491a1a9fa9b5f8f4d7b06845,['c2f093f24dbdb7cde85b48676366ce36c89fd05a'],1,1,2,"[{'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+e3fef97276666ddc2a8fae94cf6f3082e65c659f,2019-05-09 17:15:23+00:00,1.3.2,Vojtech Novak,vonovak@gmail.com,Vojtech Novak,vonovak@gmail.com,https://github.com/vonovak/react-navigation-backhandler/commit/e3fef97276666ddc2a8fae94cf6f3082e65c659f,['e8f8cdccb34d9e90491a1a9fa9b5f8f4d7b06845'],1,1,2,"[{'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+7a277f07220dd84aae569f167cd54a071e027aef,2020-02-02 19:16:20+00:00,1.4.0,Vojtech Novak,vonovak@gmail.com,Vojtech Novak,vonovak@gmail.com,https://github.com/vonovak/react-navigation-backhandler/commit/7a277f07220dd84aae569f167cd54a071e027aef,['8744676cc033cfc572ef88e01f39a51c4c02e583'],1,1,2,"[{'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+a5e2849e79ffbbc45282fd478ef3f0e8c6252119,2020-03-30 08:35:01+00:00,"Feat: support for react-navigation@5 (closes #17) (#18)
+
+* Feat: support for react-navigation@5
+
+* Feat: use react navigation hooks and rewrite to function component",Jan Peer Stöcklmair,jan.oster94@gmail.com,GitHub,noreply@github.com,https://github.com/vonovak/react-navigation-backhandler/commit/a5e2849e79ffbbc45282fd478ef3f0e8c6252119,['7a277f07220dd84aae569f167cd54a071e027aef'],68,39,107,"[{'filename': 'BackHandler.android.js', 'additions': 14, 'deletions': 33, 'changes': 47}, {'filename': 'README.md', 'additions': 53, 'deletions': 5, 'changes': 58}, {'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+ec435421e4ca94bae6b3efe8194701e09643c548,2020-03-30 08:39:10+00:00,2.0.0,Vojtech Novak,vonovak@gmail.com,Vojtech Novak,vonovak@gmail.com,https://github.com/vonovak/react-navigation-backhandler/commit/ec435421e4ca94bae6b3efe8194701e09643c548,['2f4915e0b6bbc3f5fffcb6215747dbac66020add'],1,1,2,"[{'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+bbe6a1c0894f9198214f0c7e8a4e3543a0a4f6ad,2020-07-30 13:23:33+00:00,2.0.1,Vojtech Novak,vonovak@gmail.com,Vojtech Novak,vonovak@gmail.com,https://github.com/vonovak/react-navigation-backhandler/commit/bbe6a1c0894f9198214f0c7e8a4e3543a0a4f6ad,['62a45f549a140ff8aaf13a9e68b2e27f09eed2ce'],1,1,2,"[{'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+492b24b2981b4757d063183fa4ca71790b6ba6e0,2023-08-24 14:35:03+00:00,fix: react peer dep version,Vojtech Novak,vonovak@gmail.com,Vojtech Novak,vonovak@gmail.com,https://github.com/vonovak/react-navigation-backhandler/commit/492b24b2981b4757d063183fa4ca71790b6ba6e0,['fd03a9163aac9ee1d9c8fac67d5c9e3ef487cf24'],1,1,2,"[{'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+db9400e1dc0411f55817afe61d5269aa320efe8e,2023-08-24 14:36:36+00:00,2.0.2,Vojtech Novak,vonovak@gmail.com,Vojtech Novak,vonovak@gmail.com,https://github.com/vonovak/react-navigation-backhandler/commit/db9400e1dc0411f55817afe61d5269aa320efe8e,['492b24b2981b4757d063183fa4ca71790b6ba6e0'],1,1,2,"[{'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"

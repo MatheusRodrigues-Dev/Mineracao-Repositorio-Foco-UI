@@ -1,16 +1,562 @@
-commit,date,dependencies,dev_dependencies,prev_dependencies,prev_dev_dependencies,dependencies_changes,dev_dependencies_changes
-ba10e18dd770cb6e556b4deb9edb8aca9d32f18b,2021-05-31 12:22:04+00:00,[],"['@babel/core', '@chakra-ui/react', '@emotion/react', '@emotion/styled', '@size-limit/preset-small-lib', '@storybook/addon-essentials', '@storybook/addon-info', '@storybook/addon-links', '@storybook/addons', '@storybook/react', '@types/react', '@types/react-dom', 'babel-loader', 'framer-motion', 'husky', 'react', 'react-dom', 'react-is', 'size-limit', 'tsdx', 'tslib', 'typescript']",,,"{'added': [], 'removed': []}","{'added': ['@babel/core', '@chakra-ui/react', '@emotion/react', '@emotion/styled', '@size-limit/preset-small-lib', '@storybook/addon-essentials', '@storybook/addon-info', '@storybook/addon-links', '@storybook/addons', '@storybook/react', '@types/react', '@types/react-dom', 'babel-loader', 'framer-motion', 'husky', 'react', 'react-dom', 'react-is', 'size-limit', 'tsdx', 'tslib', 'typescript'], 'removed': []}"
-44bfdd096ac0593172bcfda4c4167ee6b3fe7ad1,2021-05-31 14:04:55+00:00,[],"['@babel/core', '@chakra-ui/react', '@emotion/react', '@emotion/styled', '@size-limit/preset-small-lib', '@storybook/addon-essentials', '@storybook/addon-info', '@storybook/addon-links', '@storybook/addons', '@storybook/react', '@testing-library/jest-dom', '@testing-library/react', '@types/jest-axe', '@types/react', '@types/react-dom', 'babel-loader', 'framer-motion', 'husky', 'jest-axe', 'react', 'react-dom', 'react-is', 'size-limit', 'tsdx', 'tslib', 'typescript']",[],"['@babel/core', '@chakra-ui/react', '@emotion/react', '@emotion/styled', '@size-limit/preset-small-lib', '@storybook/addon-essentials', '@storybook/addon-info', '@storybook/addon-links', '@storybook/addons', '@storybook/react', '@types/react', '@types/react-dom', 'babel-loader', 'framer-motion', 'husky', 'react', 'react-dom', 'react-is', 'size-limit', 'tsdx', 'tslib', 'typescript']","{'added': [], 'removed': []}","{'added': ['@testing-library/react', '@types/jest-axe', '@testing-library/jest-dom', 'jest-axe'], 'removed': []}"
-12e500b7760af6300f61995c4175fef8a70ac05c,2021-06-10 06:37:04+00:00,['@size-limit/preset-big-lib'],"['@babel/core', '@chakra-ui/react', '@emotion/react', '@emotion/styled', '@size-limit/preset-small-lib', '@storybook/addon-essentials', '@storybook/addon-info', '@storybook/addon-links', '@storybook/addons', '@storybook/react', '@testing-library/jest-dom', '@testing-library/react', '@types/jest-axe', '@types/react', '@types/react-dom', 'babel-loader', 'framer-motion', 'husky', 'jest-axe', 'react', 'react-dom', 'react-is', 'size-limit', 'tsdx', 'tslib', 'typescript']",[],"['@babel/core', '@chakra-ui/react', '@emotion/react', '@emotion/styled', '@size-limit/preset-small-lib', '@storybook/addon-essentials', '@storybook/addon-info', '@storybook/addon-links', '@storybook/addons', '@storybook/react', '@testing-library/jest-dom', '@testing-library/react', '@types/jest-axe', '@types/react', '@types/react-dom', 'babel-loader', 'framer-motion', 'husky', 'jest-axe', 'react', 'react-dom', 'react-is', 'size-limit', 'tsdx', 'tslib', 'typescript']","{'added': ['@size-limit/preset-big-lib'], 'removed': []}","{'added': [], 'removed': []}"
-bd4c71076ee4c0b2115ad75d491af52888b0a9de,2021-06-10 06:37:37+00:00,['@size-limit/preset-big-lib'],"['@babel/core', '@chakra-ui/react', '@emotion/react', '@emotion/styled', '@size-limit/preset-small-lib', '@storybook/addon-essentials', '@storybook/addon-info', '@storybook/addon-links', '@storybook/addons', '@storybook/react', '@testing-library/jest-dom', '@testing-library/react', '@types/jest-axe', '@types/react', '@types/react-dom', 'babel-loader', 'framer-motion', 'husky', 'jest-axe', 'react', 'react-dom', 'react-is', 'size-limit', 'tsdx', 'tslib', 'typescript']",['@size-limit/preset-big-lib'],"['@babel/core', '@chakra-ui/react', '@emotion/react', '@emotion/styled', '@size-limit/preset-small-lib', '@storybook/addon-essentials', '@storybook/addon-info', '@storybook/addon-links', '@storybook/addons', '@storybook/react', '@testing-library/jest-dom', '@testing-library/react', '@types/jest-axe', '@types/react', '@types/react-dom', 'babel-loader', 'framer-motion', 'husky', 'jest-axe', 'react', 'react-dom', 'react-is', 'size-limit', 'tsdx', 'tslib', 'typescript']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-e86c1da829c4cf0195a8ad874c112ffb20d5410a,2021-06-10 07:37:11+00:00,[],"['@babel/core', '@chakra-ui/react', '@emotion/react', '@emotion/styled', '@semantic-release/changelog', '@semantic-release/commit-analyzer', '@semantic-release/git', '@semantic-release/npm', '@semantic-release/release-notes-generator', '@size-limit/preset-big-lib', '@size-limit/preset-small-lib', '@storybook/addon-essentials', '@storybook/addon-info', '@storybook/addon-links', '@storybook/addons', '@storybook/react', '@testing-library/jest-dom', '@testing-library/react', '@types/jest-axe', '@types/react-dom', '@types/react', 'babel-loader', 'framer-motion', 'husky', 'jest-axe', 'react-dom', 'react-is', 'react', 'size-limit', 'tsdx', 'tslib', 'typescript']",['@size-limit/preset-big-lib'],"['@babel/core', '@chakra-ui/react', '@emotion/react', '@emotion/styled', '@size-limit/preset-small-lib', '@storybook/addon-essentials', '@storybook/addon-info', '@storybook/addon-links', '@storybook/addons', '@storybook/react', '@testing-library/jest-dom', '@testing-library/react', '@types/jest-axe', '@types/react', '@types/react-dom', 'babel-loader', 'framer-motion', 'husky', 'jest-axe', 'react', 'react-dom', 'react-is', 'size-limit', 'tsdx', 'tslib', 'typescript']","{'added': [], 'removed': ['@size-limit/preset-big-lib']}","{'added': ['@semantic-release/commit-analyzer', '@semantic-release/npm', '@semantic-release/release-notes-generator', '@semantic-release/git', '@semantic-release/changelog', '@size-limit/preset-big-lib'], 'removed': []}"
-07b5f9806a360ba28b10e16ca6537c6984fae99d,2021-06-10 07:40:17+00:00,[],"['@babel/core', '@chakra-ui/react', '@emotion/react', '@emotion/styled', '@semantic-release/changelog', '@semantic-release/commit-analyzer', '@semantic-release/git', '@semantic-release/npm', '@semantic-release/release-notes-generator', '@size-limit/preset-big-lib', '@size-limit/preset-small-lib', '@storybook/addon-essentials', '@storybook/addon-info', '@storybook/addon-links', '@storybook/addons', '@storybook/react', '@testing-library/jest-dom', '@testing-library/react', '@types/jest-axe', '@types/react-dom', '@types/react', 'babel-loader', 'framer-motion', 'husky', 'jest-axe', 'react-dom', 'react-is', 'react', 'size-limit', 'tsdx', 'tslib', 'typescript']",[],"['@babel/core', '@chakra-ui/react', '@emotion/react', '@emotion/styled', '@semantic-release/changelog', '@semantic-release/commit-analyzer', '@semantic-release/git', '@semantic-release/npm', '@semantic-release/release-notes-generator', '@size-limit/preset-big-lib', '@size-limit/preset-small-lib', '@storybook/addon-essentials', '@storybook/addon-info', '@storybook/addon-links', '@storybook/addons', '@storybook/react', '@testing-library/jest-dom', '@testing-library/react', '@types/jest-axe', '@types/react-dom', '@types/react', 'babel-loader', 'framer-motion', 'husky', 'jest-axe', 'react-dom', 'react-is', 'react', 'size-limit', 'tsdx', 'tslib', 'typescript']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-9b879b3dd860ecb979d566236d12a7d91e207dcd,2021-06-10 07:49:17+00:00,[],"['@babel/core', '@chakra-ui/react', '@emotion/react', '@emotion/styled', '@semantic-release/changelog', '@semantic-release/commit-analyzer', '@semantic-release/git', '@semantic-release/npm', '@semantic-release/release-notes-generator', '@size-limit/preset-big-lib', '@size-limit/preset-small-lib', '@storybook/addon-essentials', '@storybook/addon-info', '@storybook/addon-links', '@storybook/addons', '@storybook/react', '@testing-library/jest-dom', '@testing-library/react', '@types/jest-axe', '@types/react-dom', '@types/react', 'babel-loader', 'framer-motion', 'husky', 'jest-axe', 'react-dom', 'react-is', 'react', 'size-limit', 'tsdx', 'tslib', 'typescript']",[],"['@babel/core', '@chakra-ui/react', '@emotion/react', '@emotion/styled', '@semantic-release/changelog', '@semantic-release/commit-analyzer', '@semantic-release/git', '@semantic-release/npm', '@semantic-release/release-notes-generator', '@size-limit/preset-big-lib', '@size-limit/preset-small-lib', '@storybook/addon-essentials', '@storybook/addon-info', '@storybook/addon-links', '@storybook/addons', '@storybook/react', '@testing-library/jest-dom', '@testing-library/react', '@types/jest-axe', '@types/react-dom', '@types/react', 'babel-loader', 'framer-motion', 'husky', 'jest-axe', 'react-dom', 'react-is', 'react', 'size-limit', 'tsdx', 'tslib', 'typescript']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-ccfacdabf05dffe2ad896f154f6c50d60c4e66fa,2021-06-10 07:54:37+00:00,[],"['@babel/core', '@chakra-ui/react', '@emotion/react', '@emotion/styled', '@semantic-release/changelog', '@semantic-release/commit-analyzer', '@semantic-release/git', '@semantic-release/npm', '@semantic-release/release-notes-generator', '@size-limit/preset-big-lib', '@size-limit/preset-small-lib', '@storybook/addon-essentials', '@storybook/addon-info', '@storybook/addon-links', '@storybook/addons', '@storybook/react', '@testing-library/jest-dom', '@testing-library/react', '@types/jest-axe', '@types/react-dom', '@types/react', 'babel-loader', 'framer-motion', 'husky', 'jest-axe', 'react-dom', 'react-is', 'react', 'size-limit', 'tsdx', 'tslib', 'typescript']",[],"['@babel/core', '@chakra-ui/react', '@emotion/react', '@emotion/styled', '@semantic-release/changelog', '@semantic-release/commit-analyzer', '@semantic-release/git', '@semantic-release/npm', '@semantic-release/release-notes-generator', '@size-limit/preset-big-lib', '@size-limit/preset-small-lib', '@storybook/addon-essentials', '@storybook/addon-info', '@storybook/addon-links', '@storybook/addons', '@storybook/react', '@testing-library/jest-dom', '@testing-library/react', '@types/jest-axe', '@types/react-dom', '@types/react', 'babel-loader', 'framer-motion', 'husky', 'jest-axe', 'react-dom', 'react-is', 'react', 'size-limit', 'tsdx', 'tslib', 'typescript']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-71902355d61b46f90a77267c78f1f8c3a483d9a5,2021-06-10 09:39:56+00:00,[],"['@babel/core', '@chakra-ui/react', '@emotion/react', '@emotion/styled', '@semantic-release/changelog', '@semantic-release/commit-analyzer', '@semantic-release/git', '@semantic-release/npm', '@semantic-release/release-notes-generator', '@size-limit/preset-big-lib', '@size-limit/preset-small-lib', '@storybook/addon-essentials', '@storybook/addon-info', '@storybook/addon-links', '@storybook/addons', '@storybook/react', '@testing-library/jest-dom', '@testing-library/react', '@types/jest-axe', '@types/react-dom', '@types/react', 'babel-loader', 'framer-motion', 'husky', 'jest-axe', 'react-dom', 'react-is', 'react', 'size-limit', 'tsdx', 'tslib', 'typescript']",[],"['@babel/core', '@chakra-ui/react', '@emotion/react', '@emotion/styled', '@semantic-release/changelog', '@semantic-release/commit-analyzer', '@semantic-release/git', '@semantic-release/npm', '@semantic-release/release-notes-generator', '@size-limit/preset-big-lib', '@size-limit/preset-small-lib', '@storybook/addon-essentials', '@storybook/addon-info', '@storybook/addon-links', '@storybook/addons', '@storybook/react', '@testing-library/jest-dom', '@testing-library/react', '@types/jest-axe', '@types/react-dom', '@types/react', 'babel-loader', 'framer-motion', 'husky', 'jest-axe', 'react-dom', 'react-is', 'react', 'size-limit', 'tsdx', 'tslib', 'typescript']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-abccdedac575e9cb7cd79c18da2068d6f8450570,2021-06-10 09:53:15+00:00,[],"['@babel/core', '@chakra-ui/react', '@emotion/react', '@emotion/styled', '@semantic-release/changelog', '@semantic-release/commit-analyzer', '@semantic-release/git', '@semantic-release/npm', '@semantic-release/release-notes-generator', '@size-limit/preset-big-lib', '@size-limit/preset-small-lib', '@storybook/addon-essentials', '@storybook/addon-info', '@storybook/addon-links', '@storybook/addons', '@storybook/react', '@testing-library/jest-dom', '@testing-library/react', '@types/jest-axe', '@types/react-dom', '@types/react', 'babel-loader', 'framer-motion', 'husky', 'jest-axe', 'react-dom', 'react-is', 'react', 'size-limit', 'tsdx', 'tslib', 'typescript']",[],"['@babel/core', '@chakra-ui/react', '@emotion/react', '@emotion/styled', '@semantic-release/changelog', '@semantic-release/commit-analyzer', '@semantic-release/git', '@semantic-release/npm', '@semantic-release/release-notes-generator', '@size-limit/preset-big-lib', '@size-limit/preset-small-lib', '@storybook/addon-essentials', '@storybook/addon-info', '@storybook/addon-links', '@storybook/addons', '@storybook/react', '@testing-library/jest-dom', '@testing-library/react', '@types/jest-axe', '@types/react-dom', '@types/react', 'babel-loader', 'framer-motion', 'husky', 'jest-axe', 'react-dom', 'react-is', 'react', 'size-limit', 'tsdx', 'tslib', 'typescript']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-17a09713c29e7260a18180fd0a01aeae02b22f8f,2021-06-10 14:53:43+00:00,[],"['@babel/core', '@chakra-ui/react', '@emotion/react', '@emotion/styled', '@semantic-release/changelog', '@semantic-release/commit-analyzer', '@semantic-release/git', '@semantic-release/npm', '@semantic-release/release-notes-generator', '@size-limit/preset-big-lib', '@size-limit/preset-small-lib', '@storybook/addon-essentials', '@storybook/addon-info', '@storybook/addon-links', '@storybook/addons', '@storybook/react', '@testing-library/jest-dom', '@testing-library/react', '@types/jest-axe', '@types/react-dom', '@types/react', 'babel-loader', 'framer-motion', 'husky', 'jest-axe', 'react-dom', 'react-is', 'react', 'size-limit', 'tsdx', 'tslib', 'typescript']",[],"['@babel/core', '@chakra-ui/react', '@emotion/react', '@emotion/styled', '@semantic-release/changelog', '@semantic-release/commit-analyzer', '@semantic-release/git', '@semantic-release/npm', '@semantic-release/release-notes-generator', '@size-limit/preset-big-lib', '@size-limit/preset-small-lib', '@storybook/addon-essentials', '@storybook/addon-info', '@storybook/addon-links', '@storybook/addons', '@storybook/react', '@testing-library/jest-dom', '@testing-library/react', '@types/jest-axe', '@types/react-dom', '@types/react', 'babel-loader', 'framer-motion', 'husky', 'jest-axe', 'react-dom', 'react-is', 'react', 'size-limit', 'tsdx', 'tslib', 'typescript']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-d5c3f6e745a8b0d9cd1ecec52070b7169bd17ebd,2022-02-21 13:56:47+00:00,[],"['@babel/core', '@chakra-ui/react', '@emotion/react', '@emotion/styled', '@semantic-release/changelog', '@semantic-release/commit-analyzer', '@semantic-release/git', '@semantic-release/npm', '@semantic-release/release-notes-generator', '@size-limit/preset-big-lib', '@size-limit/preset-small-lib', '@storybook/addon-essentials', '@storybook/addon-info', '@storybook/addon-links', '@storybook/addons', '@storybook/react', '@testing-library/jest-dom', '@testing-library/react', '@types/jest-axe', '@types/react', '@types/react-dom', 'babel-loader', 'concurrently', 'framer-motion', 'husky', 'jest-axe', 'nodemon', 'react', 'react-dom', 'react-icons', 'react-is', 'rimraf', 'size-limit', 'storybook-addon-performance', 'tsdx', 'tslib', 'typescript', 'yalc']",[],"['@babel/core', '@chakra-ui/react', '@emotion/react', '@emotion/styled', '@semantic-release/changelog', '@semantic-release/commit-analyzer', '@semantic-release/git', '@semantic-release/npm', '@semantic-release/release-notes-generator', '@size-limit/preset-big-lib', '@size-limit/preset-small-lib', '@storybook/addon-essentials', '@storybook/addon-info', '@storybook/addon-links', '@storybook/addons', '@storybook/react', '@testing-library/jest-dom', '@testing-library/react', '@types/jest-axe', '@types/react-dom', '@types/react', 'babel-loader', 'framer-motion', 'husky', 'jest-axe', 'react-dom', 'react-is', 'react', 'size-limit', 'tsdx', 'tslib', 'typescript']","{'added': [], 'removed': []}","{'added': ['nodemon', 'storybook-addon-performance', 'rimraf', 'react-icons', 'yalc', 'concurrently'], 'removed': []}"
-455379518771fc8cbdeaa42e2adc0b10f508f371,2022-03-28 07:17:13+00:00,[],[],[],"['@babel/core', '@chakra-ui/react', '@emotion/react', '@emotion/styled', '@semantic-release/changelog', '@semantic-release/commit-analyzer', '@semantic-release/git', '@semantic-release/npm', '@semantic-release/release-notes-generator', '@size-limit/preset-big-lib', '@size-limit/preset-small-lib', '@storybook/addon-essentials', '@storybook/addon-info', '@storybook/addon-links', '@storybook/addons', '@storybook/react', '@testing-library/jest-dom', '@testing-library/react', '@types/jest-axe', '@types/react', '@types/react-dom', 'babel-loader', 'concurrently', 'framer-motion', 'husky', 'jest-axe', 'nodemon', 'react', 'react-dom', 'react-icons', 'react-is', 'rimraf', 'size-limit', 'storybook-addon-performance', 'tsdx', 'tslib', 'typescript', 'yalc']","{'added': [], 'removed': []}","{'added': [], 'removed': ['framer-motion', '@semantic-release/npm', 'react', 'react-is', '@types/jest-axe', '@storybook/addon-info', 'babel-loader', '@storybook/addons', '@semantic-release/git', '@semantic-release/changelog', 'react-icons', '@testing-library/react', '@types/react', 'rimraf', 'tsdx', 'concurrently', '@size-limit/preset-big-lib', 'size-limit', '@storybook/react', '@semantic-release/release-notes-generator', '@emotion/styled', '@types/react-dom', 'jest-axe', '@storybook/addon-essentials', 'react-dom', '@semantic-release/commit-analyzer', '@chakra-ui/react', '@storybook/addon-links', 'tslib', 'nodemon', '@testing-library/jest-dom', 'storybook-addon-performance', '@size-limit/preset-small-lib', '@babel/core', 'husky', '@emotion/react', 'typescript', 'yalc']}"
-972d53b2726f17e289366a61e27b63f18c79e8dd,2023-01-09 07:55:01+00:00,"['@chakra-ui/react', '@emotion/react', '@emotion/styled', 'framer-motion']",[],[],[],"{'added': ['framer-motion', '@chakra-ui/react', '@emotion/styled', '@emotion/react'], 'removed': []}","{'added': [], 'removed': []}"
-5006c903d6f00fd6b8d920de8c3ef827b8878be6,2023-01-19 18:03:47+00:00,"['@chakra-ui/react', '@emotion/react', '@emotion/styled', 'framer-motion']",['npm-run-all'],"['@chakra-ui/react', '@emotion/react', '@emotion/styled', 'framer-motion']",[],"{'added': [], 'removed': []}","{'added': ['npm-run-all'], 'removed': []}"
+commit,date,message,author_name,author_email,committer_name,committer_email,url,parents,additions,deletions,total_changes,files_changed,dependencies,dev_dependencies,prev_dependencies,prev_dev_dependencies,dependencies_changes,dev_dependencies_changes
+ba10e18dd770cb6e556b4deb9edb8aca9d32f18b,2021-05-31 12:22:04+00:00,init,Jean Verster,jean@sovtech.com,Jean Verster,jean@sovtech.com,https://github.com/jeanverster/chakra-ui-steps/commit/ba10e18dd770cb6e556b4deb9edb8aca9d32f18b,[],15240,0,15240,"[{'filename': '.github/workflows/main.yml', 'additions': 32, 'deletions': 0, 'changes': 32}, {'filename': '.github/workflows/size.yml', 'additions': 12, 'deletions': 0, 'changes': 12}, {'filename': '.gitignore', 'additions': 5, 'deletions': 0, 'changes': 5}, {'filename': '.storybook/main.js', 'additions': 8, 'deletions': 0, 'changes': 8}, {'filename': '.storybook/preview.js', 'additions': 5, 'deletions': 0, 'changes': 5}, {'filename': 'LICENSE', 'additions': 21, 'deletions': 0, 'changes': 21}, {'filename': 'README.md', 'additions': 181, 'deletions': 0, 'changes': 181}, {'filename': 'example/.npmignore', 'additions': 3, 'deletions': 0, 'changes': 3}, {'filename': 'example/index.html', 'additions': 14, 'deletions': 0, 'changes': 14}, {'filename': 'example/index.tsx', 'additions': 14, 'deletions': 0, 'changes': 14}, {'filename': 'example/package.json', 'additions': 24, 'deletions': 0, 'changes': 24}, {'filename': 'example/tsconfig.json', 'additions': 18, 'deletions': 0, 'changes': 18}, {'filename': 'package.json', 'additions': 75, 'deletions': 0, 'changes': 75}, {'filename': 'src/components/Connector/index.tsx', 'additions': 80, 'deletions': 0, 'changes': 80}, {'filename': 'src/components/Icons/Check.tsx', 'additions': 11, 'deletions': 0, 'changes': 11}, {'filename': 'src/components/Icons/Close.tsx', 'additions': 7, 'deletions': 0, 'changes': 7}, {'filename': 'src/components/Icons/index.ts', 'additions': 2, 'deletions': 0, 'changes': 2}, {'filename': 'src/components/Step/index.tsx', 'additions': 211, 'deletions': 0, 'changes': 211}, {'filename': 'src/components/Steps/index.tsx', 'additions': 102, 'deletions': 0, 'changes': 102}, {'filename': 'src/hooks/useSteps.ts', 'additions': 22, 'deletions': 0, 'changes': 22}, {'filename': 'src/index.ts', 'additions': 4, 'deletions': 0, 'changes': 4}, {'filename': 'src/theme/index.ts', 'additions': 133, 'deletions': 0, 'changes': 133}, {'filename': 'stories/Thing.stories.tsx', 'additions': 28, 'deletions': 0, 'changes': 28}, {'filename': 'test/blah.test.tsx', 'additions': 11, 'deletions': 0, 'changes': 11}, {'filename': 'tsconfig.json', 'additions': 35, 'deletions': 0, 'changes': 35}, {'filename': 'yarn.lock', 'additions': 14182, 'deletions': 0, 'changes': 14182}]",[],"['@babel/core', '@chakra-ui/react', '@emotion/react', '@emotion/styled', '@size-limit/preset-small-lib', '@storybook/addon-essentials', '@storybook/addon-info', '@storybook/addon-links', '@storybook/addons', '@storybook/react', '@types/react', '@types/react-dom', 'babel-loader', 'framer-motion', 'husky', 'react', 'react-dom', 'react-is', 'size-limit', 'tsdx', 'tslib', 'typescript']",,,"{'added': [], 'removed': []}","{'added': ['@babel/core', '@chakra-ui/react', '@emotion/react', '@emotion/styled', '@size-limit/preset-small-lib', '@storybook/addon-essentials', '@storybook/addon-info', '@storybook/addon-links', '@storybook/addons', '@storybook/react', '@types/react', '@types/react-dom', 'babel-loader', 'framer-motion', 'husky', 'react', 'react-dom', 'react-is', 'size-limit', 'tsdx', 'tslib', 'typescript'], 'removed': []}"
+44bfdd096ac0593172bcfda4c4167ee6b3fe7ad1,2021-05-31 14:04:55+00:00,tests: setup and configure initial tests,Jean Verster,jean@sovtech.com,Jean Verster,jean@sovtech.com,https://github.com/jeanverster/chakra-ui-steps/commit/44bfdd096ac0593172bcfda4c4167ee6b3fe7ad1,['ba10e18dd770cb6e556b4deb9edb8aca9d32f18b'],335,21,356,"[{'filename': 'package.json', 'additions': 4, 'deletions': 0, 'changes': 4}, {'filename': 'src/components/Steps/index.tsx', 'additions': 1, 'deletions': 4, 'changes': 5}, {'filename': 'src/theme/index.ts', 'additions': 4, 'deletions': 4, 'changes': 8}, {'filename': 'src/utils/test-utils.tsx', 'additions': 111, 'deletions': 0, 'changes': 111}, {'filename': 'test/blah.test.tsx', 'additions': 0, 'deletions': 11, 'changes': 11}, {'filename': 'test/steps.test.tsx', 'additions': 62, 'deletions': 0, 'changes': 62}, {'filename': 'yarn.lock', 'additions': 153, 'deletions': 2, 'changes': 155}]",[],"['@babel/core', '@chakra-ui/react', '@emotion/react', '@emotion/styled', '@size-limit/preset-small-lib', '@storybook/addon-essentials', '@storybook/addon-info', '@storybook/addon-links', '@storybook/addons', '@storybook/react', '@testing-library/jest-dom', '@testing-library/react', '@types/jest-axe', '@types/react', '@types/react-dom', 'babel-loader', 'framer-motion', 'husky', 'jest-axe', 'react', 'react-dom', 'react-is', 'size-limit', 'tsdx', 'tslib', 'typescript']",[],"['@babel/core', '@chakra-ui/react', '@emotion/react', '@emotion/styled', '@size-limit/preset-small-lib', '@storybook/addon-essentials', '@storybook/addon-info', '@storybook/addon-links', '@storybook/addons', '@storybook/react', '@types/react', '@types/react-dom', 'babel-loader', 'framer-motion', 'husky', 'react', 'react-dom', 'react-is', 'size-limit', 'tsdx', 'tslib', 'typescript']","{'added': [], 'removed': []}","{'added': ['@types/jest-axe', 'jest-axe', '@testing-library/react', '@testing-library/jest-dom'], 'removed': []}"
+12e500b7760af6300f61995c4175fef8a70ac05c,2021-06-10 06:37:04+00:00,fix: use size-limit large package plugin instead of default,Jean Verster,jean@sovtech.com,Jean Verster,jean@sovtech.com,https://github.com/jeanverster/chakra-ui-steps/commit/12e500b7760af6300f61995c4175fef8a70ac05c,['a4c610a954a5009e5a65f27a674eb709764cf32d'],228,20,248,"[{'filename': '.npmignore', 'additions': 4, 'deletions': 0, 'changes': 4}, {'filename': 'package.json', 'additions': 11, 'deletions': 3, 'changes': 14}, {'filename': 'yarn.lock', 'additions': 213, 'deletions': 17, 'changes': 230}]",['@size-limit/preset-big-lib'],"['@babel/core', '@chakra-ui/react', '@emotion/react', '@emotion/styled', '@size-limit/preset-small-lib', '@storybook/addon-essentials', '@storybook/addon-info', '@storybook/addon-links', '@storybook/addons', '@storybook/react', '@testing-library/jest-dom', '@testing-library/react', '@types/jest-axe', '@types/react', '@types/react-dom', 'babel-loader', 'framer-motion', 'husky', 'jest-axe', 'react', 'react-dom', 'react-is', 'size-limit', 'tsdx', 'tslib', 'typescript']",[],"['@babel/core', '@chakra-ui/react', '@emotion/react', '@emotion/styled', '@size-limit/preset-small-lib', '@storybook/addon-essentials', '@storybook/addon-info', '@storybook/addon-links', '@storybook/addons', '@storybook/react', '@testing-library/jest-dom', '@testing-library/react', '@types/jest-axe', '@types/react', '@types/react-dom', 'babel-loader', 'framer-motion', 'husky', 'jest-axe', 'react', 'react-dom', 'react-is', 'size-limit', 'tsdx', 'tslib', 'typescript']","{'added': ['@size-limit/preset-big-lib'], 'removed': []}","{'added': [], 'removed': []}"
+bd4c71076ee4c0b2115ad75d491af52888b0a9de,2021-06-10 06:37:37+00:00,chore: add homepage in package json,Jean Verster,jean@sovtech.com,Jean Verster,jean@sovtech.com,https://github.com/jeanverster/chakra-ui-steps/commit/bd4c71076ee4c0b2115ad75d491af52888b0a9de,['12e500b7760af6300f61995c4175fef8a70ac05c'],1,1,2,"[{'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",['@size-limit/preset-big-lib'],"['@babel/core', '@chakra-ui/react', '@emotion/react', '@emotion/styled', '@size-limit/preset-small-lib', '@storybook/addon-essentials', '@storybook/addon-info', '@storybook/addon-links', '@storybook/addons', '@storybook/react', '@testing-library/jest-dom', '@testing-library/react', '@types/jest-axe', '@types/react', '@types/react-dom', 'babel-loader', 'framer-motion', 'husky', 'jest-axe', 'react', 'react-dom', 'react-is', 'size-limit', 'tsdx', 'tslib', 'typescript']",['@size-limit/preset-big-lib'],"['@babel/core', '@chakra-ui/react', '@emotion/react', '@emotion/styled', '@size-limit/preset-small-lib', '@storybook/addon-essentials', '@storybook/addon-info', '@storybook/addon-links', '@storybook/addons', '@storybook/react', '@testing-library/jest-dom', '@testing-library/react', '@types/jest-axe', '@types/react', '@types/react-dom', 'babel-loader', 'framer-motion', 'husky', 'jest-axe', 'react', 'react-dom', 'react-is', 'size-limit', 'tsdx', 'tslib', 'typescript']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+e86c1da829c4cf0195a8ad874c112ffb20d5410a,2021-06-10 07:37:11+00:00,feat: add and configure semantic release,Jean Verster,jean@sovtech.com,Jean Verster,jean@sovtech.com,https://github.com/jeanverster/chakra-ui-steps/commit/e86c1da829c4cf0195a8ad874c112ffb20d5410a,['bd4c71076ee4c0b2115ad75d491af52888b0a9de'],1440,53,1493,"[{'filename': '.github/workflows/publish.yml', 'additions': 18, 'deletions': 0, 'changes': 18}, {'filename': '.github/workflows/version.yml', 'additions': 18, 'deletions': 0, 'changes': 18}, {'filename': 'package.json', 'additions': 24, 'deletions': 4, 'changes': 28}, {'filename': 'yarn.lock', 'additions': 1380, 'deletions': 49, 'changes': 1429}]",[],"['@babel/core', '@chakra-ui/react', '@emotion/react', '@emotion/styled', '@semantic-release/changelog', '@semantic-release/commit-analyzer', '@semantic-release/git', '@semantic-release/npm', '@semantic-release/release-notes-generator', '@size-limit/preset-big-lib', '@size-limit/preset-small-lib', '@storybook/addon-essentials', '@storybook/addon-info', '@storybook/addon-links', '@storybook/addons', '@storybook/react', '@testing-library/jest-dom', '@testing-library/react', '@types/jest-axe', '@types/react-dom', '@types/react', 'babel-loader', 'framer-motion', 'husky', 'jest-axe', 'react-dom', 'react-is', 'react', 'size-limit', 'tsdx', 'tslib', 'typescript']",['@size-limit/preset-big-lib'],"['@babel/core', '@chakra-ui/react', '@emotion/react', '@emotion/styled', '@size-limit/preset-small-lib', '@storybook/addon-essentials', '@storybook/addon-info', '@storybook/addon-links', '@storybook/addons', '@storybook/react', '@testing-library/jest-dom', '@testing-library/react', '@types/jest-axe', '@types/react', '@types/react-dom', 'babel-loader', 'framer-motion', 'husky', 'jest-axe', 'react', 'react-dom', 'react-is', 'size-limit', 'tsdx', 'tslib', 'typescript']","{'added': [], 'removed': ['@size-limit/preset-big-lib']}","{'added': ['@semantic-release/npm', '@semantic-release/release-notes-generator', '@size-limit/preset-big-lib', '@semantic-release/git', '@semantic-release/commit-analyzer', '@semantic-release/changelog'], 'removed': []}"
+07b5f9806a360ba28b10e16ca6537c6984fae99d,2021-06-10 07:40:17+00:00,"chore(release): 1.0.0 [skip ci]
+
+# 1.0.0 (2021-06-10)
+
+### Bug Fixes
+
+* use size-limit large package plugin instead of default ([12e500b](https://github.com/jeanverster/chakra-ui-steps/commit/12e500b7760af6300f61995c4175fef8a70ac05c))
+
+### Features
+
+* add and configure semantic release ([e86c1da](https://github.com/jeanverster/chakra-ui-steps/commit/e86c1da829c4cf0195a8ad874c112ffb20d5410a))",semantic-release-bot,semantic-release-bot@martynus.net,semantic-release-bot,semantic-release-bot@martynus.net,https://github.com/jeanverster/chakra-ui-steps/commit/07b5f9806a360ba28b10e16ca6537c6984fae99d,['c3d65ac6fd76d1940daf7fd8295800e353e3a437'],12,1,13,"[{'filename': 'CHANGELOG.md', 'additions': 11, 'deletions': 0, 'changes': 11}, {'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",[],"['@babel/core', '@chakra-ui/react', '@emotion/react', '@emotion/styled', '@semantic-release/changelog', '@semantic-release/commit-analyzer', '@semantic-release/git', '@semantic-release/npm', '@semantic-release/release-notes-generator', '@size-limit/preset-big-lib', '@size-limit/preset-small-lib', '@storybook/addon-essentials', '@storybook/addon-info', '@storybook/addon-links', '@storybook/addons', '@storybook/react', '@testing-library/jest-dom', '@testing-library/react', '@types/jest-axe', '@types/react-dom', '@types/react', 'babel-loader', 'framer-motion', 'husky', 'jest-axe', 'react-dom', 'react-is', 'react', 'size-limit', 'tsdx', 'tslib', 'typescript']",[],"['@babel/core', '@chakra-ui/react', '@emotion/react', '@emotion/styled', '@semantic-release/changelog', '@semantic-release/commit-analyzer', '@semantic-release/git', '@semantic-release/npm', '@semantic-release/release-notes-generator', '@size-limit/preset-big-lib', '@size-limit/preset-small-lib', '@storybook/addon-essentials', '@storybook/addon-info', '@storybook/addon-links', '@storybook/addons', '@storybook/react', '@testing-library/jest-dom', '@testing-library/react', '@types/jest-axe', '@types/react-dom', '@types/react', 'babel-loader', 'framer-motion', 'husky', 'jest-axe', 'react-dom', 'react-is', 'react', 'size-limit', 'tsdx', 'tslib', 'typescript']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+9b879b3dd860ecb979d566236d12a7d91e207dcd,2021-06-10 07:49:17+00:00,"chore(release): 1.0.1 [skip ci]
+
+## [1.0.1](https://github.com/jeanverster/chakra-ui-steps/compare/v1.0.0...v1.0.1) (2021-06-10)
+
+### Bug Fixes
+
+* add missing quotation ([37e92f5](https://github.com/jeanverster/chakra-ui-steps/commit/37e92f5ad7261eb49aa5a5f78ff4995df5d40a52))
+* remove node 10 engine from main workflow ([27c0caf](https://github.com/jeanverster/chakra-ui-steps/commit/27c0caf485bbd1a502bfbf2cfc6c3210431538dc))",semantic-release-bot,semantic-release-bot@martynus.net,semantic-release-bot,semantic-release-bot@martynus.net,https://github.com/jeanverster/chakra-ui-steps/commit/9b879b3dd860ecb979d566236d12a7d91e207dcd,['37e92f5ad7261eb49aa5a5f78ff4995df5d40a52'],9,1,10,"[{'filename': 'CHANGELOG.md', 'additions': 8, 'deletions': 0, 'changes': 8}, {'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",[],"['@babel/core', '@chakra-ui/react', '@emotion/react', '@emotion/styled', '@semantic-release/changelog', '@semantic-release/commit-analyzer', '@semantic-release/git', '@semantic-release/npm', '@semantic-release/release-notes-generator', '@size-limit/preset-big-lib', '@size-limit/preset-small-lib', '@storybook/addon-essentials', '@storybook/addon-info', '@storybook/addon-links', '@storybook/addons', '@storybook/react', '@testing-library/jest-dom', '@testing-library/react', '@types/jest-axe', '@types/react-dom', '@types/react', 'babel-loader', 'framer-motion', 'husky', 'jest-axe', 'react-dom', 'react-is', 'react', 'size-limit', 'tsdx', 'tslib', 'typescript']",[],"['@babel/core', '@chakra-ui/react', '@emotion/react', '@emotion/styled', '@semantic-release/changelog', '@semantic-release/commit-analyzer', '@semantic-release/git', '@semantic-release/npm', '@semantic-release/release-notes-generator', '@size-limit/preset-big-lib', '@size-limit/preset-small-lib', '@storybook/addon-essentials', '@storybook/addon-info', '@storybook/addon-links', '@storybook/addons', '@storybook/react', '@testing-library/jest-dom', '@testing-library/react', '@types/jest-axe', '@types/react-dom', '@types/react', 'babel-loader', 'framer-motion', 'husky', 'jest-axe', 'react-dom', 'react-is', 'react', 'size-limit', 'tsdx', 'tslib', 'typescript']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+ccfacdabf05dffe2ad896f154f6c50d60c4e66fa,2021-06-10 07:54:37+00:00,chore: add description and keywords to package json,Jean Verster,jean@sovtech.com,Jean Verster,jean@sovtech.com,https://github.com/jeanverster/chakra-ui-steps/commit/ccfacdabf05dffe2ad896f154f6c50d60c4e66fa,['9b879b3dd860ecb979d566236d12a7d91e207dcd'],8,0,8,"[{'filename': 'package.json', 'additions': 8, 'deletions': 0, 'changes': 8}]",[],"['@babel/core', '@chakra-ui/react', '@emotion/react', '@emotion/styled', '@semantic-release/changelog', '@semantic-release/commit-analyzer', '@semantic-release/git', '@semantic-release/npm', '@semantic-release/release-notes-generator', '@size-limit/preset-big-lib', '@size-limit/preset-small-lib', '@storybook/addon-essentials', '@storybook/addon-info', '@storybook/addon-links', '@storybook/addons', '@storybook/react', '@testing-library/jest-dom', '@testing-library/react', '@types/jest-axe', '@types/react-dom', '@types/react', 'babel-loader', 'framer-motion', 'husky', 'jest-axe', 'react-dom', 'react-is', 'react', 'size-limit', 'tsdx', 'tslib', 'typescript']",[],"['@babel/core', '@chakra-ui/react', '@emotion/react', '@emotion/styled', '@semantic-release/changelog', '@semantic-release/commit-analyzer', '@semantic-release/git', '@semantic-release/npm', '@semantic-release/release-notes-generator', '@size-limit/preset-big-lib', '@size-limit/preset-small-lib', '@storybook/addon-essentials', '@storybook/addon-info', '@storybook/addon-links', '@storybook/addons', '@storybook/react', '@testing-library/jest-dom', '@testing-library/react', '@types/jest-axe', '@types/react-dom', '@types/react', 'babel-loader', 'framer-motion', 'husky', 'jest-axe', 'react-dom', 'react-is', 'react', 'size-limit', 'tsdx', 'tslib', 'typescript']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+71902355d61b46f90a77267c78f1f8c3a483d9a5,2021-06-10 09:39:56+00:00,"chore: remove main gh workflow
+
+fix: remove src from package json files",Jean Verster,jean@sovtech.com,Jean Verster,jean@sovtech.com,https://github.com/jeanverster/chakra-ui-steps/commit/71902355d61b46f90a77267c78f1f8c3a483d9a5,['ccfacdabf05dffe2ad896f154f6c50d60c4e66fa'],1,34,35,"[{'filename': '.github/workflows/main.yml', 'additions': 0, 'deletions': 32, 'changes': 32}, {'filename': 'package.json', 'additions': 1, 'deletions': 2, 'changes': 3}]",[],"['@babel/core', '@chakra-ui/react', '@emotion/react', '@emotion/styled', '@semantic-release/changelog', '@semantic-release/commit-analyzer', '@semantic-release/git', '@semantic-release/npm', '@semantic-release/release-notes-generator', '@size-limit/preset-big-lib', '@size-limit/preset-small-lib', '@storybook/addon-essentials', '@storybook/addon-info', '@storybook/addon-links', '@storybook/addons', '@storybook/react', '@testing-library/jest-dom', '@testing-library/react', '@types/jest-axe', '@types/react-dom', '@types/react', 'babel-loader', 'framer-motion', 'husky', 'jest-axe', 'react-dom', 'react-is', 'react', 'size-limit', 'tsdx', 'tslib', 'typescript']",[],"['@babel/core', '@chakra-ui/react', '@emotion/react', '@emotion/styled', '@semantic-release/changelog', '@semantic-release/commit-analyzer', '@semantic-release/git', '@semantic-release/npm', '@semantic-release/release-notes-generator', '@size-limit/preset-big-lib', '@size-limit/preset-small-lib', '@storybook/addon-essentials', '@storybook/addon-info', '@storybook/addon-links', '@storybook/addons', '@storybook/react', '@testing-library/jest-dom', '@testing-library/react', '@types/jest-axe', '@types/react-dom', '@types/react', 'babel-loader', 'framer-motion', 'husky', 'jest-axe', 'react-dom', 'react-is', 'react', 'size-limit', 'tsdx', 'tslib', 'typescript']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+abccdedac575e9cb7cd79c18da2068d6f8450570,2021-06-10 09:53:15+00:00,"chore(release): 1.0.2 [skip ci]
+
+## [1.0.2](https://github.com/jeanverster/chakra-ui-steps/compare/v1.0.1...v1.0.2) (2021-06-10)
+
+### Bug Fixes
+
+* remove unused env declaration ([24b1dd2](https://github.com/jeanverster/chakra-ui-steps/commit/24b1dd2cbfedbca22dd1822c424db74a5e39fd7f))",semantic-release-bot,semantic-release-bot@martynus.net,semantic-release-bot,semantic-release-bot@martynus.net,https://github.com/jeanverster/chakra-ui-steps/commit/abccdedac575e9cb7cd79c18da2068d6f8450570,['24b1dd2cbfedbca22dd1822c424db74a5e39fd7f'],8,1,9,"[{'filename': 'CHANGELOG.md', 'additions': 7, 'deletions': 0, 'changes': 7}, {'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",[],"['@babel/core', '@chakra-ui/react', '@emotion/react', '@emotion/styled', '@semantic-release/changelog', '@semantic-release/commit-analyzer', '@semantic-release/git', '@semantic-release/npm', '@semantic-release/release-notes-generator', '@size-limit/preset-big-lib', '@size-limit/preset-small-lib', '@storybook/addon-essentials', '@storybook/addon-info', '@storybook/addon-links', '@storybook/addons', '@storybook/react', '@testing-library/jest-dom', '@testing-library/react', '@types/jest-axe', '@types/react-dom', '@types/react', 'babel-loader', 'framer-motion', 'husky', 'jest-axe', 'react-dom', 'react-is', 'react', 'size-limit', 'tsdx', 'tslib', 'typescript']",[],"['@babel/core', '@chakra-ui/react', '@emotion/react', '@emotion/styled', '@semantic-release/changelog', '@semantic-release/commit-analyzer', '@semantic-release/git', '@semantic-release/npm', '@semantic-release/release-notes-generator', '@size-limit/preset-big-lib', '@size-limit/preset-small-lib', '@storybook/addon-essentials', '@storybook/addon-info', '@storybook/addon-links', '@storybook/addons', '@storybook/react', '@testing-library/jest-dom', '@testing-library/react', '@types/jest-axe', '@types/react-dom', '@types/react', 'babel-loader', 'framer-motion', 'husky', 'jest-axe', 'react-dom', 'react-is', 'react', 'size-limit', 'tsdx', 'tslib', 'typescript']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+17a09713c29e7260a18180fd0a01aeae02b22f8f,2021-06-10 14:53:43+00:00,"chore(release): 1.0.3 [skip ci]
+
+## [1.0.3](https://github.com/jeanverster/chakra-ui-steps/compare/v1.0.2...v1.0.3) (2021-06-10)
+
+### Bug Fixes
+
+* switch out background color animations for border only ([d56199b](https://github.com/jeanverster/chakra-ui-steps/commit/d56199bf457dea97e3546b679b7d587120d8fbe6))",semantic-release-bot,semantic-release-bot@martynus.net,semantic-release-bot,semantic-release-bot@martynus.net,https://github.com/jeanverster/chakra-ui-steps/commit/17a09713c29e7260a18180fd0a01aeae02b22f8f,['d56199bf457dea97e3546b679b7d587120d8fbe6'],8,1,9,"[{'filename': 'CHANGELOG.md', 'additions': 7, 'deletions': 0, 'changes': 7}, {'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",[],"['@babel/core', '@chakra-ui/react', '@emotion/react', '@emotion/styled', '@semantic-release/changelog', '@semantic-release/commit-analyzer', '@semantic-release/git', '@semantic-release/npm', '@semantic-release/release-notes-generator', '@size-limit/preset-big-lib', '@size-limit/preset-small-lib', '@storybook/addon-essentials', '@storybook/addon-info', '@storybook/addon-links', '@storybook/addons', '@storybook/react', '@testing-library/jest-dom', '@testing-library/react', '@types/jest-axe', '@types/react-dom', '@types/react', 'babel-loader', 'framer-motion', 'husky', 'jest-axe', 'react-dom', 'react-is', 'react', 'size-limit', 'tsdx', 'tslib', 'typescript']",[],"['@babel/core', '@chakra-ui/react', '@emotion/react', '@emotion/styled', '@semantic-release/changelog', '@semantic-release/commit-analyzer', '@semantic-release/git', '@semantic-release/npm', '@semantic-release/release-notes-generator', '@size-limit/preset-big-lib', '@size-limit/preset-small-lib', '@storybook/addon-essentials', '@storybook/addon-info', '@storybook/addon-links', '@storybook/addons', '@storybook/react', '@testing-library/jest-dom', '@testing-library/react', '@types/jest-axe', '@types/react-dom', '@types/react', 'babel-loader', 'framer-motion', 'husky', 'jest-axe', 'react-dom', 'react-is', 'react', 'size-limit', 'tsdx', 'tslib', 'typescript']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+d5c3f6e745a8b0d9cd1ecec52070b7169bd17ebd,2022-02-21 13:56:47+00:00,merge master,Jean Verster,jeanverster0107@gmail.com,Jean Verster,jeanverster0107@gmail.com,https://github.com/jeanverster/chakra-ui-steps/commit/d5c3f6e745a8b0d9cd1ecec52070b7169bd17ebd,['554d2768060940efb5fb6e64b786aafd7d91613b'],2524,775,3299,"[{'filename': '.github/workflows/version.yml', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': '.storybook/main.js', 'additions': 33, 'deletions': 1, 'changes': 34}, {'filename': '.storybook/preview-head.html', 'additions': 31, 'deletions': 0, 'changes': 31}, {'filename': '.storybook/preview.js', 'additions': 0, 'deletions': 5, 'changes': 5}, {'filename': '.storybook/preview.tsx', 'additions': 93, 'deletions': 0, 'changes': 93}, {'filename': 'CHANGELOG.md', 'additions': 97, 'deletions': 0, 'changes': 97}, {'filename': 'README.md', 'additions': 98, 'deletions': 40, 'changes': 138}, {'filename': 'package.json', 'additions': 23, 'deletions': 13, 'changes': 36}, {'filename': 'src/components/Connector/index.tsx', 'additions': 44, 'deletions': 36, 'changes': 80}, {'filename': 'src/components/Step/index.tsx', 'additions': 77, 'deletions': 137, 'changes': 214}, {'filename': 'src/components/StepIcon/index.tsx', 'additions': 103, 'deletions': 0, 'changes': 103}, {'filename': 'src/components/StepLabel/index.tsx', 'additions': 63, 'deletions': 0, 'changes': 63}, {'filename': 'src/components/Steps/index.tsx', 'additions': 56, 'deletions': 27, 'changes': 83}, {'filename': 'src/context/index.tsx', 'additions': 50, 'deletions': 0, 'changes': 50}, {'filename': 'src/hooks/useSteps.ts', 'additions': 5, 'deletions': 1, 'changes': 6}, {'filename': 'src/theme/index.ts', 'additions': 116, 'deletions': 55, 'changes': 171}, {'filename': 'stories/Steps.stories.tsx', 'additions': 443, 'deletions': 0, 'changes': 443}, {'filename': 'stories/Thing.stories.tsx', 'additions': 0, 'deletions': 36, 'changes': 36}, {'filename': 'yarn.lock', 'additions': 1191, 'deletions': 423, 'changes': 1614}]",[],"['@babel/core', '@chakra-ui/react', '@emotion/react', '@emotion/styled', '@semantic-release/changelog', '@semantic-release/commit-analyzer', '@semantic-release/git', '@semantic-release/npm', '@semantic-release/release-notes-generator', '@size-limit/preset-big-lib', '@size-limit/preset-small-lib', '@storybook/addon-essentials', '@storybook/addon-info', '@storybook/addon-links', '@storybook/addons', '@storybook/react', '@testing-library/jest-dom', '@testing-library/react', '@types/jest-axe', '@types/react', '@types/react-dom', 'babel-loader', 'concurrently', 'framer-motion', 'husky', 'jest-axe', 'nodemon', 'react', 'react-dom', 'react-icons', 'react-is', 'rimraf', 'size-limit', 'storybook-addon-performance', 'tsdx', 'tslib', 'typescript', 'yalc']",[],"['@babel/core', '@chakra-ui/react', '@emotion/react', '@emotion/styled', '@semantic-release/changelog', '@semantic-release/commit-analyzer', '@semantic-release/git', '@semantic-release/npm', '@semantic-release/release-notes-generator', '@size-limit/preset-big-lib', '@size-limit/preset-small-lib', '@storybook/addon-essentials', '@storybook/addon-info', '@storybook/addon-links', '@storybook/addons', '@storybook/react', '@testing-library/jest-dom', '@testing-library/react', '@types/jest-axe', '@types/react-dom', '@types/react', 'babel-loader', 'framer-motion', 'husky', 'jest-axe', 'react-dom', 'react-is', 'react', 'size-limit', 'tsdx', 'tslib', 'typescript']","{'added': [], 'removed': []}","{'added': ['concurrently', 'rimraf', 'nodemon', 'storybook-addon-performance', 'react-icons', 'yalc'], 'removed': []}"
+455379518771fc8cbdeaa42e2adc0b10f508f371,2022-03-28 07:17:13+00:00,"1.7.2 (#62)
+
+* fix: add isCompletedStep to the step props (#48)
+
+This will fix the type 'IntrinsicAttributes & ObjectDto' problem on Step.
+
+Co-authored-by: Jean Verster <jeanverster0107@gmail.com>
+
+* chore(release): 1.6.2 [skip ci]
+
+## [1.6.2](https://github.com/jeanverster/chakra-ui-steps/compare/v1.6.1...v1.6.2) (2022-02-14)
+
+### Bug Fixes
+
+* add isCompletedStep to the step props ([#48](https://github.com/jeanverster/chakra-ui-steps/issues/48)) ([be22925](https://github.com/jeanverster/chakra-ui-steps/commit/be22925117a8f6c433b487c9af667950c7d31717))
+
+* feat: switch to vite (#54)
+
+* fix: update donation link
+
+* Release 1.6.2 (#49)
+
+* fix: add isCompletedStep to the step props (#48)
+
+This will fix the type 'IntrinsicAttributes & ObjectDto' problem on Step.
+
+Co-authored-by: Jean Verster <jeanverster0107@gmail.com>
+
+* chore(release): 1.6.2 [skip ci]
+
+## [1.6.2](https://github.com/jeanverster/chakra-ui-steps/compare/v1.6.1...v1.6.2) (2022-02-14)
+
+### Bug Fixes
+
+* add isCompletedStep to the step props ([#48](https://github.com/jeanverster/chakra-ui-steps/issues/48)) ([be22925](https://github.com/jeanverster/chakra-ui-steps/commit/be22925117a8f6c433b487c9af667950c7d31717))
+
+Co-authored-by: Houssem Yahiaoui <houssem.yahiaoui.ai@gmail.com>
+Co-authored-by: semantic-release-bot <semantic-release-bot@martynus.net>
+
+* merge master
+
+* chore: configure yarn workspaces
+
+* feat: vitest over jest
+
+* chore: reference local package correctly
+
+* feat: setup gh actions
+
+* chore: fix indentation
+
+* chore: remove jest specific commands
+
+Co-authored-by: Houssem Yahiaoui <houssem.yahiaoui.ai@gmail.com>
+Co-authored-by: semantic-release-bot <semantic-release-bot@martynus.net>
+
+* fix actions
+
+* trigger build
+
+* remove paths
+
+* update action config
+
+* set persist credentials to fasle
+
+* chore(release): 1.0.0 [skip ci]
+
+# chakra-ui-steps-v1.0.0 (2022-03-19)
+
+### Features
+
+* switch to vite ([#54](https://github.com/jeanverster/chakra-ui-steps/issues/54)) ([2683cd5](https://github.com/jeanverster/chakra-ui-steps/commit/2683cd52363c46b98eded64256b39f6c6a5da8cc)), closes [#49](https://github.com/jeanverster/chakra-ui-steps/issues/49) [#48](https://github.com/jeanverster/chakra-ui-steps/issues/48) [#48](https://github.com/jeanverster/chakra-ui-steps/issues/48)
+
+* trigger ci
+
+* merge changes
+
+* refactor: export components types (#59)
+
+* Refactor/split step label (#60)
+
+* refactor: add option to style iconLabel separately
+
+* docs: add iconLabel to README
+
+Co-authored-by: Jean Verster <jeanverster0107@gmail.com>
+
+Co-authored-by: Houssem Yahiaoui <houssem.yahiaoui.ai@gmail.com>
+Co-authored-by: semantic-release-bot <semantic-release-bot@martynus.net>
+Co-authored-by: rixcian <rostislav.kremecek@protonmail.com>",Jean Verster,jeanverster0107@gmail.com,GitHub,noreply@github.com,https://github.com/jeanverster/chakra-ui-steps/commit/455379518771fc8cbdeaa42e2adc0b10f508f371,['b457fcf4075db4ff9e71b81ffa9572df9cb97f18'],24043,7169,31212,"[{'filename': '.github/workflows/publish.yml', 'additions': 28, 'deletions': 5, 'changes': 33}, {'filename': '.github/workflows/size.yml', 'additions': 0, 'deletions': 12, 'changes': 12}, {'filename': '.github/workflows/tests.yml', 'additions': 22, 'deletions': 0, 'changes': 22}, {'filename': '.github/workflows/version.yml', 'additions': 9, 'deletions': 3, 'changes': 12}, {'filename': '.gitignore', 'additions': 22, 'deletions': 2, 'changes': 24}, {'filename': 'README.md', 'additions': 1, 'deletions': 0, 'changes': 1}, {'filename': 'chakra-ui-steps/.npmignore', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'chakra-ui-steps/.storybook/main.js', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'chakra-ui-steps/.storybook/preview-head.html', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'chakra-ui-steps/.storybook/preview.tsx', 'additions': 2, 'deletions': 2, 'changes': 4}, {'filename': 'chakra-ui-steps/CHANGELOG.md', 'additions': 38, 'deletions': 43, 'changes': 81}, {'filename': 'chakra-ui-steps/LICENSE', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'chakra-ui-steps/package.json', 'additions': 108, 'deletions': 0, 'changes': 108}, {'filename': 'chakra-ui-steps/src/components/Connector/index.tsx', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'chakra-ui-steps/src/components/Icons/Check.tsx', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'chakra-ui-steps/src/components/Icons/Close.tsx', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'chakra-ui-steps/src/components/Icons/index.ts', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'chakra-ui-steps/src/components/Step/index.tsx', 'additions': 4, 'deletions': 4, 'changes': 8}, {'filename': 'chakra-ui-steps/src/components/StepIcon/index.tsx', 'additions': 2, 'deletions': 1, 'changes': 3}, {'filename': 'chakra-ui-steps/src/components/StepLabel/index.tsx', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'chakra-ui-steps/src/components/Steps/index.tsx', 'additions': 4, 'deletions': 4, 'changes': 8}, {'filename': 'chakra-ui-steps/src/context/index.tsx', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'chakra-ui-steps/src/hooks/useSteps.ts', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'chakra-ui-steps/src/index.ts', 'additions': 3, 'deletions': 0, 'changes': 3}, {'filename': 'chakra-ui-steps/src/theme/index.ts', 'additions': 7, 'deletions': 5, 'changes': 12}, {'filename': 'chakra-ui-steps/src/utils/test-utils.tsx', 'additions': 3, 'deletions': 42, 'changes': 45}, {'filename': 'chakra-ui-steps/stories/Steps.stories.tsx', 'additions': 3, 'deletions': 3, 'changes': 6}, {'filename': 'chakra-ui-steps/test/steps.test.tsx', 'additions': 7, 'deletions': 14, 'changes': 21}, {'filename': 'chakra-ui-steps/tsconfig.json', 'additions': 21, 'deletions': 0, 'changes': 21}, {'filename': 'chakra-ui-steps/tsconfig.node.json', 'additions': 8, 'deletions': 0, 'changes': 8}, {'filename': 'chakra-ui-steps/vite.config.ts', 'additions': 44, 'deletions': 0, 'changes': 44}, {'filename': 'chakra-ui-steps/vitest.config.js', 'additions': 7, 'deletions': 0, 'changes': 7}, {'filename': 'chakra-ui-steps/yarn.lock', 'additions': 16664, 'deletions': 0, 'changes': 16664}, {'filename': 'package.json', 'additions': 10, 'deletions': 120, 'changes': 130}, {'filename': 'tsconfig.json', 'additions': 2, 'deletions': 33, 'changes': 35}, {'filename': 'website/.gitignore', 'additions': 24, 'deletions': 0, 'changes': 24}, {'filename': 'website/index.html', 'additions': 13, 'deletions': 0, 'changes': 13}, {'filename': 'website/package.json', 'additions': 26, 'deletions': 0, 'changes': 26}, {'filename': 'website/src/App.css', 'additions': 42, 'deletions': 0, 'changes': 42}, {'filename': 'website/src/App.tsx', 'additions': 53, 'deletions': 0, 'changes': 53}, {'filename': 'website/src/favicon.svg', 'additions': 15, 'deletions': 0, 'changes': 15}, {'filename': 'website/src/index.css', 'additions': 13, 'deletions': 0, 'changes': 13}, {'filename': 'website/src/logo.svg', 'additions': 7, 'deletions': 0, 'changes': 7}, {'filename': 'website/src/main.tsx', 'additions': 24, 'deletions': 0, 'changes': 24}, {'filename': 'website/src/vite-env.d.ts', 'additions': 2, 'deletions': 0, 'changes': 2}, {'filename': 'website/tsconfig.json', 'additions': 21, 'deletions': 0, 'changes': 21}, {'filename': 'website/tsconfig.node.json', 'additions': 8, 'deletions': 0, 'changes': 8}, {'filename': 'website/vite.config.ts', 'additions': 12, 'deletions': 0, 'changes': 12}, {'filename': 'website/yarn.lock', 'additions': 1788, 'deletions': 0, 'changes': 1788}, {'filename': 'yarn.lock', 'additions': 4976, 'deletions': 6876, 'changes': 11852}]",[],[],[],"['@babel/core', '@chakra-ui/react', '@emotion/react', '@emotion/styled', '@semantic-release/changelog', '@semantic-release/commit-analyzer', '@semantic-release/git', '@semantic-release/npm', '@semantic-release/release-notes-generator', '@size-limit/preset-big-lib', '@size-limit/preset-small-lib', '@storybook/addon-essentials', '@storybook/addon-info', '@storybook/addon-links', '@storybook/addons', '@storybook/react', '@testing-library/jest-dom', '@testing-library/react', '@types/jest-axe', '@types/react', '@types/react-dom', 'babel-loader', 'concurrently', 'framer-motion', 'husky', 'jest-axe', 'nodemon', 'react', 'react-dom', 'react-icons', 'react-is', 'rimraf', 'size-limit', 'storybook-addon-performance', 'tsdx', 'tslib', 'typescript', 'yalc']","{'added': [], 'removed': []}","{'added': [], 'removed': ['@types/jest-axe', '@emotion/react', '@types/react', 'nodemon', 'react-icons', '@semantic-release/git', '@storybook/addons', 'size-limit', 'tslib', 'concurrently', 'tsdx', 'rimraf', 'react-is', '@testing-library/react', '@size-limit/preset-small-lib', '@semantic-release/commit-analyzer', 'typescript', '@semantic-release/changelog', '@semantic-release/npm', '@storybook/react', '@semantic-release/release-notes-generator', '@size-limit/preset-big-lib', 'storybook-addon-performance', '@emotion/styled', 'react', '@storybook/addon-info', 'babel-loader', '@storybook/addon-essentials', 'jest-axe', '@babel/core', '@chakra-ui/react', 'react-dom', '@testing-library/jest-dom', '@storybook/addon-links', 'yalc', '@types/react-dom', 'husky', 'framer-motion']}"
+972d53b2726f17e289366a61e27b63f18c79e8dd,2023-01-09 07:55:01+00:00,"Release 2.0.1 (#104)
+
+* fix: bump framer dep to v6 (#68)
+
+* chore(release): 1.7.3 [skip ci]
+
+# [chakra-ui-steps-v1.7.3](https://github.com/jeanverster/chakra-ui-steps/compare/chakra-ui-steps-v1.7.2...chakra-ui-steps-v1.7.3) (2022-05-06)
+
+### Bug Fixes
+
+* bump framer dep to v6 ([#68](https://github.com/jeanverster/chakra-ui-steps/issues/68)) ([cdc0bc7](https://github.com/jeanverster/chakra-ui-steps/commit/cdc0bc73c536ce2e5b11a1854494a285d46ea1c6))
+
+* Fix/readme redirects to 404 (#71)
+
+* fix(docs): update readme redirect from a broken link to the correct file
+
+* refactor(linting): remove my own linting from this file
+
+* docs(readme): fix multipart styling chackra link (#75)
+
+* 1.7.2 (#62)
+
+* fix: add isCompletedStep to the step props (#48)
+
+This will fix the type 'IntrinsicAttributes & ObjectDto' problem on Step.
+
+Co-authored-by: Jean Verster <jeanverster0107@gmail.com>
+
+* chore(release): 1.6.2 [skip ci]
+
+## [1.6.2](https://github.com/jeanverster/chakra-ui-steps/compare/v1.6.1...v1.6.2) (2022-02-14)
+
+### Bug Fixes
+
+* add isCompletedStep to the step props ([#48](https://github.com/jeanverster/chakra-ui-steps/issues/48)) ([be22925](https://github.com/jeanverster/chakra-ui-steps/commit/be22925117a8f6c433b487c9af667950c7d31717))
+
+* feat: switch to vite (#54)
+
+* fix: update donation link
+
+* Release 1.6.2 (#49)
+
+* fix: add isCompletedStep to the step props (#48)
+
+This will fix the type 'IntrinsicAttributes & ObjectDto' problem on Step.
+
+Co-authored-by: Jean Verster <jeanverster0107@gmail.com>
+
+* chore(release): 1.6.2 [skip ci]
+
+## [1.6.2](https://github.com/jeanverster/chakra-ui-steps/compare/v1.6.1...v1.6.2) (2022-02-14)
+
+### Bug Fixes
+
+* add isCompletedStep to the step props ([#48](https://github.com/jeanverster/chakra-ui-steps/issues/48)) ([be22925](https://github.com/jeanverster/chakra-ui-steps/commit/be22925117a8f6c433b487c9af667950c7d31717))
+
+Co-authored-by: Houssem Yahiaoui <houssem.yahiaoui.ai@gmail.com>
+Co-authored-by: semantic-release-bot <semantic-release-bot@martynus.net>
+
+* merge master
+
+* chore: configure yarn workspaces
+
+* feat: vitest over jest
+
+* chore: reference local package correctly
+
+* feat: setup gh actions
+
+* chore: fix indentation
+
+* chore: remove jest specific commands
+
+Co-authored-by: Houssem Yahiaoui <houssem.yahiaoui.ai@gmail.com>
+Co-authored-by: semantic-release-bot <semantic-release-bot@martynus.net>
+
+* fix actions
+
+* trigger build
+
+* remove paths
+
+* update action config
+
+* set persist credentials to fasle
+
+* chore(release): 1.0.0 [skip ci]
+
+# chakra-ui-steps-v1.0.0 (2022-03-19)
+
+### Features
+
+* switch to vite ([#54](https://github.com/jeanverster/chakra-ui-steps/issues/54)) ([2683cd5](https://github.com/jeanverster/chakra-ui-steps/commit/2683cd52363c46b98eded64256b39f6c6a5da8cc)), closes [#49](https://github.com/jeanverster/chakra-ui-steps/issues/49) [#48](https://github.com/jeanverster/chakra-ui-steps/issues/48) [#48](https://github.com/jeanverster/chakra-ui-steps/issues/48)
+
+* trigger ci
+
+* merge changes
+
+* refactor: export components types (#59)
+
+* Refactor/split step label (#60)
+
+* refactor: add option to style iconLabel separately
+
+* docs: add iconLabel to README
+
+Co-authored-by: Jean Verster <jeanverster0107@gmail.com>
+
+Co-authored-by: Houssem Yahiaoui <houssem.yahiaoui.ai@gmail.com>
+Co-authored-by: semantic-release-bot <semantic-release-bot@martynus.net>
+Co-authored-by: rixcian <rostislav.kremecek@protonmail.com>
+
+* Release 1.7.3 (#69)
+
+* fix: bump framer dep to v6 (#68)
+
+* chore(release): 1.7.3 [skip ci]
+
+# [chakra-ui-steps-v1.7.3](https://github.com/jeanverster/chakra-ui-steps/compare/chakra-ui-steps-v1.7.2...chakra-ui-steps-v1.7.3) (2022-05-06)
+
+### Bug Fixes
+
+* bump framer dep to v6 ([#68](https://github.com/jeanverster/chakra-ui-steps/issues/68)) ([cdc0bc7](https://github.com/jeanverster/chakra-ui-steps/commit/cdc0bc73c536ce2e5b11a1854494a285d46ea1c6))
+
+Co-authored-by: semantic-release-bot <semantic-release-bot@martynus.net>
+
+* trigger ci
+
+* docs(readme): fix multipart styling chackra link
+
+Co-authored-by: Jean Verster <jeanverster0107@gmail.com>
+Co-authored-by: Houssem Yahiaoui <houssem.yahiaoui.ai@gmail.com>
+Co-authored-by: semantic-release-bot <semantic-release-bot@martynus.net>
+Co-authored-by: rixcian <rostislav.kremecek@protonmail.com>
+
+* fix: useCallback hook for containerRef (#77)
+
+* 1.7.2 (#62)
+
+* fix: add isCompletedStep to the step props (#48)
+
+This will fix the type 'IntrinsicAttributes & ObjectDto' problem on Step.
+
+Co-authored-by: Jean Verster <jeanverster0107@gmail.com>
+
+* chore(release): 1.6.2 [skip ci]
+
+## [1.6.2](https://github.com/jeanverster/chakra-ui-steps/compare/v1.6.1...v1.6.2) (2022-02-14)
+
+### Bug Fixes
+
+* add isCompletedStep to the step props ([#48](https://github.com/jeanverster/chakra-ui-steps/issues/48)) ([be22925](https://github.com/jeanverster/chakra-ui-steps/commit/be22925117a8f6c433b487c9af667950c7d31717))
+
+* feat: switch to vite (#54)
+
+* fix: update donation link
+
+* Release 1.6.2 (#49)
+
+* fix: add isCompletedStep to the step props (#48)
+
+This will fix the type 'IntrinsicAttributes & ObjectDto' problem on Step.
+
+Co-authored-by: Jean Verster <jeanverster0107@gmail.com>
+
+* chore(release): 1.6.2 [skip ci]
+
+## [1.6.2](https://github.com/jeanverster/chakra-ui-steps/compare/v1.6.1...v1.6.2) (2022-02-14)
+
+### Bug Fixes
+
+* add isCompletedStep to the step props ([#48](https://github.com/jeanverster/chakra-ui-steps/issues/48)) ([be22925](https://github.com/jeanverster/chakra-ui-steps/commit/be22925117a8f6c433b487c9af667950c7d31717))
+
+Co-authored-by: Houssem Yahiaoui <houssem.yahiaoui.ai@gmail.com>
+Co-authored-by: semantic-release-bot <semantic-release-bot@martynus.net>
+
+* merge master
+
+* chore: configure yarn workspaces
+
+* feat: vitest over jest
+
+* chore: reference local package correctly
+
+* feat: setup gh actions
+
+* chore: fix indentation
+
+* chore: remove jest specific commands
+
+Co-authored-by: Houssem Yahiaoui <houssem.yahiaoui.ai@gmail.com>
+Co-authored-by: semantic-release-bot <semantic-release-bot@martynus.net>
+
+* fix actions
+
+* trigger build
+
+* remove paths
+
+* update action config
+
+* set persist credentials to fasle
+
+* chore(release): 1.0.0 [skip ci]
+
+# chakra-ui-steps-v1.0.0 (2022-03-19)
+
+### Features
+
+* switch to vite ([#54](https://github.com/jeanverster/chakra-ui-steps/issues/54)) ([2683cd5](https://github.com/jeanverster/chakra-ui-steps/commit/2683cd52363c46b98eded64256b39f6c6a5da8cc)), closes [#49](https://github.com/jeanverster/chakra-ui-steps/issues/49) [#48](https://github.com/jeanverster/chakra-ui-steps/issues/48) [#48](https://github.com/jeanverster/chakra-ui-steps/issues/48)
+
+* trigger ci
+
+* merge changes
+
+* refactor: export components types (#59)
+
+* Refactor/split step label (#60)
+
+* refactor: add option to style iconLabel separately
+
+* docs: add iconLabel to README
+
+Co-authored-by: Jean Verster <jeanverster0107@gmail.com>
+
+Co-authored-by: Houssem Yahiaoui <houssem.yahiaoui.ai@gmail.com>
+Co-authored-by: semantic-release-bot <semantic-release-bot@martynus.net>
+Co-authored-by: rixcian <rostislav.kremecek@protonmail.com>
+
+* Release 1.7.3 (#69)
+
+* fix: bump framer dep to v6 (#68)
+
+* chore(release): 1.7.3 [skip ci]
+
+# [chakra-ui-steps-v1.7.3](https://github.com/jeanverster/chakra-ui-steps/compare/chakra-ui-steps-v1.7.2...chakra-ui-steps-v1.7.3) (2022-05-06)
+
+### Bug Fixes
+
+* bump framer dep to v6 ([#68](https://github.com/jeanverster/chakra-ui-steps/issues/68)) ([cdc0bc7](https://github.com/jeanverster/chakra-ui-steps/commit/cdc0bc73c536ce2e5b11a1854494a285d46ea1c6))
+
+Co-authored-by: semantic-release-bot <semantic-release-bot@martynus.net>
+
+* trigger ci
+
+* [refactor] Use callback hook for containerRef
+
+This ensures the node is always set to read the offsetWidth
+
+Resolves https://github.com/jeanverster/chakra-ui-steps/issues/76
+
+Needs review
+
+Co-authored-by: Jean Verster <jeanverster0107@gmail.com>
+Co-authored-by: Houssem Yahiaoui <houssem.yahiaoui.ai@gmail.com>
+Co-authored-by: semantic-release-bot <semantic-release-bot@martynus.net>
+Co-authored-by: rixcian <rostislav.kremecek@protonmail.com>
+
+* fix: root node_modules for emotion res
+
+chore: add readme to cui steps root
+
+* chore: bump version
+
+* chore(release): 1.7.4 [skip ci]
+
+# [chakra-ui-steps-v1.7.4](https://github.com/jeanverster/chakra-ui-steps/compare/chakra-ui-steps-v1.7.3...chakra-ui-steps-v1.7.4) (2022-08-12)
+
+### Bug Fixes
+
+* root node_modules for emotion res ([7d0188a](https://github.com/jeanverster/chakra-ui-steps/commit/7d0188a9176186f721e375f0261423adea49b988))
+* useCallback hook for containerRef ([#77](https://github.com/jeanverster/chakra-ui-steps/issues/77)) ([4d1a378](https://github.com/jeanverster/chakra-ui-steps/commit/4d1a378f46f5ef52814255b9a9aeee6c6fe7d828)), closes [#62](https://github.com/jeanverster/chakra-ui-steps/issues/62) [#48](https://github.com/jeanverster/chakra-ui-steps/issues/48) [#48](https://github.com/jeanverster/chakra-ui-steps/issues/48) [#54](https://github.com/jeanverster/chakra-ui-steps/issues/54) [#49](https://github.com/jeanverster/chakra-ui-steps/issues/49) [#48](https://github.com/jeanverster/chakra-ui-steps/issues/48) [#48](https://github.com/jeanverster/chakra-ui-steps/issues/48) [#49](https://github.com/jeanverster/chakra-ui-steps/issues/49) [#48](https://github.com/jeanverster/chakra-ui-steps/issues/48) [#48](https://github.com/jeanverster/chakra-ui-steps/issues/48) [#59](https://github.com/jeanverster/chakra-ui-steps/issues/59) [#60](https://github.com/jeanverster/chakra-ui-steps/issues/60) [#69](https://github.com/jeanverster/chakra-ui-steps/issues/69) [#68](https://github.com/jeanverster/chakra-ui-steps/issues/68) [#68](https://github.com/jeanverster/chakra-ui-steps/issues/68)
+
+* chore: update gh actions (#82)
+
+* feat: make it possible to defined checkIcon and state at each Step (#78)
+
+* Added checkIcon to Steps
+
+* added state to Steps
+
+* update README
+
+* revert double quotes
+
+* redo jsx double quotes
+
+* Added storybook examples and a prop to keep showing errors in red
+
+* chore(release): 1.8.0 [skip ci]
+
+# [chakra-ui-steps-v1.8.0](https://github.com/jeanverster/chakra-ui-steps/compare/chakra-ui-steps-v1.7.4...chakra-ui-steps-v1.8.0) (2022-10-01)
+
+### Features
+
+* make it possible to defined checkIcon and state at each Step ([#78](https://github.com/jeanverster/chakra-ui-steps/issues/78)) ([7925c77](https://github.com/jeanverster/chakra-ui-steps/commit/7925c77efa1512f53bafff9f1126c5dd4683fd6a))
+
+* chore: update gitgnore
+
+* feat: custom error icon (#93)
+
+* feature(error): implement functionality to provide a custom error icon
+
+* chore: remove unused value and re-add to package.json
+
+* chore: revert App
+
+* chore(release): 1.9.0 [skip ci]
+
+# [chakra-ui-steps-v1.9.0](https://github.com/jeanverster/chakra-ui-steps/compare/chakra-ui-steps-v1.8.0...chakra-ui-steps-v1.9.0) (2022-11-22)
+
+### Features
+
+* custom error icon ([#93](https://github.com/jeanverster/chakra-ui-steps/issues/93)) ([b5d4041](https://github.com/jeanverster/chakra-ui-steps/commit/b5d4041ad08315e2e6464630af6a6fd4b435d383))
+
+* feat: website (#103)
+
+* bootstrap website using nextjs
+
+* website work
+
+* feat: website updates
+
+* website updates
+
+* feat: website updates
+
+* feat: add trackColor prop
+
+fix: refactor styles
+
+* BREAKING CHANGE: rename StepsStyleConfig to StepsTheme
+
+chore: add trackColor to docs
+
+* chore: consolidate imports
+
+* feat: update to react 18
+
+* chore: remove deprecated StylesProvider
+
+* feat: website updates
+
+* feat: mobile nav & more updates
+
+* chore: add uncommitted changes
+
+* chore: cleanup default styles
+
+feat: website updates
+
+* feat: add contributing.md
+
+* feat: website improvements
+
+fix: make vertical steps clickable
+
+* chore: fix types
+
+* chore: add more tests
+
+* chore(release): 2.0.0 [skip ci]
+
+# [chakra-ui-steps-v2.0.0](https://github.com/jeanverster/chakra-ui-steps/compare/chakra-ui-steps-v1.9.0...chakra-ui-steps-v2.0.0) (2023-01-08)
+
+### Features
+
+* website ([#103](https://github.com/jeanverster/chakra-ui-steps/issues/103)) ([05e1efd](https://github.com/jeanverster/chakra-ui-steps/commit/05e1efd31e11299cc081282be66a9159c85cc790))
+
+### BREAKING CHANGES
+
+* rename StepsStyleConfig to StepsTheme
+
+chore: add trackColor to docs
+
+* chore: consolidate imports
+
+* feat: update to react 18
+
+* chore: remove deprecated StylesProvider
+
+* feat: website updates
+
+* feat: mobile nav & more updates
+
+* chore: add uncommitted changes
+
+* chore: cleanup default styles
+
+feat: website updates
+
+* feat: add contributing.md
+
+* feat: website improvements
+
+fix: make vertical steps clickable
+
+* chore: fix types
+
+* chore: add more tests
+
+* fix: no labels
+
+* chore(release): 2.0.1 [skip ci]
+
+# [chakra-ui-steps-v2.0.1](https://github.com/jeanverster/chakra-ui-steps/compare/chakra-ui-steps-v2.0.0...chakra-ui-steps-v2.0.1) (2023-01-08)
+
+### Bug Fixes
+
+* no labels ([9d8e19e](https://github.com/jeanverster/chakra-ui-steps/commit/9d8e19e0a417c042c891941e8d90bdeb58ed7ae6))
+
+* chore: add upgrade guide
+
+* merge
+
+* chore: more fixes
+
+* chore: remove duplicate stories
+
+Co-authored-by: semantic-release-bot <semantic-release-bot@martynus.net>
+Co-authored-by: moosefaceee <danielmharten@gmail.com>
+Co-authored-by: Gergely Gazda <info@gazdagergo.com>
+Co-authored-by: Houssem Yahiaoui <houssem.yahiaoui.ai@gmail.com>
+Co-authored-by: rixcian <rostislav.kremecek@protonmail.com>
+Co-authored-by: Curdin Krummenacher <curdin.k@gmail.com>
+Co-authored-by: Anders Bech Mellson <mellson@icloud.com>",Jean Verster,jeanverster0107@gmail.com,GitHub,noreply@github.com,https://github.com/jeanverster/chakra-ui-steps/commit/972d53b2726f17e289366a61e27b63f18c79e8dd,['7c59690e2fa0f65cb7cca494a2c7ba6d81a174f5'],11512,22972,34484,"[{'filename': '.github/workflows/publish.yml', 'additions': 0, 'deletions': 1, 'changes': 1}, {'filename': '.gitignore', 'additions': 1, 'deletions': 0, 'changes': 1}, {'filename': 'CONTRIBUTING.md', 'additions': 85, 'deletions': 0, 'changes': 85}, {'filename': 'README.md', 'additions': 25, 'deletions': 27, 'changes': 52}, {'filename': 'chakra-ui-steps/.storybook/main.js', 'additions': 3, 'deletions': 26, 'changes': 29}, {'filename': 'chakra-ui-steps/.storybook/preview.tsx', 'additions': 62, 'deletions': 7, 'changes': 69}, {'filename': 'chakra-ui-steps/CHANGELOG.md', 'additions': 54, 'deletions': 0, 'changes': 54}, {'filename': 'chakra-ui-steps/README.md', 'additions': 30, 'deletions': 18, 'changes': 48}, {'filename': 'chakra-ui-steps/package.json', 'additions': 22, 'deletions': 19, 'changes': 41}, {'filename': 'chakra-ui-steps/src/components/Connector/index.tsx', 'additions': 0, 'deletions': 80, 'changes': 80}, {'filename': 'chakra-ui-steps/src/components/HorizontalStep/index.tsx', 'additions': 87, 'deletions': 0, 'changes': 87}, {'filename': 'chakra-ui-steps/src/components/Icons/Check.tsx', 'additions': 1, 'deletions': 2, 'changes': 3}, {'filename': 'chakra-ui-steps/src/components/Icons/Close.tsx', 'additions': 2, 'deletions': 3, 'changes': 5}, {'filename': 'chakra-ui-steps/src/components/Icons/Warning.tsx', 'additions': 6, 'deletions': 0, 'changes': 6}, {'filename': 'chakra-ui-steps/src/components/Icons/index.ts', 'additions': 1, 'deletions': 0, 'changes': 1}, {'filename': 'chakra-ui-steps/src/components/Step/index.tsx', 'additions': 31, 'deletions': 120, 'changes': 151}, {'filename': 'chakra-ui-steps/src/components/StepIcon/index.tsx', 'additions': 27, 'deletions': 19, 'changes': 46}, {'filename': 'chakra-ui-steps/src/components/StepIconContainer/index.tsx', 'additions': 37, 'deletions': 0, 'changes': 37}, {'filename': 'chakra-ui-steps/src/components/StepLabel/index.tsx', 'additions': 5, 'deletions': 15, 'changes': 20}, {'filename': 'chakra-ui-steps/src/components/Steps/index.tsx', 'additions': 58, 'deletions': 21, 'changes': 79}, {'filename': 'chakra-ui-steps/src/components/VerticalStep/index.tsx', 'additions': 92, 'deletions': 0, 'changes': 92}, {'filename': 'chakra-ui-steps/src/context/index.tsx', 'additions': 9, 'deletions': 17, 'changes': 26}, {'filename': 'chakra-ui-steps/src/hooks/useSteps.ts', 'additions': 2, 'deletions': 2, 'changes': 4}, {'filename': 'chakra-ui-steps/src/index.ts', 'additions': 3, 'deletions': 4, 'changes': 7}, {'filename': 'chakra-ui-steps/src/theme/index.ts', 'additions': 212, 'deletions': 84, 'changes': 296}, {'filename': 'chakra-ui-steps/src/types/index.ts', 'additions': 15, 'deletions': 0, 'changes': 15}, {'filename': 'chakra-ui-steps/src/utils/styles.ts', 'additions': 127, 'deletions': 0, 'changes': 127}, {'filename': 'chakra-ui-steps/src/utils/test-utils.tsx', 'additions': 2, 'deletions': 2, 'changes': 4}, {'filename': 'chakra-ui-steps/stories/Steps.stories.tsx', 'additions': 86, 'deletions': 73, 'changes': 159}, {'filename': 'chakra-ui-steps/test/steps.test.tsx', 'additions': 50, 'deletions': 1, 'changes': 51}, {'filename': 'chakra-ui-steps/tsconfig.json', 'additions': 4, 'deletions': 2, 'changes': 6}, {'filename': 'chakra-ui-steps/vitest.config.js', 'additions': 0, 'deletions': 7, 'changes': 7}, {'filename': 'chakra-ui-steps/yarn.lock', 'additions': 0, 'deletions': 16664, 'changes': 16664}, {'filename': 'package.json', 'additions': 8, 'deletions': 2, 'changes': 10}, {'filename': 'website/.eslintrc.json', 'additions': 3, 'deletions': 0, 'changes': 3}, {'filename': 'website/.gitignore', 'additions': 35, 'deletions': 21, 'changes': 56}, {'filename': 'website/.prettierrc', 'additions': 19, 'deletions': 0, 'changes': 19}, {'filename': 'website/README.md', 'additions': 34, 'deletions': 0, 'changes': 34}, {'filename': 'website/code-samples/examples/BasicExample.tsx', 'additions': 58, 'deletions': 0, 'changes': 58}, {'filename': 'website/code-samples/examples/DescriptionsExample.tsx', 'additions': 62, 'deletions': 0, 'changes': 62}, {'filename': 'website/code-samples/examples/VerticalExample.tsx', 'additions': 63, 'deletions': 0, 'changes': 63}, {'filename': 'website/code-samples/examples/index.ts', 'additions': 3, 'deletions': 0, 'changes': 3}, {'filename': 'website/code-samples/props/index.tsx', 'additions': 158, 'deletions': 0, 'changes': 158}, {'filename': 'website/code-samples/snippets/ExtendThemeSnippet.tsx', 'additions': 16, 'deletions': 0, 'changes': 16}, {'filename': 'website/code-samples/snippets/UseStepsSnippet.tsx', 'additions': 17, 'deletions': 0, 'changes': 17}, {'filename': 'website/components/ColorModeSwitcher/ColorModeSwitcher.tsx', 'additions': 27, 'deletions': 0, 'changes': 27}, {'filename': 'website/components/ColorModeSwitcher/index.ts', 'additions': 1, 'deletions': 0, 'changes': 1}, {'filename': 'website/components/CopyButton/CopyButton.tsx', 'additions': 24, 'deletions': 0, 'changes': 24}, {'filename': 'website/components/ErrorMessage/ErrorMessage.tsx', 'additions': 23, 'deletions': 0, 'changes': 23}, {'filename': 'website/components/ErrorMessage/index.ts', 'additions': 1, 'deletions': 0, 'changes': 1}, {'filename': 'website/components/Header/Header.tsx', 'additions': 30, 'deletions': 0, 'changes': 30}, {'filename': 'website/components/Header/index.ts', 'additions': 1, 'deletions': 0, 'changes': 1}, {'filename': 'website/components/LazyCodeLoader/LazyCodeLoader.tsx', 'additions': 33, 'deletions': 0, 'changes': 33}, {'filename': 'website/components/LazyRender/LazyRender.tsx', 'additions': 61, 'deletions': 0, 'changes': 61}, {'filename': 'website/components/Logo/Logo.tsx', 'additions': 16, 'deletions': 0, 'changes': 16}, {'filename': 'website/components/Logo/index.ts', 'additions': 1, 'deletions': 0, 'changes': 1}, {'filename': 'website/components/MobileNav/MobileNav.tsx', 'additions': 193, 'deletions': 0, 'changes': 193}, {'filename': 'website/components/NavSection/NavSection.tsx', 'additions': 31, 'deletions': 0, 'changes': 31}, {'filename': 'website/components/NavSection/index.ts', 'additions': 1, 'deletions': 0, 'changes': 1}, {'filename': 'website/components/RadioCard/RadioCard.tsx', 'additions': 67, 'deletions': 0, 'changes': 67}, {'filename': 'website/components/RadioCard/index.ts', 'additions': 1, 'deletions': 0, 'changes': 1}, {'filename': 'website/components/ReactHookFormExample/Step1/Step1.tsx', 'additions': 68, 'deletions': 0, 'changes': 68}, {'filename': 'website/components/ReactHookFormExample/Step1/index.ts', 'additions': 1, 'deletions': 0, 'changes': 1}, {'filename': 'website/components/ReactHookFormExample/Step2/Step2.tsx', 'additions': 73, 'deletions': 0, 'changes': 73}, {'filename': 'website/components/ReactHookFormExample/Step2/index.ts', 'additions': 1, 'deletions': 0, 'changes': 1}, {'filename': 'website/components/ReactHookFormExample/Step3/Step3.tsx', 'additions': 75, 'deletions': 0, 'changes': 75}, {'filename': 'website/components/ReactHookFormExample/Step3/index.ts', 'additions': 1, 'deletions': 0, 'changes': 1}, {'filename': 'website/components/ReactHookFormExample/Step4/Step4.tsx', 'additions': 84, 'deletions': 0, 'changes': 84}, {'filename': 'website/components/ReactHookFormExample/Step4/index.ts', 'additions': 1, 'deletions': 0, 'changes': 1}, {'filename': 'website/components/ReactHookFormExample/index.tsx', 'additions': 103, 'deletions': 0, 'changes': 103}, {'filename': 'website/components/SideNav/SideNav.tsx', 'additions': 160, 'deletions': 0, 'changes': 160}, {'filename': 'website/components/SideNav/index.ts', 'additions': 1, 'deletions': 0, 'changes': 1}, {'filename': 'website/components/SideNavItem/SideNavItem.tsx', 'additions': 45, 'deletions': 0, 'changes': 45}, {'filename': 'website/components/SideNavItem/index.ts', 'additions': 1, 'deletions': 0, 'changes': 1}, {'filename': 'website/components/index.ts', 'additions': 6, 'deletions': 0, 'changes': 6}, {'filename': 'website/constants/index.ts', 'additions': 16, 'deletions': 0, 'changes': 16}, {'filename': 'website/containers/CodeHighlight/CodeHighlight.tsx', 'additions': 35, 'deletions': 0, 'changes': 35}, {'filename': 'website/containers/SectionWrap/SectionWrap.tsx', 'additions': 140, 'deletions': 0, 'changes': 140}, {'filename': 'website/containers/StepProps/StepProps.tsx', 'additions': 15, 'deletions': 0, 'changes': 15}, {'filename': 'website/context/createFastContext.tsx', 'additions': 71, 'deletions': 0, 'changes': 71}, {'filename': 'website/hooks/useCardBg.ts', 'additions': 2, 'deletions': 0, 'changes': 2}, {'filename': 'website/index.html', 'additions': 0, 'deletions': 13, 'changes': 13}, {'filename': 'website/layouts/Page/Page.tsx', 'additions': 70, 'deletions': 0, 'changes': 70}, {'filename': 'website/layouts/Page/index.ts', 'additions': 1, 'deletions': 0, 'changes': 1}, {'filename': 'website/layouts/index.ts', 'additions': 1, 'deletions': 0, 'changes': 1}, {'filename': 'website/mdx/client.tsx', 'additions': 28, 'deletions': 0, 'changes': 28}, {'filename': 'website/mdx/components/Anchor.tsx', 'additions': 20, 'deletions': 0, 'changes': 20}, {'filename': 'website/mdx/components/BlockQuote.tsx', 'additions': 18, 'deletions': 0, 'changes': 18}, {'filename': 'website/mdx/components/Code.tsx', 'additions': 132, 'deletions': 0, 'changes': 132}, {'filename': 'website/mdx/components/Image.tsx', 'additions': 16, 'deletions': 0, 'changes': 16}, {'filename': 'website/mdx/components/P.tsx', 'additions': 9, 'deletions': 0, 'changes': 9}, {'filename': 'website/mdx/components/index.tsx', 'additions': 115, 'deletions': 0, 'changes': 115}, {'filename': 'website/mdx/server.tsx', 'additions': 170, 'deletions': 0, 'changes': 170}, {'filename': 'website/next-env.d.ts', 'additions': 5, 'deletions': 0, 'changes': 5}, {'filename': 'website/next.config.js', 'additions': 6, 'deletions': 0, 'changes': 6}, {'filename': 'website/package.json', 'additions': 28, 'deletions': 15, 'changes': 43}, {'filename': 'website/pages/404.tsx', 'additions': 29, 'deletions': 0, 'changes': 29}, {'filename': 'website/pages/_app.tsx', 'additions': 62, 'deletions': 0, 'changes': 62}, {'filename': 'website/pages/api/hello.ts', 'additions': 13, 'deletions': 0, 'changes': 13}, {'filename': 'website/pages/examples.tsx', 'additions': 74, 'deletions': 0, 'changes': 74}, {'filename': 'website/pages/hooks.tsx', 'additions': 20, 'deletions': 0, 'changes': 20}, {'filename': 'website/pages/index.tsx', 'additions': 180, 'deletions': 0, 'changes': 180}, {'filename': 'website/pages/props.tsx', 'additions': 16, 'deletions': 0, 'changes': 16}, {'filename': 'website/public/54212428.png', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'website/public/favicon.ico', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'website/public/vercel.svg', 'additions': 4, 'deletions': 0, 'changes': 4}, {'filename': 'website/sections/getting-started/GettingStarted.tsx', 'additions': 5, 'deletions': 0, 'changes': 5}, {'filename': 'website/sections/getting-started/index.mdx', 'additions': 29, 'deletions': 0, 'changes': 29}, {'filename': 'website/sections/installation/index.mdx', 'additions': 27, 'deletions': 0, 'changes': 27}, {'filename': 'website/sections/usage/index.mdx', 'additions': 166, 'deletions': 0, 'changes': 166}, {'filename': 'website/src/App.css', 'additions': 0, 'deletions': 42, 'changes': 42}, {'filename': 'website/src/App.tsx', 'additions': 0, 'deletions': 53, 'changes': 53}, {'filename': 'website/src/favicon.svg', 'additions': 0, 'deletions': 15, 'changes': 15}, {'filename': 'website/src/index.css', 'additions': 0, 'deletions': 13, 'changes': 13}, {'filename': 'website/src/logo.svg', 'additions': 0, 'deletions': 7, 'changes': 7}, {'filename': 'website/src/main.tsx', 'additions': 0, 'deletions': 24, 'changes': 24}, {'filename': 'website/src/vite-env.d.ts', 'additions': 0, 'deletions': 2, 'changes': 2}, {'filename': 'website/styles/Home.module.css', 'additions': 116, 'deletions': 0, 'changes': 116}, {'filename': 'website/styles/globals.css', 'additions': 16, 'deletions': 0, 'changes': 16}, {'filename': 'website/theme/index.ts', 'additions': 197, 'deletions': 0, 'changes': 197}, {'filename': 'website/tsconfig.json', 'additions': 29, 'deletions': 13, 'changes': 42}, {'filename': 'website/tsconfig.node.json', 'additions': 0, 'deletions': 8, 'changes': 8}, {'filename': 'website/types/index.ts', 'additions': 124, 'deletions': 0, 'changes': 124}, {'filename': 'website/utils/getFile.ts', 'additions': 14, 'deletions': 0, 'changes': 14}, {'filename': 'website/utils/index.ts', 'additions': 2, 'deletions': 0, 'changes': 2}, {'filename': 'website/utils/prettyPrintSlug.ts', 'additions': 11, 'deletions': 0, 'changes': 11}, {'filename': 'website/utils/replaceExtension.ts', 'additions': 7, 'deletions': 0, 'changes': 7}, {'filename': 'website/utils/slugify.ts', 'additions': 11, 'deletions': 0, 'changes': 11}, {'filename': 'website/vite.config.ts', 'additions': 0, 'deletions': 12, 'changes': 12}, {'filename': 'website/yarn.lock', 'additions': 0, 'deletions': 1788, 'changes': 1788}, {'filename': 'yarn.lock', 'additions': 6716, 'deletions': 3730, 'changes': 10446}]","['@chakra-ui/react', '@emotion/react', '@emotion/styled', 'framer-motion']",[],[],[],"{'added': ['@chakra-ui/react', 'framer-motion', '@emotion/styled', '@emotion/react'], 'removed': []}","{'added': [], 'removed': []}"
+5006c903d6f00fd6b8d920de8c3ef827b8878be6,2023-01-19 18:03:47+00:00,Release 2.0.2 (#112),Jean Verster,jeanverster0107@gmail.com,GitHub,noreply@github.com,https://github.com/jeanverster/chakra-ui-steps/commit/5006c903d6f00fd6b8d920de8c3ef827b8878be6,['d2287078d2271ff0aa74f0bedeec60d6c8d67ae9'],1226,767,1993,"[{'filename': 'chakra-ui-steps/CHANGELOG.md', 'additions': 0, 'deletions': 8, 'changes': 8}, {'filename': 'chakra-ui-steps/package.json', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'chakra-ui-steps/src/components/HorizontalStep/index.tsx', 'additions': 4, 'deletions': 0, 'changes': 4}, {'filename': 'chakra-ui-steps/src/components/Step/index.tsx', 'additions': 3, 'deletions': 0, 'changes': 3}, {'filename': 'chakra-ui-steps/src/components/VerticalStep/index.tsx', 'additions': 4, 'deletions': 0, 'changes': 4}, {'filename': 'chakra-ui-steps/src/types/index.ts', 'additions': 1, 'deletions': 0, 'changes': 1}, {'filename': 'chakra-ui-steps/stories/Steps.stories.tsx', 'additions': 63, 'deletions': 0, 'changes': 63}, {'filename': 'package.json', 'additions': 8, 'deletions': 0, 'changes': 8}, {'filename': 'website/code-samples/examples/BasicExample.tsx', 'additions': 5, 'deletions': 1, 'changes': 6}, {'filename': 'website/code-samples/examples/DescriptionsExample.tsx', 'additions': 5, 'deletions': 1, 'changes': 6}, {'filename': 'website/code-samples/examples/VerticalExample.tsx', 'additions': 5, 'deletions': 1, 'changes': 6}, {'filename': 'website/code-samples/recipes/index.ts', 'additions': 1, 'deletions': 0, 'changes': 1}, {'filename': 'website/code-samples/recipes/react-hook-form/RadioCard/RadioCard.tsx', 'additions': 67, 'deletions': 0, 'changes': 67}, {'filename': 'website/code-samples/recipes/react-hook-form/RadioCard/index.ts', 'additions': 1, 'deletions': 0, 'changes': 1}, {'filename': 'website/code-samples/recipes/react-hook-form/Step1/Step1.tsx', 'additions': 2, 'deletions': 3, 'changes': 5}, {'filename': 'website/code-samples/recipes/react-hook-form/Step1/index.ts', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'website/code-samples/recipes/react-hook-form/Step2/Step2.tsx', 'additions': 2, 'deletions': 3, 'changes': 5}, {'filename': 'website/code-samples/recipes/react-hook-form/Step2/index.ts', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'website/code-samples/recipes/react-hook-form/Step3/Step3.tsx', 'additions': 1, 'deletions': 2, 'changes': 3}, {'filename': 'website/code-samples/recipes/react-hook-form/Step3/index.ts', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'website/code-samples/recipes/react-hook-form/Step4/Step4.tsx', 'additions': 2, 'deletions': 3, 'changes': 5}, {'filename': 'website/code-samples/recipes/react-hook-form/Step4/index.ts', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'website/code-samples/recipes/react-hook-form/index.tsx', 'additions': 31, 'deletions': 7, 'changes': 38}, {'filename': 'website/components/index.ts', 'additions': 0, 'deletions': 1, 'changes': 1}, {'filename': 'website/mdx/server.tsx', 'additions': 72, 'deletions': 21, 'changes': 93}, {'filename': 'website/pages/examples.tsx', 'additions': 4, 'deletions': 4, 'changes': 8}, {'filename': 'website/pages/index.tsx', 'additions': 4, 'deletions': 14, 'changes': 18}, {'filename': 'website/pages/recipes.tsx', 'additions': 59, 'deletions': 0, 'changes': 59}, {'filename': 'yarn.lock', 'additions': 881, 'deletions': 697, 'changes': 1578}]","['@chakra-ui/react', '@emotion/react', '@emotion/styled', 'framer-motion']",['npm-run-all'],"['@chakra-ui/react', '@emotion/react', '@emotion/styled', 'framer-motion']",[],"{'added': [], 'removed': []}","{'added': ['npm-run-all'], 'removed': []}"

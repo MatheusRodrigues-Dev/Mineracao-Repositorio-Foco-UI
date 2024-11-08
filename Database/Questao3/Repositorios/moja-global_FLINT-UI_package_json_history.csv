@@ -1,2 +1,12 @@
-commit,date,dependencies,dev_dependencies,prev_dependencies,prev_dev_dependencies,dependencies_changes,dev_dependencies_changes
-5a4592f7162929352d1649a68ca35ec863ddcf81,2022-03-23 04:25:17+00:00,[],"['@commitlint/cli', '@commitlint/config-conventional', 'husky', 'commitizen', 'cz-conventional-changelog']",,,"{'added': [], 'removed': []}","{'added': ['@commitlint/cli', '@commitlint/config-conventional', 'husky', 'commitizen', 'cz-conventional-changelog'], 'removed': []}"
+commit,date,message,author_name,author_email,committer_name,committer_email,url,parents,additions,deletions,total_changes,files_changed,dependencies,dev_dependencies,prev_dependencies,prev_dev_dependencies,dependencies_changes,dev_dependencies_changes
+5a4592f7162929352d1649a68ca35ec863ddcf81,2022-03-23 04:25:17+00:00,"FEAT: add Husky and Commitlint (#146)
+
+* feat: add husky and commitlint to the project
+
+* feat: add commitizen
+
+* docs: update README documentation to add commit convention and branch-name convention
+
+* chore: minor add
+
+Co-authored-by: Harsh Mishra <erbeusgriffincasper@gmail.com>",Soham Shah,47717492+sohamsshah@users.noreply.github.com,GitHub,noreply@github.com,https://github.com/moja-global/FLINT-UI/commit/5a4592f7162929352d1649a68ca35ec863ddcf81,['0c0de15cdf2c5e491c6152b139e35f95d0ecbcd6'],4859,3082,7941,"[{'filename': '.commitlintrc.js', 'additions': 3, 'deletions': 0, 'changes': 3}, {'filename': '.czrc', 'additions': 1, 'deletions': 0, 'changes': 1}, {'filename': '.husky/commit-msg', 'additions': 4, 'deletions': 0, 'changes': 4}, {'filename': '.husky/pre-commit', 'additions': 4, 'deletions': 0, 'changes': 4}, {'filename': 'README.md', 'additions': 41, 'deletions': 5, 'changes': 46}, {'filename': 'flint.ui/package.json', 'additions': 1, 'deletions': 0, 'changes': 1}, {'filename': 'flint.ui/yarn.lock', 'additions': 3047, 'deletions': 3077, 'changes': 6124}, {'filename': 'package.json', 'additions': 13, 'deletions': 0, 'changes': 13}, {'filename': 'yarn.lock', 'additions': 1745, 'deletions': 0, 'changes': 1745}]",[],"['@commitlint/cli', '@commitlint/config-conventional', 'husky', 'commitizen', 'cz-conventional-changelog']",,,"{'added': [], 'removed': []}","{'added': ['@commitlint/cli', '@commitlint/config-conventional', 'husky', 'commitizen', 'cz-conventional-changelog'], 'removed': []}"

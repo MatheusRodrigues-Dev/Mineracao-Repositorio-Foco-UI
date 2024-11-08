@@ -1,2 +1,6 @@
-commit,date,dependencies,dev_dependencies,prev_dependencies,prev_dev_dependencies,dependencies_changes,dev_dependencies_changes
-4c185790d0f2268995f583b1ac9dc86ba51e0162,2019-12-21 00:51:43+00:00,[],[],,,"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+commit,date,message,author_name,author_email,committer_name,committer_email,url,parents,additions,deletions,total_changes,files_changed,dependencies,dev_dependencies,prev_dependencies,prev_dev_dependencies,dependencies_changes,dev_dependencies_changes
+4c185790d0f2268995f583b1ac9dc86ba51e0162,2019-12-21 00:51:43+00:00,"fix(xcode11): available to  Xcode below version11
+
+优化:引入该三方库的项目可以在xcode11以下的xcode上编译运行
+
+fix #470",Elon Chan,luohanchenyilong@163.com,Elon Chan,luohanchenyilong@163.com,https://github.com/ChenYilong/CYLTabBarController/commit/4c185790d0f2268995f583b1ac9dc86ba51e0162,['63e81cc9274f3ea3d7cac7dcc7d6f9454e327992'],29,4,33,"[{'filename': '.gitignore', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'CHANGELOG.md', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'CYLTabBarController.podspec', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'CYLTabBarController.xcodeproj/project.xcworkspace/xcuserdata/chenyilong.xcuserdatad/UserInterfaceState.xcuserstate', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'Podfile', 'additions': 2, 'deletions': 2, 'changes': 4}, {'filename': 'package.json', 'additions': 25, 'deletions': 0, 'changes': 25}]",[],[],,,"{'added': [], 'removed': []}","{'added': [], 'removed': []}"

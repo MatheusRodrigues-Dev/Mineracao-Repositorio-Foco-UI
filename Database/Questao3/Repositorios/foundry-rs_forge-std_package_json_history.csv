@@ -1,26 +1,267 @@
-commit,date,dependencies,dev_dependencies,prev_dependencies,prev_dev_dependencies,dependencies_changes,dev_dependencies_changes
-f36dab24d63d1c1945a05ed375ce341d3c1a49ed,2022-09-14 21:49:37+00:00,[],[],,,"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-17656a2fa5453f495d8c1302a0cedded912457eb,2022-10-31 19:49:32+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-054a250aa5e3af9aea0bc8c12046a14720857b29,2022-11-22 10:45:23+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-a414a03a8f1b886be2b8f6f926294623bb01de69,2022-12-15 14:50:47+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-a2edd39db95df7e9dd3f9ef9edc8c55fefddb6df,2023-02-14 16:52:57+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-ddf40d603b3f7e14f81dbf0bc61559079e2ac2f4,2023-03-01 00:00:51+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-0d1a71813b6ee111d26dfaa8e4c9387dcf4ec1f2,2023-03-16 16:54:57+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-2b58ecbcf3dfde7a75959dc7b4eb3d0670278de6,2023-03-16 16:56:39+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-fc560fa34fa12a335a50c35d92e55a6628ca467c,2023-04-06 14:21:07+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-97810ebcbede585b7966ec982e5d3e3403a68c7a,2023-04-27 20:50:14+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-73d44ec7d124e3831bc5f832267889ffb6f9bc3f,2023-04-30 13:59:39+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-e8a047e3f40f13fa37af6fe14e6e06283d9a060e,2023-05-26 15:31:43+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-74cfb77e308dd188d2f58864aaf44963ae6b88b1,2023-07-11 18:00:49+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-f73c73d2018eb6a111f35e4dae7b4f27401e9421,2023-10-05 20:33:34+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-bdea49f9bb3c58c8c35850c3bdc17eaeea756e9a,2023-11-13 23:20:31+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-2f112697506eab12d433a65fdc31a639548fe365,2023-11-20 14:38:35+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-155d547c449afa8715f538d69454b83944117811,2023-12-15 16:09:42+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-36c303b7ffdd842d06b1ec2744c9b9b5fb3083f3,2024-01-11 19:10:02+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-ae570fec082bfe1c1f45b0acca4a2b4f84d345ce,2024-01-17 21:48:51+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-978ac6fadb62f5f0b723c996f64be52eddba6801,2024-05-08 15:23:54+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-8948d45d3d9022c508b83eb5d26fd3a7a93f2f32,2024-06-29 19:45:05+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-07263d193d621c4b2b0ce8b4d54af58f6957d97d,2024-07-02 15:18:40+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-1714bee72e286e73f76e320d110e0eaf5c4e649d,2024-08-05 16:19:26+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-8f24d6b04c92975e0795b5868aa0d783251cdeaa,2024-09-26 15:22:02+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-1eea5bae12ae557d589f9f0f0edae2faa47cb262,2024-10-24 22:19:28+00:00,[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+commit,date,message,author_name,author_email,committer_name,committer_email,url,parents,additions,deletions,total_changes,files_changed,dependencies,dev_dependencies,prev_dependencies,prev_dev_dependencies,dependencies_changes,dev_dependencies_changes
+f36dab24d63d1c1945a05ed375ce341d3c1a49ed,2022-09-14 21:49:37+00:00,"feat: add package.json (#176)
+
+Adds a package.json file so forge-std can be properly imported as a git
+dependency.",smartcontracts,kelvinfichter@gmail.com,GitHub,noreply@github.com,https://github.com/foundry-rs/forge-std/commit/f36dab24d63d1c1945a05ed375ce341d3c1a49ed,['1556165a8f3ecfa5620152f77d3a6e5de30d0ff8'],16,0,16,"[{'filename': 'package.json', 'additions': 16, 'deletions': 0, 'changes': 16}]",[],[],,,"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+17656a2fa5453f495d8c1302a0cedded912457eb,2022-10-31 19:49:32+00:00,"feat: forge-std v1.0.0 (#184)
+
+* Modularize forge-std (#126)
+
+* refactor: unbundle cheats from assertions
+
+refactor: new category StdUtils
+refactor: unbundle Test from Script
+
+* Rename ""vm"" to ""vm_cheats"" in ""Cheats.sol""
+
+Mark ""vm_cheats"" as ""private""
+Instantiate a ""vm"" in ""Test.sol""
+
+* refactor: remove deprecated ""lowLevelError""
+
+refactor: rename ""vm_cheats"" to just ""vm""
+refactor: rename ""vm_std_store"" to just ""vm""
+refactor: delete ""INT256_MAX"" and ""UINT256_MAX""
+revert: redeclare ""stdstore"" in ""Test""
+
+* refactor: move ""stdErrors"" to ""Errors.sol""
+
+refactor: move ""stdMath"" to ""Math.sol""
+
+* Add note about versions in ""Errors.sol|
+
+Co-authored-by: Zero Ekkusu <94782988+ZeroEkkusu@users.noreply.github.com>
+
+* chore: delete stale delineators in Errors and Math
+
+chore: delete stale ""using stdStorage for StdStorage""
+
+* refactor: modularize assertions and utils
+
+docs: add NatSpec tag @dev in ""console2""
+refactor: delete log from ""bound"" function
+refactor: move ""addressFromLast20Bytes"" to ""Utils.sol""
+refactor: move ""bound"" to ""Utils.sol""
+refactor: move ""computeCreateAddress"" to ""Utils.sol""
+style: move brackets on same line with ""if"" and ""else"" in ""bound""
+
+* Log bound result with static call to `console.log`
+
+Co-authored-by: Zero Ekkusu <94782988+ZeroEkkusu@users.noreply.github.com>
+
+* fix: reintroduce ""vm"" in ""Script.sol""
+
+chore: silence compiler warning in ""bound""
+refactor: define console2.log address as constant in ""Utils.sol""
+
+* test: move ""testGenerateCorrectAddress"" to ""StdUtils.t.sol""
+
+* Nit: remove unnecessary ""bytes20"" casts
+
+* style: add white-spaces in ""deal""
+
+* fix: readd ""deployCode"" functions with ""val""
+
+* Add ""computeCreate2Address"" utility
+
+Rename ""testGenerateCorrectAddress"" to ""testGenerateCreateAddress""
+
+* refactor: use ""console2"" in ""Utils.sol""
+
+* style: end lines and white spaces
+
+* test: drop pragma to "">=0.8.0"" in ""StdError.t.sol""
+
+chore: remove comment about ""v0.8.10"" in ""Errors.sol""
+
+* refactor: define ""vm"" and ""stdStorage"" in ""TestBase""
+
+feat: add ""Components.sol"" file which re-exports everything
+
+* fix: inherit from DSTest in Test
+
+* feat: ScriptBase
+
+refactor: delete ""TestBase.sol""
+refactor: move TestBase in ""Test.sol""
+
+* ♻️ Make assertions virtual
+
+* ♻️ Make deployCode virtual
+
+* ✨ (Components) Export consoles
+
+* ♻️ (Script) Import Vm
+
+* ♻️ Import from Components
+
+* ♻️ Make bound view
+
+Co-authored-by: Zero Ekkusu <94782988+ZeroEkkusu@users.noreply.github.com>
+
+* feat: make `Script` safer (#147)
+
+* feat: add `stdStorageSafe`
+
+* test(cheats): fix tests
+`deployCode` tests started failing after 01c60f9
+
+* refactor: make components `abstract`
+
+* feat: add `CheatsSafe`
+
+* feat: add `VmSafe`
+
+* refactor: update `Script`
+
+* docs: add license info (#156)
+
+* feat: rebrand components (#157)
+
+* feat: rebrand components
+Rename to Std<Component>
+
+* fix: StdErrors -> StdError
+
+* chore: remove `.DS_Store`
+
+* fix: use `ABIEncoderV2`
+
+* test: correct test name
+
+* fix: add `CommonBase`
+
+* refactor: move test dir to root
+
+* Revert ""refactor: move test dir to root""
+
+This reverts commit f21ef1a4bbc4248e4400befb5d449bfe39259cec.
+
+* refactor: move test dir to root, update ci accordingly
+
+* style: configure and run forge fmt
+
+* ci: split into jobs and add fmt job
+
+* ci: update name and triggers
+
+* ci: remove name field
+
+* feat: better bound, ref https://github.com/foundry-rs/forge-std/issues/188
+
+* fix: bound logs + remove unneeded line
+
+* fix: update require strings
+
+* refactor: clean up `Test` and `Script`
+- do not forge fmt Components import
+- do not import Safe Components in `Test`
+
+* fix: udpate bound to match forge's uint edge bias strategy
+
+* feat: add interfaces (#193)
+
+* chore: update function visibility
+
+* feat: add interfaces
+
+* fix: fix import
+
+* style: consistent spec style
+
+* chore: fix find/replace issue
+
+Co-authored-by: Zero Ekkusu <94782988+ZeroEkkusu@users.noreply.github.com>
+
+* chore: update comments
+
+Co-authored-by: Zero Ekkusu <94782988+ZeroEkkusu@users.noreply.github.com>
+
+Co-authored-by: Zero Ekkusu <94782988+ZeroEkkusu@users.noreply.github.com>
+
+* feat: reimplement `bound` w/ even distribution
+
+* build: rename step
+
+* Add memory-safe notation so that compiling via-ir can optimize effectively (#196)
+
+* test(bound): add even distribution test (#197)
+
+* feat: add `assumeNoPrecompiles` (#195)
+
+* refactor: use fully-qualified paths instead of relative paths
+
+* chore: fix typo
+
+* feat: start adding StdChains
+
+* feat: start adding assumeNoPrecompiles
+
+* feat: add chains
+
+* feat: add precompiles/predeploys
+
+* Revert ""refactor: use fully-qualified paths instead of relative paths""
+
+This reverts commit bb2579e36b0275a8e6d331c09ed3dd35a24ca7e8.
+
+* refactor: use relative paths for compatibility with solc <0.6.9 (no --base-path flag)
+
+* refactor: make assumeNoPrecompiles virtual
+
+* refactor: no more constructor warning from StdChains
+
+* fix: move stdChains into StdCheats, fix constructor initalization order, move cheats into VmSafe that can be safely used
+
+* ♻️ update ds-test (#200)
+
+* ♻️ update ds-test
+
+Signed-off-by: Pascal Marco Caversaccio <pascal.caversaccio@hotmail.ch>
+
+* ♻️  use relative path for ds-test imports
+
+Signed-off-by: Pascal Marco Caversaccio <pascal.caversaccio@hotmail.ch>
+
+Signed-off-by: Pascal Marco Caversaccio <pascal.caversaccio@hotmail.ch>
+
+* refactor: move `UINT256_MAX` to `CommonBase`
+
+Signed-off-by: Pascal Marco Caversaccio <pascal.caversaccio@hotmail.ch>
+Co-authored-by: Paul Razvan Berg <hello@paulrberg.com>
+Co-authored-by: Matt Solomon <matt@mattsolomon.dev>
+Co-authored-by: Drake Evans <31104161+DrakeEvans@users.noreply.github.com>
+Co-authored-by: Pascal Marco Caversaccio <pcaversaccio@users.noreply.github.com>",Ekkusu ゼロ,94782988+ZeroEkkusu@users.noreply.github.com,GitHub,noreply@github.com,https://github.com/foundry-rs/forge-std/commit/17656a2fa5453f495d8c1302a0cedded912457eb,['2a2ce3692b8c1523b29de3ec9d961ee9fbbc43a6'],2553,1870,4423,"[{'filename': '.github/workflows/ci.yml', 'additions': 58, 'deletions': 0, 'changes': 58}, {'filename': '.github/workflows/tests.yml', 'additions': 0, 'deletions': 27, 'changes': 27}, {'filename': '.gitignore', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'LICENSE-APACHE', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'LICENSE-MIT', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'README.md', 'additions': 7, 'deletions': 3, 'changes': 10}, {'filename': 'foundry.toml', 'additions': 19, 'deletions': 0, 'changes': 19}, {'filename': 'lib/ds-test', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'package.json', 'additions': 3, 'deletions': 3, 'changes': 6}, {'filename': 'src/Common.sol', 'additions': 13, 'deletions': 0, 'changes': 13}, {'filename': 'src/Components.sol', 'additions': 13, 'deletions': 0, 'changes': 13}, {'filename': 'src/Script.sol', 'additions': 9, 'deletions': 39, 'changes': 48}, {'filename': 'src/StdAssertions.sol', 'additions': 209, 'deletions': 0, 'changes': 209}, {'filename': 'src/StdCheats.sol', 'additions': 619, 'deletions': 0, 'changes': 619}, {'filename': 'src/StdError.sol', 'additions': 15, 'deletions': 0, 'changes': 15}, {'filename': 'src/StdJson.sol', 'additions': 17, 'deletions': 64, 'changes': 81}, {'filename': 'src/StdMath.sol', 'additions': 43, 'deletions': 0, 'changes': 43}, {'filename': 'src/StdStorage.sol', 'additions': 327, 'deletions': 0, 'changes': 327}, {'filename': 'src/StdUtils.sol', 'additions': 80, 'deletions': 0, 'changes': 80}, {'filename': 'src/Test.sol', 'additions': 7, 'deletions': 1134, 'changes': 1141}, {'filename': 'src/Vm.sol', 'additions': 110, 'deletions': 120, 'changes': 230}, {'filename': 'src/console2.sol', 'additions': 6, 'deletions': 6, 'changes': 12}, {'filename': 'src/interfaces/IERC1155.sol', 'additions': 104, 'deletions': 0, 'changes': 104}, {'filename': 'src/interfaces/IERC165.sol', 'additions': 11, 'deletions': 0, 'changes': 11}, {'filename': 'src/interfaces/IERC20.sol', 'additions': 42, 'deletions': 0, 'changes': 42}, {'filename': 'src/interfaces/IERC4626.sol', 'additions': 189, 'deletions': 0, 'changes': 189}, {'filename': 'src/interfaces/IERC721.sol', 'additions': 163, 'deletions': 0, 'changes': 163}, {'filename': 'src/test/Script.t.sol', 'additions': 0, 'deletions': 20, 'changes': 20}, {'filename': 'src/test/StdMath.t.sol', 'additions': 0, 'deletions': 200, 'changes': 200}, {'filename': 'test/StdAssertions.t.sol', 'additions': 65, 'deletions': 80, 'changes': 145}, {'filename': 'test/StdCheats.t.sol', 'additions': 76, 'deletions': 75, 'changes': 151}, {'filename': 'test/StdError.t.sol', 'additions': 5, 'deletions': 11, 'changes': 16}, {'filename': 'test/StdMath.t.sol', 'additions': 197, 'deletions': 0, 'changes': 197}, {'filename': 'test/StdStorage.t.sol', 'additions': 46, 'deletions': 84, 'changes': 130}, {'filename': 'test/StdUtils.t.sol', 'additions': 96, 'deletions': 0, 'changes': 96}, {'filename': 'test/fixtures/broadcast.log.json', 'additions': 0, 'deletions': 0, 'changes': 0}]",[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+054a250aa5e3af9aea0bc8c12046a14720857b29,2022-11-22 10:45:23+00:00,chore: bump version to v1.1.1 (#234),Matt Solomon,matt@mattsolomon.dev,GitHub,noreply@github.com,https://github.com/foundry-rs/forge-std/commit/054a250aa5e3af9aea0bc8c12046a14720857b29,['a24d813f6bd4ab40e07e8ba940dbbe9cca03f9cd'],1,1,2,"[{'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+a414a03a8f1b886be2b8f6f926294623bb01de69,2022-12-15 14:50:47+00:00,"chore: bump version to v1.2.0 (the upcoming release) (#228)
+
+accidentally skipped v1.1.0 in package.json, see https://github.com/foundry-rs/forge-std/issues/219",Matt Solomon,matt@mattsolomon.dev,GitHub,noreply@github.com,https://github.com/foundry-rs/forge-std/commit/a414a03a8f1b886be2b8f6f926294623bb01de69,['c997b25c69536a15fbb63c9dd75001b89254039b'],1,1,2,"[{'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+a2edd39db95df7e9dd3f9ef9edc8c55fefddb6df,2023-02-14 16:52:57+00:00,chore: bump to v1.4.0 (#300),Matt Solomon,matt@mattsolomon.dev,GitHub,noreply@github.com,https://github.com/foundry-rs/forge-std/commit/a2edd39db95df7e9dd3f9ef9edc8c55fefddb6df,['662ae0d6936654c5d1fb79fc15f521de28edb60e'],1,1,2,"[{'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+ddf40d603b3f7e14f81dbf0bc61559079e2ac2f4,2023-03-01 00:00:51+00:00,chore: v1.5.0 (#315),Matt Solomon,matt@mattsolomon.dev,GitHub,noreply@github.com,https://github.com/foundry-rs/forge-std/commit/ddf40d603b3f7e14f81dbf0bc61559079e2ac2f4,['0ec694d6bc2a3fa31f265957e5fc8fe7b4214e5e'],1,1,2,"[{'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+0d1a71813b6ee111d26dfaa8e4c9387dcf4ec1f2,2023-03-16 16:54:57+00:00,"fix: package.json now specifies to include all sub-directories within src (#324)
+
+Yarn > v2 don't copy subdirectories",Edouard Bougon,15703023+EdouardBougon@users.noreply.github.com,GitHub,noreply@github.com,https://github.com/foundry-rs/forge-std/commit/0d1a71813b6ee111d26dfaa8e4c9387dcf4ec1f2,['73a504d2cf6f37b7ce285b479f4c681f76e95f1b'],2,2,4,"[{'filename': 'package.json', 'additions': 2, 'deletions': 2, 'changes': 4}]",[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+2b58ecbcf3dfde7a75959dc7b4eb3d0670278de6,2023-03-16 16:56:39+00:00,chore: bump to version 1.5.2 (#326),Matt Solomon,matt@mattsolomon.dev,GitHub,noreply@github.com,https://github.com/foundry-rs/forge-std/commit/2b58ecbcf3dfde7a75959dc7b4eb3d0670278de6,['0d1a71813b6ee111d26dfaa8e4c9387dcf4ec1f2'],2,2,4,"[{'filename': 'package.json', 'additions': 2, 'deletions': 2, 'changes': 4}]",[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+fc560fa34fa12a335a50c35d92e55a6628ca467c,2023-04-06 14:21:07+00:00,chore: bump to v1.5.3 (#342),Matt Solomon,matt@mattsolomon.dev,GitHub,noreply@github.com,https://github.com/foundry-rs/forge-std/commit/fc560fa34fa12a335a50c35d92e55a6628ca467c,['0837133d126989f244cd11b444a3e9775dabc171'],1,1,2,"[{'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+97810ebcbede585b7966ec982e5d3e3403a68c7a,2023-04-27 20:50:14+00:00,chore: bump to v1.5.4 (#362),Matt Solomon,matt@mattsolomon.dev,GitHub,noreply@github.com,https://github.com/foundry-rs/forge-std/commit/97810ebcbede585b7966ec982e5d3e3403a68c7a,['e13b0c29537785a55b43f3f1a30af24826574641'],1,1,2,"[{'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+73d44ec7d124e3831bc5f832267889ffb6f9bc3f,2023-04-30 13:59:39+00:00,chore: bump to v1.5.5 (#369),Matt Solomon,matt@mattsolomon.dev,GitHub,noreply@github.com,https://github.com/foundry-rs/forge-std/commit/73d44ec7d124e3831bc5f832267889ffb6f9bc3f,['33eef3e69c613eaccece2112beb3c33cb4fb5e2b'],1,1,2,"[{'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+e8a047e3f40f13fa37af6fe14e6e06283d9a060e,2023-05-26 15:31:43+00:00,chore: bump version (#391),Matt Solomon,matt@mattsolomon.dev,GitHub,noreply@github.com,https://github.com/foundry-rs/forge-std/commit/e8a047e3f40f13fa37af6fe14e6e06283d9a060e,['56db9b5b9a3b62b9245193a68574399000fb8072'],1,1,2,"[{'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+74cfb77e308dd188d2f58864aaf44963ae6b88b1,2023-07-11 18:00:49+00:00,chore: bump to v1.6.0 (#417),Matt Solomon,matt@mattsolomon.dev,GitHub,noreply@github.com,https://github.com/foundry-rs/forge-std/commit/74cfb77e308dd188d2f58864aaf44963ae6b88b1,['1c8d4b4896dffb9a7fbe3a98df5350400c467a32'],1,1,2,"[{'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+f73c73d2018eb6a111f35e4dae7b4f27401e9421,2023-10-05 20:33:34+00:00,build: sync package.json version with release version (#468),Matt Solomon,matt@mattsolomon.dev,GitHub,noreply@github.com,https://github.com/foundry-rs/forge-std/commit/f73c73d2018eb6a111f35e4dae7b4f27401e9421,['dcb0d52bc4399d37a6545848e3b8f9d03c77b98d'],1,1,2,"[{'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+bdea49f9bb3c58c8c35850c3bdc17eaeea756e9a,2023-11-13 23:20:31+00:00,chore: bump to v1.7.2 (#478),Matt Solomon,matt@mattsolomon.dev,GitHub,noreply@github.com,https://github.com/foundry-rs/forge-std/commit/bdea49f9bb3c58c8c35850c3bdc17eaeea756e9a,['2757ddd33e0105dd4bd103e44f50afacfb144615'],1,1,2,"[{'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+2f112697506eab12d433a65fdc31a639548fe365,2023-11-20 14:38:35+00:00,chore: bump version (#482),Matt Solomon,matt@mattsolomon.dev,GitHub,noreply@github.com,https://github.com/foundry-rs/forge-std/commit/2f112697506eab12d433a65fdc31a639548fe365,['999221028d11d802608f312db036a6b344ca2533'],1,1,2,"[{'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+155d547c449afa8715f538d69454b83944117811,2023-12-15 16:09:42+00:00,chore: bump to v1.7.4 (#486),Matt Solomon,matt@mattsolomon.dev,GitHub,noreply@github.com,https://github.com/foundry-rs/forge-std/commit/155d547c449afa8715f538d69454b83944117811,['80a8f6ea9362849b2a8f2dc28df40c77a64f9c16'],1,1,2,"[{'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+36c303b7ffdd842d06b1ec2744c9b9b5fb3083f3,2024-01-11 19:10:02+00:00,chore: bump to v1.7.5 (#492),Matt Solomon,matt@mattsolomon.dev,GitHub,noreply@github.com,https://github.com/foundry-rs/forge-std/commit/36c303b7ffdd842d06b1ec2744c9b9b5fb3083f3,['9454feea525cd37c9dcee1de51ee71c1b84eb414'],1,1,2,"[{'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+ae570fec082bfe1c1f45b0acca4a2b4f84d345ce,2024-01-17 21:48:51+00:00,chore: bump to v1.7.6 (#500),Matt Solomon,matt@mattsolomon.dev,GitHub,noreply@github.com,https://github.com/foundry-rs/forge-std/commit/ae570fec082bfe1c1f45b0acca4a2b4f84d345ce,['1fd874f0efdb711cb6807c4f4a000ed2805dc809'],1,1,2,"[{'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+978ac6fadb62f5f0b723c996f64be52eddba6801,2024-05-08 15:23:54+00:00,chore: bump to v1.8.2 (#556),Matt Solomon,matt@mattsolomon.dev,GitHub,noreply@github.com,https://github.com/foundry-rs/forge-std/commit/978ac6fadb62f5f0b723c996f64be52eddba6801,['ee010618da4261e28ed417882114a361b0cdb998'],1,1,2,"[{'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+8948d45d3d9022c508b83eb5d26fd3a7a93f2f32,2024-06-29 19:45:05+00:00,chore: bump to v1.9.0 (#575),Matt Solomon,matt@mattsolomon.dev,GitHub,noreply@github.com,https://github.com/foundry-rs/forge-std/commit/8948d45d3d9022c508b83eb5d26fd3a7a93f2f32,['1132ac3b59cabbfb857feaa905bdd086eb2f9573'],1,1,2,"[{'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+07263d193d621c4b2b0ce8b4d54af58f6957d97d,2024-07-02 15:18:40+00:00,bump to v1.9.1 (#578),Matt Solomon,matt@mattsolomon.dev,GitHub,noreply@github.com,https://github.com/foundry-rs/forge-std/commit/07263d193d621c4b2b0ce8b4d54af58f6957d97d,['da804c12c9686079fb49aab4c612af33c90e40ce'],1,1,2,"[{'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+1714bee72e286e73f76e320d110e0eaf5c4e649d,2024-08-05 16:19:26+00:00,"new cheats + v1.9.2 (#593)
+
+* feat: new cheats
+
+* bump version
+
+* fix test",Matt Solomon,matt@mattsolomon.dev,GitHub,noreply@github.com,https://github.com/foundry-rs/forge-std/commit/1714bee72e286e73f76e320d110e0eaf5c4e649d,['4d63c978718517fa02d4e330fbe7372dbb06c2f1'],101,62,163,"[{'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'src/Vm.sol', 'additions': 99, 'deletions': 60, 'changes': 159}, {'filename': 'test/Vm.t.sol', 'additions': 1, 'deletions': 1, 'changes': 2}]",[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+8f24d6b04c92975e0795b5868aa0d783251cdeaa,2024-09-26 15:22:02+00:00,chore: bump version 1.9.3 (#611),Matthias Seitz,matthias.seitz@outlook.de,GitHub,noreply@github.com,https://github.com/foundry-rs/forge-std/commit/8f24d6b04c92975e0795b5868aa0d783251cdeaa,['0a26e6df34fd7db46dde3c858bbac0254b1dacb5'],1,1,2,"[{'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+1eea5bae12ae557d589f9f0f0edae2faa47cb262,2024-10-24 22:19:28+00:00,chore: bump to v1.9.4 (#625),Matt Solomon,matt@mattsolomon.dev,GitHub,noreply@github.com,https://github.com/foundry-rs/forge-std/commit/1eea5bae12ae557d589f9f0f0edae2faa47cb262,['1de6eecf821de7fe2c908cc48d3ab3dced20717f'],1,1,2,"[{'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",[],[],[],[],"{'added': [], 'removed': []}","{'added': [], 'removed': []}"

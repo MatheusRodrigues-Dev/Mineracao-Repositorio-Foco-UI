@@ -1,35 +1,1059 @@
-commit,date,dependencies,dev_dependencies,prev_dependencies,prev_dev_dependencies,dependencies_changes,dev_dependencies_changes
-672afbe9f84765d877ab49c4349b2d5192d5270c,2020-09-16 16:19:33+00:00,[],"['@types/node', 'babel-jest', 'husky', 'jest', 'tsdx', 'tslib', 'typescript']",,,"{'added': [], 'removed': []}","{'added': ['@types/node', 'babel-jest', 'husky', 'jest', 'tsdx', 'tslib', 'typescript'], 'removed': []}"
-55c9adaa8a3c3436e007a3f064ed06523b5c2dbd,2020-09-21 14:29:12+00:00,[],"['@types/node', 'babel-jest', 'husky', 'jest', 'prismjs', 'tsdx', 'tslib', 'typescript']",[],"['@types/node', 'babel-jest', 'husky', 'jest', 'tsdx', 'tslib', 'typescript']","{'added': [], 'removed': []}","{'added': ['prismjs'], 'removed': []}"
-58ff88698bd4fc9b61887291510bb0bf90fda3ce,2020-10-02 09:05:41+00:00,[],"['@tailwindcss/ui', '@testing-library/jest-dom', '@types/node', 'babel-jest', 'husky', 'jest', 'lint-staged', 'prismjs', 'tailwindcss', 'tsdx', 'tslib', 'typescript']",[],"['@types/node', 'babel-jest', 'husky', 'jest', 'prismjs', 'tsdx', 'tslib', 'typescript']","{'added': [], 'removed': []}","{'added': ['@testing-library/jest-dom', 'tailwindcss', '@tailwindcss/ui', 'lint-staged'], 'removed': []}"
-827d2c69396f4be5b287b709ab0f743d91c97280,2020-10-02 21:07:41+00:00,[],"['@tailwindcss/ui', '@testing-library/jest-dom', '@types/node', 'babel-jest', 'husky', 'jest', 'lint-staged', 'prismjs', 'tailwindcss', 'tsdx', 'tslib', 'typescript']",[],"['@tailwindcss/ui', '@testing-library/jest-dom', '@types/node', 'babel-jest', 'husky', 'jest', 'lint-staged', 'prismjs', 'tailwindcss', 'tsdx', 'tslib', 'typescript']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-f165b1f86877caa49d35d1b426b613eaa7abba53,2020-10-05 11:57:12+00:00,[],"['@tailwindcss/ui', '@testing-library/jest-dom', '@types/node', 'babel-jest', 'husky', 'jest', 'lint-staged', 'prismjs', 'tailwindcss', 'tsdx', 'tslib', 'typescript']",[],"['@tailwindcss/ui', '@testing-library/jest-dom', '@types/node', 'babel-jest', 'husky', 'jest', 'lint-staged', 'prismjs', 'tailwindcss', 'tsdx', 'tslib', 'typescript']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-9e9f417c9f6e66cf79d8caa7373447627d51e69b,2020-10-05 11:57:36+00:00,[],"['@tailwindcss/ui', '@testing-library/jest-dom', '@types/node', 'babel-jest', 'husky', 'jest', 'lint-staged', 'prismjs', 'tailwindcss', 'tsdx', 'tslib', 'typescript']",[],"['@tailwindcss/ui', '@testing-library/jest-dom', '@types/node', 'babel-jest', 'husky', 'jest', 'lint-staged', 'prismjs', 'tailwindcss', 'tsdx', 'tslib', 'typescript']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-6ea5c934576f3a6bbb8671d6ab0f6a8b7d631f6e,2020-10-06 09:01:46+00:00,[],"['@tailwindcss/ui', '@testing-library/jest-dom', '@types/node', 'babel-jest', 'husky', 'jest', 'lint-staged', 'prismjs', 'tailwindcss', 'tsdx', 'tslib', 'typescript']",[],"['@tailwindcss/ui', '@testing-library/jest-dom', '@types/node', 'babel-jest', 'husky', 'jest', 'lint-staged', 'prismjs', 'tailwindcss', 'tsdx', 'tslib', 'typescript']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-ce322c0a765b605008c1a1dbf5527157975b530d,2020-10-07 08:50:16+00:00,[],"['@tailwindcss/ui', '@testing-library/jest-dom', '@types/node', 'husky', 'lint-staged', 'prismjs', 'tailwindcss', 'tsdx', 'tslib', 'typescript']",[],"['@tailwindcss/ui', '@testing-library/jest-dom', '@types/node', 'babel-jest', 'husky', 'jest', 'lint-staged', 'prismjs', 'tailwindcss', 'tsdx', 'tslib', 'typescript']","{'added': [], 'removed': []}","{'added': [], 'removed': ['jest', 'babel-jest']}"
-deee4dfa20cc63123461022f811bf6d81860e5bc,2020-10-08 13:33:47+00:00,[],"['@tailwindcss/ui', '@testing-library/jest-dom', '@types/node', 'husky', 'lint-staged', 'prismjs', 'tailwindcss', 'tsdx', 'tslib', 'typescript']",[],"['@tailwindcss/ui', '@testing-library/jest-dom', '@types/node', 'husky', 'lint-staged', 'prismjs', 'tailwindcss', 'tsdx', 'tslib', 'typescript']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-5bb7df9d93fd7b05df2dd77635574e245449a3dc,2020-10-12 10:27:11+00:00,[],"['@tailwindcss/ui', '@testing-library/jest-dom', '@types/node', 'husky', 'lint-staged', 'prismjs', 'tailwindcss', 'tsdx', 'tslib', 'typescript']",[],"['@tailwindcss/ui', '@testing-library/jest-dom', '@types/node', 'husky', 'lint-staged', 'prismjs', 'tailwindcss', 'tsdx', 'tslib', 'typescript']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-7d4af1ad3a1965db22a80fe566a574bbd1af85fd,2020-10-14 10:51:10+00:00,[],"['@tailwindcss/ui', '@testing-library/jest-dom', '@types/node', 'husky', 'lint-staged', 'prismjs', 'tailwindcss', 'tsdx', 'tslib', 'typescript']",[],"['@tailwindcss/ui', '@testing-library/jest-dom', '@types/node', 'husky', 'lint-staged', 'prismjs', 'tailwindcss', 'tsdx', 'tslib', 'typescript']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-aab23c9077727b6c86536a7d047d614f0aa95f0e,2020-10-18 13:34:05+00:00,[],"['@tailwindcss/ui', '@testing-library/jest-dom', '@types/node', 'husky', 'lint-staged', 'prismjs', 'tailwindcss', 'tsdx', 'tslib', 'typescript']",[],"['@tailwindcss/ui', '@testing-library/jest-dom', '@types/node', 'husky', 'lint-staged', 'prismjs', 'tailwindcss', 'tsdx', 'tslib', 'typescript']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-24725216e4e2fb9280bdf3b96583a9fe573410e4,2020-10-20 13:38:12+00:00,[],"['@tailwindcss/ui', '@testing-library/jest-dom', '@types/node', 'husky', 'lint-staged', 'prismjs', 'tailwindcss', 'tsdx', 'tslib', 'typescript']",[],"['@tailwindcss/ui', '@testing-library/jest-dom', '@types/node', 'husky', 'lint-staged', 'prismjs', 'tailwindcss', 'tsdx', 'tslib', 'typescript']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-9b0d9e136ac47f3aa85f23d5b2033f3f112b5043,2021-01-29 14:14:59+00:00,[],"['@tailwindcss/ui', '@testing-library/jest-dom', '@types/node', 'husky', 'lint-staged', 'prismjs', 'tailwindcss', 'tsdx', 'tslib', 'typescript']",[],"['@tailwindcss/ui', '@testing-library/jest-dom', '@types/node', 'husky', 'lint-staged', 'prismjs', 'tailwindcss', 'tsdx', 'tslib', 'typescript']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-533a81a11520a620b54e45d4d04aff8b268edd00,2021-02-11 18:36:20+00:00,[],"['@tailwindcss/ui', '@testing-library/jest-dom', '@types/node', 'husky', 'lint-staged', 'prismjs', 'tailwindcss', 'tsdx', 'tslib', 'typescript']",[],"['@tailwindcss/ui', '@testing-library/jest-dom', '@types/node', 'husky', 'lint-staged', 'prismjs', 'tailwindcss', 'tsdx', 'tslib', 'typescript']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-d25f80ae9d896446c2b7119a70cfd5d99e250050,2021-07-29 10:56:11+00:00,[],"['@tailwindcss/ui', '@testing-library/jest-dom', '@types/node', 'husky', 'lint-staged', 'prismjs', 'tailwindcss', 'tsdx', 'tslib', 'typescript']",[],"['@tailwindcss/ui', '@testing-library/jest-dom', '@types/node', 'husky', 'lint-staged', 'prismjs', 'tailwindcss', 'tsdx', 'tslib', 'typescript']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-cae976a18b7955670cd28fb1067a49917bda2c09,2022-01-19 15:51:09+00:00,[],"['@testing-library/jest-dom', '@types/node', 'husky', 'lint-staged', 'tsdx', 'tslib', 'typescript']",[],"['@tailwindcss/ui', '@testing-library/jest-dom', '@types/node', 'husky', 'lint-staged', 'prismjs', 'tailwindcss', 'tsdx', 'tslib', 'typescript']","{'added': [], 'removed': []}","{'added': [], 'removed': ['tailwindcss', '@tailwindcss/ui', 'prismjs']}"
-ea268704802cf1de1149ddc227e1a718ee71480e,2022-01-27 15:42:47+00:00,[],"['@testing-library/jest-dom', '@types/node', 'husky', 'lint-staged', 'tsdx', 'tslib', 'typescript']",[],"['@testing-library/jest-dom', '@types/node', 'husky', 'lint-staged', 'tsdx', 'tslib', 'typescript']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-fdd26297953080d5ec905dda0bf5ec9607897d86,2022-01-27 16:07:38+00:00,['prettier-plugin-tailwindcss'],"['@swc/core', '@swc/jest', '@testing-library/jest-dom', '@types/node', 'esbuild', 'husky', 'jest', 'lint-staged', 'npm-run-all', 'prettier', 'rimraf', 'tslib', 'typescript']",[],"['@testing-library/jest-dom', '@types/node', 'husky', 'lint-staged', 'tsdx', 'tslib', 'typescript']","{'added': ['prettier-plugin-tailwindcss'], 'removed': []}","{'added': ['prettier', 'rimraf', '@swc/core', 'jest', 'npm-run-all', 'esbuild', '@swc/jest'], 'removed': ['tsdx']}"
-885c3b3b4a6a834693f74d190bafd9ab99029685,2022-01-28 11:07:41+00:00,[],"['@swc/core', '@swc/jest', '@testing-library/jest-dom', '@types/node', 'esbuild', 'husky', 'jest', 'lint-staged', 'npm-run-all', 'prettier', 'prettier-plugin-tailwindcss', 'rimraf', 'tslib', 'typescript']",['prettier-plugin-tailwindcss'],"['@swc/core', '@swc/jest', '@testing-library/jest-dom', '@types/node', 'esbuild', 'husky', 'jest', 'lint-staged', 'npm-run-all', 'prettier', 'rimraf', 'tslib', 'typescript']","{'added': [], 'removed': ['prettier-plugin-tailwindcss']}","{'added': ['prettier-plugin-tailwindcss'], 'removed': []}"
-947bf7ac8b7d51d5bb1e34bec5238bb915105b89,2022-01-28 12:31:24+00:00,[],"['@swc/core', '@swc/jest', '@testing-library/jest-dom', '@types/node', 'esbuild', 'husky', 'jest', 'lint-staged', 'npm-run-all', 'prettier', 'prettier-plugin-tailwindcss', 'rimraf', 'tslib', 'typescript']",[],"['@swc/core', '@swc/jest', '@testing-library/jest-dom', '@types/node', 'esbuild', 'husky', 'jest', 'lint-staged', 'npm-run-all', 'prettier', 'prettier-plugin-tailwindcss', 'rimraf', 'tslib', 'typescript']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-554d04b01c07c04cb1caee4b2a89b33faed4ffe0,2022-02-08 17:59:39+00:00,[],"['@swc/core', '@swc/jest', '@testing-library/jest-dom', '@types/node', 'esbuild', 'husky', 'jest', 'lint-staged', 'npm-run-all', 'prettier', 'prettier-plugin-tailwindcss', 'rimraf', 'tslib', 'typescript']",[],"['@swc/core', '@swc/jest', '@testing-library/jest-dom', '@types/node', 'esbuild', 'husky', 'jest', 'lint-staged', 'npm-run-all', 'prettier', 'prettier-plugin-tailwindcss', 'rimraf', 'tslib', 'typescript']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-8e79f1cb27232ba47803cd0ef77f64b3a9d32987,2022-03-17 16:23:29+00:00,[],"['@swc/core', '@swc/jest', '@testing-library/jest-dom', '@types/node', 'esbuild', 'fast-glob', 'husky', 'jest', 'lint-staged', 'npm-run-all', 'prettier', 'prettier-plugin-tailwindcss', 'rimraf', 'tslib', 'typescript']",[],"['@swc/core', '@swc/jest', '@testing-library/jest-dom', '@types/node', 'esbuild', 'husky', 'jest', 'lint-staged', 'npm-run-all', 'prettier', 'prettier-plugin-tailwindcss', 'rimraf', 'tslib', 'typescript']","{'added': [], 'removed': []}","{'added': ['fast-glob'], 'removed': []}"
-0162c57d88cfdc74209d6bdcac94d54078f97675,2022-04-12 16:23:07+00:00,[],"['@swc/core', '@swc/jest', '@testing-library/jest-dom', '@types/node', 'esbuild', 'fast-glob', 'husky', 'jest', 'lint-staged', 'npm-run-all', 'prettier', 'prettier-plugin-tailwindcss', 'rimraf', 'tslib', 'typescript']",[],"['@swc/core', '@swc/jest', '@testing-library/jest-dom', '@types/node', 'esbuild', 'fast-glob', 'husky', 'jest', 'lint-staged', 'npm-run-all', 'prettier', 'prettier-plugin-tailwindcss', 'rimraf', 'tslib', 'typescript']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-ec84c72ef955d3f9be1a908bdd657f54077950d2,2022-06-13 13:54:18+00:00,[],"['@swc/core', '@swc/jest', '@testing-library/jest-dom', '@types/node', 'esbuild', 'fast-glob', 'husky', 'jest', 'lint-staged', 'npm-run-all', 'prettier', 'prettier-plugin-tailwindcss', 'rimraf', 'tslib', 'typescript']",[],"['@swc/core', '@swc/jest', '@testing-library/jest-dom', '@types/node', 'esbuild', 'fast-glob', 'husky', 'jest', 'lint-staged', 'npm-run-all', 'prettier', 'prettier-plugin-tailwindcss', 'rimraf', 'tslib', 'typescript']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-b8c214eebb56b1cc87b42e2ef6c265b6f919f7ae,2023-02-20 17:26:17+00:00,[],"['@swc/core', '@swc/jest', '@testing-library/jest-dom', '@types/node', 'esbuild', 'fast-glob', 'husky', 'jest', 'lint-staged', 'npm-run-all', 'prettier', 'prettier-plugin-tailwindcss', 'rimraf', 'tslib', 'typescript']",[],"['@swc/core', '@swc/jest', '@testing-library/jest-dom', '@types/node', 'esbuild', 'fast-glob', 'husky', 'jest', 'lint-staged', 'npm-run-all', 'prettier', 'prettier-plugin-tailwindcss', 'rimraf', 'tslib', 'typescript']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-2b27d9f6a24591d24b9c7b1f154219b23dc8a8fa,2023-08-30 16:09:51+00:00,[],"['@swc/core', '@swc/jest', '@testing-library/jest-dom', '@types/node', 'esbuild', 'fast-glob', 'husky', 'jest', 'lint-staged', 'npm-run-all', 'prettier', 'prettier-plugin-tailwindcss', 'rimraf', 'tslib', 'typescript']",[],"['@swc/core', '@swc/jest', '@testing-library/jest-dom', '@types/node', 'esbuild', 'fast-glob', 'husky', 'jest', 'lint-staged', 'npm-run-all', 'prettier', 'prettier-plugin-tailwindcss', 'rimraf', 'tslib', 'typescript']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-76dd10ea554fa1d05576be2090612a3c3b04f9cb,2023-09-11 16:36:30+00:00,[],"['@swc/core', '@swc/jest', '@testing-library/jest-dom', '@types/node', 'esbuild', 'fast-glob', 'husky', 'jest', 'lint-staged', 'npm-run-all', 'prettier', 'prettier-plugin-organize-imports', 'prettier-plugin-tailwindcss', 'rimraf', 'tslib', 'typescript']",[],"['@swc/core', '@swc/jest', '@testing-library/jest-dom', '@types/node', 'esbuild', 'fast-glob', 'husky', 'jest', 'lint-staged', 'npm-run-all', 'prettier', 'prettier-plugin-tailwindcss', 'rimraf', 'tslib', 'typescript']","{'added': [], 'removed': []}","{'added': ['prettier-plugin-organize-imports'], 'removed': []}"
-c25e2e6036c2544140c438366c8a01a6685f1bbf,2023-12-12 16:43:34+00:00,[],"['@arethetypeswrong/cli', '@swc/core', '@swc/jest', '@testing-library/jest-dom', '@types/node', 'esbuild', 'fast-glob', 'husky', 'jest', 'lint-staged', 'npm-run-all', 'prettier', 'prettier-plugin-organize-imports', 'prettier-plugin-tailwindcss', 'rimraf', 'tslib', 'typescript']",[],"['@swc/core', '@swc/jest', '@testing-library/jest-dom', '@types/node', 'esbuild', 'fast-glob', 'husky', 'jest', 'lint-staged', 'npm-run-all', 'prettier', 'prettier-plugin-organize-imports', 'prettier-plugin-tailwindcss', 'rimraf', 'tslib', 'typescript']","{'added': [], 'removed': []}","{'added': ['@arethetypeswrong/cli'], 'removed': []}"
-e662f1239831c849f64adecbb38cf465d18a7ee2,2023-12-20 18:57:57+00:00,[],"['@arethetypeswrong/cli', '@swc-node/register', '@swc/core', '@swc/jest', '@testing-library/jest-dom', '@types/node', 'esbuild', 'fast-glob', 'husky', 'jest', 'lint-staged', 'npm-run-all', 'prettier', 'prettier-plugin-organize-imports', 'prettier-plugin-tailwindcss', 'rimraf', 'tslib', 'typescript']",[],"['@arethetypeswrong/cli', '@swc/core', '@swc/jest', '@testing-library/jest-dom', '@types/node', 'esbuild', 'fast-glob', 'husky', 'jest', 'lint-staged', 'npm-run-all', 'prettier', 'prettier-plugin-organize-imports', 'prettier-plugin-tailwindcss', 'rimraf', 'tslib', 'typescript']","{'added': [], 'removed': []}","{'added': ['@swc-node/register'], 'removed': []}"
-8c882e047a05120ed9b42b505a393812b42c4cdd,2023-12-21 15:02:35+00:00,[],"['@arethetypeswrong/cli', '@swc-node/register', '@swc/core', '@swc/jest', '@testing-library/jest-dom', '@types/node', 'esbuild', 'fast-glob', 'husky', 'jest', 'lint-staged', 'npm-run-all', 'prettier', 'prettier-plugin-organize-imports', 'prettier-plugin-tailwindcss', 'rimraf', 'tslib', 'typescript']",[],"['@arethetypeswrong/cli', '@swc-node/register', '@swc/core', '@swc/jest', '@testing-library/jest-dom', '@types/node', 'esbuild', 'fast-glob', 'husky', 'jest', 'lint-staged', 'npm-run-all', 'prettier', 'prettier-plugin-organize-imports', 'prettier-plugin-tailwindcss', 'rimraf', 'tslib', 'typescript']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-a73007388fbf4cf1ebd9e6d3c5762c8102daf84d,2024-01-03 13:26:12+00:00,[],"['@arethetypeswrong/cli', '@swc-node/register', '@swc/core', '@swc/jest', '@testing-library/jest-dom', '@types/node', 'esbuild', 'fast-glob', 'husky', 'jest', 'lint-staged', 'npm-run-all', 'prettier', 'prettier-plugin-organize-imports', 'prettier-plugin-tailwindcss', 'rimraf', 'tslib', 'typescript']",[],"['@arethetypeswrong/cli', '@swc-node/register', '@swc/core', '@swc/jest', '@testing-library/jest-dom', '@types/node', 'esbuild', 'fast-glob', 'husky', 'jest', 'lint-staged', 'npm-run-all', 'prettier', 'prettier-plugin-organize-imports', 'prettier-plugin-tailwindcss', 'rimraf', 'tslib', 'typescript']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-d03fbb19f57ca3311b966ab3cf4603a5b981bf43,2024-03-29 14:41:12+00:00,[],"['@arethetypeswrong/cli', '@swc-node/register', '@swc/core', '@swc/jest', '@testing-library/jest-dom', '@types/node', 'esbuild', 'fast-glob', 'husky', 'jest', 'lint-staged', 'npm-run-all', 'prettier', 'prettier-plugin-organize-imports', 'prettier-plugin-tailwindcss', 'rimraf', 'tslib', 'typescript']",[],"['@arethetypeswrong/cli', '@swc-node/register', '@swc/core', '@swc/jest', '@testing-library/jest-dom', '@types/node', 'esbuild', 'fast-glob', 'husky', 'jest', 'lint-staged', 'npm-run-all', 'prettier', 'prettier-plugin-organize-imports', 'prettier-plugin-tailwindcss', 'rimraf', 'tslib', 'typescript']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
-f0e3e5b4a6d8243a56e7b01cd518525a4e30c852,2024-05-02 12:41:58+00:00,[],"['@arethetypeswrong/cli', '@swc-node/register', '@swc/core', '@swc/jest', '@testing-library/jest-dom', '@types/node', 'esbuild', 'fast-glob', 'husky', 'jest', 'lint-staged', 'npm-run-all', 'prettier', 'prettier-plugin-organize-imports', 'prettier-plugin-tailwindcss', 'resize-observer-polyfill', 'rimraf', 'tslib', 'typescript']",[],"['@arethetypeswrong/cli', '@swc-node/register', '@swc/core', '@swc/jest', '@testing-library/jest-dom', '@types/node', 'esbuild', 'fast-glob', 'husky', 'jest', 'lint-staged', 'npm-run-all', 'prettier', 'prettier-plugin-organize-imports', 'prettier-plugin-tailwindcss', 'rimraf', 'tslib', 'typescript']","{'added': [], 'removed': []}","{'added': ['resize-observer-polyfill'], 'removed': []}"
+commit,date,message,author_name,author_email,committer_name,committer_email,url,parents,additions,deletions,total_changes,files_changed,dependencies,dev_dependencies,prev_dependencies,prev_dev_dependencies,dependencies_changes,dev_dependencies_changes
+672afbe9f84765d877ab49c4349b2d5192d5270c,2020-09-16 16:19:33+00:00,setup monorepo,Robin Malfait,malfait.robin@gmail.com,Robin Malfait,malfait.robin@gmail.com,https://github.com/tailwindlabs/headlessui/commit/672afbe9f84765d877ab49c4349b2d5192d5270c,['cf289e443aeff11e0e05aa2b7d6bf351f7e3ba21'],11649,0,11649,"[{'filename': '.eslintignore', 'additions': 4, 'deletions': 0, 'changes': 4}, {'filename': '.github/workflows/main.yml', 'additions': 44, 'deletions': 0, 'changes': 44}, {'filename': '.gitignore', 'additions': 44, 'deletions': 0, 'changes': 44}, {'filename': 'LICENSE', 'additions': 21, 'deletions': 0, 'changes': 21}, {'filename': 'jest.config.js', 'additions': 15, 'deletions': 0, 'changes': 15}, {'filename': 'jest/custom-matchers.ts', 'additions': 31, 'deletions': 0, 'changes': 31}, {'filename': 'package.json', 'additions': 40, 'deletions': 0, 'changes': 40}, {'filename': 'postcss.config.js', 'additions': 6, 'deletions': 0, 'changes': 6}, {'filename': 'scripts/build.sh', 'additions': 18, 'deletions': 0, 'changes': 18}, {'filename': 'scripts/lint.sh', 'additions': 29, 'deletions': 0, 'changes': 29}, {'filename': 'scripts/test.sh', 'additions': 35, 'deletions': 0, 'changes': 35}, {'filename': 'tailwind.config.js', 'additions': 17, 'deletions': 0, 'changes': 17}, {'filename': 'yarn.lock', 'additions': 11345, 'deletions': 0, 'changes': 11345}]",[],"['@types/node', 'babel-jest', 'husky', 'jest', 'tsdx', 'tslib', 'typescript']",,,"{'added': [], 'removed': []}","{'added': ['@types/node', 'babel-jest', 'husky', 'jest', 'tsdx', 'tslib', 'typescript'], 'removed': []}"
+55c9adaa8a3c3436e007a3f064ed06523b5c2dbd,2020-09-21 14:29:12+00:00,build code snippets for the Vue playground,Robin Malfait,malfait.robin@gmail.com,Robin Malfait,malfait.robin@gmail.com,https://github.com/tailwindlabs/headlessui/commit/55c9adaa8a3c3436e007a3f064ed06523b5c2dbd,['1f295944147544ae2581a92cd948d225c736cd8a'],123,0,123,"[{'filename': 'package.json', 'additions': 1, 'deletions': 0, 'changes': 1}, {'filename': 'packages/@headlessui-vue/examples/src/App.vue', 'additions': 16, 'deletions': 0, 'changes': 16}, {'filename': 'packages/@headlessui-vue/vite.config.js', 'additions': 58, 'deletions': 0, 'changes': 58}, {'filename': 'tailwind.config.js', 'additions': 10, 'deletions': 0, 'changes': 10}, {'filename': 'yarn.lock', 'additions': 38, 'deletions': 0, 'changes': 38}]",[],"['@types/node', 'babel-jest', 'husky', 'jest', 'prismjs', 'tsdx', 'tslib', 'typescript']",[],"['@types/node', 'babel-jest', 'husky', 'jest', 'tsdx', 'tslib', 'typescript']","{'added': [], 'removed': []}","{'added': ['prismjs'], 'removed': []}"
+58ff88698bd4fc9b61887291510bb0bf90fda3ce,2020-10-02 09:05:41+00:00,"feat: add Listbox component (#3)
+
+* make jest monorepo aware
+
+* add @testing-library/jest-dom for custom matchers
+
+This way we can use expect(element).toHaveAttribute(key, value?)
+
+* abstract keys enum
+
+* change type to unknown, because we don't know the return value
+
+* update use-id hook, make it suspense aware
+
+Thanks Reach UI!
+
+* hoist the disposables collection
+
+* add accessbility assertions for listbox
+
+Also made it consistent for the Menu component and simplified some of the assertions
+
+* add use-computed hook
+
+This allows us re-render when hooks change, but also return a value. So this is a combination of useEffect and a useState value.
+
+* add Listbox component
+
+* bump dependencies
+
+* add listbox example
+
+* add lint-staged
+
+This way we will only lint the files that have been staged and ready to be committed instead of the whole codebase
+
+* add missing prevent defaults
+
+* improve tests to verify that we can actually update the value of the listbox
+
+* scroll the active listbox item into view
+
+* small optimization, only focus ""Nothing"" on pointer leave when we are the active item
+
+We used to always go to ""Nothing"" on pointer leave. And while this code
+doesn't get called often, it *gets* called if you are using your arrow
+keys and the mouse pointer is still over the list.
+
+* bump dependencies
+
+Also moved the tailwind dependencies to the root
+
+* fix typo
+
+* drop the default Transition inside the Menu and Listbox components
+
+* update examples to reflect drop of default Transition wrapper
+
+* rename Listbox.{Items,Item} to Listbox.{Options,Option}
+
+Also rename all instances of `item` to `option` in tests and comments
+and what have you...
+
+* fix typo
+
+* drop disabled prop, use aria-disabled only",Robin Malfait,malfait.robin@gmail.com,GitHub,noreply@github.com,https://github.com/tailwindlabs/headlessui/commit/58ff88698bd4fc9b61887291510bb0bf90fda3ce,['412cc950aa7545c1d78ac0791ae136fa9c15294a'],9867,1140,11007,"[{'filename': 'jest.config.js', 'additions': 1, 'deletions': 13, 'changes': 14}, {'filename': 'jest/create-jest-config.js', 'additions': 19, 'deletions': 0, 'changes': 19}, {'filename': 'jest/custom-matchers.ts', 'additions': 18, 'deletions': 18, 'changes': 36}, {'filename': 'package.json', 'additions': 10, 'deletions': 3, 'changes': 13}, {'filename': 'packages/@headlessui-react/jest.config.js', 'additions': 3, 'deletions': 0, 'changes': 3}, {'filename': 'packages/@headlessui-react/package.json', 'additions': 3, 'deletions': 3, 'changes': 6}, {'filename': 'packages/@headlessui-react/pages/listbox/listbox-with-pure-tailwind.tsx', 'additions': 115, 'deletions': 0, 'changes': 115}, {'filename': 'packages/@headlessui-react/pages/menu/menu-with-transition-and-popper.tsx', 'additions': 65, 'deletions': 56, 'changes': 121}, {'filename': 'packages/@headlessui-react/pages/menu/menu-with-transition.tsx', 'additions': 57, 'deletions': 48, 'changes': 105}, {'filename': 'packages/@headlessui-react/src/components/keyboard.ts', 'additions': 19, 'deletions': 0, 'changes': 19}, {'filename': 'packages/@headlessui-react/src/components/listbox/listbox.test.tsx', 'additions': 3101, 'deletions': 0, 'changes': 3101}, {'filename': 'packages/@headlessui-react/src/components/listbox/listbox.tsx', 'additions': 642, 'deletions': 0, 'changes': 642}, {'filename': 'packages/@headlessui-react/src/components/menu/menu.test.tsx', 'additions': 297, 'deletions': 321, 'changes': 618}, {'filename': 'packages/@headlessui-react/src/components/menu/menu.tsx', 'additions': 28, 'deletions': 80, 'changes': 108}, {'filename': 'packages/@headlessui-react/src/components/transitions/transition.tsx', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-react/src/hooks/use-computed.ts', 'additions': 12, 'deletions': 0, 'changes': 12}, {'filename': 'packages/@headlessui-react/src/hooks/use-id.ts', 'additions': 20, 'deletions': 2, 'changes': 22}, {'filename': 'packages/@headlessui-react/src/index.test.ts', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-react/src/index.ts', 'additions': 1, 'deletions': 0, 'changes': 1}, {'filename': 'packages/@headlessui-react/src/test-utils/accessibility-assertions.ts', 'additions': 384, 'deletions': 79, 'changes': 463}, {'filename': 'packages/@headlessui-react/src/test-utils/interactions.ts', 'additions': 2, 'deletions': 8, 'changes': 10}, {'filename': 'packages/@headlessui-react/src/test-utils/suppress-console-logs.ts', 'additions': 2, 'deletions': 2, 'changes': 4}, {'filename': 'packages/@headlessui-vue/examples/src/components/listbox/listbox.vue', 'additions': 124, 'deletions': 0, 'changes': 124}, {'filename': 'packages/@headlessui-vue/examples/src/routes.json', 'additions': 11, 'deletions': 0, 'changes': 11}, {'filename': 'packages/@headlessui-vue/jest.config.js', 'additions': 3, 'deletions': 0, 'changes': 3}, {'filename': 'packages/@headlessui-vue/package.json', 'additions': 5, 'deletions': 8, 'changes': 13}, {'filename': 'packages/@headlessui-vue/src/components/listbox/listbox.test.tsx', 'additions': 3322, 'deletions': 0, 'changes': 3322}, {'filename': 'packages/@headlessui-vue/src/components/listbox/listbox.ts', 'additions': 558, 'deletions': 0, 'changes': 558}, {'filename': 'packages/@headlessui-vue/src/components/menu/menu.test.tsx', 'additions': 308, 'deletions': 332, 'changes': 640}, {'filename': 'packages/@headlessui-vue/src/components/menu/menu.ts', 'additions': 21, 'deletions': 36, 'changes': 57}, {'filename': 'packages/@headlessui-vue/src/index.test.ts', 'additions': 7, 'deletions': 0, 'changes': 7}, {'filename': 'packages/@headlessui-vue/src/index.ts', 'additions': 1, 'deletions': 0, 'changes': 1}, {'filename': 'packages/@headlessui-vue/src/keyboard.ts', 'additions': 19, 'deletions': 0, 'changes': 19}, {'filename': 'packages/@headlessui-vue/src/test-utils/accessibility-assertions.ts', 'additions': 388, 'deletions': 63, 'changes': 451}, {'filename': 'scripts/test.sh', 'additions': 4, 'deletions': 18, 'changes': 22}, {'filename': 'yarn.lock', 'additions': 295, 'deletions': 48, 'changes': 343}]",[],"['@tailwindcss/ui', '@testing-library/jest-dom', '@types/node', 'babel-jest', 'husky', 'jest', 'lint-staged', 'prismjs', 'tailwindcss', 'tsdx', 'tslib', 'typescript']",[],"['@types/node', 'babel-jest', 'husky', 'jest', 'prismjs', 'tsdx', 'tslib', 'typescript']","{'added': [], 'removed': []}","{'added': ['lint-staged', 'tailwindcss', '@testing-library/jest-dom', '@tailwindcss/ui'], 'removed': []}"
+827d2c69396f4be5b287b709ab0f743d91c97280,2020-10-02 21:07:41+00:00,simplify lint pre-commit hook,Robin Malfait,malfait.robin@gmail.com,Robin Malfait,malfait.robin@gmail.com,https://github.com/tailwindlabs/headlessui/commit/827d2c69396f4be5b287b709ab0f743d91c97280,['ef25b08cb299607c762c2288c7f664946af1a7bb'],1,1,2,"[{'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",[],"['@tailwindcss/ui', '@testing-library/jest-dom', '@types/node', 'babel-jest', 'husky', 'jest', 'lint-staged', 'prismjs', 'tailwindcss', 'tsdx', 'tslib', 'typescript']",[],"['@tailwindcss/ui', '@testing-library/jest-dom', '@types/node', 'babel-jest', 'husky', 'jest', 'lint-staged', 'prismjs', 'tailwindcss', 'tsdx', 'tslib', 'typescript']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+f165b1f86877caa49d35d1b426b613eaa7abba53,2020-10-05 11:57:12+00:00,"chore: Bump jest from 26.4.2 to 26.5.0 (#40)
+
+Bumps [jest](https://github.com/facebook/jest) from 26.4.2 to 26.5.0.
+- [Release notes](https://github.com/facebook/jest/releases)
+- [Changelog](https://github.com/facebook/jest/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/facebook/jest/compare/v26.4.2...v26.5.0)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,https://github.com/tailwindlabs/headlessui/commit/f165b1f86877caa49d35d1b426b613eaa7abba53,['bf2c251f09dedd8f09e55bf3009ea823d2fa8cbb'],485,255,740,"[{'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'yarn.lock', 'additions': 484, 'deletions': 254, 'changes': 738}]",[],"['@tailwindcss/ui', '@testing-library/jest-dom', '@types/node', 'babel-jest', 'husky', 'jest', 'lint-staged', 'prismjs', 'tailwindcss', 'tsdx', 'tslib', 'typescript']",[],"['@tailwindcss/ui', '@testing-library/jest-dom', '@types/node', 'babel-jest', 'husky', 'jest', 'lint-staged', 'prismjs', 'tailwindcss', 'tsdx', 'tslib', 'typescript']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+9e9f417c9f6e66cf79d8caa7373447627d51e69b,2020-10-05 11:57:36+00:00,"chore: Bump babel-jest from 26.3.0 to 26.5.0 (#39)
+
+Bumps [babel-jest](https://github.com/facebook/jest/tree/HEAD/packages/babel-jest) from 26.3.0 to 26.5.0.
+- [Release notes](https://github.com/facebook/jest/releases)
+- [Changelog](https://github.com/facebook/jest/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/facebook/jest/commits/v26.5.0/packages/babel-jest)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,https://github.com/tailwindlabs/headlessui/commit/9e9f417c9f6e66cf79d8caa7373447627d51e69b,['f165b1f86877caa49d35d1b426b613eaa7abba53'],28,28,56,"[{'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'yarn.lock', 'additions': 27, 'deletions': 27, 'changes': 54}]",[],"['@tailwindcss/ui', '@testing-library/jest-dom', '@types/node', 'babel-jest', 'husky', 'jest', 'lint-staged', 'prismjs', 'tailwindcss', 'tsdx', 'tslib', 'typescript']",[],"['@tailwindcss/ui', '@testing-library/jest-dom', '@types/node', 'babel-jest', 'husky', 'jest', 'lint-staged', 'prismjs', 'tailwindcss', 'tsdx', 'tslib', 'typescript']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+6ea5c934576f3a6bbb8671d6ab0f6a8b7d631f6e,2020-10-06 09:01:46+00:00,chore: bump dependencies,Robin Malfait,malfait.robin@gmail.com,Robin Malfait,malfait.robin@gmail.com,https://github.com/tailwindlabs/headlessui/commit/6ea5c934576f3a6bbb8671d6ab0f6a8b7d631f6e,['738ae3a9dd757939fd3feeb5a800ddb964c5653d'],20,13,33,"[{'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-react/package.json', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-vue/package.json', 'additions': 1, 'deletions': 2, 'changes': 3}, {'filename': 'yarn.lock', 'additions': 17, 'deletions': 9, 'changes': 26}]",[],"['@tailwindcss/ui', '@testing-library/jest-dom', '@types/node', 'babel-jest', 'husky', 'jest', 'lint-staged', 'prismjs', 'tailwindcss', 'tsdx', 'tslib', 'typescript']",[],"['@tailwindcss/ui', '@testing-library/jest-dom', '@types/node', 'babel-jest', 'husky', 'jest', 'lint-staged', 'prismjs', 'tailwindcss', 'tsdx', 'tslib', 'typescript']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+ce322c0a765b605008c1a1dbf5527157975b530d,2020-10-07 08:50:16+00:00,"chore: bump dependencies (#70)
+
+* drop jest related dependencies
+
+These are already included via tsdx
+
+* bump dependencies",Robin Malfait,malfait.robin@gmail.com,GitHub,noreply@github.com,https://github.com/tailwindlabs/headlessui/commit/ce322c0a765b605008c1a1dbf5527157975b530d,['54d0cda9411bbc473aec80cc4b23849312787111'],46,1089,1135,"[{'filename': 'package.json', 'additions': 2, 'deletions': 4, 'changes': 6}, {'filename': 'yarn.lock', 'additions': 44, 'deletions': 1085, 'changes': 1129}]",[],"['@tailwindcss/ui', '@testing-library/jest-dom', '@types/node', 'husky', 'lint-staged', 'prismjs', 'tailwindcss', 'tsdx', 'tslib', 'typescript']",[],"['@tailwindcss/ui', '@testing-library/jest-dom', '@types/node', 'babel-jest', 'husky', 'jest', 'lint-staged', 'prismjs', 'tailwindcss', 'tsdx', 'tslib', 'typescript']","{'added': [], 'removed': []}","{'added': [], 'removed': ['babel-jest', 'jest']}"
+deee4dfa20cc63123461022f811bf6d81860e5bc,2020-10-08 13:33:47+00:00,bump dependencies,Robin Malfait,malfait.robin@gmail.com,Robin Malfait,malfait.robin@gmail.com,https://github.com/tailwindlabs/headlessui/commit/deee4dfa20cc63123461022f811bf6d81860e5bc,['a5089d07b1b9e69d9b9be840bc1d1b1f25dd3657'],154,129,283,"[{'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-react/package.json', 'additions': 2, 'deletions': 2, 'changes': 4}, {'filename': 'yarn.lock', 'additions': 151, 'deletions': 126, 'changes': 277}]",[],"['@tailwindcss/ui', '@testing-library/jest-dom', '@types/node', 'husky', 'lint-staged', 'prismjs', 'tailwindcss', 'tsdx', 'tslib', 'typescript']",[],"['@tailwindcss/ui', '@testing-library/jest-dom', '@types/node', 'husky', 'lint-staged', 'prismjs', 'tailwindcss', 'tsdx', 'tslib', 'typescript']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+5bb7df9d93fd7b05df2dd77635574e245449a3dc,2020-10-12 10:27:11+00:00,chore: bump dependencies (#90),Robin Malfait,malfait.robin@gmail.com,GitHub,noreply@github.com,https://github.com/tailwindlabs/headlessui/commit/5bb7df9d93fd7b05df2dd77635574e245449a3dc,['deee4dfa20cc63123461022f811bf6d81860e5bc'],76,55,131,"[{'filename': 'package.json', 'additions': 4, 'deletions': 4, 'changes': 8}, {'filename': 'packages/@headlessui-react/package.json', 'additions': 3, 'deletions': 3, 'changes': 6}, {'filename': 'yarn.lock', 'additions': 69, 'deletions': 48, 'changes': 117}]",[],"['@tailwindcss/ui', '@testing-library/jest-dom', '@types/node', 'husky', 'lint-staged', 'prismjs', 'tailwindcss', 'tsdx', 'tslib', 'typescript']",[],"['@tailwindcss/ui', '@testing-library/jest-dom', '@types/node', 'husky', 'lint-staged', 'prismjs', 'tailwindcss', 'tsdx', 'tslib', 'typescript']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+7d4af1ad3a1965db22a80fe566a574bbd1af85fd,2020-10-14 10:51:10+00:00,chore: bump dependencies (#100),Robin Malfait,malfait.robin@gmail.com,GitHub,noreply@github.com,https://github.com/tailwindlabs/headlessui/commit/7d4af1ad3a1965db22a80fe566a574bbd1af85fd,['53776af89e7d12657acc4389c7323f74fc5e1956'],970,1112,2082,"[{'filename': 'package.json', 'additions': 2, 'deletions': 2, 'changes': 4}, {'filename': 'packages/@headlessui-react/package.json', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'yarn.lock', 'additions': 967, 'deletions': 1109, 'changes': 2076}]",[],"['@tailwindcss/ui', '@testing-library/jest-dom', '@types/node', 'husky', 'lint-staged', 'prismjs', 'tailwindcss', 'tsdx', 'tslib', 'typescript']",[],"['@tailwindcss/ui', '@testing-library/jest-dom', '@types/node', 'husky', 'lint-staged', 'prismjs', 'tailwindcss', 'tsdx', 'tslib', 'typescript']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+aab23c9077727b6c86536a7d047d614f0aa95f0e,2020-10-18 13:34:05+00:00,"feat: add render features + render strategy (#106)
+
+* add unmount strategy to README (React)
+
+* add unmount strategy to README (Vue)
+
+* add different render features (React)
+
+* use render features in Menu and Listbox (React)
+
+* add different render features (Vue)
+
+* use render features in Menu and Listbox (Vue)
+
+* bump dependencies
+
+* add ability to change the ref property using `refName`
+
+Example use case:
+
+```tsx
+// Some components have this API with an `innerRef`. The suggested approach is to use
+// `React.forwardRef` so that you get the actual `ref` value. However if you already have this
+// `innerRef` API than we can use the `refName=""innerRef""` to give the `ref` prop a good name. It
+// defaults to `ref` so that it still works everywhere else.
+
+function MyButton({ innerRef, ...props }) {
+  return <button ref={innerRef} {...props} />
+}
+
+<Menu.Button as={MyButton} refName=""innerRef"" />
+```
+
+* small cleanup, move refs to props we control
+
+* add tests for the render abstraction (Render)
+
++ use the unique __ symbol as a default value in the Props type for the
+  omitable props.
+
+* use render features in Transition (React)
+
+* add/update Transition examples to also showcase the `unmount={false}` render strategy
+
+* bump dependencies
+
+* add example with nested unmount/hide transitions
+
+* add unmount to Transition documentation",Robin Malfait,malfait.robin@gmail.com,GitHub,noreply@github.com,https://github.com/tailwindlabs/headlessui/commit/aab23c9077727b6c86536a7d047d614f0aa95f0e,['7d4af1ad3a1965db22a80fe566a574bbd1af85fd'],2467,981,3448,"[{'filename': 'package.json', 'additions': 3, 'deletions': 3, 'changes': 6}, {'filename': 'packages/@headlessui-react/README.md', 'additions': 16, 'deletions': 8, 'changes': 24}, {'filename': 'packages/@headlessui-react/package.json', 'additions': 4, 'deletions': 4, 'changes': 8}, {'filename': 'packages/@headlessui-react/pages/transitions/component-examples/nested/hidden.tsx', 'additions': 60, 'deletions': 0, 'changes': 60}, {'filename': 'packages/@headlessui-react/pages/transitions/component-examples/nested/unmount.tsx', 'additions': 60, 'deletions': 0, 'changes': 60}, {'filename': 'packages/@headlessui-react/pages/transitions/component-examples/peek-a-boo.tsx', 'additions': 38, 'deletions': 0, 'changes': 38}, {'filename': 'packages/@headlessui-react/pages/transitions/full-page-examples/layout-with-sidebar.tsx', 'additions': 6, 'deletions': 3, 'changes': 9}, {'filename': 'packages/@headlessui-react/src/components/listbox/listbox.test.tsx', 'additions': 277, 'deletions': 196, 'changes': 473}, {'filename': 'packages/@headlessui-react/src/components/listbox/listbox.tsx', 'additions': 24, 'deletions': 33, 'changes': 57}, {'filename': 'packages/@headlessui-react/src/components/menu/menu.test.tsx', 'additions': 180, 'deletions': 160, 'changes': 340}, {'filename': 'packages/@headlessui-react/src/components/menu/menu.tsx', 'additions': 16, 'deletions': 13, 'changes': 29}, {'filename': 'packages/@headlessui-react/src/components/transitions/transition.test.tsx', 'additions': 247, 'deletions': 21, 'changes': 268}, {'filename': 'packages/@headlessui-react/src/components/transitions/transition.tsx', 'additions': 90, 'deletions': 56, 'changes': 146}, {'filename': 'packages/@headlessui-react/src/test-utils/accessibility-assertions.ts', 'additions': 94, 'deletions': 26, 'changes': 120}, {'filename': 'packages/@headlessui-react/src/types.ts', 'additions': 19, 'deletions': 2, 'changes': 21}, {'filename': 'packages/@headlessui-react/src/utils/render.test.tsx', 'additions': 406, 'deletions': 0, 'changes': 406}, {'filename': 'packages/@headlessui-react/src/utils/render.ts', 'additions': 113, 'deletions': 10, 'changes': 123}, {'filename': 'packages/@headlessui-vue/README.md', 'additions': 10, 'deletions': 8, 'changes': 18}, {'filename': 'packages/@headlessui-vue/package.json', 'additions': 2, 'deletions': 2, 'changes': 4}, {'filename': 'packages/@headlessui-vue/src/components/listbox/listbox.test.tsx', 'additions': 269, 'deletions': 178, 'changes': 447}, {'filename': 'packages/@headlessui-vue/src/components/listbox/listbox.ts', 'additions': 22, 'deletions': 11, 'changes': 33}, {'filename': 'packages/@headlessui-vue/src/components/menu/menu.test.tsx', 'additions': 191, 'deletions': 169, 'changes': 360}, {'filename': 'packages/@headlessui-vue/src/components/menu/menu.ts', 'additions': 10, 'deletions': 8, 'changes': 18}, {'filename': 'packages/@headlessui-vue/src/test-utils/accessibility-assertions.ts', 'additions': 94, 'deletions': 26, 'changes': 120}, {'filename': 'packages/@headlessui-vue/src/utils/render.ts', 'additions': 76, 'deletions': 1, 'changes': 77}, {'filename': 'yarn.lock', 'additions': 140, 'deletions': 43, 'changes': 183}]",[],"['@tailwindcss/ui', '@testing-library/jest-dom', '@types/node', 'husky', 'lint-staged', 'prismjs', 'tailwindcss', 'tsdx', 'tslib', 'typescript']",[],"['@tailwindcss/ui', '@testing-library/jest-dom', '@types/node', 'husky', 'lint-staged', 'prismjs', 'tailwindcss', 'tsdx', 'tslib', 'typescript']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+24725216e4e2fb9280bdf3b96583a9fe573410e4,2020-10-20 13:38:12+00:00,"fix: outside click refocus bug (#114)
+
+* add watch script
+
+* make interactions in Vue and React consistent
+
+* re-work focus restoration
+
+When we click outside of the Menu or Listbox, we want to
+restore the focus to the Button, *unless* we clicked on/in an element
+that is focusable in itself. For example, when the Menu is open and you
+click in an input field, the input field should stay focused. We should
+also close the Menu itself at this point.
+
+* add examples with multiple elements
+
+* bump dependencies",Robin Malfait,malfait.robin@gmail.com,GitHub,noreply@github.com,https://github.com/tailwindlabs/headlessui/commit/24725216e4e2fb9280bdf3b96583a9fe573410e4,['47b3ad13872ab50e5cae5fd290e05d223054610c'],694,220,914,"[{'filename': 'package.json', 'additions': 2, 'deletions': 2, 'changes': 4}, {'filename': 'packages/@headlessui-react/package.json', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-react/pages/listbox/multiple-elements.tsx', 'additions': 137, 'deletions': 0, 'changes': 137}, {'filename': 'packages/@headlessui-react/pages/menu/multiple-elements.tsx', 'additions': 86, 'deletions': 0, 'changes': 86}, {'filename': 'packages/@headlessui-react/playground-utils/resolve-all-examples.ts', 'additions': 2, 'deletions': 2, 'changes': 4}, {'filename': 'packages/@headlessui-react/src/components/listbox/listbox.test.tsx', 'additions': 4, 'deletions': 29, 'changes': 33}, {'filename': 'packages/@headlessui-react/src/components/listbox/listbox.tsx', 'additions': 7, 'deletions': 15, 'changes': 22}, {'filename': 'packages/@headlessui-react/src/components/menu/menu.test.tsx', 'additions': 4, 'deletions': 29, 'changes': 33}, {'filename': 'packages/@headlessui-react/src/components/menu/menu.tsx', 'additions': 7, 'deletions': 19, 'changes': 26}, {'filename': 'packages/@headlessui-react/src/test-utils/interactions.ts', 'additions': 13, 'deletions': 8, 'changes': 21}, {'filename': 'packages/@headlessui-vue/examples/src/App.vue', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-vue/examples/src/components/listbox/multiple-elements.vue', 'additions': 210, 'deletions': 0, 'changes': 210}, {'filename': 'packages/@headlessui-vue/examples/src/components/menu/multiple-elements.vue', 'additions': 125, 'deletions': 0, 'changes': 125}, {'filename': 'packages/@headlessui-vue/examples/src/routes.json', 'additions': 10, 'deletions': 0, 'changes': 10}, {'filename': 'packages/@headlessui-vue/package.json', 'additions': 1, 'deletions': 0, 'changes': 1}, {'filename': 'packages/@headlessui-vue/src/components/listbox/listbox.test.tsx', 'additions': 11, 'deletions': 32, 'changes': 43}, {'filename': 'packages/@headlessui-vue/src/components/listbox/listbox.ts', 'additions': 14, 'deletions': 28, 'changes': 42}, {'filename': 'packages/@headlessui-vue/src/components/menu/menu.test.tsx', 'additions': 7, 'deletions': 25, 'changes': 32}, {'filename': 'packages/@headlessui-vue/src/components/menu/menu.ts', 'additions': 12, 'deletions': 10, 'changes': 22}, {'filename': 'packages/@headlessui-vue/src/test-utils/interactions.ts', 'additions': 14, 'deletions': 7, 'changes': 21}, {'filename': 'scripts/watch.sh', 'additions': 14, 'deletions': 0, 'changes': 14}, {'filename': 'yarn.lock', 'additions': 12, 'deletions': 12, 'changes': 24}]",[],"['@tailwindcss/ui', '@testing-library/jest-dom', '@types/node', 'husky', 'lint-staged', 'prismjs', 'tailwindcss', 'tsdx', 'tslib', 'typescript']",[],"['@tailwindcss/ui', '@testing-library/jest-dom', '@types/node', 'husky', 'lint-staged', 'prismjs', 'tailwindcss', 'tsdx', 'tslib', 'typescript']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+9b0d9e136ac47f3aa85f23d5b2033f3f112b5043,2021-01-29 14:14:59+00:00,"bump dependencies (#177)
+
+* bump root dependencies
+
+* bump react related dependencies
+
+* update browserslist db
+
+* remove obsolete shared dependency",Robin Malfait,malfait.robin@gmail.com,GitHub,noreply@github.com,https://github.com/tailwindlabs/headlessui/commit/9b0d9e136ac47f3aa85f23d5b2033f3f112b5043,['4459689beb8d01a8f7ab153a00e3480d2873b3fd'],906,674,1580,"[{'filename': 'package.json', 'additions': 7, 'deletions': 7, 'changes': 14}, {'filename': 'packages/@headlessui-react/package.json', 'additions': 6, 'deletions': 6, 'changes': 12}, {'filename': 'packages/@headlessui-vue/package.json', 'additions': 0, 'deletions': 1, 'changes': 1}, {'filename': 'yarn.lock', 'additions': 893, 'deletions': 660, 'changes': 1553}]",[],"['@tailwindcss/ui', '@testing-library/jest-dom', '@types/node', 'husky', 'lint-staged', 'prismjs', 'tailwindcss', 'tsdx', 'tslib', 'typescript']",[],"['@tailwindcss/ui', '@testing-library/jest-dom', '@types/node', 'husky', 'lint-staged', 'prismjs', 'tailwindcss', 'tsdx', 'tslib', 'typescript']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+533a81a11520a620b54e45d4d04aff8b268edd00,2021-02-11 18:36:20+00:00,0.0.2,Robin Malfait,malfait.robin@gmail.com,Robin Malfait,malfait.robin@gmail.com,https://github.com/tailwindlabs/headlessui/commit/533a81a11520a620b54e45d4d04aff8b268edd00,['6d321ab02ae9fd3578550f95c30b8029001010b0'],1,1,2,"[{'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",[],"['@tailwindcss/ui', '@testing-library/jest-dom', '@types/node', 'husky', 'lint-staged', 'prismjs', 'tailwindcss', 'tsdx', 'tslib', 'typescript']",[],"['@tailwindcss/ui', '@testing-library/jest-dom', '@types/node', 'husky', 'lint-staged', 'prismjs', 'tailwindcss', 'tsdx', 'tslib', 'typescript']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+d25f80ae9d896446c2b7119a70cfd5d99e250050,2021-07-29 10:56:11+00:00,bump version to 1.4.0,Robin Malfait,malfait.robin@gmail.com,Robin Malfait,malfait.robin@gmail.com,https://github.com/tailwindlabs/headlessui/commit/d25f80ae9d896446c2b7119a70cfd5d99e250050,['a4036d59f2f76d771c82c1eece61e0e5d474d953'],3,3,6,"[{'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-react/package.json', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-vue/package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",[],"['@tailwindcss/ui', '@testing-library/jest-dom', '@types/node', 'husky', 'lint-staged', 'prismjs', 'tailwindcss', 'tsdx', 'tslib', 'typescript']",[],"['@tailwindcss/ui', '@testing-library/jest-dom', '@types/node', 'husky', 'lint-staged', 'prismjs', 'tailwindcss', 'tsdx', 'tslib', 'typescript']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+cae976a18b7955670cd28fb1067a49917bda2c09,2022-01-19 15:51:09+00:00,"Remove playground (#1053)
+
+* remove local testing playgrounds
+
+* bump outdated packages",Robin Malfait,malfait.robin@gmail.com,GitHub,noreply@github.com,https://github.com/tailwindlabs/headlessui/commit/cae976a18b7955670cd28fb1067a49917bda2c09,['186a4cfcefabd1c4eced9ccdd0f2a37425adda9c'],520,9114,9634,"[{'filename': 'package.json', 'additions': 1, 'deletions': 4, 'changes': 5}, {'filename': 'packages/@headlessui-react/next-env.d.ts', 'additions': 0, 'deletions': 2, 'changes': 2}, {'filename': 'packages/@headlessui-react/next.config.js', 'additions': 0, 'deletions': 5, 'changes': 5}, {'filename': 'packages/@headlessui-react/package.json', 'additions': 1, 'deletions': 6, 'changes': 7}, {'filename': 'packages/@headlessui-react/pages/_app.tsx', 'additions': 0, 'deletions': 201, 'changes': 201}, {'filename': 'packages/@headlessui-react/pages/_error.tsx', 'additions': 0, 'deletions': 64, 'changes': 64}, {'filename': 'packages/@headlessui-react/pages/dialog/dialog.tsx', 'additions': 0, 'deletions': 241, 'changes': 241}, {'filename': 'packages/@headlessui-react/pages/disclosure/disclosure.tsx', 'additions': 0, 'deletions': 25, 'changes': 25}, {'filename': 'packages/@headlessui-react/pages/listbox/listbox-with-pure-tailwind.tsx', 'additions': 0, 'deletions': 115, 'changes': 115}, {'filename': 'packages/@headlessui-react/pages/listbox/multiple-elements.tsx', 'additions': 0, 'deletions': 137, 'changes': 137}, {'filename': 'packages/@headlessui-react/pages/menu/menu-with-framer-motion.tsx', 'additions': 0, 'deletions': 112, 'changes': 112}, {'filename': 'packages/@headlessui-react/pages/menu/menu-with-popper.tsx', 'additions': 0, 'deletions': 98, 'changes': 98}, {'filename': 'packages/@headlessui-react/pages/menu/menu-with-transition-and-popper.tsx', 'additions': 0, 'deletions': 92, 'changes': 92}, {'filename': 'packages/@headlessui-react/pages/menu/menu-with-transition.tsx', 'additions': 0, 'deletions': 76, 'changes': 76}, {'filename': 'packages/@headlessui-react/pages/menu/menu.tsx', 'additions': 0, 'deletions': 76, 'changes': 76}, {'filename': 'packages/@headlessui-react/pages/menu/multiple-elements.tsx', 'additions': 0, 'deletions': 86, 'changes': 86}, {'filename': 'packages/@headlessui-react/pages/popover/popover.tsx', 'additions': 0, 'deletions': 115, 'changes': 115}, {'filename': 'packages/@headlessui-react/pages/radio-group/radio-group.tsx', 'additions': 0, 'deletions': 101, 'changes': 101}, {'filename': 'packages/@headlessui-react/pages/switch/switch-with-pure-tailwind.tsx', 'additions': 0, 'deletions': 39, 'changes': 39}, {'filename': 'packages/@headlessui-react/pages/tabs/tabs-with-pure-tailwind.tsx', 'additions': 0, 'deletions': 86, 'changes': 86}, {'filename': 'packages/@headlessui-react/pages/transitions/component-examples/dropdown.tsx', 'additions': 0, 'deletions': 98, 'changes': 98}, {'filename': 'packages/@headlessui-react/pages/transitions/component-examples/modal.tsx', 'additions': 0, 'deletions': 168, 'changes': 168}, {'filename': 'packages/@headlessui-react/pages/transitions/component-examples/nested/hidden.tsx', 'additions': 0, 'deletions': 60, 'changes': 60}, {'filename': 'packages/@headlessui-react/pages/transitions/component-examples/nested/unmount.tsx', 'additions': 0, 'deletions': 60, 'changes': 60}, {'filename': 'packages/@headlessui-react/pages/transitions/component-examples/peek-a-boo.tsx', 'additions': 0, 'deletions': 38, 'changes': 38}, {'filename': 'packages/@headlessui-react/pages/transitions/full-page-examples/full-page-transition.tsx', 'additions': 0, 'deletions': 181, 'changes': 181}, {'filename': 'packages/@headlessui-react/pages/transitions/full-page-examples/layout-with-sidebar.tsx', 'additions': 0, 'deletions': 170, 'changes': 170}, {'filename': 'packages/@headlessui-react/playground-utils/hooks/use-popper.ts', 'additions': 0, 'deletions': 37, 'changes': 37}, {'filename': 'packages/@headlessui-react/playground-utils/resolve-all-examples.ts', 'additions': 0, 'deletions': 46, 'changes': 46}, {'filename': 'packages/@headlessui-react/postcss.config.js', 'additions': 0, 'deletions': 1, 'changes': 1}, {'filename': 'packages/@headlessui-react/tailwind.config.js', 'additions': 0, 'deletions': 1, 'changes': 1}, {'filename': 'packages/@headlessui-react/vercel.json', 'additions': 0, 'deletions': 3, 'changes': 3}, {'filename': 'packages/@headlessui-vue/examples/.gitignore', 'additions': 0, 'deletions': 4, 'changes': 4}, {'filename': 'packages/@headlessui-vue/examples/index.html', 'additions': 0, 'deletions': 14, 'changes': 14}, {'filename': 'packages/@headlessui-vue/examples/public/favicon.ico', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'packages/@headlessui-vue/examples/src/.generated/.gitignore', 'additions': 0, 'deletions': 2, 'changes': 2}, {'filename': 'packages/@headlessui-vue/examples/src/App.vue', 'additions': 0, 'deletions': 96, 'changes': 96}, {'filename': 'packages/@headlessui-vue/examples/src/KeyCaster.vue', 'additions': 0, 'deletions': 74, 'changes': 74}, {'filename': 'packages/@headlessui-vue/examples/src/components/Home.vue', 'additions': 0, 'deletions': 44, 'changes': 44}, {'filename': 'packages/@headlessui-vue/examples/src/components/dialog/dialog.vue', 'additions': 0, 'deletions': 238, 'changes': 238}, {'filename': 'packages/@headlessui-vue/examples/src/components/disclosure/disclosure.vue', 'additions': 0, 'deletions': 33, 'changes': 33}, {'filename': 'packages/@headlessui-vue/examples/src/components/focus-trap/focus-trap.vue', 'additions': 0, 'deletions': 27, 'changes': 27}, {'filename': 'packages/@headlessui-vue/examples/src/components/listbox/listbox.vue', 'additions': 0, 'deletions': 126, 'changes': 126}, {'filename': 'packages/@headlessui-vue/examples/src/components/listbox/multiple-elements.vue', 'additions': 0, 'deletions': 210, 'changes': 210}, {'filename': 'packages/@headlessui-vue/examples/src/components/menu/menu-with-popper.vue', 'additions': 0, 'deletions': 86, 'changes': 86}, {'filename': 'packages/@headlessui-vue/examples/src/components/menu/menu-with-transition-and-popper.vue', 'additions': 0, 'deletions': 94, 'changes': 94}, {'filename': 'packages/@headlessui-vue/examples/src/components/menu/menu-with-transition.vue', 'additions': 0, 'deletions': 83, 'changes': 83}, {'filename': 'packages/@headlessui-vue/examples/src/components/menu/menu.vue', 'additions': 0, 'deletions': 84, 'changes': 84}, {'filename': 'packages/@headlessui-vue/examples/src/components/menu/multiple-elements.vue', 'additions': 0, 'deletions': 125, 'changes': 125}, {'filename': 'packages/@headlessui-vue/examples/src/components/popover/popover.vue', 'additions': 0, 'deletions': 146, 'changes': 146}, {'filename': 'packages/@headlessui-vue/examples/src/components/portal/portal.vue', 'additions': 0, 'deletions': 37, 'changes': 37}, {'filename': 'packages/@headlessui-vue/examples/src/components/radio-group/radio-group.vue', 'additions': 0, 'deletions': 104, 'changes': 104}, {'filename': 'packages/@headlessui-vue/examples/src/components/switch/switch.vue', 'additions': 0, 'deletions': 40, 'changes': 40}, {'filename': 'packages/@headlessui-vue/examples/src/components/tabs/tabs.vue', 'additions': 0, 'deletions': 81, 'changes': 81}, {'filename': 'packages/@headlessui-vue/examples/src/main.js', 'additions': 0, 'deletions': 9, 'changes': 9}, {'filename': 'packages/@headlessui-vue/examples/src/playground-utils/hooks/use-popper.js', 'additions': 0, 'deletions': 26, 'changes': 26}, {'filename': 'packages/@headlessui-vue/examples/src/router.js', 'additions': 0, 'deletions': 23, 'changes': 23}, {'filename': 'packages/@headlessui-vue/examples/src/routes.json', 'additions': 0, 'deletions': 141, 'changes': 141}, {'filename': 'packages/@headlessui-vue/package.json', 'additions': 1, 'deletions': 8, 'changes': 9}, {'filename': 'packages/@headlessui-vue/tailwind.config.js', 'additions': 0, 'deletions': 1, 'changes': 1}, {'filename': 'packages/@headlessui-vue/vite.config.js', 'additions': 0, 'deletions': 122, 'changes': 122}, {'filename': 'postcss.config.js', 'additions': 0, 'deletions': 6, 'changes': 6}, {'filename': 'tailwind.config.js', 'additions': 0, 'deletions': 27, 'changes': 27}, {'filename': 'yarn.lock', 'additions': 517, 'deletions': 4459, 'changes': 4976}]",[],"['@testing-library/jest-dom', '@types/node', 'husky', 'lint-staged', 'tsdx', 'tslib', 'typescript']",[],"['@tailwindcss/ui', '@testing-library/jest-dom', '@types/node', 'husky', 'lint-staged', 'prismjs', 'tailwindcss', 'tsdx', 'tslib', 'typescript']","{'added': [], 'removed': []}","{'added': [], 'removed': ['prismjs', 'tailwindcss', '@tailwindcss/ui']}"
+ea268704802cf1de1149ddc227e1a718ee71480e,2022-01-27 15:42:47+00:00,"Add `Combobox` component (#1047)
+
+* start of combobox
+
+* start with a copy of the Listbox
+
+* WIP
+
+* Add Vue Combobox
+
+* Update Vue version of combobox
+
+* Update tests
+
+* Fix typescript errors in combobox test
+
+* Fix input label
+
+The spec says that the combobox itself is labelled directly by the associated label. The button can however be labelled by the label or itself.
+
+* Add active descendant to combobox/input
+
+* Add listbox role to comobox options
+
+Right now the option list *is* just a listbox. If we were to allow other types in the future this will need to be changable
+
+* Update tests
+
+* move React playground to dedicated package
+
+* add react playground script to root
+
+* ensure we only open/close the combobox when necessary
+
+* ensure export order is correct
+
+* remove leftover pages directory from React package
+
+* Only add aria controls when combobox is open
+
+* add missing next commands
+
+* make typescript happy
+
+* build @headlessui/react before building playground-react
+
+* add empty public folder
+
+This makes vercel happy
+
+* wip
+
+* Add todo
+
+* Update tests
+
+Still more updates to do but some are blocked on implementation
+
+* change default combobox example slightly
+
+* ensure that we sync the input with new state
+
+When the <Combobox value={...} /> changes, then the input should change
+as well.
+
+* only sync the value with the input in a single spot
+
+* WIP: object value to string
+
+* WIP
+
+* WIP
+
+* WIP groups
+
+* Add static search filtering to combobox
+
+* Move mouse leave event to combobox
+
+* Fix use in fragments
+
+* Update
+
+* WIP
+
+* make all tests pass for the combobox in React
+
+* remove unnecessary playground item
+
+* remove listbox wip
+
+* only fire change event on inputs
+
+Potentially we also have to do this for all kinds of form inputs. But
+this will do for now.
+
+* disable combobox vue tests
+
+* Fix vue typescript errors
+
+* Vue tests WIP
+
+* improve combobox playgrounds a tiny bit
+
+* ensure to lookup the correct value
+
+* make sure that we are using a div instead of a Fragment
+
+* expose `activeItem`
+
+This will be similar to `yourData[activeIndex]`, but in this case the
+active option's data. Can probably rename this if necessary!
+
+* Update comments
+
+* Port react tests to Vue
+
+* Vue tests WIP
+
+* WIP
+
+* Rename activeItem to activeOption
+
+* Move display value to input
+
+* Update playgrounds
+
+* Remove static filtering
+
+* Add tests for display value
+
+* WIP Vue Tests
+
+* WIP
+
+* unfocus suite
+
+* Cleanup react accessibility assertions code
+
+* Vue WIP
+
+* Cleanup errors in react interactions test utils
+
+* Update vue implementation
+
+closer :D
+
+* Fix searching
+
+* Update
+
+* Add display value stubs
+
+* Update tests
+
+* move `<Combobox onSearch={} />` to `<Combobox.Input onChange={} />`
+
+* use `useLatestValue` hook
+
+* make `onChange` explicitly required
+
+* remove unused variables
+
+* move `<Combobox @search="""" />` to `<ComboboxInput @change="""" />`
+
+* use correct event
+
+* use `let` for consistency
+
+* remove unnecessary hidden check
+
+* implement displayValue for Vue
+
+* update playground to reflect changes
+
+* make sure that the activeOptionIndex stays correct
+
+* update changelog
+
+Co-authored-by: Jordan Pittman <jordan@cryptica.me>",Robin Malfait,malfait.robin@gmail.com,GitHub,noreply@github.com,https://github.com/tailwindlabs/headlessui/commit/ea268704802cf1de1149ddc227e1a718ee71480e,['cae976a18b7955670cd28fb1067a49917bda2c09'],16186,104,16290,"[{'filename': 'CHANGELOG.md', 'additions': 8, 'deletions': 1, 'changes': 9}, {'filename': 'package.json', 'additions': 2, 'deletions': 0, 'changes': 2}, {'filename': 'packages/@headlessui-react/package.json', 'additions': 1, 'deletions': 0, 'changes': 1}, {'filename': 'packages/@headlessui-react/src/components/combobox/combobox.test.tsx', 'additions': 4917, 'deletions': 0, 'changes': 4917}, {'filename': 'packages/@headlessui-react/src/components/combobox/combobox.tsx', 'additions': 924, 'deletions': 0, 'changes': 924}, {'filename': 'packages/@headlessui-react/src/hooks/use-computed.ts', 'additions': 3, 'deletions': 5, 'changes': 8}, {'filename': 'packages/@headlessui-react/src/hooks/use-latest-value.ts', 'additions': 11, 'deletions': 0, 'changes': 11}, {'filename': 'packages/@headlessui-react/src/index.test.ts', 'additions': 1, 'deletions': 0, 'changes': 1}, {'filename': 'packages/@headlessui-react/src/index.ts', 'additions': 1, 'deletions': 0, 'changes': 1}, {'filename': 'packages/@headlessui-react/src/test-utils/accessibility-assertions.ts', 'additions': 420, 'deletions': 33, 'changes': 453}, {'filename': 'packages/@headlessui-react/src/test-utils/interactions.ts', 'additions': 27, 'deletions': 7, 'changes': 34}, {'filename': 'packages/@headlessui-react/src/utils/disposables.ts', 'additions': 11, 'deletions': 0, 'changes': 11}, {'filename': 'packages/@headlessui-vue/src/components/combobox/combobox.test.tsx', 'additions': 5334, 'deletions': 0, 'changes': 5334}, {'filename': 'packages/@headlessui-vue/src/components/combobox/combobox.ts', 'additions': 686, 'deletions': 0, 'changes': 686}, {'filename': 'packages/@headlessui-vue/src/index.test.ts', 'additions': 8, 'deletions': 0, 'changes': 8}, {'filename': 'packages/@headlessui-vue/src/index.ts', 'additions': 1, 'deletions': 0, 'changes': 1}, {'filename': 'packages/@headlessui-vue/src/test-utils/accessibility-assertions.ts', 'additions': 420, 'deletions': 33, 'changes': 453}, {'filename': 'packages/@headlessui-vue/src/test-utils/interactions.ts', 'additions': 29, 'deletions': 10, 'changes': 39}, {'filename': 'packages/@headlessui-vue/src/utils/disposables.ts', 'additions': 11, 'deletions': 0, 'changes': 11}, {'filename': 'packages/playground-react/next-env.d.ts', 'additions': 5, 'deletions': 0, 'changes': 5}, {'filename': 'packages/playground-react/next.config.js', 'additions': 5, 'deletions': 0, 'changes': 5}, {'filename': 'packages/playground-react/package.json', 'additions': 23, 'deletions': 0, 'changes': 23}, {'filename': 'packages/playground-react/pages/_app.tsx', 'additions': 239, 'deletions': 0, 'changes': 239}, {'filename': 'packages/playground-react/pages/_error.tsx', 'additions': 63, 'deletions': 0, 'changes': 63}, {'filename': 'packages/playground-react/pages/combobox/combobox-with-pure-tailwind.tsx', 'additions': 136, 'deletions': 0, 'changes': 136}, {'filename': 'packages/playground-react/pages/combobox/command-palette-with-groups.tsx', 'additions': 150, 'deletions': 0, 'changes': 150}, {'filename': 'packages/playground-react/pages/combobox/command-palette.tsx', 'additions': 135, 'deletions': 0, 'changes': 135}, {'filename': 'packages/playground-react/pages/dialog/dialog.tsx', 'additions': 238, 'deletions': 0, 'changes': 238}, {'filename': 'packages/playground-react/pages/disclosure/disclosure.tsx', 'additions': 25, 'deletions': 0, 'changes': 25}, {'filename': 'packages/playground-react/pages/listbox/listbox-with-pure-tailwind.tsx', 'additions': 115, 'deletions': 0, 'changes': 115}, {'filename': 'packages/playground-react/pages/listbox/multiple-elements.tsx', 'additions': 134, 'deletions': 0, 'changes': 134}, {'filename': 'packages/playground-react/pages/menu/menu-with-framer-motion.tsx', 'additions': 111, 'deletions': 0, 'changes': 111}, {'filename': 'packages/playground-react/pages/menu/menu-with-popper.tsx', 'additions': 95, 'deletions': 0, 'changes': 95}, {'filename': 'packages/playground-react/pages/menu/menu-with-transition-and-popper.tsx', 'additions': 89, 'deletions': 0, 'changes': 89}, {'filename': 'packages/playground-react/pages/menu/menu-with-transition.tsx', 'additions': 73, 'deletions': 0, 'changes': 73}, {'filename': 'packages/playground-react/pages/menu/menu.tsx', 'additions': 72, 'deletions': 0, 'changes': 72}, {'filename': 'packages/playground-react/pages/menu/multiple-elements.tsx', 'additions': 83, 'deletions': 0, 'changes': 83}, {'filename': 'packages/playground-react/pages/popover/popover.tsx', 'additions': 116, 'deletions': 0, 'changes': 116}, {'filename': 'packages/playground-react/pages/radio-group/radio-group.tsx', 'additions': 101, 'deletions': 0, 'changes': 101}, {'filename': 'packages/playground-react/pages/switch/switch-with-pure-tailwind.tsx', 'additions': 39, 'deletions': 0, 'changes': 39}, {'filename': 'packages/playground-react/pages/tabs/tabs-with-pure-tailwind.tsx', 'additions': 86, 'deletions': 0, 'changes': 86}, {'filename': 'packages/playground-react/pages/transitions/component-examples/dropdown.tsx', 'additions': 98, 'deletions': 0, 'changes': 98}, {'filename': 'packages/playground-react/pages/transitions/component-examples/modal.tsx', 'additions': 168, 'deletions': 0, 'changes': 168}, {'filename': 'packages/playground-react/pages/transitions/component-examples/nested/hidden.tsx', 'additions': 60, 'deletions': 0, 'changes': 60}, {'filename': 'packages/playground-react/pages/transitions/component-examples/nested/unmount.tsx', 'additions': 60, 'deletions': 0, 'changes': 60}, {'filename': 'packages/playground-react/pages/transitions/component-examples/peek-a-boo.tsx', 'additions': 38, 'deletions': 0, 'changes': 38}, {'filename': 'packages/playground-react/pages/transitions/full-page-examples/full-page-transition.tsx', 'additions': 181, 'deletions': 0, 'changes': 181}, {'filename': 'packages/playground-react/pages/transitions/full-page-examples/layout-with-sidebar.tsx', 'additions': 170, 'deletions': 0, 'changes': 170}, {'filename': 'packages/playground-react/public/favicon.ico', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'packages/playground-react/tsconfig.json', 'additions': 30, 'deletions': 0, 'changes': 30}, {'filename': 'packages/playground-react/utils/class-names.ts', 'additions': 3, 'deletions': 0, 'changes': 3}, {'filename': 'packages/playground-react/utils/hooks/use-popper.ts', 'additions': 37, 'deletions': 0, 'changes': 37}, {'filename': 'packages/playground-react/utils/match.ts', 'additions': 20, 'deletions': 0, 'changes': 20}, {'filename': 'packages/playground-react/utils/resolve-all-examples.ts', 'additions': 50, 'deletions': 0, 'changes': 50}, {'filename': 'yarn.lock', 'additions': 323, 'deletions': 15, 'changes': 338}]",[],"['@testing-library/jest-dom', '@types/node', 'husky', 'lint-staged', 'tsdx', 'tslib', 'typescript']",[],"['@testing-library/jest-dom', '@types/node', 'husky', 'lint-staged', 'tsdx', 'tslib', 'typescript']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+fdd26297953080d5ec905dda0bf5ec9607897d86,2022-01-27 16:07:38+00:00,"Improve overal codebase, use modern tech like `esbuild` and TypeScript 4! (#1055)
+
+* use esbuild for React instead of tsdx
+
+* remove tsdx from Vue
+
+* use consistent names
+
+* add jest and prettier
+
+* update scripts
+
+* ignore some folders for prettier
+
+* run lint script instead of tsdx lint
+
+* run prettier en-masse
+
+This has a few changes because of the new prettier version.
+
+* bump typescript to latest version
+
+* make typescript happy
+
+* cleanup playground package.json
+
+* make esbuild a dev dependency
+
+* make scripts consistent
+
+* fix husky hooks
+
+* add dedicated watch script
+
+* add `yarn playground-react` and `yarn react-playground` (alias)
+
+This will make sure to run a watcher for the actual @headlessui/react
+package, and start a development server in the playground-react package.
+
+* ignore formatting in the .next folder
+
+* run prettier on playground-react package
+
+* setup playground-vue
+
+Still not 100% working, but getting there!
+
+* add playground aliases in @headlessui/vue and @headlessui/react
+
+This allows you to run `yarn react playground` or `yarn vue playground`
+from the root.
+
+* add `clean` script
+
+* move examples folder in playground-vue to root
+
+* ensure new lines for consistency in scripts
+
+* fix typescript issue
+
+* fix typescript issues in playgrounds
+
+* make sure to run prettier on everything it can
+
+* run prettier on all files
+
+* improve error output
+
+If you minify the code, then it could happen that the errors are a bit
+obscure. This will hardcode the component name to improve errors.
+
+* add the `prettier-plugin-tailwindcss` plugin, party!
+
+* update changelog",Robin Malfait,malfait.robin@gmail.com,GitHub,noreply@github.com,https://github.com/tailwindlabs/headlessui/commit/fdd26297953080d5ec905dda0bf5ec9607897d86,['ea268704802cf1de1149ddc227e1a718ee71480e'],5151,5575,10726,"[{'filename': '.github/CONTRIBUTING.md', 'additions': 0, 'deletions': 1, 'changes': 1}, {'filename': '.github/ISSUE_TEMPLATE/config.yml', 'additions': 0, 'deletions': 1, 'changes': 1}, {'filename': '.github/workflows/release-insiders.yml', 'additions': 1, 'deletions': 2, 'changes': 3}, {'filename': '.prettierignore', 'additions': 4, 'deletions': 0, 'changes': 4}, {'filename': '.swcrc', 'additions': 11, 'deletions': 0, 'changes': 11}, {'filename': 'CHANGELOG.md', 'additions': 6, 'deletions': 4, 'changes': 10}, {'filename': 'README.md', 'additions': 0, 'deletions': 1, 'changes': 1}, {'filename': 'jest/create-jest-config.js', 'additions': 2, 'deletions': 9, 'changes': 11}, {'filename': 'package.json', 'additions': 18, 'deletions': 6, 'changes': 24}, {'filename': 'packages/@headlessui-react/README.md', 'additions': 0, 'deletions': 1, 'changes': 1}, {'filename': 'packages/@headlessui-react/build/index.js', 'additions': 7, 'deletions': 0, 'changes': 7}, {'filename': 'packages/@headlessui-react/package.json', 'additions': 17, 'deletions': 5, 'changes': 22}, {'filename': 'packages/@headlessui-react/src/components/combobox/combobox.test.tsx', 'additions': 37, 'deletions': 35, 'changes': 72}, {'filename': 'packages/@headlessui-react/src/components/combobox/combobox.tsx', 'additions': 26, 'deletions': 25, 'changes': 51}, {'filename': 'packages/@headlessui-react/src/components/description/description.tsx', 'additions': 2, 'deletions': 2, 'changes': 4}, {'filename': 'packages/@headlessui-react/src/components/dialog/dialog.test.tsx', 'additions': 12, 'deletions': 12, 'changes': 24}, {'filename': 'packages/@headlessui-react/src/components/dialog/dialog.tsx', 'additions': 19, 'deletions': 16, 'changes': 35}, {'filename': 'packages/@headlessui-react/src/components/disclosure/disclosure.test.tsx', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-react/src/components/disclosure/disclosure.tsx', 'additions': 5, 'deletions': 5, 'changes': 10}, {'filename': 'packages/@headlessui-react/src/components/label/label.tsx', 'additions': 2, 'deletions': 2, 'changes': 4}, {'filename': 'packages/@headlessui-react/src/components/listbox/listbox.test.tsx', 'additions': 26, 'deletions': 25, 'changes': 51}, {'filename': 'packages/@headlessui-react/src/components/listbox/listbox.tsx', 'additions': 25, 'deletions': 24, 'changes': 49}, {'filename': 'packages/@headlessui-react/src/components/menu/menu.test.tsx', 'additions': 24, 'deletions': 24, 'changes': 48}, {'filename': 'packages/@headlessui-react/src/components/menu/menu.tsx', 'additions': 20, 'deletions': 17, 'changes': 37}, {'filename': 'packages/@headlessui-react/src/components/popover/popover.test.tsx', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-react/src/components/popover/popover.tsx', 'additions': 17, 'deletions': 16, 'changes': 33}, {'filename': 'packages/@headlessui-react/src/components/portal/portal.test.tsx', 'additions': 9, 'deletions': 9, 'changes': 18}, {'filename': 'packages/@headlessui-react/src/components/radio-group/radio-group.test.tsx', 'additions': 5, 'deletions': 5, 'changes': 10}, {'filename': 'packages/@headlessui-react/src/components/radio-group/radio-group.tsx', 'additions': 16, 'deletions': 18, 'changes': 34}, {'filename': 'packages/@headlessui-react/src/components/switch/switch.test.tsx', 'additions': 4, 'deletions': 4, 'changes': 8}, {'filename': 'packages/@headlessui-react/src/components/tabs/tabs.test.tsx', 'additions': 12, 'deletions': 12, 'changes': 24}, {'filename': 'packages/@headlessui-react/src/components/tabs/tabs.tsx', 'additions': 13, 'deletions': 17, 'changes': 30}, {'filename': 'packages/@headlessui-react/src/components/transitions/transition.test.tsx', 'additions': 17, 'deletions': 17, 'changes': 34}, {'filename': 'packages/@headlessui-react/src/components/transitions/transition.tsx', 'additions': 35, 'deletions': 20, 'changes': 55}, {'filename': 'packages/@headlessui-react/src/components/transitions/utils/transition.test.ts', 'additions': 14, 'deletions': 14, 'changes': 28}, {'filename': 'packages/@headlessui-react/src/components/transitions/utils/transition.ts', 'additions': 3, 'deletions': 3, 'changes': 6}, {'filename': 'packages/@headlessui-react/src/hooks/use-flags.ts', 'additions': 3, 'deletions': 3, 'changes': 6}, {'filename': 'packages/@headlessui-react/src/hooks/use-focus-trap.ts', 'additions': 2, 'deletions': 2, 'changes': 4}, {'filename': 'packages/@headlessui-react/src/hooks/use-inert-others.test.tsx', 'additions': 4, 'deletions': 4, 'changes': 8}, {'filename': 'packages/@headlessui-react/src/hooks/use-inert-others.ts', 'additions': 2, 'deletions': 2, 'changes': 4}, {'filename': 'packages/@headlessui-react/src/hooks/use-tree-walker.ts', 'additions': 1, 'deletions': 0, 'changes': 1}, {'filename': 'packages/@headlessui-react/src/test-utils/accessibility-assertions.ts', 'additions': 2, 'deletions': 2, 'changes': 4}, {'filename': 'packages/@headlessui-react/src/test-utils/execute-timeline.ts', 'additions': 5, 'deletions': 5, 'changes': 10}, {'filename': 'packages/@headlessui-react/src/test-utils/interactions.test.tsx', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-react/src/test-utils/interactions.ts', 'additions': 4, 'deletions': 4, 'changes': 8}, {'filename': 'packages/@headlessui-react/src/test-utils/suppress-console-logs.ts', 'additions': 2, 'deletions': 2, 'changes': 4}, {'filename': 'packages/@headlessui-react/src/utils/calculate-active-index.ts', 'additions': 3, 'deletions': 3, 'changes': 6}, {'filename': 'packages/@headlessui-react/src/utils/focus-management.ts', 'additions': 2, 'deletions': 2, 'changes': 4}, {'filename': 'packages/@headlessui-react/src/utils/match.ts', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-react/src/utils/render.test.tsx', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-react/src/utils/render.ts', 'additions': 9, 'deletions': 7, 'changes': 16}, {'filename': 'packages/@headlessui-react/tsconfig.json', 'additions': 2, 'deletions': 3, 'changes': 5}, {'filename': 'packages/@headlessui-react/tsconfig.tsdx.json', 'additions': 0, 'deletions': 7, 'changes': 7}, {'filename': 'packages/@headlessui-react/tsdx.config.js', 'additions': 0, 'deletions': 10, 'changes': 10}, {'filename': 'packages/@headlessui-react/types/jest.d.ts', 'additions': 9, 'deletions': 0, 'changes': 9}, {'filename': 'packages/@headlessui-vue/.eslintrc.js', 'additions': 0, 'deletions': 6, 'changes': 6}, {'filename': 'packages/@headlessui-vue/build/index.js', 'additions': 7, 'deletions': 0, 'changes': 7}, {'filename': 'packages/@headlessui-vue/package.json', 'additions': 16, 'deletions': 5, 'changes': 21}, {'filename': 'packages/@headlessui-vue/postcss.config.js', 'additions': 0, 'deletions': 1, 'changes': 1}, {'filename': 'packages/@headlessui-vue/src/components/combobox/combobox.test.tsx', 'additions': 99, 'deletions': 237, 'changes': 336}, {'filename': 'packages/@headlessui-vue/src/components/combobox/combobox.ts', 'additions': 5, 'deletions': 5, 'changes': 10}, {'filename': 'packages/@headlessui-vue/src/components/description/description.test.ts', 'additions': 75, 'deletions': 94, 'changes': 169}, {'filename': 'packages/@headlessui-vue/src/components/dialog/dialog.test.ts', 'additions': 3, 'deletions': 5, 'changes': 8}, {'filename': 'packages/@headlessui-vue/src/components/dialog/dialog.ts', 'additions': 5, 'deletions': 5, 'changes': 10}, {'filename': 'packages/@headlessui-vue/src/components/disclosure/disclosure.test.ts', 'additions': 9, 'deletions': 19, 'changes': 28}, {'filename': 'packages/@headlessui-vue/src/components/focus-trap/focus-trap.test.ts', 'additions': 16, 'deletions': 28, 'changes': 44}, {'filename': 'packages/@headlessui-vue/src/components/label/label.test.ts', 'additions': 75, 'deletions': 94, 'changes': 169}, {'filename': 'packages/@headlessui-vue/src/components/listbox/listbox.test.tsx', 'additions': 99, 'deletions': 231, 'changes': 330}, {'filename': 'packages/@headlessui-vue/src/components/listbox/listbox.ts', 'additions': 6, 'deletions': 9, 'changes': 15}, {'filename': 'packages/@headlessui-vue/src/components/menu/menu.test.tsx', 'additions': 29, 'deletions': 21, 'changes': 50}, {'filename': 'packages/@headlessui-vue/src/components/menu/menu.ts', 'additions': 6, 'deletions': 9, 'changes': 15}, {'filename': 'packages/@headlessui-vue/src/components/popover/popover.test.ts', 'additions': 11, 'deletions': 25, 'changes': 36}, {'filename': 'packages/@headlessui-vue/src/components/popover/popover.ts', 'additions': 2, 'deletions': 2, 'changes': 4}, {'filename': 'packages/@headlessui-vue/src/components/portal/portal.test.ts', 'additions': 13, 'deletions': 31, 'changes': 44}, {'filename': 'packages/@headlessui-vue/src/components/radio-group/radio-group.test.ts', 'additions': 4, 'deletions': 6, 'changes': 10}, {'filename': 'packages/@headlessui-vue/src/components/radio-group/radio-group.ts', 'additions': 9, 'deletions': 9, 'changes': 18}, {'filename': 'packages/@headlessui-vue/src/components/switch/switch.test.tsx', 'additions': 17, 'deletions': 53, 'changes': 70}, {'filename': 'packages/@headlessui-vue/src/components/tabs/tabs.test.ts', 'additions': 2, 'deletions': 2, 'changes': 4}, {'filename': 'packages/@headlessui-vue/src/components/tabs/tabs.ts', 'additions': 4, 'deletions': 4, 'changes': 8}, {'filename': 'packages/@headlessui-vue/src/components/transitions/transition.test.ts', 'additions': 20, 'deletions': 58, 'changes': 78}, {'filename': 'packages/@headlessui-vue/src/components/transitions/transition.ts', 'additions': 3, 'deletions': 3, 'changes': 6}, {'filename': 'packages/@headlessui-vue/src/components/transitions/utils/transition.test.ts', 'additions': 14, 'deletions': 14, 'changes': 28}, {'filename': 'packages/@headlessui-vue/src/components/transitions/utils/transition.ts', 'additions': 3, 'deletions': 3, 'changes': 6}, {'filename': 'packages/@headlessui-vue/src/hooks/use-focus-trap.ts', 'additions': 2, 'deletions': 2, 'changes': 4}, {'filename': 'packages/@headlessui-vue/src/hooks/use-inert-others.test.ts', 'additions': 4, 'deletions': 8, 'changes': 12}, {'filename': 'packages/@headlessui-vue/src/hooks/use-inert-others.ts', 'additions': 3, 'deletions': 3, 'changes': 6}, {'filename': 'packages/@headlessui-vue/src/hooks/use-tree-walker.ts', 'additions': 1, 'deletions': 0, 'changes': 1}, {'filename': 'packages/@headlessui-vue/src/hooks/use-window-event.ts', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-vue/src/internal/stack-context.ts', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-vue/src/test-utils/accessibility-assertions.ts', 'additions': 2, 'deletions': 2, 'changes': 4}, {'filename': 'packages/@headlessui-vue/src/test-utils/execute-timeline.ts', 'additions': 5, 'deletions': 5, 'changes': 10}, {'filename': 'packages/@headlessui-vue/src/test-utils/interactions.test.ts', 'additions': 4, 'deletions': 4, 'changes': 8}, {'filename': 'packages/@headlessui-vue/src/test-utils/interactions.ts', 'additions': 4, 'deletions': 4, 'changes': 8}, {'filename': 'packages/@headlessui-vue/src/test-utils/suppress-console-logs.ts', 'additions': 2, 'deletions': 2, 'changes': 4}, {'filename': 'packages/@headlessui-vue/src/utils/calculate-active-index.ts', 'additions': 3, 'deletions': 3, 'changes': 6}, {'filename': 'packages/@headlessui-vue/src/utils/focus-management.ts', 'additions': 2, 'deletions': 2, 'changes': 4}, {'filename': 'packages/@headlessui-vue/src/utils/match.ts', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-vue/src/utils/render.test.ts', 'additions': 3, 'deletions': 5, 'changes': 8}, {'filename': 'packages/@headlessui-vue/src/utils/render.ts', 'additions': 2, 'deletions': 2, 'changes': 4}, {'filename': 'packages/@headlessui-vue/tsconfig.json', 'additions': 0, 'deletions': 1, 'changes': 1}, {'filename': 'packages/@headlessui-vue/tsconfig.tsdx.json', 'additions': 0, 'deletions': 3, 'changes': 3}, {'filename': 'packages/@headlessui-vue/tsdx.config.js', 'additions': 0, 'deletions': 15, 'changes': 15}, {'filename': 'packages/@headlessui-vue/types/jest.d.ts', 'additions': 9, 'deletions': 0, 'changes': 9}, {'filename': 'packages/playground-react/package.json', 'additions': 7, 'deletions': 8, 'changes': 15}, {'filename': 'packages/playground-react/pages/_app.tsx', 'additions': 6, 'deletions': 9, 'changes': 15}, {'filename': 'packages/playground-react/pages/_error.tsx', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/playground-react/pages/combobox/combobox-with-pure-tailwind.tsx', 'additions': 17, 'deletions': 17, 'changes': 34}, {'filename': 'packages/playground-react/pages/combobox/command-palette-with-groups.tsx', 'additions': 18, 'deletions': 18, 'changes': 36}, {'filename': 'packages/playground-react/pages/combobox/command-palette.tsx', 'additions': 18, 'deletions': 18, 'changes': 36}, {'filename': 'packages/playground-react/pages/dialog/dialog.tsx', 'additions': 21, 'deletions': 21, 'changes': 42}, {'filename': 'packages/playground-react/pages/disclosure/disclosure.tsx', 'additions': 3, 'deletions': 3, 'changes': 6}, {'filename': 'packages/playground-react/pages/listbox/listbox-with-pure-tailwind.tsx', 'additions': 12, 'deletions': 12, 'changes': 24}, {'filename': 'packages/playground-react/pages/listbox/multiple-elements.tsx', 'additions': 12, 'deletions': 12, 'changes': 24}, {'filename': 'packages/playground-react/pages/menu/menu-with-framer-motion.tsx', 'additions': 7, 'deletions': 7, 'changes': 14}, {'filename': 'packages/playground-react/pages/menu/menu-with-popper.tsx', 'additions': 7, 'deletions': 7, 'changes': 14}, {'filename': 'packages/playground-react/pages/menu/menu-with-transition-and-popper.tsx', 'additions': 7, 'deletions': 7, 'changes': 14}, {'filename': 'packages/playground-react/pages/menu/menu-with-transition.tsx', 'additions': 5, 'deletions': 5, 'changes': 10}, {'filename': 'packages/playground-react/pages/menu/menu.tsx', 'additions': 6, 'deletions': 6, 'changes': 12}, {'filename': 'packages/playground-react/pages/menu/multiple-elements.tsx', 'additions': 7, 'deletions': 7, 'changes': 14}, {'filename': 'packages/playground-react/pages/popover/popover.tsx', 'additions': 11, 'deletions': 11, 'changes': 22}, {'filename': 'packages/playground-react/pages/radio-group/radio-group.tsx', 'additions': 7, 'deletions': 7, 'changes': 14}, {'filename': 'packages/playground-react/pages/switch/switch-with-pure-tailwind.tsx', 'additions': 3, 'deletions': 3, 'changes': 6}, {'filename': 'packages/playground-react/pages/tabs/tabs-with-pure-tailwind.tsx', 'additions': 8, 'deletions': 8, 'changes': 16}, {'filename': 'packages/playground-react/pages/transitions/component-examples/dropdown.tsx', 'additions': 10, 'deletions': 10, 'changes': 20}, {'filename': 'packages/playground-react/pages/transitions/component-examples/modal.tsx', 'additions': 18, 'deletions': 18, 'changes': 36}, {'filename': 'packages/playground-react/pages/transitions/component-examples/nested/hidden.tsx', 'additions': 5, 'deletions': 5, 'changes': 10}, {'filename': 'packages/playground-react/pages/transitions/component-examples/nested/unmount.tsx', 'additions': 5, 'deletions': 5, 'changes': 10}, {'filename': 'packages/playground-react/pages/transitions/component-examples/peek-a-boo.tsx', 'additions': 5, 'deletions': 5, 'changes': 10}, {'filename': 'packages/playground-react/pages/transitions/full-page-examples/full-page-transition.tsx', 'additions': 19, 'deletions': 19, 'changes': 38}, {'filename': 'packages/playground-react/pages/transitions/full-page-examples/layout-with-sidebar.tsx', 'additions': 23, 'deletions': 23, 'changes': 46}, {'filename': 'packages/playground-react/tsconfig.json', 'additions': 3, 'deletions': 13, 'changes': 16}, {'filename': 'packages/playground-react/utils/hooks/use-popper.ts', 'additions': 2, 'deletions': 2, 'changes': 4}, {'filename': 'packages/playground-react/utils/match.ts', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/playground-vue/index.html', 'additions': 15, 'deletions': 0, 'changes': 15}, {'filename': 'packages/playground-vue/package.json', 'additions': 25, 'deletions': 0, 'changes': 25}, {'filename': 'packages/playground-vue/public/favicon.ico', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'packages/playground-vue/src/.generated/.gitignore', 'additions': 2, 'deletions': 0, 'changes': 2}, {'filename': 'packages/playground-vue/src/App.vue', 'additions': 81, 'deletions': 0, 'changes': 81}, {'filename': 'packages/playground-vue/src/KeyCaster.vue', 'additions': 69, 'deletions': 0, 'changes': 69}, {'filename': 'packages/playground-vue/src/components/Home.vue', 'additions': 46, 'deletions': 0, 'changes': 46}, {'filename': 'packages/playground-vue/src/components/dialog/dialog.vue', 'additions': 242, 'deletions': 0, 'changes': 242}, {'filename': 'packages/playground-vue/src/components/disclosure/disclosure.vue', 'additions': 33, 'deletions': 0, 'changes': 33}, {'filename': 'packages/playground-vue/src/components/focus-trap/focus-trap.vue', 'additions': 27, 'deletions': 0, 'changes': 27}, {'filename': 'packages/playground-vue/src/components/listbox/listbox.vue', 'additions': 126, 'deletions': 0, 'changes': 126}, {'filename': 'packages/playground-vue/src/components/listbox/multiple-elements.vue', 'additions': 208, 'deletions': 0, 'changes': 208}, {'filename': 'packages/playground-vue/src/components/menu/menu-with-popper.vue', 'additions': 86, 'deletions': 0, 'changes': 86}, {'filename': 'packages/playground-vue/src/components/menu/menu-with-transition-and-popper.vue', 'additions': 94, 'deletions': 0, 'changes': 94}, {'filename': 'packages/playground-vue/src/components/menu/menu-with-transition.vue', 'additions': 83, 'deletions': 0, 'changes': 83}, {'filename': 'packages/playground-vue/src/components/menu/menu.vue', 'additions': 84, 'deletions': 0, 'changes': 84}, {'filename': 'packages/playground-vue/src/components/menu/multiple-elements.vue', 'additions': 125, 'deletions': 0, 'changes': 125}, {'filename': 'packages/playground-vue/src/components/popover/popover.vue', 'additions': 144, 'deletions': 0, 'changes': 144}, {'filename': 'packages/playground-vue/src/components/portal/portal.vue', 'additions': 35, 'deletions': 0, 'changes': 35}, {'filename': 'packages/playground-vue/src/components/radio-group/radio-group.vue', 'additions': 104, 'deletions': 0, 'changes': 104}, {'filename': 'packages/playground-vue/src/components/switch/switch.vue', 'additions': 40, 'deletions': 0, 'changes': 40}, {'filename': 'packages/playground-vue/src/components/tabs/tabs.vue', 'additions': 90, 'deletions': 0, 'changes': 90}, {'filename': 'packages/playground-vue/src/main.js', 'additions': 5, 'deletions': 0, 'changes': 5}, {'filename': 'packages/playground-vue/src/playground-utils/hooks/use-popper.js', 'additions': 26, 'deletions': 0, 'changes': 26}, {'filename': 'packages/playground-vue/src/router.js', 'additions': 23, 'deletions': 0, 'changes': 23}, {'filename': 'packages/playground-vue/src/routes.json', 'additions': 141, 'deletions': 0, 'changes': 141}, {'filename': 'packages/playground-vue/vercel.json', 'additions': 3, 'deletions': 0, 'changes': 3}, {'filename': 'packages/playground-vue/vite.config.js', 'additions': 32, 'deletions': 0, 'changes': 32}, {'filename': 'scripts/build.sh', 'additions': 27, 'deletions': 8, 'changes': 35}, {'filename': 'scripts/lint.sh', 'additions': 11, 'deletions': 7, 'changes': 18}, {'filename': 'scripts/test.sh', 'additions': 2, 'deletions': 1, 'changes': 3}, {'filename': 'scripts/watch.sh', 'additions': 15, 'deletions': 8, 'changes': 23}, {'filename': 'yarn.lock', 'additions': 1768, 'deletions': 3807, 'changes': 5575}]",['prettier-plugin-tailwindcss'],"['@swc/core', '@swc/jest', '@testing-library/jest-dom', '@types/node', 'esbuild', 'husky', 'jest', 'lint-staged', 'npm-run-all', 'prettier', 'rimraf', 'tslib', 'typescript']",[],"['@testing-library/jest-dom', '@types/node', 'husky', 'lint-staged', 'tsdx', 'tslib', 'typescript']","{'added': ['prettier-plugin-tailwindcss'], 'removed': []}","{'added': ['rimraf', 'jest', '@swc/core', 'npm-run-all', 'prettier', '@swc/jest', 'esbuild'], 'removed': ['tsdx']}"
+885c3b3b4a6a834693f74d190bafd9ab99029685,2022-01-28 11:07:41+00:00,move prettier-plugin-tailwindcss to dev dependencies,Robin Malfait,malfait.robin@gmail.com,Robin Malfait,malfait.robin@gmail.com,https://github.com/tailwindlabs/headlessui/commit/885c3b3b4a6a834693f74d190bafd9ab99029685,['d8424fe311923f6858f6e3d55083df957bca824d'],1,3,4,"[{'filename': 'package.json', 'additions': 1, 'deletions': 3, 'changes': 4}]",[],"['@swc/core', '@swc/jest', '@testing-library/jest-dom', '@types/node', 'esbuild', 'husky', 'jest', 'lint-staged', 'npm-run-all', 'prettier', 'prettier-plugin-tailwindcss', 'rimraf', 'tslib', 'typescript']",['prettier-plugin-tailwindcss'],"['@swc/core', '@swc/jest', '@testing-library/jest-dom', '@types/node', 'esbuild', 'husky', 'jest', 'lint-staged', 'npm-run-all', 'prettier', 'rimraf', 'tslib', 'typescript']","{'added': [], 'removed': ['prettier-plugin-tailwindcss']}","{'added': ['prettier-plugin-tailwindcss'], 'removed': []}"
+947bf7ac8b7d51d5bb1e34bec5238bb915105b89,2022-01-28 12:31:24+00:00,"only build @headlessui/react and @headlessui/vue
+
+This used to also build the individual playground packages but that's
+not needed on CI (nor locally). Because Vercel will build them for us.
+This will safe us some time on CI, since we can run them in parallel now
+and only build the actual libraries.",Robin Malfait,malfait.robin@gmail.com,Robin Malfait,malfait.robin@gmail.com,https://github.com/tailwindlabs/headlessui/commit/947bf7ac8b7d51d5bb1e34bec5238bb915105b89,['bef07b3c507654350aabb5ab75261992e3670851'],1,1,2,"[{'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}]",[],"['@swc/core', '@swc/jest', '@testing-library/jest-dom', '@types/node', 'esbuild', 'husky', 'jest', 'lint-staged', 'npm-run-all', 'prettier', 'prettier-plugin-tailwindcss', 'rimraf', 'tslib', 'typescript']",[],"['@swc/core', '@swc/jest', '@testing-library/jest-dom', '@types/node', 'esbuild', 'husky', 'jest', 'lint-staged', 'npm-run-all', 'prettier', 'prettier-plugin-tailwindcss', 'rimraf', 'tslib', 'typescript']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+554d04b01c07c04cb1caee4b2a89b33faed4ffe0,2022-02-08 17:59:39+00:00,"Fix Combobox issues (#1099)
+
+* Add combobox to Vue playground
+
+* Update input props
+
+* Wire up input event for changes
+
+This fires changes whenever you type, not just on blur
+
+* Fix playground
+
+* Don't fire input event when pressing escape
+
+The input event is only supposed to fire when the .value of the input changes. Pressing escape doesn't change the value of the input directly so it shouldn't fire.
+
+* Add latest active option render prop
+
+* Add missing active option props to Vue version
+
+* cleanup
+
+* Move test
+
+* Fix error
+
+* Add latest active option to Vue version
+
+* Tweak active option to not re-render
+
+* Remove refocusing on outside mousedown
+
+* Update tests
+
+* Forward refs on combobox to children
+
+* Cleanup code a bit
+
+* Fix lint problems on commit
+
+* Fix typescript issues
+
+* Update changelog",Jordan Pittman,jordan@cryptica.me,GitHub,noreply@github.com,https://github.com/tailwindlabs/headlessui/commit/554d04b01c07c04cb1caee4b2a89b33faed4ffe0,['6fc28c610f14a3ab88a425cf97a67cee9bcb8e71'],749,53,802,"[{'filename': 'CHANGELOG.md', 'additions': 2, 'deletions': 2, 'changes': 4}, {'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-react/src/components/combobox/combobox.test.tsx', 'additions': 84, 'deletions': 13, 'changes': 97}, {'filename': 'packages/@headlessui-react/src/components/combobox/combobox.tsx', 'additions': 40, 'deletions': 23, 'changes': 63}, {'filename': 'packages/@headlessui-react/src/test-utils/interactions.ts', 'additions': 12, 'deletions': 0, 'changes': 12}, {'filename': 'packages/@headlessui-vue/src/components/combobox/combobox.test.tsx', 'additions': 67, 'deletions': 3, 'changes': 70}, {'filename': 'packages/@headlessui-vue/src/components/combobox/combobox.ts', 'additions': 29, 'deletions': 5, 'changes': 34}, {'filename': 'packages/@headlessui-vue/src/test-utils/interactions.ts', 'additions': 12, 'deletions': 0, 'changes': 12}, {'filename': 'packages/@headlessui-vue/src/utils/dom.ts', 'additions': 6, 'deletions': 3, 'changes': 9}, {'filename': 'packages/playground-vue/src/components/combobox/combobox-with-pure-tailwind.vue', 'additions': 154, 'deletions': 0, 'changes': 154}, {'filename': 'packages/playground-vue/src/components/combobox/command-palette-with-groups.vue', 'additions': 174, 'deletions': 0, 'changes': 174}, {'filename': 'packages/playground-vue/src/components/combobox/command-palette.vue', 'additions': 146, 'deletions': 0, 'changes': 146}, {'filename': 'packages/playground-vue/src/routes.json', 'additions': 21, 'deletions': 0, 'changes': 21}, {'filename': 'scripts/lint.sh', 'additions': 1, 'deletions': 3, 'changes': 4}]",[],"['@swc/core', '@swc/jest', '@testing-library/jest-dom', '@types/node', 'esbuild', 'husky', 'jest', 'lint-staged', 'npm-run-all', 'prettier', 'prettier-plugin-tailwindcss', 'rimraf', 'tslib', 'typescript']",[],"['@swc/core', '@swc/jest', '@testing-library/jest-dom', '@types/node', 'esbuild', 'husky', 'jest', 'lint-staged', 'npm-run-all', 'prettier', 'prettier-plugin-tailwindcss', 'rimraf', 'tslib', 'typescript']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+8e79f1cb27232ba47803cd0ef77f64b3a9d32987,2022-03-17 16:23:29+00:00,"Fix Tree-shaking support (#1247)
+
+* improve Tree Shaking in ESM
+
+Instead of bundling everything into a single ESM file, we generate every
+single file as ESM. This is what we did in 1.4.x as well.
+
+I would expect if your library had a single ESM file and you only used 1
+function that the application you use it in correctly does the
+tree-shakign for you. Apparantly a lot of applications are not properly
+setup for this, so let's create multiple files instead.
+
+* update changelog",Robin Malfait,malfait.robin@gmail.com,GitHub,noreply@github.com,https://github.com/tailwindlabs/headlessui/commit/8e79f1cb27232ba47803cd0ef77f64b3a9d32987,['c9883f661151188da91a88f276460e060592d02f'],163,12,175,"[{'filename': 'CHANGELOG.md', 'additions': 2, 'deletions': 0, 'changes': 2}, {'filename': 'package.json', 'additions': 1, 'deletions': 0, 'changes': 1}, {'filename': 'scripts/build.sh', 'additions': 29, 'deletions': 9, 'changes': 38}, {'filename': 'scripts/lint.sh', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'scripts/resolve-files.js', 'additions': 32, 'deletions': 0, 'changes': 32}, {'filename': 'scripts/rewrite-imports.js', 'additions': 16, 'deletions': 0, 'changes': 16}, {'filename': 'scripts/test.sh', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'scripts/watch.sh', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'yarn.lock', 'additions': 80, 'deletions': 0, 'changes': 80}]",[],"['@swc/core', '@swc/jest', '@testing-library/jest-dom', '@types/node', 'esbuild', 'fast-glob', 'husky', 'jest', 'lint-staged', 'npm-run-all', 'prettier', 'prettier-plugin-tailwindcss', 'rimraf', 'tslib', 'typescript']",[],"['@swc/core', '@swc/jest', '@testing-library/jest-dom', '@types/node', 'esbuild', 'husky', 'jest', 'lint-staged', 'npm-run-all', 'prettier', 'prettier-plugin-tailwindcss', 'rimraf', 'tslib', 'typescript']","{'added': [], 'removed': []}","{'added': ['fast-glob'], 'removed': []}"
+0162c57d88cfdc74209d6bdcac94d54078f97675,2022-04-12 16:23:07+00:00,"add React 18 compatibility (#1326)
+
+* bump dev dependencies to React 18
+
+* setup Jest to include `IS_REACT_ACT_ENVIRONMENT`
+
+* prefer `useId` from React 18 if it exists
+
+In React 16 & 17, where `useId` doesn't exist, we will fallback to our
+implementation we have been using up until now.
+
+The `useId` exposed by React 18, ensures stable references even in SSR
+environments.
+
+* update expected events
+
+React 18 now uses the proper events:
+- `blur` -> `focusout`
+- `focus` -> `focusin`
+
+* ensure to wait a bit longer
+
+This is a bit unfortunate, but since React 18 now does an extra
+unmount/remount in `StrictMode` to ensure that your code is
+ConcurrentMode ready, it takes a bit longer to settle what the DOM sees.
+
+That said, this is a temporary ""hack"". We are going to experiment with
+using tools like Puppeteer/Playwright to run our tests in an actual
+browser instead to eliminate all the weird details that we have to keep
+in mind.
+
+* prefer `.focus()` over `fireEvent.focus(el)`
+
+* abstract `microTask` polyfill code
+
+* prefer our `focus(el)` function over `el.focus()`
+
+Internally we would still use `el.focus()`, but this allows us to have
+more control over that `focus` function.
+
+* add React 18 to the React Playground
+
+* improve hooks for React 18
+
+- Improving the cleanup of useEffect hooks
+- useIsoMorphicEffect instead of normal useEffect, so that we can use
+  useLayoutEffect to be a bit quicker.
+
+* improve disposables
+
+- This allows us to add event listeners on a node, and get automatic
+  cleanup once `dispose` gets called.
+- We also return all the `d.add` calls, so that we can cleanup specific
+  parts only instead of everything or nothing.
+
+* reimplement the Transition component to be React 18 ready
+
+* wait an additional frame for everything to settle
+
+* update playground examples
+
+* suppressConsoleLogs for RadioGroup components
+
+* update changelog
+
+* keep the `to` classes for a smoother transition
+
+In the next transition we will remove _all_ classes provided and re-add
+the once we need.
+
+---
+
+Some extra special thanks:
+
+- Thanks @silvenon for your initial work on the `transition` events in #926
+- Thanks @thecrypticace for doing late-night debugging sessions
+
+Co-authored-by: =?UTF-8?q?Matija=20Marohni=C4=87?= <matija.marohnic@gmail.com>
+Co-authored-by: Jordan Pittman <jordan@cryptica.me>",Robin Malfait,malfait.robin@gmail.com,Robin Malfait,malfait.robin@gmail.com,https://github.com/tailwindlabs/headlessui/commit/0162c57d88cfdc74209d6bdcac94d54078f97675,['ab6310c27877b8913ee879586122cbef36251abc'],1633,1314,2947,"[{'filename': 'CHANGELOG.md', 'additions': 1, 'deletions': 0, 'changes': 1}, {'filename': 'jest/create-jest-config.cjs', 'additions': 4, 'deletions': 2, 'changes': 6}, {'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-react/jest.config.cjs', 'additions': 4, 'deletions': 1, 'changes': 5}, {'filename': 'packages/@headlessui-react/jest.setup.js', 'additions': 1, 'deletions': 0, 'changes': 1}, {'filename': 'packages/@headlessui-react/package.json', 'additions': 5, 'deletions': 5, 'changes': 10}, {'filename': 'packages/@headlessui-react/src/components/combobox/combobox.test.tsx', 'additions': 34, 'deletions': 34, 'changes': 68}, {'filename': 'packages/@headlessui-react/src/components/disclosure/disclosure.test.tsx', 'additions': 15, 'deletions': 14, 'changes': 29}, {'filename': 'packages/@headlessui-react/src/components/listbox/listbox.test.tsx', 'additions': 45, 'deletions': 45, 'changes': 90}, {'filename': 'packages/@headlessui-react/src/components/menu/menu.test.tsx', 'additions': 37, 'deletions': 37, 'changes': 74}, {'filename': 'packages/@headlessui-react/src/components/popover/popover.test.tsx', 'additions': 25, 'deletions': 24, 'changes': 49}, {'filename': 'packages/@headlessui-react/src/components/radio-group/radio-group.test.tsx', 'additions': 834, 'deletions': 743, 'changes': 1577}, {'filename': 'packages/@headlessui-react/src/components/switch/switch.test.tsx', 'additions': 5, 'deletions': 5, 'changes': 10}, {'filename': 'packages/@headlessui-react/src/components/transitions/transition.test.tsx', 'additions': 14, 'deletions': 14, 'changes': 28}, {'filename': 'packages/@headlessui-react/src/components/transitions/transition.tsx', 'additions': 77, 'deletions': 97, 'changes': 174}, {'filename': 'packages/@headlessui-react/src/components/transitions/utils/transition.test.ts', 'additions': 46, 'deletions': 57, 'changes': 103}, {'filename': 'packages/@headlessui-react/src/components/transitions/utils/transition.ts', 'additions': 97, 'deletions': 34, 'changes': 131}, {'filename': 'packages/@headlessui-react/src/hooks/use-id.ts', 'additions': 13, 'deletions': 9, 'changes': 22}, {'filename': 'packages/@headlessui-react/src/hooks/use-is-initial-render.ts', 'additions': 4, 'deletions': 0, 'changes': 4}, {'filename': 'packages/@headlessui-react/src/hooks/use-is-mounted.ts', 'additions': 3, 'deletions': 2, 'changes': 5}, {'filename': 'packages/@headlessui-react/src/hooks/use-latest-value.ts', 'additions': 3, 'deletions': 2, 'changes': 5}, {'filename': 'packages/@headlessui-react/src/hooks/use-outside-click.ts', 'additions': 1, 'deletions': 15, 'changes': 16}, {'filename': 'packages/@headlessui-react/src/hooks/use-transition.ts', 'additions': 96, 'deletions': 0, 'changes': 96}, {'filename': 'packages/@headlessui-react/src/test-utils/interactions.test.tsx', 'additions': 16, 'deletions': 16, 'changes': 32}, {'filename': 'packages/@headlessui-react/src/test-utils/interactions.ts', 'additions': 10, 'deletions': 4, 'changes': 14}, {'filename': 'packages/@headlessui-react/src/utils/disposables.ts', 'additions': 21, 'deletions': 4, 'changes': 25}, {'filename': 'packages/@headlessui-react/src/utils/micro-task.ts', 'additions': 14, 'deletions': 0, 'changes': 14}, {'filename': 'packages/playground-react/next.config.js', 'additions': 1, 'deletions': 0, 'changes': 1}, {'filename': 'packages/playground-react/package.json', 'additions': 3, 'deletions': 3, 'changes': 6}, {'filename': 'packages/playground-react/pages/dialog/dialog.tsx', 'additions': 22, 'deletions': 1, 'changes': 23}, {'filename': 'packages/playground-react/pages/menu/menu-with-transition.tsx', 'additions': 8, 'deletions': 0, 'changes': 8}, {'filename': 'packages/playground-react/pages/transitions/component-examples/modal.tsx', 'additions': 18, 'deletions': 9, 'changes': 27}, {'filename': 'packages/playground-react/pages/transitions/component-examples/peek-a-boo.tsx', 'additions': 19, 'deletions': 8, 'changes': 27}, {'filename': 'yarn.lock', 'additions': 136, 'deletions': 128, 'changes': 264}]",[],"['@swc/core', '@swc/jest', '@testing-library/jest-dom', '@types/node', 'esbuild', 'fast-glob', 'husky', 'jest', 'lint-staged', 'npm-run-all', 'prettier', 'prettier-plugin-tailwindcss', 'rimraf', 'tslib', 'typescript']",[],"['@swc/core', '@swc/jest', '@testing-library/jest-dom', '@types/node', 'esbuild', 'fast-glob', 'husky', 'jest', 'lint-staged', 'npm-run-all', 'prettier', 'prettier-plugin-tailwindcss', 'rimraf', 'tslib', 'typescript']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+ec84c72ef955d3f9be1a908bdd657f54077950d2,2022-06-13 13:54:18+00:00,"Fix scrolling issue in `Tab` component when using arrow keys (#1584)
+
+* prevent scrolling the page when using arrow keys in
+
+* update changelog
+
+* bump prettier
+
+Does GitHub Actions have an incorrect cache somehow?
+
+* use Active LTS in CI",Robin Malfait,malfait.robin@gmail.com,GitHub,noreply@github.com,https://github.com/tailwindlabs/headlessui/commit/ec84c72ef955d3f9be1a908bdd657f54077950d2,['ea5f21af8e5876dea861d8f7c46cc9c94adb1798'],41,30,71,"[{'filename': '.github/workflows/main.yml', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-react/CHANGELOG.md', 'additions': 1, 'deletions': 0, 'changes': 1}, {'filename': 'packages/@headlessui-react/src/components/tabs/tabs.tsx', 'additions': 16, 'deletions': 12, 'changes': 28}, {'filename': 'packages/@headlessui-vue/CHANGELOG.md', 'additions': 1, 'deletions': 0, 'changes': 1}, {'filename': 'packages/@headlessui-vue/src/components/tabs/tabs.ts', 'additions': 17, 'deletions': 12, 'changes': 29}, {'filename': 'yarn.lock', 'additions': 4, 'deletions': 4, 'changes': 8}]",[],"['@swc/core', '@swc/jest', '@testing-library/jest-dom', '@types/node', 'esbuild', 'fast-glob', 'husky', 'jest', 'lint-staged', 'npm-run-all', 'prettier', 'prettier-plugin-tailwindcss', 'rimraf', 'tslib', 'typescript']",[],"['@swc/core', '@swc/jest', '@testing-library/jest-dom', '@types/node', 'esbuild', 'fast-glob', 'husky', 'jest', 'lint-staged', 'npm-run-all', 'prettier', 'prettier-plugin-tailwindcss', 'rimraf', 'tslib', 'typescript']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+b8c214eebb56b1cc87b42e2ef6c265b6f919f7ae,2023-02-20 17:26:17+00:00,"Make React types more compatible with other libraries (#2282)
+
+* Export explicit props types
+
+* wip
+
+* wip
+
+* wip
+
+* wip dialog types
+
+* wip
+
+* Fix build
+
+* Upgrade esbuild
+
+* Add aliased types for ComponentLabel and ComponentDescription
+
+* Update lockfile
+
+* Update changelog
+
+* Update exported prop type names
+
+* Make onChange optional
+
+* Update tests
+
+* Use `never` in CleanProps
+
+Using a branded type doesn’t work properly with unions
+
+* Fix types
+
+* wip
+
+* work on types
+
+* wip
+
+* wip
+
+* Tweak types in render helpers
+
+* Fix CS
+
+* Fix changelog
+
+* Tweak render prop types for combobox
+
+* Update hidden props type name
+
+* remove unused type
+
+* Tweak types
+
+* Update TypeScript version",Jordan Pittman,jordan@cryptica.me,GitHub,noreply@github.com,https://github.com/tailwindlabs/headlessui/commit/b8c214eebb56b1cc87b42e2ef6c265b6f919f7ae,['c7f6bc60ed2ab6c84fb080b0f419ed16824c880d'],1226,560,1786,"[{'filename': 'package.json', 'additions': 2, 'deletions': 2, 'changes': 4}, {'filename': 'packages/@headlessui-react/CHANGELOG.md', 'additions': 5, 'deletions': 0, 'changes': 5}, {'filename': 'packages/@headlessui-react/src/components/combobox/combobox.test.tsx', 'additions': 4, 'deletions': 1, 'changes': 5}, {'filename': 'packages/@headlessui-react/src/components/combobox/combobox.tsx', 'additions': 133, 'deletions': 42, 'changes': 175}, {'filename': 'packages/@headlessui-react/src/components/description/description.tsx', 'additions': 21, 'deletions': 4, 'changes': 25}, {'filename': 'packages/@headlessui-react/src/components/dialog/dialog.tsx', 'additions': 101, 'deletions': 28, 'changes': 129}, {'filename': 'packages/@headlessui-react/src/components/disclosure/disclosure.test.tsx', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-react/src/components/disclosure/disclosure.tsx', 'additions': 56, 'deletions': 16, 'changes': 72}, {'filename': 'packages/@headlessui-react/src/components/focus-trap/focus-trap.tsx', 'additions': 133, 'deletions': 118, 'changes': 251}, {'filename': 'packages/@headlessui-react/src/components/label/label.tsx', 'additions': 21, 'deletions': 7, 'changes': 28}, {'filename': 'packages/@headlessui-react/src/components/listbox/listbox.tsx', 'additions': 118, 'deletions': 43, 'changes': 161}, {'filename': 'packages/@headlessui-react/src/components/menu/menu.test.tsx', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-react/src/components/menu/menu.tsx', 'additions': 81, 'deletions': 23, 'changes': 104}, {'filename': 'packages/@headlessui-react/src/components/popover/popover.test.tsx', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-react/src/components/popover/popover.tsx', 'additions': 91, 'deletions': 25, 'changes': 116}, {'filename': 'packages/@headlessui-react/src/components/portal/portal.tsx', 'additions': 30, 'deletions': 10, 'changes': 40}, {'filename': 'packages/@headlessui-react/src/components/radio-group/radio-group.tsx', 'additions': 58, 'deletions': 30, 'changes': 88}, {'filename': 'packages/@headlessui-react/src/components/switch/switch.tsx', 'additions': 46, 'deletions': 20, 'changes': 66}, {'filename': 'packages/@headlessui-react/src/components/tabs/tabs.tsx', 'additions': 96, 'deletions': 25, 'changes': 121}, {'filename': 'packages/@headlessui-react/src/components/transitions/transition.tsx', 'additions': 42, 'deletions': 13, 'changes': 55}, {'filename': 'packages/@headlessui-react/src/internal/hidden.tsx', 'additions': 18, 'deletions': 5, 'changes': 23}, {'filename': 'packages/@headlessui-react/src/types.ts', 'additions': 6, 'deletions': 8, 'changes': 14}, {'filename': 'packages/@headlessui-react/src/utils/render.ts', 'additions': 17, 'deletions': 5, 'changes': 22}, {'filename': 'packages/@headlessui-react/tsconfig.json', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/playground-react/pages/popover/popover.tsx', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'yarn.lock', 'additions': 142, 'deletions': 130, 'changes': 272}]",[],"['@swc/core', '@swc/jest', '@testing-library/jest-dom', '@types/node', 'esbuild', 'fast-glob', 'husky', 'jest', 'lint-staged', 'npm-run-all', 'prettier', 'prettier-plugin-tailwindcss', 'rimraf', 'tslib', 'typescript']",[],"['@swc/core', '@swc/jest', '@testing-library/jest-dom', '@types/node', 'esbuild', 'fast-glob', 'husky', 'jest', 'lint-staged', 'npm-run-all', 'prettier', 'prettier-plugin-tailwindcss', 'rimraf', 'tslib', 'typescript']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+2b27d9f6a24591d24b9c7b1f154219b23dc8a8fa,2023-08-30 16:09:51+00:00,"Improve release workflow (#2719)
+
+* add scripts to help with automating releases
+
+* add prepare-release and release workflows
+
+* bump actions from v2 to v3
+
+* use `github.ref_name` for getting the tag name
+
+* ensure we use `**` for matching tags with slashes in them",Robin Malfait,malfait.robin@gmail.com,GitHub,noreply@github.com,https://github.com/tailwindlabs/headlessui/commit/2b27d9f6a24591d24b9c7b1f154219b23dc8a8fa,['134c0fb2213e766f08053eb49201b78cb2eb1ef5'],203,13,216,"[{'filename': '.github/workflows/main.yml', 'additions': 9, 'deletions': 9, 'changes': 18}, {'filename': '.github/workflows/prepare-release.yml', 'additions': 55, 'deletions': 0, 'changes': 55}, {'filename': '.github/workflows/release-insiders.yml', 'additions': 3, 'deletions': 3, 'changes': 6}, {'filename': '.github/workflows/release.yml', 'additions': 63, 'deletions': 0, 'changes': 63}, {'filename': 'package.json', 'additions': 4, 'deletions': 1, 'changes': 5}, {'filename': 'scripts/package-path.js', 'additions': 15, 'deletions': 0, 'changes': 15}, {'filename': 'scripts/release-channel.js', 'additions': 25, 'deletions': 0, 'changes': 25}, {'filename': 'scripts/release-notes.js', 'additions': 29, 'deletions': 0, 'changes': 29}]",[],"['@swc/core', '@swc/jest', '@testing-library/jest-dom', '@types/node', 'esbuild', 'fast-glob', 'husky', 'jest', 'lint-staged', 'npm-run-all', 'prettier', 'prettier-plugin-tailwindcss', 'rimraf', 'tslib', 'typescript']",[],"['@swc/core', '@swc/jest', '@testing-library/jest-dom', '@types/node', 'esbuild', 'fast-glob', 'husky', 'jest', 'lint-staged', 'npm-run-all', 'prettier', 'prettier-plugin-tailwindcss', 'rimraf', 'tslib', 'typescript']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+76dd10ea554fa1d05576be2090612a3c3b04f9cb,2023-09-11 16:36:30+00:00,"Sort imports automatically (#2741)
+
+* add `prettier-plugin-organize-imports` and `prettier-plugin-tailwindcss`
+
+* format
+
+* bump Tailwind CSS
+
+* format playgrounds using updated Tailwind CSS and Prettier plugins
+
+* use import syntax",Robin Malfait,malfait.robin@gmail.com,GitHub,noreply@github.com,https://github.com/tailwindlabs/headlessui/commit/76dd10ea554fa1d05576be2090612a3c3b04f9cb,['8e93cd063067bb1ad95d098655670a7d9a4d9e4a'],2877,2938,5815,"[{'filename': 'package.json', 'additions': 7, 'deletions': 2, 'changes': 9}, {'filename': 'packages/@headlessui-react/src/components/combobox/combobox.test.tsx', 'additions': 28, 'deletions': 28, 'changes': 56}, {'filename': 'packages/@headlessui-react/src/components/combobox/combobox.tsx', 'additions': 19, 'deletions': 21, 'changes': 40}, {'filename': 'packages/@headlessui-react/src/components/description/description.test.tsx', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-react/src/components/description/description.tsx', 'additions': 6, 'deletions': 8, 'changes': 14}, {'filename': 'packages/@headlessui-react/src/components/dialog/dialog.test.tsx', 'additions': 14, 'deletions': 14, 'changes': 28}, {'filename': 'packages/@headlessui-react/src/components/dialog/dialog.tsx', 'additions': 27, 'deletions': 29, 'changes': 56}, {'filename': 'packages/@headlessui-react/src/components/disclosure/disclosure.test.tsx', 'additions': 8, 'deletions': 8, 'changes': 16}, {'filename': 'packages/@headlessui-react/src/components/disclosure/disclosure.tsx', 'additions': 18, 'deletions': 20, 'changes': 38}, {'filename': 'packages/@headlessui-react/src/components/focus-trap/focus-trap.test.tsx', 'additions': 3, 'deletions': 3, 'changes': 6}, {'filename': 'packages/@headlessui-react/src/components/focus-trap/focus-trap.tsx', 'additions': 14, 'deletions': 16, 'changes': 30}, {'filename': 'packages/@headlessui-react/src/components/label/label.test.tsx', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-react/src/components/label/label.tsx', 'additions': 6, 'deletions': 8, 'changes': 14}, {'filename': 'packages/@headlessui-react/src/components/listbox/listbox.test.tsx', 'additions': 19, 'deletions': 19, 'changes': 38}, {'filename': 'packages/@headlessui-react/src/components/listbox/listbox.tsx', 'additions': 26, 'deletions': 28, 'changes': 54}, {'filename': 'packages/@headlessui-react/src/components/menu/menu.test.tsx', 'additions': 11, 'deletions': 11, 'changes': 22}, {'filename': 'packages/@headlessui-react/src/components/menu/menu.tsx', 'additions': 31, 'deletions': 33, 'changes': 64}, {'filename': 'packages/@headlessui-react/src/components/popover/popover.test.tsx', 'additions': 12, 'deletions': 12, 'changes': 24}, {'filename': 'packages/@headlessui-react/src/components/popover/popover.tsx', 'additions': 36, 'deletions': 38, 'changes': 74}, {'filename': 'packages/@headlessui-react/src/components/portal/portal.test.tsx', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-react/src/components/portal/portal.tsx', 'additions': 12, 'deletions': 14, 'changes': 26}, {'filename': 'packages/@headlessui-react/src/components/radio-group/radio-group.test.tsx', 'additions': 6, 'deletions': 6, 'changes': 12}, {'filename': 'packages/@headlessui-react/src/components/radio-group/radio-group.tsx', 'additions': 21, 'deletions': 23, 'changes': 44}, {'filename': 'packages/@headlessui-react/src/components/switch/switch.test.tsx', 'additions': 6, 'deletions': 6, 'changes': 12}, {'filename': 'packages/@headlessui-react/src/components/switch/switch.tsx', 'additions': 17, 'deletions': 19, 'changes': 36}, {'filename': 'packages/@headlessui-react/src/components/tabs/tabs.ssr.test.tsx', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-react/src/components/tabs/tabs.test.tsx', 'additions': 6, 'deletions': 6, 'changes': 12}, {'filename': 'packages/@headlessui-react/src/components/tabs/tabs.tsx', 'additions': 21, 'deletions': 23, 'changes': 44}, {'filename': 'packages/@headlessui-react/src/components/transitions/transition.ssr.test.tsx', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-react/src/components/transitions/transition.test.tsx', 'additions': 2, 'deletions': 2, 'changes': 4}, {'filename': 'packages/@headlessui-react/src/components/transitions/transition.tsx', 'additions': 17, 'deletions': 19, 'changes': 36}, {'filename': 'packages/@headlessui-react/src/components/transitions/utils/transition.ts', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-react/src/hooks/document-overflow/use-document-overflow.ts', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-react/src/hooks/use-disposables.ts', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-react/src/hooks/use-flags.ts', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-react/src/hooks/use-id.ts', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-react/src/hooks/use-inert.test.tsx', 'additions': 3, 'deletions': 3, 'changes': 6}, {'filename': 'packages/@headlessui-react/src/hooks/use-is-initial-render.ts', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-react/src/hooks/use-iso-morphic-effect.ts', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-react/src/hooks/use-on-unmount.ts', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-react/src/hooks/use-outside-click.ts', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-react/src/hooks/use-resolve-button-type.ts', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-react/src/hooks/use-root-containers.tsx', 'additions': 2, 'deletions': 2, 'changes': 4}, {'filename': 'packages/@headlessui-react/src/hooks/use-sync-refs.ts', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-react/src/hooks/use-text-value.ts', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-react/src/hooks/use-tree-walker.ts', 'additions': 2, 'deletions': 2, 'changes': 4}, {'filename': 'packages/@headlessui-react/src/index.ts', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-react/src/internal/focus-sentinel.tsx', 'additions': 2, 'deletions': 2, 'changes': 4}, {'filename': 'packages/@headlessui-react/src/internal/hidden.tsx', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-react/src/internal/open-closed.tsx', 'additions': 1, 'deletions': 8, 'changes': 9}, {'filename': 'packages/@headlessui-react/src/internal/portal-force-root.tsx', 'additions': 1, 'deletions': 7, 'changes': 8}, {'filename': 'packages/@headlessui-react/src/internal/stack-context.tsx', 'additions': 2, 'deletions': 9, 'changes': 11}, {'filename': 'packages/@headlessui-react/src/test-utils/accessibility-assertions.ts', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-react/src/test-utils/execute-timeline.ts', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-react/src/test-utils/interactions.test.tsx', 'additions': 2, 'deletions': 2, 'changes': 4}, {'filename': 'packages/@headlessui-react/src/test-utils/ssr.tsx', 'additions': 1, 'deletions': 2, 'changes': 3}, {'filename': 'packages/@headlessui-react/src/types.ts', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-react/src/utils/render.test.tsx', 'additions': 4, 'deletions': 4, 'changes': 8}, {'filename': 'packages/@headlessui-react/src/utils/render.ts', 'additions': 3, 'deletions': 5, 'changes': 8}, {'filename': 'packages/@headlessui-tailwindcss/jest.setup.js', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-vue/src/components/combobox/combobox.test.ts', 'additions': 37, 'deletions': 37, 'changes': 74}, {'filename': 'packages/@headlessui-vue/src/components/combobox/combobox.ts', 'additions': 18, 'deletions': 20, 'changes': 38}, {'filename': 'packages/@headlessui-vue/src/components/description/description.test.ts', 'additions': 2, 'deletions': 2, 'changes': 4}, {'filename': 'packages/@headlessui-vue/src/components/description/description.ts', 'additions': 3, 'deletions': 5, 'changes': 8}, {'filename': 'packages/@headlessui-vue/src/components/dialog/dialog.test.ts', 'additions': 18, 'deletions': 18, 'changes': 36}, {'filename': 'packages/@headlessui-vue/src/components/dialog/dialog.ts', 'additions': 15, 'deletions': 17, 'changes': 32}, {'filename': 'packages/@headlessui-vue/src/components/disclosure/disclosure.srr.test.ts', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-vue/src/components/disclosure/disclosure.test.ts', 'additions': 153, 'deletions': 199, 'changes': 352}, {'filename': 'packages/@headlessui-vue/src/components/disclosure/disclosure.ts', 'additions': 10, 'deletions': 10, 'changes': 20}, {'filename': 'packages/@headlessui-vue/src/components/focus-trap/focus-trap.test.ts', 'additions': 84, 'deletions': 100, 'changes': 184}, {'filename': 'packages/@headlessui-vue/src/components/focus-trap/focus-trap.ts', 'additions': 10, 'deletions': 12, 'changes': 22}, {'filename': 'packages/@headlessui-vue/src/components/label/label.test.ts', 'additions': 2, 'deletions': 2, 'changes': 4}, {'filename': 'packages/@headlessui-vue/src/components/label/label.ts', 'additions': 2, 'deletions': 4, 'changes': 6}, {'filename': 'packages/@headlessui-vue/src/components/listbox/listbox.test.tsx', 'additions': 13, 'deletions': 13, 'changes': 26}, {'filename': 'packages/@headlessui-vue/src/components/listbox/listbox.ts', 'additions': 15, 'deletions': 17, 'changes': 32}, {'filename': 'packages/@headlessui-vue/src/components/menu/menu.test.tsx', 'additions': 13, 'deletions': 13, 'changes': 26}, {'filename': 'packages/@headlessui-vue/src/components/menu/menu.ts', 'additions': 19, 'deletions': 19, 'changes': 38}, {'filename': 'packages/@headlessui-vue/src/components/popover/popover.test.ts', 'additions': 537, 'deletions': 647, 'changes': 1184}, {'filename': 'packages/@headlessui-vue/src/components/popover/popover.ts', 'additions': 21, 'deletions': 23, 'changes': 44}, {'filename': 'packages/@headlessui-vue/src/components/portal/portal.test.ts', 'additions': 29, 'deletions': 35, 'changes': 64}, {'filename': 'packages/@headlessui-vue/src/components/portal/portal.ts', 'additions': 7, 'deletions': 9, 'changes': 16}, {'filename': 'packages/@headlessui-vue/src/components/radio-group/radio-group.test.ts', 'additions': 8, 'deletions': 8, 'changes': 16}, {'filename': 'packages/@headlessui-vue/src/components/radio-group/radio-group.ts', 'additions': 12, 'deletions': 14, 'changes': 26}, {'filename': 'packages/@headlessui-vue/src/components/switch/switch.test.tsx', 'additions': 6, 'deletions': 6, 'changes': 12}, {'filename': 'packages/@headlessui-vue/src/components/switch/switch.ts', 'additions': 11, 'deletions': 13, 'changes': 24}, {'filename': 'packages/@headlessui-vue/src/components/tabs/tabs.ssr.test.ts', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-vue/src/components/tabs/tabs.test.ts', 'additions': 834, 'deletions': 942, 'changes': 1776}, {'filename': 'packages/@headlessui-vue/src/components/tabs/tabs.ts', 'additions': 8, 'deletions': 10, 'changes': 18}, {'filename': 'packages/@headlessui-vue/src/components/transitions/transition.ssr.test.ts', 'additions': 2, 'deletions': 2, 'changes': 4}, {'filename': 'packages/@headlessui-vue/src/components/transitions/transition.test.ts', 'additions': 3, 'deletions': 3, 'changes': 6}, {'filename': 'packages/@headlessui-vue/src/components/transitions/transition.ts', 'additions': 10, 'deletions': 12, 'changes': 22}, {'filename': 'packages/@headlessui-vue/src/components/transitions/utils/transition.ts', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-vue/src/hooks/document-overflow/use-document-overflow.ts', 'additions': 2, 'deletions': 2, 'changes': 4}, {'filename': 'packages/@headlessui-vue/src/hooks/use-controllable.ts', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-vue/src/hooks/use-inert.test.ts', 'additions': 5, 'deletions': 5, 'changes': 10}, {'filename': 'packages/@headlessui-vue/src/hooks/use-inert.ts', 'additions': 1, 'deletions': 7, 'changes': 8}, {'filename': 'packages/@headlessui-vue/src/hooks/use-outside-click.ts', 'additions': 3, 'deletions': 3, 'changes': 6}, {'filename': 'packages/@headlessui-vue/src/hooks/use-resolve-button-type.ts', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-vue/src/hooks/use-root-containers.ts', 'additions': 3, 'deletions': 3, 'changes': 6}, {'filename': 'packages/@headlessui-vue/src/hooks/use-text-value.ts', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-vue/src/hooks/use-tree-walker.ts', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-vue/src/index.ts', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-vue/src/internal/focus-sentinel.ts', 'additions': 2, 'deletions': 2, 'changes': 4}, {'filename': 'packages/@headlessui-vue/src/internal/open-closed.ts', 'additions': 1, 'deletions': 8, 'changes': 9}, {'filename': 'packages/@headlessui-vue/src/internal/portal-force-root.ts', 'additions': 1, 'deletions': 8, 'changes': 9}, {'filename': 'packages/@headlessui-vue/src/internal/stack-context.ts', 'additions': 1, 'deletions': 11, 'changes': 12}, {'filename': 'packages/@headlessui-vue/src/test-utils/accessibility-assertions.ts', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-vue/src/test-utils/execute-timeline.ts', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-vue/src/test-utils/interactions.test.ts', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-vue/src/test-utils/vue-testing-library.ts', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-vue/src/utils/dom.ts', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-vue/src/utils/render.test.ts', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-vue/src/utils/render.ts', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/playground-react/package.json', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/playground-react/pages/_app.tsx', 'additions': 3, 'deletions': 4, 'changes': 7}, {'filename': 'packages/playground-react/pages/_document.tsx', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/playground-react/pages/_error.tsx', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/playground-react/pages/combinations/form.tsx', 'additions': 3, 'deletions': 3, 'changes': 6}, {'filename': 'packages/playground-react/pages/combinations/tabs-in-dialog.tsx', 'additions': 2, 'deletions': 2, 'changes': 4}, {'filename': 'packages/playground-react/pages/combobox/combobox-countries.tsx', 'additions': 2, 'deletions': 2, 'changes': 4}, {'filename': 'packages/playground-react/pages/combobox/combobox-open-on-focus.tsx', 'additions': 2, 'deletions': 2, 'changes': 4}, {'filename': 'packages/playground-react/pages/combobox/combobox-with-pure-tailwind.tsx', 'additions': 2, 'deletions': 2, 'changes': 4}, {'filename': 'packages/playground-react/pages/combobox/command-palette-with-groups.tsx', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/playground-react/pages/combobox/command-palette.tsx', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/playground-react/pages/combobox/multi-select.tsx', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/playground-react/pages/dialog/dialog-focus-issue.tsx', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/playground-react/pages/dialog/dialog-scroll-issue.tsx', 'additions': 2, 'deletions': 2, 'changes': 4}, {'filename': 'packages/playground-react/pages/dialog/dialog-with-shadow-children.tsx', 'additions': 2, 'deletions': 3, 'changes': 5}, {'filename': 'packages/playground-react/pages/dialog/dialog.tsx', 'additions': 8, 'deletions': 8, 'changes': 16}, {'filename': 'packages/playground-react/pages/dialog/scrollable-dialog.tsx', 'additions': 5, 'deletions': 5, 'changes': 10}, {'filename': 'packages/playground-react/pages/dialog/scrollable-page-with-dialog.tsx', 'additions': 4, 'deletions': 4, 'changes': 8}, {'filename': 'packages/playground-react/pages/disclosure/disclosure.tsx', 'additions': 0, 'deletions': 1, 'changes': 1}, {'filename': 'packages/playground-react/pages/listbox/listbox-with-pure-tailwind.tsx', 'additions': 1, 'deletions': 3, 'changes': 4}, {'filename': 'packages/playground-react/pages/listbox/multi-select.tsx', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/playground-react/pages/listbox/multiple-elements.tsx', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/playground-react/pages/menu/menu-with-floating-ui.tsx', 'additions': 5, 'deletions': 5, 'changes': 10}, {'filename': 'packages/playground-react/pages/menu/menu-with-framer-motion.tsx', 'additions': 4, 'deletions': 4, 'changes': 8}, {'filename': 'packages/playground-react/pages/menu/menu-with-popper.tsx', 'additions': 5, 'deletions': 5, 'changes': 10}, {'filename': 'packages/playground-react/pages/menu/menu-with-transition-and-popper.tsx', 'additions': 3, 'deletions': 4, 'changes': 7}, {'filename': 'packages/playground-react/pages/menu/menu-with-transition.tsx', 'additions': 2, 'deletions': 3, 'changes': 5}, {'filename': 'packages/playground-react/pages/menu/menu.tsx', 'additions': 2, 'deletions': 3, 'changes': 5}, {'filename': 'packages/playground-react/pages/menu/multiple-elements.tsx', 'additions': 2, 'deletions': 3, 'changes': 5}, {'filename': 'packages/playground-react/pages/popover/popover.tsx', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/playground-react/pages/radio-group/radio-group.tsx', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/playground-react/pages/suspense/portal.tsx', 'additions': 5, 'deletions': 5, 'changes': 10}, {'filename': 'packages/playground-react/pages/switch/switch-with-pure-tailwind.tsx', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/playground-react/pages/tabs/tabs-with-pure-tailwind.tsx', 'additions': 3, 'deletions': 3, 'changes': 6}, {'filename': 'packages/playground-react/pages/transitions/component-examples/dropdown.tsx', 'additions': 3, 'deletions': 3, 'changes': 6}, {'filename': 'packages/playground-react/pages/transitions/component-examples/modal.tsx', 'additions': 4, 'deletions': 4, 'changes': 8}, {'filename': 'packages/playground-react/pages/transitions/component-examples/nested/hidden.tsx', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/playground-react/pages/transitions/component-examples/nested/unmount.tsx', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/playground-react/pages/transitions/component-examples/peek-a-boo.tsx', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/playground-react/pages/transitions/full-page-examples/full-page-transition.tsx', 'additions': 2, 'deletions': 2, 'changes': 4}, {'filename': 'packages/playground-react/pages/transitions/full-page-examples/layout-with-sidebar.tsx', 'additions': 5, 'deletions': 5, 'changes': 10}, {'filename': 'packages/playground-react/pages/transitions/react-hot-toast.tsx', 'additions': 1, 'deletions': 2, 'changes': 3}, {'filename': 'packages/playground-react/utils/hooks/use-popper.ts', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/playground-vue/package.json', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/playground-vue/src/KeyCaster.vue', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/playground-vue/src/components/combinations/tabs-in-dialog.vue', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/playground-vue/src/components/dialog/dialog.vue', 'additions': 4, 'deletions': 4, 'changes': 8}, {'filename': 'packages/playground-vue/src/components/dialog/slide-over.vue', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/playground-vue/src/components/menu/menu-with-floating-ui.vue', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/playground-vue/src/components/menu/menu-with-popper.vue', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/playground-vue/src/components/menu/menu-with-transition-and-popper.vue', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/playground-vue/src/components/menu/menu-with-transition.vue', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/playground-vue/src/components/menu/menu.vue', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/playground-vue/src/components/menu/multiple-elements.vue', 'additions': 2, 'deletions': 2, 'changes': 4}, {'filename': 'packages/playground-vue/src/components/tabs/simple-tabs.vue', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/playground-vue/src/components/tabs/tabs.vue', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/playground-vue/src/playground-utils/hooks/use-popper.js', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/playground-vue/src/router.ts', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/playground-vue/vite.config.js', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'yarn.lock', 'additions': 384, 'deletions': 49, 'changes': 433}]",[],"['@swc/core', '@swc/jest', '@testing-library/jest-dom', '@types/node', 'esbuild', 'fast-glob', 'husky', 'jest', 'lint-staged', 'npm-run-all', 'prettier', 'prettier-plugin-organize-imports', 'prettier-plugin-tailwindcss', 'rimraf', 'tslib', 'typescript']",[],"['@swc/core', '@swc/jest', '@testing-library/jest-dom', '@types/node', 'esbuild', 'fast-glob', 'husky', 'jest', 'lint-staged', 'npm-run-all', 'prettier', 'prettier-plugin-tailwindcss', 'rimraf', 'tslib', 'typescript']","{'added': [], 'removed': []}","{'added': ['prettier-plugin-organize-imports'], 'removed': []}"
+c25e2e6036c2544140c438366c8a01a6685f1bbf,2023-12-12 16:43:34+00:00,"Fix CJS types (#2880)
+
+* Fix Vue type error
+
+* Add separate CTS types
+
+* Add “Are The Types Wrong” CLI
+
+* wip
+
+* Bump node versions in workflows
+
+* wip
+
+* wip
+
+* wip
+
+* yolo
+
+* yolo (again?)
+
+* wip
+
+* wip",Jordan Pittman,jordan@cryptica.me,GitHub,noreply@github.com,https://github.com/tailwindlabs/headlessui/commit/c25e2e6036c2544140c438366c8a01a6685f1bbf,['c2096b0ddda831cdade622f5b86d3df1b70ceb47'],233,14,247,"[{'filename': '.github/workflows/main.yml', 'additions': 17, 'deletions': 1, 'changes': 18}, {'filename': '.github/workflows/prepare-release.yml', 'additions': 7, 'deletions': 0, 'changes': 7}, {'filename': '.github/workflows/release-insiders.yml', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': '.github/workflows/release.yml', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'package.json', 'additions': 2, 'deletions': 0, 'changes': 2}, {'filename': 'packages/@headlessui-react/package.json', 'additions': 5, 'deletions': 1, 'changes': 6}, {'filename': 'packages/@headlessui-tailwindcss/package.json', 'additions': 5, 'deletions': 1, 'changes': 6}, {'filename': 'packages/@headlessui-tailwindcss/scripts/fix-types.js', 'additions': 4, 'deletions': 3, 'changes': 7}, {'filename': 'packages/@headlessui-vue/package.json', 'additions': 5, 'deletions': 1, 'changes': 6}, {'filename': 'packages/@headlessui-vue/src/utils/owner.ts', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/playground-react/package.json', 'additions': 1, 'deletions': 0, 'changes': 1}, {'filename': 'packages/playground-vue/package.json', 'additions': 1, 'deletions': 0, 'changes': 1}, {'filename': 'scripts/build.sh', 'additions': 8, 'deletions': 2, 'changes': 10}, {'filename': 'yarn.lock', 'additions': 175, 'deletions': 2, 'changes': 177}]",[],"['@arethetypeswrong/cli', '@swc/core', '@swc/jest', '@testing-library/jest-dom', '@types/node', 'esbuild', 'fast-glob', 'husky', 'jest', 'lint-staged', 'npm-run-all', 'prettier', 'prettier-plugin-organize-imports', 'prettier-plugin-tailwindcss', 'rimraf', 'tslib', 'typescript']",[],"['@swc/core', '@swc/jest', '@testing-library/jest-dom', '@types/node', 'esbuild', 'fast-glob', 'husky', 'jest', 'lint-staged', 'npm-run-all', 'prettier', 'prettier-plugin-organize-imports', 'prettier-plugin-tailwindcss', 'rimraf', 'tslib', 'typescript']","{'added': [], 'removed': []}","{'added': ['@arethetypeswrong/cli'], 'removed': []}"
+e662f1239831c849f64adecbb38cf465d18a7ee2,2023-12-20 18:57:57+00:00,"2.0.0 Alpha prep (#2887)
+
+* bump React & React DOM dependencies
+
+* fix typo `TOmitableProps` → `TOmittableProps`
+
+* bump prettier
+
+* run prettier after prettier version bump
+
+* bump TypeScript
+
+* run prettier after TypeScript version bump
+
+* enable `verbatimModuleSyntax`
+
+This ensures all imported types are using the `type` keyword.
+
+* add `type` to type related imports
+
+* add common testing scenarios
+
+Will be used in the new and existing components.
+
+* add script to make Next.js happy
+
+Right now Next.js does barrel file optimization and re-writing imports
+to a real path in the `dist` folder. Most of those rewrites don't
+actually exist because they have an assumption:
+
+```js
+import { FooBar } from '@headlessui/react'
+```
+
+is rewritten as:
+```js
+import { FooBar } from '@headlessui/react/dist/components/foo-bar/foo-bar'
+```
+
+This script will make sure these paths exist...
+
+* improve `by` prop, introduce `useByComparator`
+
+This hook has a default implementation when comparing objects. If the
+object contains an `id`, then we will compare the objects by their
+`id`'s without the user of the library needing to specify `by=""id""`.
+
+If the objects don't have an `id` prop, then the default is still to
+compare by reference (unless specicified otherwise).
+
+* sync yarn.lock
+
+* rename `Features` to `HiddenFeatures` for `Hidden` component
+
+* rename `Features` to `FocusTrapFeatures` in `FocusTrap` component
+
+* rename `Features` to `RenderFeatures` in `render` util
+
+* add `floating-ui` as a dependency + introduce internal floating related components
+
+* bump Vue dependencies
+
+* ensure scroll bar calculations can't go negative
+
+* improve types in `@headlessui/vue`
+
+* use snapshot tests for `Transition` tests in `@headlessui/vue`
+
+* use snapshot tests for `portal` tests in `@headlessui/vue`
+
+* rename `src/components/transitions/` to `src/components/transition/` (singular)
+
+This is so that we can be consistent with the other components.
+
+* drop custom `toMatchFormattedCss`, prefer snapshot tests instead
+
+* use snapshot tests for `Label` tests in `@headlessui/vue`
+
+* use snapshot tests for `Description` tests in `@headlessui/vue`
+
+* sort exported components in tests for `@headlessui/vue`
+
+* use snapshot tests in `@headlessui/tailwindcss`
+
+* rename `mergeProps` to `mergePropsAdvanced`
+
+This is a more complex version of a soon to be exported `mergeProps`
+that we will be using in our components.
+
+* do not expose `aria-labelledby` if it is only referencing itself
+
+* expose boolean state as `kebab-case` instead of `camelCase`
+
+These are the ones being exposed inside `data-headlessui-state=""...""`
+
+* expose boolean data attributes
+
+A slot with `{active,focus,hover}` will be exposed as:
+```html
+<span data-headlessui-state=""active focus hover""></span>
+```
+
+But also as boolean attributes:
+```html
+<span data-active data-focus data-hover></span>
+```
+
+* improve internal types for `className` in `render` util
+
+* ensure we keep exposed data attributes into account when trying to forward them to the component inside the `Fragment`
+
+* add small typescript type fix
+
+This is internal code, and the public API is not influenced by this
+`:any`. It does make TypeScript happy.
+
+* introduce `mergeProps` util to be used in our components
+
+This will help us to merge props, when event handlers are available they
+will be merged by wrapping them in a function such that both (or more)
+event handlers are called for the same `event`.
+
+* add new internal `Modal` component
+
+* fix: when using `Focus.Previous` with `activeIndex = -1` should start at the end
+
+* prefer `window.scrollY` instead of `window.pageYOffset`
+
+Because `window.pageYOffset` is deprecated.
+
+* add `'use client'` directives on client only components
+
+These components use hooks that won't work in server components and you
+will receive an error otherwise.
+
+* drop `import 'client-only'` in favor of the `'use client'` directive
+
+* add React Aria dependencies
+
+* pin beta dependencies
+
+* prettier bump formatting
+
+* improve TypeScript types in tests
+
+* use new Jest matchers instead of deprecated ones
+
+* improve typescript types in Vue
+
+* prefer `useLabelledBy` and `useDescribedBy`
+
+* add internal `DisabledProvider`
+
+* add internal `IdProvider`
+
+* add internal `useDidElementMove` hook
+
+* add internal `useElementSize` hook
+
+* add internal `useIsTouchDevice` hook
+
+* add internal `useActivePress` hook
+
+* use snapshot tests for `Description` tests
+
+* use snapshot tests for `Label` tests
+
+* use snapshot tests for `Portal` tests
+
+* use snapshot tests for `render` tests
+
+* add (private) `Tooltip` component
+
+Currently this one is not ready yet, so its not publicly exposed yet.
+
+* add internal `FormFields` component
+
+This one adds a component to render (hidden) inputs for native form
+support. It also ensures that form fields can be hoisted to the end of
+the nearest `Field`. If the components are not inside a `Field` they
+will be rendered in place.
+
+* add new `Button` component
+
+* add new `Checkbox` component
+
+* add new `DataInteractive` component
+
+* add new `Field` component
+
+* add new `Fieldset` component
+
+* add new `Legend` component
+
+* add new `Input` component
+
+* add new `Select` component
+
+* add new `Textarea` component
+
+* export new components
+
+* WIP
+
+* remove `within: true`
+
+This only makes sense if anything inside the current element receives
+focus, which is not the case for `input`, `select`, `textarea` or
+`Radio/RadioOption`.
+
+* group focus/hover/active hooks together
+
+* conditionally link anchor panel
+
+* immediately focus the container
+
+* prevent premature disabling of `Listbox`'s floating integration
+
++ Track whether the button moved or not when disabling such that we can
+  disable the transitions earlier.
+
+* improve scroll locking on iOS
+
+* skip hydration tests for now
+
+* skip certain focus trap tests for now
+
+* update CHANGELOG.md
+
+* add missing requires
+
+* drop unused `@ts-expect-error`
+
+* ignore type issues in playgrounds
+
+These playgrounds are mainly test playgrounds. Lower priority for now,
+we will get back to them.
+
+* add yarn resolutions to solve swc bug",Robin Malfait,malfait.robin@gmail.com,GitHub,noreply@github.com,https://github.com/tailwindlabs/headlessui/commit/e662f1239831c849f64adecbb38cf465d18a7ee2,['01a34cb0c48329b478dea28fef391c71cee57550'],11833,6280,18113,"[{'filename': 'package.json', 'additions': 8, 'deletions': 4, 'changes': 12}, {'filename': 'packages/@headlessui-react/CHANGELOG.md', 'additions': 24, 'deletions': 5, 'changes': 29}, {'filename': 'packages/@headlessui-react/package.json', 'additions': 8, 'deletions': 6, 'changes': 14}, {'filename': 'packages/@headlessui-react/src/components/button/button.test.tsx', 'additions': 39, 'deletions': 0, 'changes': 39}, {'filename': 'packages/@headlessui-react/src/components/button/button.tsx', 'additions': 88, 'deletions': 0, 'changes': 88}, {'filename': 'packages/@headlessui-react/src/components/checkbox/checkbox.test.tsx', 'additions': 121, 'deletions': 0, 'changes': 121}, {'filename': 'packages/@headlessui-react/src/components/checkbox/checkbox.tsx', 'additions': 193, 'deletions': 0, 'changes': 193}, {'filename': 'packages/@headlessui-react/src/components/combobox-button/combobox-button.tsx', 'additions': 3, 'deletions': 0, 'changes': 3}, {'filename': 'packages/@headlessui-react/src/components/combobox-input/combobox-input.tsx', 'additions': 3, 'deletions': 0, 'changes': 3}, {'filename': 'packages/@headlessui-react/src/components/combobox-label/combobox-label.tsx', 'additions': 3, 'deletions': 0, 'changes': 3}, {'filename': 'packages/@headlessui-react/src/components/combobox-option/combobox-option.tsx', 'additions': 3, 'deletions': 0, 'changes': 3}, {'filename': 'packages/@headlessui-react/src/components/combobox-options/combobox-options.tsx', 'additions': 3, 'deletions': 0, 'changes': 3}, {'filename': 'packages/@headlessui-react/src/components/combobox/combobox.test.tsx', 'additions': 154, 'deletions': 62, 'changes': 216}, {'filename': 'packages/@headlessui-react/src/components/combobox/combobox.tsx', 'additions': 267, 'deletions': 267, 'changes': 534}, {'filename': 'packages/@headlessui-react/src/components/data-interactive/data-interactive.test.tsx', 'additions': 52, 'deletions': 0, 'changes': 52}, {'filename': 'packages/@headlessui-react/src/components/data-interactive/data-interactive.tsx', 'additions': 67, 'deletions': 0, 'changes': 67}, {'filename': 'packages/@headlessui-react/src/components/description/__snapshots__/description.test.tsx.snap', 'additions': 45, 'deletions': 0, 'changes': 45}, {'filename': 'packages/@headlessui-react/src/components/description/description.test.tsx', 'additions': 4, 'deletions': 39, 'changes': 43}, {'filename': 'packages/@headlessui-react/src/components/description/description.tsx', 'additions': 27, 'deletions': 8, 'changes': 35}, {'filename': 'packages/@headlessui-react/src/components/dialog-backdrop/dialog-backdrop.tsx', 'additions': 3, 'deletions': 0, 'changes': 3}, {'filename': 'packages/@headlessui-react/src/components/dialog-description/dialog-description.tsx', 'additions': 3, 'deletions': 0, 'changes': 3}, {'filename': 'packages/@headlessui-react/src/components/dialog-overlay/dialog-overlay.tsx', 'additions': 3, 'deletions': 0, 'changes': 3}, {'filename': 'packages/@headlessui-react/src/components/dialog-panel/dialog-panel.tsx', 'additions': 3, 'deletions': 0, 'changes': 3}, {'filename': 'packages/@headlessui-react/src/components/dialog-title/dialog-title.tsx', 'additions': 3, 'deletions': 0, 'changes': 3}, {'filename': 'packages/@headlessui-react/src/components/dialog/dialog.test.tsx', 'additions': 68, 'deletions': 59, 'changes': 127}, {'filename': 'packages/@headlessui-react/src/components/dialog/dialog.tsx', 'additions': 86, 'deletions': 51, 'changes': 137}, {'filename': 'packages/@headlessui-react/src/components/disclosure-button/disclosure-button.tsx', 'additions': 3, 'deletions': 0, 'changes': 3}, {'filename': 'packages/@headlessui-react/src/components/disclosure-panel/disclosure-panel.tsx', 'additions': 3, 'deletions': 0, 'changes': 3}, {'filename': 'packages/@headlessui-react/src/components/disclosure/disclosure.test.tsx', 'additions': 33, 'deletions': 9, 'changes': 42}, {'filename': 'packages/@headlessui-react/src/components/disclosure/disclosure.tsx', 'additions': 97, 'deletions': 34, 'changes': 131}, {'filename': 'packages/@headlessui-react/src/components/field/field.test.tsx', 'additions': 42, 'deletions': 0, 'changes': 42}, {'filename': 'packages/@headlessui-react/src/components/field/field.tsx', 'additions': 73, 'deletions': 0, 'changes': 73}, {'filename': 'packages/@headlessui-react/src/components/fieldset/fieldset.test.tsx', 'additions': 90, 'deletions': 0, 'changes': 90}, {'filename': 'packages/@headlessui-react/src/components/fieldset/fieldset.tsx', 'additions': 61, 'deletions': 0, 'changes': 61}, {'filename': 'packages/@headlessui-react/src/components/focus-trap-features/focus-trap-features.tsx', 'additions': 3, 'deletions': 0, 'changes': 3}, {'filename': 'packages/@headlessui-react/src/components/focus-trap/focus-trap.test.tsx', 'additions': 16, 'deletions': 13, 'changes': 29}, {'filename': 'packages/@headlessui-react/src/components/focus-trap/focus-trap.tsx', 'additions': 88, 'deletions': 25, 'changes': 113}, {'filename': 'packages/@headlessui-react/src/components/input/input.test.tsx', 'additions': 17, 'deletions': 0, 'changes': 17}, {'filename': 'packages/@headlessui-react/src/components/input/input.tsx', 'additions': 97, 'deletions': 0, 'changes': 97}, {'filename': 'packages/@headlessui-react/src/components/label/__snapshots__/label.test.tsx.snap', 'additions': 45, 'deletions': 0, 'changes': 45}, {'filename': 'packages/@headlessui-react/src/components/label/label.test.tsx', 'additions': 3, 'deletions': 38, 'changes': 41}, {'filename': 'packages/@headlessui-react/src/components/label/label.tsx', 'additions': 113, 'deletions': 15, 'changes': 128}, {'filename': 'packages/@headlessui-react/src/components/legend/legend.tsx', 'additions': 34, 'deletions': 0, 'changes': 34}, {'filename': 'packages/@headlessui-react/src/components/listbox-button/listbox-button.tsx', 'additions': 3, 'deletions': 0, 'changes': 3}, {'filename': 'packages/@headlessui-react/src/components/listbox-label/listbox-label.tsx', 'additions': 3, 'deletions': 0, 'changes': 3}, {'filename': 'packages/@headlessui-react/src/components/listbox-option/listbox-option.tsx', 'additions': 3, 'deletions': 0, 'changes': 3}, {'filename': 'packages/@headlessui-react/src/components/listbox-options/listbox-options.tsx', 'additions': 3, 'deletions': 0, 'changes': 3}, {'filename': 'packages/@headlessui-react/src/components/listbox-selected-option/listbox-selected-option.tsx', 'additions': 3, 'deletions': 0, 'changes': 3}, {'filename': 'packages/@headlessui-react/src/components/listbox/listbox.test.tsx', 'additions': 152, 'deletions': 41, 'changes': 193}, {'filename': 'packages/@headlessui-react/src/components/listbox/listbox.tsx', 'additions': 548, 'deletions': 249, 'changes': 797}, {'filename': 'packages/@headlessui-react/src/components/menu-button/menu-button.tsx', 'additions': 3, 'deletions': 0, 'changes': 3}, {'filename': 'packages/@headlessui-react/src/components/menu-heading/menu-heading.tsx', 'additions': 3, 'deletions': 0, 'changes': 3}, {'filename': 'packages/@headlessui-react/src/components/menu-item/menu-item.tsx', 'additions': 3, 'deletions': 0, 'changes': 3}, {'filename': 'packages/@headlessui-react/src/components/menu-items/menu-items.tsx', 'additions': 3, 'deletions': 0, 'changes': 3}, {'filename': 'packages/@headlessui-react/src/components/menu-section/menu-section.tsx', 'additions': 3, 'deletions': 0, 'changes': 3}, {'filename': 'packages/@headlessui-react/src/components/menu-separator/menu-separator.tsx', 'additions': 3, 'deletions': 0, 'changes': 3}, {'filename': 'packages/@headlessui-react/src/components/menu/menu.test.tsx', 'additions': 109, 'deletions': 207, 'changes': 316}, {'filename': 'packages/@headlessui-react/src/components/menu/menu.tsx', 'additions': 426, 'deletions': 87, 'changes': 513}, {'filename': 'packages/@headlessui-react/src/components/popover-button/popover-button.tsx', 'additions': 3, 'deletions': 0, 'changes': 3}, {'filename': 'packages/@headlessui-react/src/components/popover-group/popover-group.tsx', 'additions': 3, 'deletions': 0, 'changes': 3}, {'filename': 'packages/@headlessui-react/src/components/popover-overlay/popover-overlay.tsx', 'additions': 3, 'deletions': 0, 'changes': 3}, {'filename': 'packages/@headlessui-react/src/components/popover-panel/popover-panel.tsx', 'additions': 3, 'deletions': 0, 'changes': 3}, {'filename': 'packages/@headlessui-react/src/components/popover/popover.test.tsx', 'additions': 36, 'deletions': 12, 'changes': 48}, {'filename': 'packages/@headlessui-react/src/components/popover/popover.tsx', 'additions': 216, 'deletions': 116, 'changes': 332}, {'filename': 'packages/@headlessui-react/src/components/portal/__snapshots__/portal.test.tsx.snap', 'additions': 3, 'deletions': 0, 'changes': 3}, {'filename': 'packages/@headlessui-react/src/components/portal/portal.test.tsx', 'additions': 1, 'deletions': 3, 'changes': 4}, {'filename': 'packages/@headlessui-react/src/components/portal/portal.tsx', 'additions': 25, 'deletions': 11, 'changes': 36}, {'filename': 'packages/@headlessui-react/src/components/radio-group-description/radio-group-description.tsx', 'additions': 3, 'deletions': 0, 'changes': 3}, {'filename': 'packages/@headlessui-react/src/components/radio-group-label/radio-group-label.tsx', 'additions': 3, 'deletions': 0, 'changes': 3}, {'filename': 'packages/@headlessui-react/src/components/radio-group-option/radio-group-option.tsx', 'additions': 3, 'deletions': 0, 'changes': 3}, {'filename': 'packages/@headlessui-react/src/components/radio-group/radio-group.test.tsx', 'additions': 74, 'deletions': 20, 'changes': 94}, {'filename': 'packages/@headlessui-react/src/components/radio-group/radio-group.tsx', 'additions': 220, 'deletions': 123, 'changes': 343}, {'filename': 'packages/@headlessui-react/src/components/radio/radio.tsx', 'additions': 3, 'deletions': 0, 'changes': 3}, {'filename': 'packages/@headlessui-react/src/components/select/select.test.tsx', 'additions': 27, 'deletions': 0, 'changes': 27}, {'filename': 'packages/@headlessui-react/src/components/select/select.tsx', 'additions': 99, 'deletions': 0, 'changes': 99}, {'filename': 'packages/@headlessui-react/src/components/switch-description/switch-description.tsx', 'additions': 3, 'deletions': 0, 'changes': 3}, {'filename': 'packages/@headlessui-react/src/components/switch-group/switch-group.tsx', 'additions': 3, 'deletions': 0, 'changes': 3}, {'filename': 'packages/@headlessui-react/src/components/switch-label/switch-label.tsx', 'additions': 3, 'deletions': 0, 'changes': 3}, {'filename': 'packages/@headlessui-react/src/components/switch/switch.test.tsx', 'additions': 5, 'deletions': 5, 'changes': 10}, {'filename': 'packages/@headlessui-react/src/components/switch/switch.tsx', 'additions': 98, 'deletions': 58, 'changes': 156}, {'filename': 'packages/@headlessui-react/src/components/tab-group/tab-group.tsx', 'additions': 3, 'deletions': 0, 'changes': 3}, {'filename': 'packages/@headlessui-react/src/components/tab-list/tab-list.tsx', 'additions': 3, 'deletions': 0, 'changes': 3}, {'filename': 'packages/@headlessui-react/src/components/tab-panel/tab-panel.tsx', 'additions': 3, 'deletions': 0, 'changes': 3}, {'filename': 'packages/@headlessui-react/src/components/tab-panels/tab-panels.tsx', 'additions': 3, 'deletions': 0, 'changes': 3}, {'filename': 'packages/@headlessui-react/src/components/tab/tab.tsx', 'additions': 3, 'deletions': 0, 'changes': 3}, {'filename': 'packages/@headlessui-react/src/components/tabs/tabs.ssr.test.tsx', 'additions': 2, 'deletions': 1, 'changes': 3}, {'filename': 'packages/@headlessui-react/src/components/tabs/tabs.test.tsx', 'additions': 44, 'deletions': 8, 'changes': 52}, {'filename': 'packages/@headlessui-react/src/components/tabs/tabs.tsx', 'additions': 85, 'deletions': 42, 'changes': 127}, {'filename': 'packages/@headlessui-react/src/components/textarea/textarea.test.tsx', 'additions': 17, 'deletions': 0, 'changes': 17}, {'filename': 'packages/@headlessui-react/src/components/textarea/textarea.tsx', 'additions': 94, 'deletions': 0, 'changes': 94}, {'filename': 'packages/@headlessui-react/src/components/tooltip/tooltip.tsx', 'additions': 499, 'deletions': 0, 'changes': 499}, {'filename': 'packages/@headlessui-react/src/components/transition-child/transition-child.tsx', 'additions': 3, 'deletions': 0, 'changes': 3}, {'filename': 'packages/@headlessui-react/src/components/transition/__snapshots__/transition.test.tsx.snap', 'additions': 144, 'deletions': 0, 'changes': 144}, {'filename': 'packages/@headlessui-react/src/components/transition/transition.ssr.test.tsx', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'packages/@headlessui-react/src/components/transition/transition.test.tsx', 'additions': 30, 'deletions': 437, 'changes': 467}, {'filename': 'packages/@headlessui-react/src/components/transition/transition.tsx', 'additions': 644, 'deletions': 0, 'changes': 644}, {'filename': 'packages/@headlessui-react/src/components/transition/utils/transition.test.ts', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'packages/@headlessui-react/src/components/transition/utils/transition.ts', 'additions': 11, 'deletions': 5, 'changes': 16}, {'filename': 'packages/@headlessui-react/src/components/transitions/transition.tsx', 'additions': 2, 'deletions': 634, 'changes': 636}, {'filename': 'packages/@headlessui-react/src/hooks/document-overflow/adjust-scrollbar-padding.ts', 'additions': 7, 'deletions': 4, 'changes': 11}, {'filename': 'packages/@headlessui-react/src/hooks/document-overflow/handle-ios-locking.ts', 'additions': 71, 'deletions': 29, 'changes': 100}, {'filename': 'packages/@headlessui-react/src/hooks/document-overflow/overflow-store.ts', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-react/src/hooks/document-overflow/prevent-scroll.ts', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-react/src/hooks/document-overflow/use-document-overflow.ts', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-react/src/hooks/use-active-press.tsx', 'additions': 98, 'deletions': 0, 'changes': 98}, {'filename': 'packages/@headlessui-react/src/hooks/use-by-comparator.ts', 'additions': 34, 'deletions': 0, 'changes': 34}, {'filename': 'packages/@headlessui-react/src/hooks/use-did-element-move.ts', 'additions': 28, 'deletions': 0, 'changes': 28}, {'filename': 'packages/@headlessui-react/src/hooks/use-element-size.ts', 'additions': 36, 'deletions': 0, 'changes': 36}, {'filename': 'packages/@headlessui-react/src/hooks/use-event.ts', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-react/src/hooks/use-id.ts', 'additions': 0, 'deletions': 1, 'changes': 1}, {'filename': 'packages/@headlessui-react/src/hooks/use-inert.test.tsx', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-react/src/hooks/use-inert.tsx', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-react/src/hooks/use-is-touch-device.ts', 'additions': 24, 'deletions': 0, 'changes': 24}, {'filename': 'packages/@headlessui-react/src/hooks/use-iso-morphic-effect.ts', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-react/src/hooks/use-outside-click.ts', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-react/src/hooks/use-root-containers.tsx', 'additions': 2, 'deletions': 2, 'changes': 4}, {'filename': 'packages/@headlessui-react/src/hooks/use-store.ts', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-react/src/hooks/use-transition.ts', 'additions': 2, 'deletions': 2, 'changes': 4}, {'filename': 'packages/@headlessui-react/src/index.test.ts', 'additions': 74, 'deletions': 2, 'changes': 76}, {'filename': 'packages/@headlessui-react/src/index.ts', 'additions': 14, 'deletions': 3, 'changes': 17}, {'filename': 'packages/@headlessui-react/src/internal/disabled.tsx', 'additions': 14, 'deletions': 0, 'changes': 14}, {'filename': 'packages/@headlessui-react/src/internal/floating.tsx', 'additions': 562, 'deletions': 0, 'changes': 562}, {'filename': 'packages/@headlessui-react/src/internal/focus-sentinel.tsx', 'additions': 2, 'deletions': 2, 'changes': 4}, {'filename': 'packages/@headlessui-react/src/internal/form-fields.tsx', 'additions': 102, 'deletions': 0, 'changes': 102}, {'filename': 'packages/@headlessui-react/src/internal/hidden.tsx', 'additions': 15, 'deletions': 6, 'changes': 21}, {'filename': 'packages/@headlessui-react/src/internal/id.tsx', 'additions': 11, 'deletions': 0, 'changes': 11}, {'filename': 'packages/@headlessui-react/src/internal/modal.tsx', 'additions': 218, 'deletions': 0, 'changes': 218}, {'filename': 'packages/@headlessui-react/src/test-utils/accessibility-assertions.ts', 'additions': 194, 'deletions': 4, 'changes': 198}, {'filename': 'packages/@headlessui-react/src/test-utils/fake-pointer.ts', 'additions': 4, 'deletions': 1, 'changes': 5}, {'filename': 'packages/@headlessui-react/src/test-utils/interactions.test.tsx', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-react/src/test-utils/interactions.ts', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-react/src/test-utils/scenarios.tsx', 'additions': 278, 'deletions': 0, 'changes': 278}, {'filename': 'packages/@headlessui-react/src/types.ts', 'additions': 13, 'deletions': 16, 'changes': 29}, {'filename': 'packages/@headlessui-react/src/utils/__snapshots__/render.test.tsx.snap', 'additions': 241, 'deletions': 0, 'changes': 241}, {'filename': 'packages/@headlessui-react/src/utils/calculate-active-index.ts', 'additions': 3, 'deletions': 0, 'changes': 3}, {'filename': 'packages/@headlessui-react/src/utils/focus-management.ts', 'additions': 44, 'deletions': 3, 'changes': 47}, {'filename': 'packages/@headlessui-react/src/utils/owner.ts', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-react/src/utils/render.test.tsx', 'additions': 26, 'deletions': 173, 'changes': 199}, {'filename': 'packages/@headlessui-react/src/utils/render.ts', 'additions': 124, 'deletions': 60, 'changes': 184}, {'filename': 'packages/@headlessui-react/src/utils/start-transition.ts', 'additions': 0, 'deletions': 1, 'changes': 1}, {'filename': 'packages/@headlessui-react/tsconfig.json', 'additions': 2, 'deletions': 1, 'changes': 3}, {'filename': 'packages/@headlessui-tailwindcss/jest.config.cjs', 'additions': 0, 'deletions': 1, 'changes': 1}, {'filename': 'packages/@headlessui-tailwindcss/jest.setup.js', 'additions': 0, 'deletions': 54, 'changes': 54}, {'filename': 'packages/@headlessui-tailwindcss/src/__snapshots__/index.test.ts.snap', 'additions': 49, 'deletions': 0, 'changes': 49}, {'filename': 'packages/@headlessui-tailwindcss/src/index.test.ts', 'additions': 6, 'deletions': 48, 'changes': 54}, {'filename': 'packages/@headlessui-vue/package.json', 'additions': 4, 'deletions': 4, 'changes': 8}, {'filename': 'packages/@headlessui-vue/src/components/combobox/combobox.test.ts', 'additions': 10, 'deletions': 10, 'changes': 20}, {'filename': 'packages/@headlessui-vue/src/components/combobox/combobox.ts', 'additions': 18, 'deletions': 18, 'changes': 36}, {'filename': 'packages/@headlessui-vue/src/components/description/__snapshots__/description.test.ts.snap', 'additions': 11, 'deletions': 0, 'changes': 11}, {'filename': 'packages/@headlessui-vue/src/components/description/description.test.ts', 'additions': 6, 'deletions': 51, 'changes': 57}, {'filename': 'packages/@headlessui-vue/src/components/dialog/dialog.test.ts', 'additions': 3, 'deletions': 3, 'changes': 6}, {'filename': 'packages/@headlessui-vue/src/components/disclosure/disclosure.test.ts', 'additions': 2, 'deletions': 2, 'changes': 4}, {'filename': 'packages/@headlessui-vue/src/components/focus-trap/focus-trap.test.ts', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-vue/src/components/focus-trap/focus-trap.ts', 'additions': 3, 'deletions': 3, 'changes': 6}, {'filename': 'packages/@headlessui-vue/src/components/label/__snapshots__/label.test.ts.snap', 'additions': 11, 'deletions': 0, 'changes': 11}, {'filename': 'packages/@headlessui-vue/src/components/label/label.test.ts', 'additions': 6, 'deletions': 51, 'changes': 57}, {'filename': 'packages/@headlessui-vue/src/components/listbox/listbox.test.tsx', 'additions': 5, 'deletions': 5, 'changes': 10}, {'filename': 'packages/@headlessui-vue/src/components/listbox/listbox.ts', 'additions': 4, 'deletions': 4, 'changes': 8}, {'filename': 'packages/@headlessui-vue/src/components/menu/menu.test.tsx', 'additions': 3, 'deletions': 3, 'changes': 6}, {'filename': 'packages/@headlessui-vue/src/components/menu/menu.ts', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-vue/src/components/popover/popover.test.ts', 'additions': 2, 'deletions': 2, 'changes': 4}, {'filename': 'packages/@headlessui-vue/src/components/popover/popover.ts', 'additions': 3, 'deletions': 3, 'changes': 6}, {'filename': 'packages/@headlessui-vue/src/components/portal/__snapshots__/portal.test.ts.snap', 'additions': 3, 'deletions': 0, 'changes': 3}, {'filename': 'packages/@headlessui-vue/src/components/portal/portal.test.ts', 'additions': 9, 'deletions': 4, 'changes': 13}, {'filename': 'packages/@headlessui-vue/src/components/portal/portal.ts', 'additions': 4, 'deletions': 4, 'changes': 8}, {'filename': 'packages/@headlessui-vue/src/components/radio-group/radio-group.test.ts', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-vue/src/components/radio-group/radio-group.ts', 'additions': 3, 'deletions': 3, 'changes': 6}, {'filename': 'packages/@headlessui-vue/src/components/switch/switch.test.tsx', 'additions': 2, 'deletions': 2, 'changes': 4}, {'filename': 'packages/@headlessui-vue/src/components/switch/switch.ts', 'additions': 2, 'deletions': 2, 'changes': 4}, {'filename': 'packages/@headlessui-vue/src/components/tabs/tabs.test.ts', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-vue/src/components/tabs/tabs.ts', 'additions': 6, 'deletions': 6, 'changes': 12}, {'filename': 'packages/@headlessui-vue/src/components/transitions/__snapshots__/transition.test.ts.snap', 'additions': 450, 'deletions': 0, 'changes': 450}, {'filename': 'packages/@headlessui-vue/src/components/transitions/transition.test.ts', 'additions': 24, 'deletions': 425, 'changes': 449}, {'filename': 'packages/@headlessui-vue/src/components/transitions/transition.ts', 'additions': 2, 'deletions': 2, 'changes': 4}, {'filename': 'packages/@headlessui-vue/src/hooks/document-overflow/adjust-scrollbar-padding.ts', 'additions': 7, 'deletions': 4, 'changes': 11}, {'filename': 'packages/@headlessui-vue/src/hooks/document-overflow/handle-ios-locking.ts', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-vue/src/hooks/document-overflow/overflow-store.ts', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-vue/src/hooks/document-overflow/prevent-scroll.ts', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-vue/src/hooks/document-overflow/use-document-overflow.ts', 'additions': 2, 'deletions': 2, 'changes': 4}, {'filename': 'packages/@headlessui-vue/src/hooks/use-controllable.ts', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-vue/src/hooks/use-inert.test.ts', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-vue/src/hooks/use-inert.ts', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-vue/src/hooks/use-root-containers.ts', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-vue/src/hooks/use-store.ts', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-vue/src/hooks/use-text-value.ts', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-vue/src/index.test.ts', 'additions': 19, 'deletions': 19, 'changes': 38}, {'filename': 'packages/@headlessui-vue/src/test-utils/fake-pointer.ts', 'additions': 4, 'deletions': 1, 'changes': 5}, {'filename': 'packages/@headlessui-vue/src/test-utils/interactions.test.ts', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-vue/src/utils/dom.ts', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-vue/src/utils/owner.ts', 'additions': 2, 'deletions': 2, 'changes': 4}, {'filename': 'packages/@headlessui-vue/tsconfig.json', 'additions': 2, 'deletions': 1, 'changes': 3}, {'filename': 'packages/playground-react/data.ts', 'additions': 0, 'deletions': 1, 'changes': 1}, {'filename': 'packages/playground-react/package.json', 'additions': 5, 'deletions': 2, 'changes': 7}, {'filename': 'packages/playground-react/pages/combobox/combobox-virtual-with-empty-states.tsx', 'additions': 60, 'deletions': 57, 'changes': 117}, {'filename': 'packages/playground-react/pages/combobox/combobox-virtualized.tsx', 'additions': 37, 'deletions': 44, 'changes': 81}, {'filename': 'packages/playground-react/pages/popover/popover.tsx', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/playground-vue/index.html', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/playground-vue/src/data.ts', 'additions': 0, 'deletions': 1, 'changes': 1}, {'filename': 'packages/playground-vue/src/main.ts', 'additions': 1, 'deletions': 0, 'changes': 1}, {'filename': 'scripts/build.sh', 'additions': 5, 'deletions': 0, 'changes': 5}, {'filename': 'scripts/make-nextjs-happy.js', 'additions': 51, 'deletions': 0, 'changes': 51}, {'filename': 'scripts/release-channel.js', 'additions': 3, 'deletions': 0, 'changes': 3}, {'filename': 'yarn.lock', 'additions': 0, 'deletions': 0, 'changes': 0}]",[],"['@arethetypeswrong/cli', '@swc-node/register', '@swc/core', '@swc/jest', '@testing-library/jest-dom', '@types/node', 'esbuild', 'fast-glob', 'husky', 'jest', 'lint-staged', 'npm-run-all', 'prettier', 'prettier-plugin-organize-imports', 'prettier-plugin-tailwindcss', 'rimraf', 'tslib', 'typescript']",[],"['@arethetypeswrong/cli', '@swc/core', '@swc/jest', '@testing-library/jest-dom', '@types/node', 'esbuild', 'fast-glob', 'husky', 'jest', 'lint-staged', 'npm-run-all', 'prettier', 'prettier-plugin-organize-imports', 'prettier-plugin-tailwindcss', 'rimraf', 'tslib', 'typescript']","{'added': [], 'removed': []}","{'added': ['@swc-node/register'], 'removed': []}"
+8c882e047a05120ed9b42b505a393812b42c4cdd,2023-12-21 15:02:35+00:00,"Make playgrounds build again (#2894)
+
+* sync yarn.lock
+
+* drop resolutions from root package.json
+
+This is done in the `package.json` from the `playground-react` package
+
+* update next.config.js
+
+Use `buildActivity` instead of `autoPrerender`
+
+* ignore type checking in playground files
+
+This is not ideal, but it is the first step in making the build pass
+again.",Robin Malfait,malfait.robin@gmail.com,GitHub,noreply@github.com,https://github.com/tailwindlabs/headlessui/commit/8c882e047a05120ed9b42b505a393812b42c4cdd,['847976a3100ab7c0c8ea361e4eea2a48cdf67b08'],32,4,36,"[{'filename': 'package.json', 'additions': 0, 'deletions': 3, 'changes': 3}, {'filename': 'packages/playground-react/next.config.js', 'additions': 2, 'deletions': 1, 'changes': 3}, {'filename': 'packages/playground-react/pages/combobox/combobox-open-on-focus.tsx', 'additions': 1, 'deletions': 0, 'changes': 1}, {'filename': 'packages/playground-react/pages/combobox/combobox-virtual-with-empty-states.tsx', 'additions': 1, 'deletions': 0, 'changes': 1}, {'filename': 'packages/playground-react/pages/combobox/combobox-virtualized.tsx', 'additions': 1, 'deletions': 0, 'changes': 1}, {'filename': 'yarn.lock', 'additions': 27, 'deletions': 0, 'changes': 27}]",[],"['@arethetypeswrong/cli', '@swc-node/register', '@swc/core', '@swc/jest', '@testing-library/jest-dom', '@types/node', 'esbuild', 'fast-glob', 'husky', 'jest', 'lint-staged', 'npm-run-all', 'prettier', 'prettier-plugin-organize-imports', 'prettier-plugin-tailwindcss', 'rimraf', 'tslib', 'typescript']",[],"['@arethetypeswrong/cli', '@swc-node/register', '@swc/core', '@swc/jest', '@testing-library/jest-dom', '@types/node', 'esbuild', 'fast-glob', 'husky', 'jest', 'lint-staged', 'npm-run-all', 'prettier', 'prettier-plugin-organize-imports', 'prettier-plugin-tailwindcss', 'rimraf', 'tslib', 'typescript']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+a73007388fbf4cf1ebd9e6d3c5762c8102daf84d,2024-01-03 13:26:12+00:00,"Ensure playgrounds work + switch to npm workspaces (#2907)
+
+* bump Next in playground
+
+* convert legacy Link after Next.js bump
+
+* update yarn.lock
+
+* switch to npm workspaces
+
+* move `packages/playground-*` to `playgrounds/*`
+
+* use `npm` instead of `yarn`
+
+* sync package-lock.json
+
+* use node 20 for insiders releases",Robin Malfait,malfait.robin@gmail.com,GitHub,noreply@github.com,https://github.com/tailwindlabs/headlessui/commit/a73007388fbf4cf1ebd9e6d3c5762c8102daf84d,['3b961a690f03babe404c7b782b557b3c5b0528b8'],10733,6944,17677,"[{'filename': '.github/CONTRIBUTING.md', 'additions': 43, 'deletions': 43, 'changes': 86}, {'filename': '.github/workflows/main.yml', 'additions': 10, 'deletions': 10, 'changes': 20}, {'filename': '.github/workflows/release-insiders.yml', 'additions': 4, 'deletions': 4, 'changes': 8}, {'filename': '.github/workflows/release.yml', 'additions': 3, 'deletions': 3, 'changes': 6}, {'filename': '.gitignore', 'additions': 6, 'deletions': 1, 'changes': 7}, {'filename': 'package-lock.json', 'additions': 10628, 'deletions': 0, 'changes': 10628}, {'filename': 'package.json', 'additions': 11, 'deletions': 10, 'changes': 21}, {'filename': 'packages/@headlessui-react/package.json', 'additions': 2, 'deletions': 2, 'changes': 4}, {'filename': 'packages/@headlessui-tailwindcss/package.json', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-vue/package.json', 'additions': 2, 'deletions': 2, 'changes': 4}, {'filename': 'playgrounds/react/components/button.tsx', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/react/data.ts', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/react/next-env.d.ts', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/react/next.config.js', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/react/package.json', 'additions': 5, 'deletions': 5, 'changes': 10}, {'filename': 'playgrounds/react/pages/_app.tsx', 'additions': 3, 'deletions': 12, 'changes': 15}, {'filename': 'playgrounds/react/pages/_document.tsx', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/react/pages/_error.tsx', 'additions': 2, 'deletions': 12, 'changes': 14}, {'filename': 'playgrounds/react/pages/combinations/form.tsx', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/react/pages/combinations/tabs-in-dialog.tsx', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/react/pages/combobox/combobox-countries.tsx', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/react/pages/combobox/combobox-open-on-focus.tsx', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/react/pages/combobox/combobox-virtual-with-empty-states.tsx', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/react/pages/combobox/combobox-virtualized.tsx', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/react/pages/combobox/combobox-with-pure-tailwind.tsx', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/react/pages/combobox/command-palette-with-groups.tsx', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/react/pages/combobox/command-palette.tsx', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/react/pages/combobox/multi-select.tsx', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/react/pages/dialog/dialog-focus-issue.tsx', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/react/pages/dialog/dialog-scroll-issue.tsx', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/react/pages/dialog/dialog-with-shadow-children.tsx', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/react/pages/dialog/dialog.tsx', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/react/pages/dialog/scrollable-dialog.tsx', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/react/pages/dialog/scrollable-page-with-dialog.tsx', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/react/pages/disclosure/disclosure.tsx', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/react/pages/listbox/listbox-with-pure-tailwind.tsx', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/react/pages/listbox/multi-select.tsx', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/react/pages/listbox/multiple-elements.tsx', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/react/pages/menu/menu-with-floating-ui.tsx', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/react/pages/menu/menu-with-framer-motion.tsx', 'additions': 2, 'deletions': 13, 'changes': 15}, {'filename': 'playgrounds/react/pages/menu/menu-with-popper.tsx', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/react/pages/menu/menu-with-transition-and-popper.tsx', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/react/pages/menu/menu-with-transition.tsx', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/react/pages/menu/menu.tsx', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/react/pages/menu/multiple-elements.tsx', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/react/pages/popover/popover.tsx', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/react/pages/radio-group/radio-group.tsx', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/react/pages/suspense/portal.tsx', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/react/pages/switch/switch-with-pure-tailwind.tsx', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/react/pages/tabs/tabs-with-pure-tailwind.tsx', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/react/pages/transitions/appear.tsx', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/react/pages/transitions/component-examples/dropdown.tsx', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/react/pages/transitions/component-examples/modal.tsx', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/react/pages/transitions/component-examples/nested/hidden.tsx', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/react/pages/transitions/component-examples/nested/unmount.tsx', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/react/pages/transitions/component-examples/peek-a-boo.tsx', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/react/pages/transitions/full-page-examples/full-page-transition.tsx', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/react/pages/transitions/full-page-examples/layout-with-sidebar.tsx', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/react/pages/transitions/react-hot-toast.tsx', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/react/postcss.config.js', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/react/public/favicon.ico', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/react/tailwind.config.js', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/react/tsconfig.json', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/react/utils/class-names.ts', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/react/utils/hooks/use-popper.ts', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/react/utils/match.ts', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/react/utils/resolve-all-examples.ts', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/vue/index.html', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/vue/package.json', 'additions': 4, 'deletions': 4, 'changes': 8}, {'filename': 'playgrounds/vue/postcss.config.js', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/vue/public/favicon.ico', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/vue/src/.generated/.gitignore', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/vue/src/App.vue', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/vue/src/KeyCaster.vue', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/vue/src/Layout.vue', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/vue/src/components/Button.vue', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/vue/src/components/Home.vue', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/vue/src/components/combinations/form.vue', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/vue/src/components/combinations/tabs-in-dialog.vue', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/vue/src/components/combobox/_virtual-example.vue', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/vue/src/components/combobox/combobox-countries.vue', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/vue/src/components/combobox/combobox-open-on-focus.vue', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/vue/src/components/combobox/combobox-virtual-with-empty-states.vue', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/vue/src/components/combobox/combobox-virtualized.vue', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/vue/src/components/combobox/combobox-with-pure-tailwind.vue', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/vue/src/components/combobox/command-palette-with-groups.vue', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/vue/src/components/combobox/command-palette.vue', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/vue/src/components/combobox/multi-select.vue', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/vue/src/components/dialog/dialog.vue', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/vue/src/components/dialog/slide-over.vue', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/vue/src/components/disclosure/disclosure.vue', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/vue/src/components/focus-trap/focus-trap.vue', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/vue/src/components/listbox/listbox.vue', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/vue/src/components/listbox/multi-select.vue', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/vue/src/components/listbox/multiple-elements.vue', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/vue/src/components/menu/menu-with-floating-ui.vue', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/vue/src/components/menu/menu-with-popper.vue', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/vue/src/components/menu/menu-with-transition-and-popper.vue', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/vue/src/components/menu/menu-with-transition.vue', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/vue/src/components/menu/menu.vue', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/vue/src/components/menu/multiple-elements.vue', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/vue/src/components/popover/popover.vue', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/vue/src/components/portal/portal.vue', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/vue/src/components/radio-group/radio-group.vue', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/vue/src/components/switch/switch.vue', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/vue/src/components/tabs/simple-tabs.vue', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/vue/src/components/tabs/tabs.vue', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/vue/src/data.ts', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/vue/src/main.ts', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/vue/src/playground-utils/hooks/use-popper.js', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/vue/src/router.ts', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/vue/tailwind.config.js', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/vue/tsconfig.json', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/vue/vercel.json', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'playgrounds/vue/vite.config.js', 'additions': 0, 'deletions': 0, 'changes': 0}, {'filename': 'scripts/build.sh', 'additions': 4, 'deletions': 6, 'changes': 10}, {'filename': 'scripts/lint.sh', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'scripts/test.sh', 'additions': 1, 'deletions': 2, 'changes': 3}, {'filename': 'scripts/watch.sh', 'additions': 1, 'deletions': 5, 'changes': 6}, {'filename': 'yarn.lock', 'additions': 0, 'deletions': 6808, 'changes': 6808}]",[],"['@arethetypeswrong/cli', '@swc-node/register', '@swc/core', '@swc/jest', '@testing-library/jest-dom', '@types/node', 'esbuild', 'fast-glob', 'husky', 'jest', 'lint-staged', 'npm-run-all', 'prettier', 'prettier-plugin-organize-imports', 'prettier-plugin-tailwindcss', 'rimraf', 'tslib', 'typescript']",[],"['@arethetypeswrong/cli', '@swc-node/register', '@swc/core', '@swc/jest', '@testing-library/jest-dom', '@types/node', 'esbuild', 'fast-glob', 'husky', 'jest', 'lint-staged', 'npm-run-all', 'prettier', 'prettier-plugin-organize-imports', 'prettier-plugin-tailwindcss', 'rimraf', 'tslib', 'typescript']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+d03fbb19f57ca3311b966ab3cf4603a5b981bf43,2024-03-29 14:41:12+00:00,"Make the `Combobox` component `nullable` by default (#3064)
+
+* remove `nullable` prop
+
+* prevent selecting active option on blur
+
++ cleanup and adjust comments
+
+* remove nullable from comments
+
+* bump TypeScript to 5.4
+
+This gives us `NoInfer<T>`!
+
+* simplify types of `Combobox`
+
+Now that `nullable` is gone, we can take another look at the type
+definition. This in combination with the new `NoInfer` type makes types
+drastically simpler and more correct.
+
+* re-add `nullable` to prevent type issues
+
+But let's mark it as deprecated to hint that something changed.
+
+* update changelog
+
+* improve `ByComparator` type
+
+If we are just checking for `T extends null`, then
+`{id:1,name:string}|null` will also be true and therefore we would
+eventually return `string` instead of `""id"" | ""name""`.
+
+To solve this, we first check if `NonNullable<T> extends never`, this
+would be the case if `T` is `null`.
+
+Otherwise, we know it's not just `null` but it can be something else
+with or without `null`. To be sure, we use `keyof NonNullable<null>` to
+get rid of the `null` part and to only keep the rest of the object (if
+it's an object).
+
+* ensure the `by` prop type handles `multiple` values correctly
+
+This way the `by` prop will still compare single values that are present
+inside the array.
+
+This now also solves a pending TypeScript issue that we used to `//
+@ts-expect-error` before.
+
+* type uncontrolled `Combobox` components correctly
+
+We have some tests that use uncontrolled components which means that we
+can't infer the type from the `value` type.
+
+* simplify `onChange` calls
+
+Now that we don't infer the type when using the generic inside of
+`onChange`, it means that we can use `onChange={setValue}` directly
+because we don't have to worry about the updater function of `setValue`
+anymore.
+
+* correctly type `onChange`, by adding `null`
+
+If you are in single value mode, then the `onChange` can (and will)
+receive `null` as a value (when you clear the input field). We never
+properly typed it so this fixes that.
+
+In multiple value mode this won't happen, if anything the value will be
+`[]` but not `null`.
+
+* remove `nullable` prop from playground
+
+* drop `nullable` mentions in tests",Robin Malfait,malfait.robin@gmail.com,GitHub,noreply@github.com,https://github.com/tailwindlabs/headlessui/commit/d03fbb19f57ca3311b966ab3cf4603a5b981bf43,['6d44a8d049fb4012dfa4944b4b13306b1e4be755'],104,162,266,"[{'filename': 'package-lock.json', 'additions': 17, 'deletions': 3, 'changes': 20}, {'filename': 'package.json', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'packages/@headlessui-react/CHANGELOG.md', 'additions': 1, 'deletions': 0, 'changes': 1}, {'filename': 'packages/@headlessui-react/src/components/combobox/combobox.test.tsx', 'additions': 28, 'deletions': 43, 'changes': 71}, {'filename': 'packages/@headlessui-react/src/components/combobox/combobox.tsx', 'additions': 56, 'deletions': 113, 'changes': 169}, {'filename': 'packages/@headlessui-react/src/hooks/use-by-comparator.ts', 'additions': 1, 'deletions': 1, 'changes': 2}, {'filename': 'playgrounds/react/pages/combobox/combobox-virtualized.tsx', 'additions': 0, 'deletions': 1, 'changes': 1}]",[],"['@arethetypeswrong/cli', '@swc-node/register', '@swc/core', '@swc/jest', '@testing-library/jest-dom', '@types/node', 'esbuild', 'fast-glob', 'husky', 'jest', 'lint-staged', 'npm-run-all', 'prettier', 'prettier-plugin-organize-imports', 'prettier-plugin-tailwindcss', 'rimraf', 'tslib', 'typescript']",[],"['@arethetypeswrong/cli', '@swc-node/register', '@swc/core', '@swc/jest', '@testing-library/jest-dom', '@types/node', 'esbuild', 'fast-glob', 'husky', 'jest', 'lint-staged', 'npm-run-all', 'prettier', 'prettier-plugin-organize-imports', 'prettier-plugin-tailwindcss', 'rimraf', 'tslib', 'typescript']","{'added': [], 'removed': []}","{'added': [], 'removed': []}"
+f0e3e5b4a6d8243a56e7b01cd518525a4e30c852,2024-05-02 12:41:58+00:00,"Bump dependencies (#3158)
+
+* use `act` from `react` instead of `@testing-library/react`
+
+* bump dependencies
+
+* bump `@testing-library/react`
+
+* bump `@react-aria/interactions`
+
+* bump ""@tanstack/react-virtual""
+
+* add `ResizeObserver` polyfill, and enable it by default for tests
+
+* mock `getBoundingClientRect`
+
+Otherwise the virtualization tests don't work as expected because they
+rely on the client rect which is not supported (or not correctly
+measured) in JSDOM.",Robin Malfait,malfait.robin@gmail.com,GitHub,noreply@github.com,https://github.com/tailwindlabs/headlessui/commit/f0e3e5b4a6d8243a56e7b01cd518525a4e30c852,['1a440e1ee7cf5ce284237b08cf275a06802d2bcb'],505,203,708,"[{'filename': 'jest/polyfills.ts', 'additions': 6, 'deletions': 0, 'changes': 6}, {'filename': 'package-lock.json', 'additions': 467, 'deletions': 142, 'changes': 609}, {'filename': 'package.json', 'additions': 1, 'deletions': 0, 'changes': 1}, {'filename': 'packages/@headlessui-react/package.json', 'additions': 10, 'deletions': 10, 'changes': 20}, {'filename': 'packages/@headlessui-react/src/components/combobox/combobox.test.tsx', 'additions': 15, 'deletions': 6, 'changes': 21}, {'filename': 'packages/@headlessui-react/src/components/dialog/dialog.test.tsx', 'additions': 0, 'deletions': 6, 'changes': 6}, {'filename': 'packages/@headlessui-react/src/components/listbox/listbox.test.tsx', 'additions': 0, 'deletions': 6, 'changes': 6}, {'filename': 'packages/@headlessui-react/src/components/menu/menu.test.tsx', 'additions': 0, 'deletions': 6, 'changes': 6}, {'filename': 'packages/@headlessui-react/src/components/popover/popover.test.tsx', 'additions': 2, 'deletions': 10, 'changes': 12}, {'filename': 'packages/@headlessui-react/src/components/transition/transition.test.tsx', 'additions': 2, 'deletions': 4, 'changes': 6}, {'filename': 'packages/@headlessui-react/src/test-utils/interactions.ts', 'additions': 2, 'deletions': 1, 'changes': 3}, {'filename': 'packages/@headlessui-vue/src/components/combobox/combobox.test.ts', 'additions': 0, 'deletions': 6, 'changes': 6}, {'filename': 'packages/@headlessui-vue/src/components/dialog/dialog.test.ts', 'additions': 0, 'deletions': 6, 'changes': 6}]",[],"['@arethetypeswrong/cli', '@swc-node/register', '@swc/core', '@swc/jest', '@testing-library/jest-dom', '@types/node', 'esbuild', 'fast-glob', 'husky', 'jest', 'lint-staged', 'npm-run-all', 'prettier', 'prettier-plugin-organize-imports', 'prettier-plugin-tailwindcss', 'resize-observer-polyfill', 'rimraf', 'tslib', 'typescript']",[],"['@arethetypeswrong/cli', '@swc-node/register', '@swc/core', '@swc/jest', '@testing-library/jest-dom', '@types/node', 'esbuild', 'fast-glob', 'husky', 'jest', 'lint-staged', 'npm-run-all', 'prettier', 'prettier-plugin-organize-imports', 'prettier-plugin-tailwindcss', 'rimraf', 'tslib', 'typescript']","{'added': [], 'removed': []}","{'added': ['resize-observer-polyfill'], 'removed': []}"
