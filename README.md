@@ -1,32 +1,31 @@
 # Mineração de Repositórios - Foco em UI
 
-Este projeto aplica técnicas de mineração de repositórios de software para investigar práticas de Experiência do Usuário (UI) em projetos de software. O objetivo é identificar e analisar padrões de UI, contribuindo para que equipes de desenvolvimento criem produtos mais eficientes, acessíveis e com usabilidade aprimorada.
+Este projeto aplica técnicas de mineração de repositórios de software para investigar práticas de **Experiência do Usuário** (UI) em projetos de software. O objetivo é identificar e analisar padrões de UI, proporcionando insights para que equipes de desenvolvimento criem produtos mais eficientes, acessíveis e com melhor usabilidade.
 
-Este trabalho faz parte da disciplina **Tópicos em Engenharia de Sistemas de Software 1** do programa de Pós-Graduação em Ciência da Computação da Universidade Estadual de Maringá (UEM).
-
+O trabalho é parte da disciplina **Tópicos em Engenharia de Sistemas de Software 1** do programa de Pós-Graduação em Ciência da Computação da Universidade Estadual de Maringá (UEM).
 
 ## Objetivo
 
-A mineração de repositórios possibilita a análise de grandes volumes de dados de projetos de software, permitindo a extração de informações valiosas. Neste projeto, buscamos compreender como as práticas de UI são integradas aos projetos de software e identificar insights que ajudem no desenvolvimento de produtos mais eficazes.
+A mineração de repositórios permite a análise de grandes volumes de dados provenientes de projetos de software, possibilitando a extração de informações valiosas. Neste projeto, o foco é entender como as práticas de UI estão sendo aplicadas nos repositórios de software, com o intuito de identificar padrões que ajudem a aprimorar o desenvolvimento de produtos mais eficazes e com uma experiência de usuário melhorada.
 
 ## Funcionalidades
 
-- **Coleta de Dados**: Extração de dados de repositórios hospedados no GitHub, focando em projetos relacionados à UI/UX.
-- **Análise de UI**: Identificação de práticas relacionadas à UI em arquivos de configurações, commits e entre outros.
-- **Insights e Relatórios**: Geração de visualizações e relatórios sobre o impacto de práticas de UI, auxiliando na tomada de decisões.
-- **Classificação e Organização**: Agrupamento dos repositórios conforme categorias de UI, facilitando análises específicas e direcionadas.
+- **Coleta de Dados**: Extração de dados de repositórios hospedados no GitHub, com foco em projetos relacionados a UI/UX.
+- **Análise de UI**: Identificação de práticas relacionadas à UI em arquivos de configuração, commits e outros documentos presentes nos repositórios.
+- **Geração de Insights e Relatórios**: Criação de visualizações e relatórios que detalham o impacto das práticas de UI, auxiliando na tomada de decisões informadas.
+- **Classificação e Organização**: Agrupamento de repositórios conforme categorias de UI, facilitando análises específicas e direcionadas.
 
 ## Estrutura do Projeto
 
 O projeto está organizado em três diretórios principais:
 
-- **`Code`**: Contém os scripts para mineração de repositórios.
-- **`Database`**: Armazena os arquivos CSV gerados durante a análise.
+- **`Code`**: Contém os scripts utilizados para a mineração de repositórios.
+- **`Database`**: Armazena os arquivos CSV gerados durante as análises.
 - **`Image`**: Contém imagens geradas pelos scripts para visualização dos resultados.
 
 ## Ordem de Execução
 
-Para realizar a mineração e análise de repositórios com foco em UI, siga a ordem de execução dos scripts abaixo:
+Para realizar a mineração e análise de repositórios com foco em UI, siga a ordem dos scripts abaixo:
 
 ### Criar o Dataset
 
@@ -34,47 +33,58 @@ Para realizar a mineração e análise de repositórios com foco em UI, siga a o
    Realiza a busca inicial de repositórios no GitHub usando palavras-chave relacionadas à UI/UX.
 
 2. **`02-detectar-idioma.ipynb`**  
-   Detecta o idioma de cada repositório e filtra apenas os que estão em inglês.
+   Detecta o idioma de cada repositório e filtra os que estão em inglês.
 
 3. **`03-filtros-aplicados.ipynb`**  
-   Aplica filtros adicionais nos repositórios coletados para refinar os dados com base em critérios definidos.
+   Aplica filtros adicionais nos repositórios coletados para refinar os dados de acordo com critérios definidos.
 
 4. **`04-filtros-por-arquivo-config.ipynb`**  
    Verifica a presença de arquivos específicos, como `package.json` e `composer.json`, para categorizar os repositórios.
 
 5. **`05-categorizar-repositórios.ipynb`**  
-   Classifica os repositórios nas categorias **Ferramenta UI**, **Aplicação UI**, **Componente UI**, ou **Não Classificado**. Gera dois arquivos CSV: um para repositórios classificados e outro para os não classificados.
+   Classifica os repositórios em categorias como **Ferramenta UI**, **Aplicação UI**, **Componente UI** ou **Não Classificado**. Gera dois arquivos CSV: um para repositórios classificados e outro para os não classificados.
 
 6. **`06-data.ipynb`**  
-   Organiza o conjunto de dados para análise, incluindo formatação de datas.
+   Organiza e formata o conjunto de dados, incluindo a manipulação de datas.
 
 7. **`07-primeiras-analise.ipynb`**  
    Realiza uma análise preliminar, como a distribuição de repositórios por ano.
 
-### Responder a Primeira Pergunta
+### Responder à Primeira Pergunta
 
 8. **`08-busca-pelo-arquivo-config.ipynb`**  
-   Realiza a busca e armazena o conteúdo dos arquivos de configuração presentes nos repositórios filtrados.
+   Busca e armazena o conteúdo dos arquivos de configuração presentes nos repositórios filtrados.
 
 9. **`09-separar-dataset.ipynb`**  
-   Segrega o dataset com base nos arquivos de configuração, criando CSVs específicos para cada tipo, como `package.json` e `composer.json`.
+   Segrega o dataset com base nos arquivos de configuração, criando arquivos CSV específicos para cada tipo, como `package.json` e `composer.json`.
 
 10. **`10-ranking.ipynb`**  
-    Identifica e armazena os principais componentes de UI usados nos arquivos de configuração dos repositórios.
+    Identifica e armazena os principais componentes de UI utilizados nos arquivos de configuração dos repositórios.
+
+Após a execução do item 10, os dados gerados são utilizados para responder à primeira questão. O CSV gerado, `questao1-ranking-geral.csv`, contém os componentes utilizados nos repositórios, e uma análise manual é realizada para identificar os componentes de UI mais frequentes.
 
 11. **`11-repositorios-frequencia.ipynb`**  
-    A partir dos dados anteriores, realiza uma análise da frequência de uso de componentes de UI e configuração em diferentes repositórios.
+    Exibe os principais componentes utilizados nos repositórios.
 
-### Responder a Segunda Pergunta
+### Responder à Segunda Pergunta
 
-*(Incluir descrição e scripts relevantes para a segunda pergunta)*
+12. **`12-tratamento-dados.ipynb`**  
+    Realiza o tratamento dos dados necessários para responder à segunda questão de pesquisa, ordenando os repositórios e fazendo merge para comparar os dados. Também realiza uma análise dos dados para ajudar a responder à segunda questão.
 
-### Responder a Terceira Pergunta
+### Responder à Terceira Pergunta
 
-12. **`12-historico-repositorios.ipynb`**  
-    Com o dataset dos repositórios, é possível realizar uma análise histórica dos arquivos de configurações e armazenar os dados para cada repositório.
+13. **`13-historico-repositorios.ipynb`**  
+    Com o dataset dos repositórios, realiza uma análise histórica dos arquivos de configuração, armazenando os dados para cada repositório.
 
-13. **`13-analise-dependencies.ipynb`**  
-    Coleta dados ao longo do tempo e analisa as mudanças no `package.json`, gerando uma análise que compara o número de dependências ao longo do tempo.
+14. **`14-analise-dependencies.ipynb`**  
+    Coleta dados ao longo do tempo e analisa as mudanças nos arquivos `package.json`, gerando uma análise que compara o número de dependências ao longo do tempo.
 
-### Responder a Quarta Pergunta
+### Responder à Quarta Pergunta
+
+**A ser detalhado conforme os próximos passos do projeto.**
+
+---
+
+### Considerações Finais
+
+Este projeto visa fornecer uma análise profunda das práticas de UI em projetos de software, com o intuito de melhorar a compreensão e a integração das práticas de experiência do usuário. Ao realizar a mineração de dados de repositórios de código aberto, a expectativa é oferecer insights valiosos para a comunidade de desenvolvimento de software, auxiliando na criação de produtos mais bem projetados e com melhor usabilidade.
