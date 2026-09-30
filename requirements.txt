@@ -1,0 +1,6 @@
+pandas
+PyGithub
+langdetect
+matplotlib
+seaborn
+jupyterlab
